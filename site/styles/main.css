@@ -64,7 +64,7 @@ a:focus-visible, summary:focus-visible {
 }
 .header-inner { min-height: 4.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; }
 .wordmark { display: inline-flex; align-items: center; gap: .55rem; color: var(--color-brand-strong); font-family: var(--font-display); font-weight: 700; text-decoration: none; letter-spacing: -.02em; }
-.wordmark-logo { width: 2.75rem; height: 2.75rem; object-fit: contain; flex: 0 0 auto; }
+.wordmark-logo { width: 3.25rem; height: 3.25rem; object-fit: contain; flex: 0 0 auto; }
 .desktop-nav { display: none; align-items: center; gap: 1.2rem; }
 .desktop-nav a, .mobile-nav a { color: var(--color-ink); font-size: .94rem; font-weight: 600; text-decoration: none; }
 .desktop-nav a[aria-current="page"], .mobile-nav a[aria-current="page"] { color: var(--color-accent); }
@@ -136,6 +136,8 @@ tbody th { width: 18%; color: var(--color-brand-strong); background: #f1f6f3; }
 .page-article .page-content { gap: clamp(2.6rem, 6vw, 4.6rem); }
 .page-article .page-hero { max-width: none; }
 .page-article h1 { width: 100%; max-width: none; font-size: clamp(2.35rem, 4vw, 3rem); }
+.profile-media { width: min(100%, 18rem); margin: 1.5rem 0 0; overflow: hidden; border-radius: var(--radius-large); background: var(--color-brand-soft); box-shadow: var(--shadow-card); }
+.profile-media img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
 .page-homepage .page-shell { width: 100%; padding: 0 0 4rem; }
 .page-homepage .page-hero {
   isolation: isolate;
@@ -185,6 +187,11 @@ tbody th { width: 18%; color: var(--color-brand-strong); background: #f1f6f3; }
 
 @media (min-width: 45rem) {
   .page-homepage .page-hero::before { background: linear-gradient(90deg, rgba(3, 24, 29, .92) 0%, rgba(3, 24, 29, .76) 38%, rgba(3, 24, 29, .3) 70%, rgba(3, 24, 29, .1) 100%); }
+  .page-profile .page-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); column-gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+  .page-profile .page-hero .eyebrow,
+  .page-profile .page-hero h1,
+  .page-profile .page-hero .hero-intro { grid-column: 1; }
+  .page-profile .profile-media { grid-column: 2; grid-row: 1 / 5; margin: 0; }
   .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .page-homepage .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer-inner { grid-template-columns: 1fr 1.4fr; }

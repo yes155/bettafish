@@ -235,6 +235,17 @@ def hero_media_html(media: dict | None) -> str:
     )
 
 
+def profile_media_html(media: dict | None) -> str:
+    if not media:
+        return ""
+    return (
+        '<figure class="profile-media">'
+        f'<img src="{esc(media_public_url(media))}" width="{int(media["width"])}" '
+        f'height="{int(media["height"])}" alt="{esc(media["alt"])}" decoding="async">'
+        '</figure>'
+    )
+
+
 def social_image_meta(media: dict | None, config: dict) -> str:
     if not media:
         return ""
@@ -454,12 +465,18 @@ def main() -> None:
     with MEDIA_PATH.open(newline="", encoding="utf-8") as handle:
         media_rows = list(csv.DictReader(handle))
     approved_heroes: dict[str, dict] = {}
+    approved_profile_media: dict[str, dict] = {}
     for media in media_rows:
-        if media["status"] != "approved" or media["role"] not in {"article-hero", "hub-hero"}:
+        if media["status"] != "approved":
             continue
-        if media["page_url"] in approved_heroes:
-            raise ValueError(f"Multiple approved hero images for {media['page_url']}")
-        approved_heroes[media["page_url"]] = media
+        if media["role"] in {"article-hero", "hub-hero"}:
+            if media["page_url"] in approved_heroes:
+                raise ValueError(f"Multiple approved hero images for {media['page_url']}")
+            approved_heroes[media["page_url"]] = media
+        elif media["role"] == "profile-photo":
+            if media["page_url"] in approved_profile_media:
+                raise ValueError(f"Multiple approved profile images for {media['page_url']}")
+            approved_profile_media[media["page_url"]] = media
 
     if PUBLIC.exists():
         shutil.rmtree(PUBLIC)
@@ -501,10 +518,18 @@ def main() -> None:
         robots = "index, follow" if indexable else "noindex, nofollow"
         canonical = absolute_url(config, page["url"])
         hero_media = approved_heroes.get(page["url"])
+        profile_media = approved_profile_media.get(page["url"])
+        card_media = (
+            approved_heroes
+            if page["page_type"] in {"homepage", "hub"}
+            else approved_profile_media
+            if page["url"] == "/about/"
+            else None
+        )
         content = "\n".join(
             render_section(
                 publication_section(section, page["url"] in exact_approved_urls),
-                approved_heroes if page["page_type"] == "homepage" else None,
+                card_media,
             )
             for section in page.get("sections", [])
         )
@@ -527,6 +552,7 @@ def main() -> None:
             eyebrow=esc(page["eyebrow"]),
             h1=esc(page["h1"]),
             intro=esc(page["intro"]),
+            profile_media=profile_media_html(profile_media),
             credits=credits_html(page, people),
             hero_media=hero_media_html(hero_media),
             content=content,
