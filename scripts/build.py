@@ -452,8 +452,13 @@ def approved_review_urls() -> set[str]:
     return approved
 
 
-def publication_section(section: dict, exact_version_approved: bool) -> dict:
+def publication_section(section: dict, exact_version_approved: bool) -> dict | None:
     """Remove internal prepublication wording without changing the reviewed source."""
+    if (
+        section.get("type") == "callout"
+        and section.get("heading", "").startswith("Evidence update:")
+    ):
+        return None
     if not exact_version_approved or section.get("type") != "sources":
         return section
     published = dict(section)
@@ -534,12 +539,19 @@ def main() -> None:
             if page["url"] == "/about/"
             else None
         )
-        content = "\n".join(
-            render_section(
-                publication_section(section, page["url"] in exact_approved_urls),
-                card_media,
-            )
+        published_sections = [
+            published
             for section in page.get("sections", [])
+            if (
+                published := publication_section(
+                    section,
+                    page["url"] in exact_approved_urls,
+                )
+            ) is not None
+        ]
+        content = "\n".join(
+            render_section(section, card_media)
+            for section in published_sections
         )
         rendered = template.safe_substitute(
             language=esc(config["language"]),

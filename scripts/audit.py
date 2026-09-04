@@ -215,6 +215,7 @@ def main() -> int:
         (re.compile(r"\b2\s+to\s+4\s+hours\b|female betta fish typically live longer|almost entirely immune", re.I), "unsupported lifespan or morphology claim"),
         (re.compile(r"100% of (?:its )?aggression|adult cherry shrimp.*safe from bettas|do not possess the cognitive neural structures", re.I), "unsupported compatibility claim"),
         (re.compile(r"remain(?:s)? (?:unpublished|ungenerated)|clinical review pending|not yet approved for publication", re.I), "stale prepublication wording"),
+        (re.compile(r"Evidence update:\s+[A-Z][a-z]+\s+\d{4}", re.I), "internal evidence-update note"),
     ]
 
     for item in manifest:
@@ -725,6 +726,7 @@ def main() -> int:
         {"check": "generated-page-contracts", "status": "PASS" if not failures else "FAIL"},
         {"check": "preview-indexing-controls", "status": "PASS" if CONFIG["sitewide_noindex"] and "<url>" not in sitemap_text else "FAIL"},
         {"check": "legacy-identity-and-office-scan", "status": "PASS" if not any("legacy" in failure or "Burlington" in failure for failure in failures) else "FAIL"},
+        {"check": "internal-prepublication-copy", "status": "PASS" if not any("prepublication" in failure or "evidence-update" in failure for failure in failures) else "FAIL"},
         {"check": "blocked-health-output", "status": "PASS" if not leaked_health else "FAIL"},
         {"check": "planned-authority-output", "status": "PASS" if not any(output_for_url(row["url"]).exists() for row in authority_expansion if row["status"].startswith("planned-")) else "FAIL"},
         {"check": "editorial-identity-contract", "status": "PASS" if not incomplete_editorial_rows else "FAIL"},
