@@ -28,11 +28,11 @@
       "heading": "Start here, in this order",
       "intro": "Stable conditions solve more problems than product collecting.",
       "steps": [
-        {"title": "Give the fish enough water", "text": "Choose an aquarium that can hold stable temperature and water chemistry."},
-        {"title": "Heat, filter and cycle it", "text": "A tropical fish needs warmth, gentle filtration and established biological processing."},
-        {"title": "Learn the water numbers", "text": "Ammonia and nitrite are urgent; stability matters more than chasing a perfect pH."},
-        {"title": "Feed deliberately", "text": "Use suitable protein-rich foods and small, observable portions."},
-        {"title": "Observe before treating", "text": "Behaviour, appetite, breathing and water tests provide context; medication is not the first answer to every symptom."}
+        {"title": "Give the fish enough water", "text": "Choose an aquarium that can hold stable temperature and water chemistry.", "url": "/care/tank-setup/", "label": "Plan the aquarium"},
+        {"title": "Heat, filter and cycle it", "text": "A tropical fish needs warmth, gentle filtration and established biological processing.", "url": "/care/filtration/", "label": "Build stable filtration"},
+        {"title": "Learn the water numbers", "text": "Ammonia and nitrite are urgent; stability matters more than chasing a perfect pH.", "url": "/care/water-parameters/", "label": "Learn water targets"},
+        {"title": "Feed deliberately", "text": "Use suitable protein-rich foods and small, observable portions.", "url": "/care/diet-feeding/", "label": "Plan feeding"},
+        {"title": "Observe before treating", "text": "Behaviour, appetite, breathing and water tests provide context; medication is not the first answer to every symptom.", "url": "/diseases/diagnostic-matrix/", "label": "Check warning signs"}
       ]
     },
     {

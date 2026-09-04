@@ -158,11 +158,18 @@ def render_section(section: dict, card_media_by_url: dict[str, dict] | None = No
             )
         return f'<section class="content-section cards-section">{heading}{intro}<div class="card-grid">{"".join(cards)}</div></section>'
     if section_type == "steps":
-        steps = "".join(
-            f'<li><h3>{esc(step["title"])}</h3><p>{esc(step["text"])}</p></li>'
-            for step in section.get("steps", [])
-        )
-        return f'<section class="content-section steps">{heading}{intro}<ol class="step-list">{steps}</ol></section>'
+        steps = []
+        for step in section.get("steps", []):
+            content = f'<h3>{esc(step["title"])}</h3><p>{esc(step["text"])}</p>'
+            if step.get("url"):
+                label = esc(step.get("label", "Read the guide"))
+                content = (
+                    f'<a class="step-link" href="{esc(step["url"])}">{content}'
+                    f'<span class="step-action">{label} <span aria-hidden="true">→</span></span></a>'
+                )
+            steps.append(f'<li>{content}</li>')
+        steps_html = "".join(steps)
+        return f'<section class="content-section steps">{heading}{intro}<ol class="step-list">{steps_html}</ol></section>'
     if section_type == "callout":
         tone = section.get("tone", "evidence")
         link = ""
