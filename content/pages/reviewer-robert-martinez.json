@@ -1,0 +1,27 @@
+{
+  "url": "/reviewers/robert-martinez/",
+  "page_type": "profile",
+  "person_id": "robert-martinez",
+  "status": "review",
+  "indexable": true,
+  "title": "Robert Martinez, DVM, Clinical Reviewer | BettaFish.website",
+  "description": "Meet Robert Martinez, DVM, the Certified Aquatic Veterinarian assigned to clinically review BettaFish.website fish-health content.",
+  "h1": "Robert Martinez, DVM",
+  "eyebrow": "Clinical reviewer",
+  "intro": "Dr. Robert Martinez is the aquatic veterinarian assigned to clinically review BettaFish.website disease and fish-health content.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "Aquatic veterinary background", "paragraphs": [
+      "Dr. Martinez is a Certified Aquatic Veterinarian in the greater Salt Lake City area and a graduate of the Kansas State University College of Veterinary Medicine.",
+      "His public professional biography documents training in aquatic medicine through AQUAVET I and AQUAVET III, experience as an Aquatic Health Advisor, and work with aquarium, zoo and exotic species."
+    ]},
+    {"type": "prose", "heading": "Role at BettaFish.website", "paragraphs": [
+      "Dr. Martinez is assigned to review disease and fish-health guides for clinical accuracy, safety boundaries and appropriate escalation to veterinary care. A guide credits him only after its corrected version has a documented clinical approval.",
+      "His review supports general educational content and does not establish a veterinarian-client-patient relationship or replace an examination and diagnosis for an individual fish."
+    ]},
+    {"type": "cards", "heading": "Credential references", "intro": "These public sources support the professional statements on this page.", "cards": [
+      {"title": "Aquatic Veterinary Consulting", "text": "Official biography, aquatic-medicine training, professional experience and association memberships.", "url": "https://www.aquaticvetconsulting.com/about", "label": "Read the official biography"},
+      {"title": "World Aquatic Veterinary Medical Association", "text": "WAVMA presenter biography for Dr. Martinez's Fish ER Medicine education session.", "url": "https://www.wavma.org/Webinars/b1089-fish-er-medicine-97942", "label": "View the WAVMA profile"}
+    ]}
+  ]
+}

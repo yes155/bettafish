@@ -1,0 +1,243 @@
+{
+  "url": "/origins/wild-habitats/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Natural Habitat: Origins and Wild Ecology | BettaFish.website",
+  "description": "Learn where domestic bettas came from, which habitats wild Betta species occupy, and why shallow water is not a model for a small unfiltered bowl.",
+  "h1": "Betta Fish Natural Habitat: Origins, Rice Paddies and Wild Ecology",
+  "eyebrow": "Origins and natural history",
+  "intro": "Most pet bettas are domesticated forms of Betta splendens, a species strongly associated with Thailand and also recorded in the Mekong basin. Wild members of the Betta genus occur across parts of Southeast Asia and use more than one habitat type, including floodplains, canals, rice paddies, peat swamps and streams. A habitat description does not replace captive-care standards.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "The original draft presented one country list, one acidic pH range and one stagnant-water habitat as if they applied to every Betta species. Current records show a broader genus distributed across several Southeast Asian countries and habitat types. Betta splendens often uses shallow standing water, while other Betta species inhabit peat swamps, running streams or limestone spring systems.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "Where do pet betta fish come from?",
+      "paragraphs": [
+        {
+          "text": "The common pet betta is a domesticated form of Betta splendens. A scientific review of wild and domestic bettas reports that ornamental and fighting strains were bred mainly from wild B. splendens. Selective breeding produced the long fins, body forms and color patterns common in the aquarium trade.",
+          "sources": [1, 4]
+        },
+        {
+          "text": "Wild Betta splendens is associated strongly with Thailand, but database records also place the species in the Mekong basin. Records outside a native range need care because pet releases and introductions can create established populations far from the original habitat.",
+          "sources": [2, 5]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "heading": "Which habitats do wild Betta species use?",
+      "caption": "Representative habitats show why one Betta biotope cannot describe the whole genus",
+      "headers": ["Habitat", "Representative Betta context", "What the evidence does not mean"],
+      "rows": [
+        [
+          "Floodplains, canals and rice paddies",
+          {"text": "FishBase records Betta splendens in standing floodplain water, canals and rice paddies, as well as medium to large rivers.", "sources": [2]},
+          "Shallow water does not mean a pet betta should live in a tiny, unheated or unfiltered container."
+        ],
+        [
+          "Stagnant pools and ditches",
+          {"text": "Betta imbellis is recorded in stagnant pools and ditches with clear to brown water, and also in lowland swamps and paddy fields.", "sources": [6]},
+          "One species record does not set the water chemistry or social rules for another species."
+        ],
+        [
+          "Peat-swamp forest and blackwater",
+          {"text": "Species in the Betta coccina complex are associated with Southeast Asian peat-swamp habitats, including isolated and highly specialized environments.", "sources": [7]},
+          "Acidic blackwater specialists do not provide a universal pH target for domestic Betta splendens."
+        ],
+        [
+          "Running streams",
+          {"text": "A regional review describes several Thai mouthbrooding bettas in running, waterfall-fed streams, while also noting habitat exceptions elsewhere.", "sources": [1]},
+          "Mouthbrooding alone cannot predict one current speed or aquarium design for every species."
+        ],
+        [
+          "Limestone springs and pools",
+          {"text": "Betta simplex has a restricted range in clear limestone-karst streams and pools in Krabi Province, Thailand.", "sources": [3]},
+          "A restricted specialist habitat should not be copied without species-specific expertise and verified water data."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do betta fish live in puddles?",
+      "paragraphs": [
+        {
+          "text": "Wild Betta splendens can occupy shallow and slow or standing water, but the word puddle hides the scale and biology of those environments. Floodplains, paddies, canals and marsh edges can contain vegetation, substrate, microorganisms and connections to other water during seasonal flooding.",
+          "sources": [1, 2, 4]
+        },
+        {
+          "text": "No reliable source reviewed for this page supports the draft's claim that wild bettas routinely survive dry periods by resting in mud or jumping between shrinking pockets. The labyrinth organ allows atmospheric air breathing, but it does not protect a fish from heat, dehydration, concentrated waste or unsuitable water chemistry.",
+          "sources": [1, 4]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do wild bettas live in rice paddies?",
+      "paragraphs": [
+        {
+          "text": "Betta splendens is documented in rice paddies, but rice paddies are only one part of its recorded habitat. The species also occurs in floodplain standing waters, canals and river systems. Other Betta species use different habitats entirely.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "A rice paddy is a managed wetland whose depth, water flow, vegetation and chemical exposure change over a growing season. The label does not supply a fixed pH, oxygen level or temperature that should be copied into a home aquarium."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Does the labyrinth organ mean bettas prefer poor water?",
+      "paragraphs": [
+        {
+          "text": "Betta species can gulp atmospheric air and transfer oxygen through the labyrinth organ. That adaptation helps in low-oxygen conditions, but it does not make ammonia, nitrite, pollution or unstable temperature safe.",
+          "sources": [1, 2, 4]
+        },
+        {
+          "text": "A domestic Betta splendens aquarium still needs conditioned water, stable heat, biological filtration, testing and clear access to the surface. Do not reproduce low dissolved oxygen or stagnant waste as a natural-habitat feature."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What does wild habitat tell us about aquarium care?",
+      "paragraphs": [
+        {
+          "text": "Wild habitat supports a few broad design choices for domestic Betta splendens: warm freshwater, gentle flow, plant or structural cover, open surface access and room to move. The captive aquarium must also control waste and temperature in a small closed system.",
+          "sources": [4]
+        },
+        {
+          "text": "Do not copy a field pH value, tannin level or oxygen reading without confirming the species and the source. Use the Betta splendens water-parameter and tank-setup guides for domestic care. A wild-species keeper needs a species-specific plan rather than this domestic baseline."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Are wild bettas threatened?",
+      "paragraphs": [
+        {
+          "text": "Conservation status differs by species. FishBase currently shows wild Betta splendens as Vulnerable, based on an IUCN assessment dated February 25, 2011. That older assessment date should remain visible rather than being presented as new population data.",
+          "sources": [2]
+        },
+        {
+          "text": "Restricted-range species can face greater local risk. IUCN describes Betta simplex as Critically Endangered and limited to limestone-karst streams and pools in Krabi Province, where habitat conversion, pollution and collection are concerns. Buy captive-bred fish from a traceable source and never release an aquarium fish into local waterways.",
+          "sources": [3, 5]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related natural-history and care guides",
+      "cards": [
+        {
+          "title": "Betta species guide",
+          "text": "Separate domestic Betta splendens from other species and informal species complexes.",
+          "url": "/biology-genetics/species/",
+          "label": "Compare Betta species"
+        },
+        {
+          "title": "Betta tank setup",
+          "text": "Build a stable captive system instead of reproducing low oxygen or seasonal habitat stress.",
+          "url": "/care/tank-setup/",
+          "label": "Review tank setup"
+        },
+        {
+          "title": "Betta water parameters",
+          "text": "Use the domestic species baseline rather than copying a wild locality reading.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "What country do betta fish come from?",
+          "answer": "The familiar domestic betta is a form of Betta splendens, a species strongly associated with Thailand and also recorded in the Mekong basin. The wider Betta genus contains species native to several Southeast Asian countries, including Cambodia, Laos, Vietnam, Malaysia and Indonesia.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Are betta fish freshwater or saltwater fish?",
+          "answer": "Betta species are freshwater fishes, but the genus occupies chemically diverse waters and some localities may have brackish influence. A domestic Betta splendens should be kept in stable freshwater, not a saltwater aquarium.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Do wild bettas live in tiny puddles?",
+          "answer": "Wild Betta splendens uses shallow standing waters such as floodplains, canals and rice paddies. Calling these habitats tiny puddles removes their vegetation, seasonal connections and ecological complexity and does not justify a small unfiltered bowl.",
+          "sources": [1, 2, 4]
+        },
+        {
+          "question": "Can I make a betta tank natural by lowering the oxygen?",
+          "answer": "No. The labyrinth organ allows surface air breathing, but low oxygen does not improve captive welfare and does not make waste safe. Maintain filtration, stable temperature, conditioned water and clear surface access.",
+          "sources": [1, 4]
+        },
+        {
+          "question": "Are wild bettas the same as pet-store bettas?",
+          "answer": "Most pet-store bettas are domesticated Betta splendens selected for color, fin shape and body form. Wild B. splendens has a different appearance, and the genus also contains many separate wild species with their own ranges and ecology.",
+          "sources": [1, 4]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The regional review and FishBase records support distribution and habitat statements. Conservation categories are species-specific and may rely on older assessments. No habitat observation is presented as a complete aquarium-care prescription.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Wild Betta fighting fish species in Thailand and other Southeast Asian countries",
+          "publisher": "ScienceAsia",
+          "url": "https://www.scienceasia.org/2020.46.n4/scias46_382.pdf"
+        },
+        {
+          "id": 2,
+          "title": "Betta splendens species summary",
+          "publisher": "FishBase",
+          "url": "https://www.fishbase.se/summary/betta-splendens.html"
+        },
+        {
+          "id": 3,
+          "title": "The fight to save Krabi's endemic Betta fish",
+          "publisher": "International Union for Conservation of Nature",
+          "url": "https://iucn.org/story/202508/planet-will-never-see-species-again-fight-save-krabis-endemic-betta-fish"
+        },
+        {
+          "id": 4,
+          "title": "Care and Use of Siamese Fighting Fish (Betta splendens) for Research",
+          "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"
+        },
+        {
+          "id": 5,
+          "title": "Ecological Risk Screening Summary: Siamese Fighting Fish",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://www.fws.gov/media/ecological-risk-screening-summary-siamese-fighting-fish-betta-splendens-uncertain-risk"
+        },
+        {
+          "id": 6,
+          "title": "Betta imbellis species summary",
+          "publisher": "FishBase",
+          "url": "https://www.fishbase.se/summary/12038"
+        },
+        {
+          "id": 7,
+          "title": "Phylogenetic analysis of Betta coccina complex with descriptions of new species",
+          "publisher": "ZooKeys",
+          "url": "https://zookeys.pensoft.net/article/142857/"
+        }
+      ]
+    }
+  ]
+}

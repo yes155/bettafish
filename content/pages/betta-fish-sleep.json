@@ -1,0 +1,208 @@
+{
+  "url": "/anatomy/betta-fish-sleep/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Do Betta Fish Sleep? Normal Rest and Warning Signs | BettaFish.website",
+  "description": "Learn how bettas rest, why posture alone cannot diagnose a problem, how to provide a light-dark cycle, and which warning signs need attention.",
+  "h1": "Do Betta Fish Sleep? Normal Rest and Warning Signs",
+  "eyebrow": "Anatomy and behavior",
+  "intro": "Betta fish rest in periods of reduced movement and may settle on a leaf, decoration, substrate or near the surface. A resting position alone cannot confirm sleep or illness. Time of day, responsiveness, breathing, appetite and the fish's return to ordinary activity provide the useful context.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "Direct sleep research in Betta splendens is limited. Fish sleep research, especially in zebrafish, identifies sleep through behavioral criteria such as reversible quiescence, reduced responsiveness and circadian timing. This guide uses that evidence to explain observation principles, not to assign zebrafish sleep durations to bettas.",
+        "sources": [1, 2]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "Normal rest versus a possible health problem",
+      "caption": "Judge the pattern and the fish's recovery, not one resting pose",
+      "headers": ["Observation", "More consistent with ordinary rest", "More concerning pattern"],
+      "rows": [
+        [
+          "Timing",
+          "Occurs during the regular dark period or a familiar quiet time.",
+          "New inactivity continues through the fish's usual active and feeding periods."
+        ],
+        [
+          "Responsiveness",
+          {"text": "Movement is reduced, but the fish eventually responds to ordinary changes and resumes activity without repeated disturbance.", "sources": [1, 2]},
+          "The fish is difficult to rouse with normal room or feeding cues, or cannot sustain activity."
+        ],
+        [
+          "Breathing",
+          "Breathing appears similar to the fish's usual resting pattern.",
+          {"text": "Breathing is unusually rapid or slow, labored, or paired with repeated surface distress.", "sources": [3]}
+        ],
+        [
+          "Position",
+          "The fish uses a stable surface or location and returns to controlled swimming after rest.",
+          {"text": "The fish drifts, rolls, cannot remain upright or repeatedly loses control after becoming active.", "sources": [3]}
+        ],
+        [
+          "Other signs",
+          "Appetite, color, fins and body condition remain near the individual's baseline.",
+          {"text": "Inactivity appears with appetite loss, marked color change, swelling, wounds, spots or fin deterioration.", "sources": [3]}
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How do fish researchers identify sleep?",
+      "paragraphs": [
+        {
+          "text": "In fish that cannot be assessed with the same visible cues people use for human sleep, researchers rely on behavior. Zebrafish work describes sleep-like periods as rapidly reversible inactivity with reduced responsiveness, circadian organization and, in some studies, homeostatic regulation.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "Those criteria explain why stillness alone is insufficient. A sick fish, a frightened fish and a resting fish may all move less. For a pet betta, the practical test is whether the inactivity fits its normal schedule and whether controlled swimming, feeding and ordinary responsiveness return afterward."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Where do betta fish rest?",
+      "paragraphs": [
+        {
+          "text": "A betta may rest on broad plant leaves, aquarium decor, the substrate, behind cover or near the surface. Individual preferences differ. Betta husbandry guidance supports providing environmental structure and surface access, but no evidence requires every fish to use a commercial hammock or places one at an exact distance below the surface.",
+          "sources": [4, 5]
+        },
+        {
+          "text": "Any resting feature should be stable, free of sharp edges and easy for the fish to leave. Keep the route to the water surface open. Remove a decoration if it traps the fish, tears fins, sheds material or creates a difficult-to-clean pocket."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to support a regular rest cycle",
+      "intro": "Consistency and a genuine dark period matter more than an invented universal sleep quota.",
+      "steps": [
+        {
+          "title": "Use a repeatable light schedule",
+          "text": "Turn the aquarium light on and off at consistent times. A timer can prevent very long or irregular light periods."
+        },
+        {
+          "title": "Provide darkness at night",
+          "text": "Do not leave a bright aquarium light on continuously. Reduce direct room light during the planned dark period while keeping the aquarium safely accessible."
+        },
+        {
+          "title": "Offer safe cover and resting surfaces",
+          "text": "Use fin-safe plants or smooth decor with open exits. A dedicated betta hammock is optional, not a biological requirement."
+        },
+        {
+          "title": "Preserve surface access",
+          "text": "Bettas use the water surface for air breathing. Keep resting places, floating growth and the lid arrangement from blocking access."
+        },
+        {
+          "title": "Record unexpected changes",
+          "text": "If rest becomes more frequent or occurs during feeding, note breathing, balance, appetite, temperature and water-test results. This record helps separate a schedule change from a developing care problem."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "When is resting behavior urgent?",
+      "paragraphs": [
+        {
+          "text": "Seek prompt fish-health advice when inactivity is paired with labored breathing, loss of balance, inability to reach the surface, major swelling, wounds, rapid deterioration or prolonged refusal to eat. These are general warning signs, not proof of one disease.",
+          "sources": [3]
+        },
+        {
+          "text": "Before treating, measure temperature and test ammonia, nitrite, nitrate and pH. Check heater and filter operation. Do not raise temperature, add salt or medicate solely because the fish used an unusual sleeping position."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related care guides",
+      "cards": [
+        {
+          "title": "Betta water parameters",
+          "text": "Rule out a water-quality change when resting becomes persistent inactivity.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Betta lifespan and welfare",
+          "text": "Connect daily observation with long-term care instead of one isolated pose.",
+          "url": "/biology-genetics/lifespan/",
+          "label": "Read the lifespan guide"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do betta fish sleep with their eyes open?",
+          "answer": "Eye appearance is not a reliable sleep test for a betta. Look instead for a reversible period of reduced movement that fits the fish's normal light-dark schedule and ends with a return to controlled swimming and ordinary responsiveness.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Is it normal for a betta to sleep on its side?",
+          "answer": "A betta can use an unusual resting angle on a stable surface, but position alone cannot confirm normal sleep. It is more reassuring if the fish becomes upright and swims normally afterward. Persistent rolling, drifting or loss of balance needs attention.",
+          "sources": [3]
+        },
+        {
+          "question": "Do bettas nap during the day?",
+          "answer": "A betta may have quiet daytime rest periods, but no reliable evidence sets a universal nap length. Compare the pattern with the individual fish's routine and investigate if inactivity replaces normal feeding or activity."
+        },
+        {
+          "question": "Does a betta need a leaf hammock to sleep?",
+          "answer": "No. A hammock is optional. A betta may rest on a broad plant leaf, smooth decor, the substrate or another stable location. Any feature must be fin-safe, secure and leave clear surface access.",
+          "sources": [4, 5]
+        },
+        {
+          "question": "How many hours do betta fish sleep?",
+          "answer": "There is no well-supported universal nightly total for pet Betta splendens. Provide a consistent daily light schedule and a real dark period, then monitor whether the fish is active, responsive and feeding during its usual waking period."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The sleep criteria come from fish research led by zebrafish studies, not a measured sleep quota for pet bettas. Betta-specific sources support habitat structure, surface access and consistent husbandry.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Regulation of zebrafish sleep and arousal states",
+          "publisher": "Frontiers in Neural Circuits / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3620505/"
+        },
+        {
+          "id": 2,
+          "title": "Characterization of sleep in zebrafish and insomnia in hypocretin receptor mutants",
+          "publisher": "PLoS Biology / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2020497/"
+        },
+        {
+          "id": 3,
+          "title": "Routine Health Care of Fish",
+          "publisher": "MSD Veterinary Manual",
+          "url": "https://www.msdvetmanual.com/all-other-pets/fish/routine-health-care-of-fish"
+        },
+        {
+          "id": 4,
+          "title": "Betta splendens: A review of husbandry, care and research applications",
+          "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"
+        },
+        {
+          "id": 5,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        }
+      ]
+    }
+  ]
+}

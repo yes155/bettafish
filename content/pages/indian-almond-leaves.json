@@ -1,0 +1,180 @@
+{
+  "url": "/care/indian-almond-leaves/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Indian Almond Leaves for Betta Fish: Benefits, Limits and Safe Use | BettaFish.website",
+  "description": "Learn what Indian almond leaves can change in a betta aquarium, where evidence is limited, and how to introduce botanicals without chasing pH.",
+  "h1": "Indian Almond Leaves for Betta Fish: Benefits, Limits and Safe Use",
+  "eyebrow": "Care and tank setup",
+  "intro": "Indian almond leaves, also called catappa leaves, release brown plant compounds as they soak and decompose. They can tint the water and may influence pH, but the result depends on the leaf, preparation, amount of water and the aquarium's buffering capacity. Treat them as an optional botanical, not as medicine or a substitute for filtration and water testing.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Do not use leaves as a disease cure",
+      "text": {
+        "text": "Laboratory studies have found biological activity in Terminalia catappa extracts, but an extract tested under controlled conditions is not the same as placing a whole leaf in a home aquarium. Do not replace diagnosis, water-quality correction or veterinary treatment with catappa leaves.",
+        "sources": [1, 2]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "What catappa leaves can and cannot tell you",
+      "caption": "Evidence and practical limits for Indian almond leaves in betta aquariums",
+      "headers": ["Question", "Practical answer", "Important limit"],
+      "rows": [
+        [
+          {"text": "Will they tint the water?", "sources": [1]},
+          "Usually. Soaked leaves release colored plant compounds as they break down.",
+          "The color intensity varies with leaf size, preparation, time and water volume."
+        ],
+        [
+          {"text": "Will they lower pH?", "sources": [1, 4]},
+          "They may, especially in water with limited buffering.",
+          "The effect can be small in well-buffered water and should be measured rather than assumed."
+        ],
+        [
+          {"text": "Are they proven medicine?", "sources": [1, 2]},
+          "No. Extract studies support further research but do not establish a universal whole-leaf treatment.",
+          "Disease signs require water testing and appropriate professional guidance."
+        ],
+        [
+          "Do they replace maintenance?",
+          "No. Continue filtration, testing and partial water changes.",
+          "Decaying organic material can add waste if the aquarium is poorly maintained."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What does research actually show?",
+      "paragraphs": [
+        {
+          "text": "A controlled study of prepared Terminalia catappa leaf extract in Betta species reported phytochemicals in the extract and a lower pH at the highest tested concentration. Because the researchers used processed extract concentrations rather than whole leaves, the results do not justify a fixed leaves-per-gallon rule for home aquariums.",
+          "sources": [1]
+        },
+        {
+          "text": "Another laboratory study tested leaf extracts against selected fish pathogens and examined acute toxicity. This supports the narrower statement that catappa extracts have research interest; it does not prove that a leaf cures fungal, bacterial or parasitic disease in a betta tank.",
+          "sources": [2]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to introduce Indian almond leaves conservatively",
+      "intro": "There is no evidence-based universal dose based only on leaf count because leaves differ greatly in mass and composition.",
+      "steps": [
+        {
+          "title": "Check the aquarium first",
+          "text": "Record temperature, pH, ammonia, nitrite and nitrate before adding a botanical. Do not add leaves to conceal an unresolved water-quality problem."
+        },
+        {
+          "title": "Use a traceable aquarium product",
+          "text": "Choose leaves sold for aquarium use, inspect them for visible contamination and follow the supplier's preparation directions. Avoid roadside leaves or material exposed to pesticides."
+        },
+        {
+          "title": "Start conservatively",
+          "text": "Use a small amount within the supplier's directions rather than copying a universal leaf-count formula. Leaf size, thickness and the tank's buffering capacity change the result."
+        },
+        {
+          "title": "Measure the change",
+          "text": "Track pH and fish behavior after introduction. Stop and reassess if pH shifts abruptly, the fish shows distress or water quality deteriorates."
+        },
+        {
+          "title": "Maintain the aquarium normally",
+          "text": "Continue filtration and scheduled partial water changes. Remove excess decomposing material if it traps waste or contributes to declining water quality."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do bettas need blackwater?",
+      "paragraphs": [
+        {
+          "text": "Domestic Betta splendens can be maintained successfully across a practical pH range when the water is conditioned, clean and stable. A brown tint is an optional habitat choice, not proof that the aquarium is healthier.",
+          "sources": [3, 4]
+        },
+        {
+          "text": "Floating leaves may create shade, cover or a surface boundary under which a male builds a bubble nest. A bubble nest is normal reproductive behavior, but its presence is not a complete health test and should not be used to justify poor water conditions."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related care guides",
+      "cards": [
+        {
+          "title": "Water parameters",
+          "text": "Establish a stable chemical baseline before testing any botanical addition.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Low-flow filtration",
+          "text": "Keep biological filtration and routine maintenance working while leaves decompose.",
+          "url": "/care/filtration/",
+          "label": "Review filtration"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do Indian almond leaves lower aquarium pH?",
+          "answer": "They can influence pH as plant compounds enter the water, but the size of the change depends strongly on alkalinity, leaf preparation and quantity. Test the aquarium instead of assuming a predictable drop.",
+          "sources": [1, 4]
+        },
+        {
+          "question": "How many catappa leaves should go in a 5-gallon tank?",
+          "answer": "There is no reliable universal leaf count because products vary in size and mass. Follow the supplier's directions, begin conservatively and monitor pH and water quality rather than targeting a fixed number."
+        },
+        {
+          "question": "Must Indian almond leaves be boiled first?",
+          "answer": "Boiling is not a universal requirement. Preparation directions differ, and boiling can change how quickly compounds are released. Use traceable aquarium-grade leaves and follow the product instructions; do not use boiling as a substitute for avoiding contaminated material."
+        },
+        {
+          "question": "Can catappa leaves treat fin rot or fungus?",
+          "answer": "Do not rely on whole leaves as a treatment. Extracts have shown laboratory activity, but that evidence does not establish a safe dose or cure in a home betta aquarium. Check water quality and seek qualified help for worsening signs.",
+          "sources": [1, 2]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The extract studies below are used only for the findings they directly tested. They do not validate universal whole-leaf dosing or disease-treatment claims.",
+      "items": [
+        {
+          "id": 1,
+          "title": "The Effects of Terminalia catappa L. Leaves Extract on Water Quality, Survival and Blood Profile of Betta sp.",
+          "publisher": "Biosaintifika, Universitas Negeri Semarang",
+          "url": "https://journal.unnes.ac.id/nju/biosaintifika/article/view/6519/5193"
+        },
+        {
+          "id": 2,
+          "title": "Potential application of extracts from Indian almond leaves in Siamese fighting fish culture",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23885412/"
+        },
+        {
+          "id": 3,
+          "title": "Betta Fish Care Sheet",
+          "publisher": "PetMD",
+          "url": "https://www.petmd.com/fish/betta-fish-care-sheet"
+        },
+        {
+          "id": 4,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        }
+      ]
+    }
+  ]
+}

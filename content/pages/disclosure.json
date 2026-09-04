@@ -1,0 +1,19 @@
+{
+  "url": "/disclosure/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Affiliate and Advertising Disclosure | BettaFish.website",
+  "description": "Current affiliate, advertising and commercial relationship disclosure for BettaFish.website.",
+  "h1": "Affiliate and advertising disclosure",
+  "eyebrow": "Commercial transparency",
+  "intro": "The foundation build does not contain active affiliate links, sponsored placements or display advertising.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "If monetization is introduced", "paragraphs": [
+      "Commercial relationships will be disclosed where readers encounter them, not hidden only on this page.",
+      "Affiliate or advertising arrangements must not determine health conclusions, suppress safer alternatives or be presented as independent product testing when no testing occurred."
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "Current status", "text": "No active commercial relationship is declared in this prepublication foundation. This page must be revised before monetization is enabled."}
+  ]
+}

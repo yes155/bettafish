@@ -1,0 +1,50 @@
+{
+  "url": "/diseases/diagnostic-matrix/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Betta Fish Symptoms: A Triage Matrix, Not a Diagnosis | BettaFish.website",
+  "description": "Use observable betta symptoms, water tests and urgency signs to prepare for appropriate fish-health help without guessing a diagnosis.",
+  "h1": "Betta Fish Symptoms: A Triage Matrix, Not a Diagnosis",
+  "eyebrow": "Diseases and health",
+  "intro": "Clamped fins, lethargy, appetite loss and breathing changes can arise from several environmental, infectious or physical problems. Use this page to document what is happening and decide how urgently to seek help—not to choose medication from a symptom alone.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Seek urgent fish-health help", "text": {"text": "Rapid or labored breathing, loss of balance, uncontrolled bleeding, a major wound, marked swelling or pineconing, inability to eat, or rapid decline can require prompt veterinary assessment. Do not delay care while trying several remedies in sequence.", "sources": [1, 2]}},
+    {"type": "table", "heading": "Symptom-first triage matrix", "caption": "Observations that help organize a fish-health history without claiming a diagnosis", "headers": ["What you observe", "What it may indicate", "Safe information to collect", "When to escalate"], "rows": [
+      [{"text": "Gasping or rapid gill movement", "sources": [1, 3]}, "Water-quality or oxygen problem, gill irritation, parasites, infection, or another systemic problem", "Test temperature, ammonia, nitrite, nitrate and pH; record filter and aeration changes", "Urgently if severe, sudden, worsening, or affecting more than one fish"],
+      [{"text": "Discrete white spots, flashing or excess mucus", "sources": [3, 5]}, "Ich is one possibility, but spots and irritation are not diagnostic by appearance alone", "Photograph under normal light; note new fish, plants, equipment and the first day signs appeared", "Promptly when spots spread, breathing changes, appetite falls, or other fish are affected"],
+      [{"text": "Frayed, split or receding fins", "sources": [1, 2]}, "Trauma, aggression, poor water conditions, or infectious disease may look similar", "Compare dated photos; inspect decor and tank mates; test water", "If tissue loss progresses, reaches the body, or is accompanied by redness, ulcers or lethargy"],
+      [{"text": "Swelling or raised scales", "sources": [1]}, "Fluid accumulation is a sign, not a single disease, and may reflect serious internal illness", "Photograph from above and the side; document appetite, waste and speed of change", "Urgently, especially with pineconing, breathing change or loss of balance"],
+      [{"text": "Floating, sinking or rolling", "sources": [1]}, "Buoyancy change can have environmental, gastrointestinal, infectious, traumatic or structural causes", "Record whether the fish can right itself; test water and note feeding or injury history", "If persistent, severe, worsening, or combined with swelling, injury or appetite loss"],
+      [{"text": "Lethargy, hiding or clamped fins", "sources": [1, 4]}, "General stress signs that can accompany unsafe water, temperature problems, aggression or disease", "Test the environment and document every recent change", "If signs persist after urgent environmental hazards are corrected or any red flag appears"]
+    ]},
+    {"type": "steps", "heading": "Prepare a useful case history", "intro": "Fish-health decisions are stronger when the animal, environment and timeline are considered together.", "steps": [
+      {"title": "Record the timeline", "text": "Note when the fish was last normal, when each sign began and whether the change is stable, improving or worsening."},
+      {"title": "Measure the environment", "text": "Record temperature and current ammonia, nitrite, nitrate and pH results, plus test method and time."},
+      {"title": "List recent changes", "text": "Include new livestock, plants, food, decor, filter work, medications, power loss and water-source changes."},
+      {"title": "Take clear images or video", "text": "Capture both sides, the fins, gill movement, swimming posture and a full-tank view without repeatedly netting the fish."},
+      {"title": "Contact an appropriate professional", "text": "Share the history with an aquatic veterinarian or fish-health professional, especially before using prescription drugs or combining treatments."}
+    ]},
+    {"type": "prose", "heading": "Why a symptom chart cannot diagnose a betta", "paragraphs": [
+      {"text": "Visible signs overlap. Merck's aquarium-fish guidance describes diagnostic work that can include skin or gill examination, microscopy, culture, histology and water testing. A list of symptoms cannot reproduce that process.", "sources": [2]},
+      {"text": "Environmental conditions and pathogens interact, so water quality, nutrition, sanitation, stocking and stress belong in the case assessment. Treating a guessed pathogen while leaving an environmental problem uncorrected can delay appropriate care.", "sources": [1, 4]}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Can white spots confirm ich?", "answer": "No. White spots can make ich a concern, but confirmation commonly relies on microscopic examination. Gill-only infection may also be difficult to see. Treat appearance as a reason for prompt assessment, not a complete diagnosis.", "sources": [3, 5]},
+      {"question": "Should I medicate when a betta clamps its fins?", "answer": "Not from that sign alone. Clamped fins are nonspecific. First document the fish and environment, correct confirmed water or equipment hazards safely, and seek case-specific guidance when the sign persists or other symptoms appear.", "sources": [1, 4]},
+      {"question": "What should I send an aquatic veterinarian?", "answer": "Send the symptom timeline, water-test results, tank volume and inhabitants, recent changes, treatments already used, and clear photos or video. Ask the clinic what samples or additional information it needs.", "sources": [2]}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft avoids diagnosis, dosing and medication selection. It remains unpublished until its assigned aquatic veterinarian approves the exact version.", "items": [
+      {"id": 1, "title": "Disorders and Diseases of Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish"},
+      {"id": 2, "title": "Management of Aquarium Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 3, "title": "Parasitic Diseases of Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish"},
+      {"id": 4, "title": "Fish Health Management and Welfare", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/topics/fish-health-management"},
+      {"id": 5, "title": "Ichthyophthirius multifiliis (White Spot) Infections in Fish", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/FA006"}
+    ]}
+  ]
+}

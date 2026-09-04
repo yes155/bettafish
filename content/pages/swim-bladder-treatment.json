@@ -1,0 +1,59 @@
+{
+  "url": "/anatomy/swim-bladder-treatment/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Betta Buoyancy Problems: Swim Bladder Triage | BettaFish.website",
+  "description": "Assess floating, sinking and rolling in a betta without assuming constipation or prescribing one fasting treatment for every cause.",
+  "h1": "Betta Buoyancy Problems: Swim Bladder Triage",
+  "eyebrow": "Anatomy and health",
+  "intro": "Floating, sinking, rolling or struggling to hold position describes a buoyancy problem, not one disease. Digestive distension, infection, injury, developmental change, masses, fluid imbalance and gas-bladder damage can produce similar signs. Start with water tests and a whole-fish assessment, then choose treatment by the suspected cause.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Loss of function can be urgent", "text": {"text": "Seek prompt aquatic-veterinary help when a betta cannot reach air or food, rolls continuously, breathes rapidly, has marked swelling or pineconing, shows bleeding or trauma, or declines quickly. Gas-bladder surgery and imaging are veterinary procedures, not home interventions.", "sources": [1, 2]}},
+    {"type": "table", "heading": "What can cause a betta to float or sink?", "caption": "Differential categories, not home diagnoses", "headers": ["Pattern", "Possible categories", "Useful evidence"], "rows": [
+      ["Floats or tips after feeding", "Temporary gastrointestinal distension, overfeeding or swallowed air", "Meal size, food type, abdominal profile and whether the sign resolves."],
+      ["Persistent sinking or floating", "Gas-bladder dysfunction, chronic organ disease, mass, deformity or injury", "Duration, age, body symmetry, imaging and clinical examination."],
+      ["Rolling with rapid breathing", "Severe systemic disease, water-quality injury or neurologic dysfunction", "Immediate water results, gill rate, exposure history and professional examination."],
+      ["Buoyancy change with swelling", "Fluid imbalance, infection, reproductive or organ disease", "Top and side photographs, scale position, appetite and feces."],
+      ["Sudden change after trauma", "Physical injury or internal damage", "Known impact, entrapment, filter intake or handling event."],
+      ["Several fish affected", {"text": "Shared water-quality, toxic, infectious or gas-supersaturation problem becomes more likely.", "sources": [1]}, "Test the system and contact a fish-health professional."]
+    ]},
+    {"type": "steps", "heading": "How should a buoyancy problem be assessed?", "steps": [
+      {"title": "Test the environment", "text": "Measure temperature, ammonia, nitrite, nitrate and pH; verify heater, filter and aeration operation."},
+      {"title": "Record the exact movement", "text": "Video whether the fish floats, sinks, lists, rolls, struggles after effort or rests normally between episodes."},
+      {"title": "Review food and output", "text": "Record the last several meals, portion changes, feces and abdominal shape without assuming constipation."},
+      {"title": "Reduce physical demands", "text": "Provide calm water, unobstructed surface access and safe resting points while maintaining heat and water quality."},
+      {"title": "Escalate persistent or severe signs", "text": "Share videos, measurements and history with an aquatic veterinarian; ask whether imaging, microscopy or other diagnostics are indicated."}
+    ]},
+    {"type": "prose", "heading": "Should every floating betta be fasted?", "paragraphs": [
+      {"text": "No. A short feeding pause may be part of a plan when recent overfeeding and temporary abdominal distension are plausible, but universal multi-day fasting can delay care for infection, injury, fluid accumulation or another internal problem."},
+      {"text": "Do not feed peas as a default remedy. Bettas are insectivorous-carnivorous fish, and a pea does not diagnose or correct every cause of buoyancy loss. A clinician may recommend an appropriate food, portion or fasting interval after reviewing the case."}
+    ]},
+    {"type": "prose", "heading": "How can the aquarium be made safer during recovery?", "paragraphs": [
+      {"text": "Keep the fish in a heated, covered and biologically managed system with gentle flow. Add broad smooth resting surfaces at several heights and remove sharp objects or narrow gaps."},
+      {"text": "A modestly reduced water depth may help a fish reach the surface, but a tiny unfiltered container creates new temperature and waste risks. Change depth only while preserving stable heat, oxygenation, filtration and sufficient horizontal movement."}
+    ]},
+    {"type": "cards", "heading": "Related health checks", "cards": [
+      {"title": "Dropsy signs", "text": "Treat buoyancy loss with swelling or raised scales as an urgent symptom cluster.", "url": "/diseases/dropsy-treatment/", "label": "Review swelling signs"},
+      {"title": "Betta diet", "text": "Review portion control without turning food into a universal treatment.", "url": "/care/diet-feeding/", "label": "Review routine feeding"},
+      {"title": "Water parameters", "text": "Measure environmental causes before changing medication or temperature.", "url": "/care/water-parameters/", "label": "Test the aquarium"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Is swim bladder disease one disease?", "answer": "No. The phrase is commonly used for a visible buoyancy problem that can have digestive, infectious, traumatic, developmental or internal causes."},
+      {"question": "Why is my betta floating on its side?", "answer": "Side-floating can follow temporary distension, gas-bladder dysfunction or serious systemic disease. Test the water and assess breathing, swelling, appetite, feces and duration rather than assuming one cause."},
+      {"question": "Will daphnia cure a swim bladder problem?", "answer": "Daphnia may be an appropriate food in some feeding plans, but it does not treat infection, trauma, a mass or gas-bladder damage. Do not use one food as a diagnostic test."},
+      {"question": "Should I move the fish to shallow water?", "answer": "Shallower water can reduce effort for selected fish, but only if temperature, oxygenation, filtration and water quality remain stable. Use a clinician's plan for a severely impaired fish."},
+      {"question": "Can a veterinarian treat a damaged swim bladder?", "answer": "Depending on the cause, a veterinarian may use examination, imaging, medical care or, in selected larger fish, gas-bladder procedures. MSD describes gas-bladder repair as a surgical veterinary option.", "sources": [1]}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft removes the supplied universal fasting, daphnia and hospital-volume protocol. It remains unpublished until the assigned aquatic veterinarian approves this exact version.", "items": [
+      {"id": 1, "title": "Management of Aquarium Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 2, "title": "Routine Health Care of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/all-other-pets/fish/routine-health-care-of-fish"},
+      {"id": 3, "title": "Providing a Home for Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/all-other-pets/fish/providing-a-home-for-fish"}
+    ]}
+  ]
+}

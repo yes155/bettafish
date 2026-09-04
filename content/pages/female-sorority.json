@@ -1,0 +1,110 @@
+{
+  "url": "/compatibility/female-sorority/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "Female Betta Sorority: Risks, Setup and Separation Rules | BettaFish.website",
+  "description": "Understand why female betta groups can fail, the limits of common setup rules and when immediate separation is required.",
+  "h1": "How to Set Up a Female Betta Sorority: Tank Size & Hierarchy Rules",
+  "eyebrow": "Compatibility",
+  "intro": "A female betta sorority is an advanced, high-risk arrangement, not a guaranteed community formula. Females can be aggressive and a stable-looking group can change. Individual housing is the safest default; anyone attempting a group needs mature aquariums ready for immediate permanent separation.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "No tank size or group number guarantees safety",
+      "text": {"text": "Recommendations vary widely, including among veterinary and care sources. Female bettas show conspecific aggression, so “20 gallons and five fish” must not be presented as a protective rule. Use individual housing when you cannot maintain a separate cycled home for every fish.", "sources": [1, 2, 3]}
+    },
+    {
+      "type": "table",
+      "heading": "Sorority decision criteria",
+      "caption": "Conditions that must be resolved before any group attempt",
+      "headers": ["Area", "Required preparation", "Stop condition"],
+      "rows": [
+        ["Backup housing", "A heated, filtered, cycled individual setup for every fish", "No immediate permanent place to move an aggressor or injured fish"],
+        ["Main aquarium", "Large footprint, mature biofilter, secure lid, open surface access and multiple visual barriers", "Water-quality instability, dead-end hiding spaces or no escape routes"],
+        ["Observation", "Frequent direct checks of feeding, fins, scales, breathing and space use", "Persistent chasing, cornering, biting, food exclusion, torn fins, missing scales or withdrawal"],
+        ["Group changes", "A plan that treats every removal or addition as a destabilizing event", "Assuming a previous hierarchy will remain safe after illness, growth or reintroduction"]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can female betta fish live together?",
+      "paragraphs": [
+        {"text": "Some keepers maintain female groups, and some care sources describe conditional group housing. Other veterinary guidance recommends not housing bettas with other bettas. Research confirms that females can display aggression and dominance behavior.", "sources": [1, 2, 3]},
+        {"text": "The responsible conclusion is not that sororities are always impossible or reliably safe. It is that the outcome is individual and the welfare cost of failure can be high. A beginner or anyone without multiple backup aquariums should keep females separately."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What behavior is unsafe in a female group?",
+      "paragraphs": [
+        {"text": "Brief display is not the only measure of risk. Repeated chasing, ramming, biting, blocking food or surface access, trapping another fish in a corner, new stress coloration, torn fins, missing scales and persistent hiding show that the group is not functioning safely."},
+        {"text": "Do not normalize injury as a necessary pecking-order phase or wait fourteen days for it to settle. Separate at the first persistent pattern of intimidation or physical damage."}
+      ]
+    },
+    {
+      "type": "list",
+      "heading": "Habitat features that reduce—but do not remove—risk",
+      "items": [
+        "Use a long aquarium footprint with several routes around wood and plants; avoid caves with one entrance where a fish can be trapped.",
+        "Create visual barriers at multiple levels while leaving clear surface access and unobstructed areas for normal swimming.",
+        "Provide more resting and feeding locations than fish so one individual cannot control every resource.",
+        "Keep filtration gentle enough for bettas but adequate for the total waste load, and test water routinely.",
+        "Cover the aquarium securely and inspect decor for rough edges or gaps that can catch fins."
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "A conservative introduction and monitoring protocol",
+      "intro": "This protocol manages risk; it cannot make a female group safe.",
+      "steps": [
+        {"title": "Quarantine separately", "text": "Observe each fish in a separate system before mixing. Do not introduce a fish with illness, injury or unknown water-quality history."},
+        {"title": "Prepare every backup tank", "text": "Heat, cycle and test individual housing before the group is attempted, not after aggression begins."},
+        {"title": "Build a nonterritorial layout", "text": "Arrange plants and smooth hardscape before introduction, with multiple escape routes and no single premium shelter."},
+        {"title": "Acclimate to water, not to forced contact", "text": "Match temperature and chemistry carefully. Do not confine fish together in a small container during acclimation."},
+        {"title": "Observe continuously at first", "text": "Watch feeding and space use closely, then continue frequent checks. Remove a fish promptly when stop conditions appear."},
+        {"title": "Treat separation as permanent", "text": "Do not repeatedly reintroduce a fish that has attacked or been attacked; each reintroduction can reset aggression."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can a male and female betta live together?",
+      "paragraphs": [
+        {"text": "No permanent male-female pairing should be part of a sorority. Breeding contact can involve aggression and requires specialized experience, separate conditioned adults and a plan for offspring. Keep males physically separate from the female group."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How to recognize a failing sorority",
+      "paragraphs": [
+        {"text": "A group is failing when any fish is repeatedly chased, excluded from food or surface access, hiding continuously, breathing abnormally, losing scales or developing torn fins. Aggression that stops only when the keeper approaches is still aggression."},
+        {"text": "Move the affected fish to a prepared individual aquarium using minimal handling, then test both systems. Do not medicate automatically for torn fins; correct water and injury hazards and seek fish-experienced veterinary advice if tissue loss, swelling, breathing trouble or appetite loss progresses."}
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "Can you keep two female bettas together?", "answer": "It is not recommended. A pair offers no way to distribute or escape focused aggression, and separate individual housing is safer."},
+        {"question": "How many females can live in a 20-gallon tank?", "answer": "There is no evidence-based number that makes a 20-gallon sorority safe. Capacity depends on footprint, filtration, individual behavior and backup housing; the safer default is one betta per aquarium."},
+        {"question": "Do female bettas fight like males?", "answer": "Females can flare, chase, bite and form dominance relationships. Frequency and intensity vary, but female sex does not remove the risk of injury.", "sources": [1]},
+        {"question": "Can plants prevent sorority aggression?", "answer": "Plants and visual barriers can provide escape and resting areas, but they cannot change an incompatible group into a guaranteed safe one."}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "The master draft's fixed group size, vegetation percentage, two-week aggression window and guaranteed hierarchy claims were removed.",
+      "items": [
+        {"id": 1, "title": "Care and Use of Siamese Fighting Fish for Research", "publisher": "Journal of the American Association for Laboratory Animal Science", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"},
+        {"id": 2, "title": "7 Betta Fish Facts: Lifespan, Size & Care", "publisher": "PetMD", "url": "https://www.petmd.com/fish/care/betta-fish-facts"},
+        {"id": 3, "title": "Bettas Need More Than Bowls", "publisher": "University of Illinois College of Veterinary Medicine", "url": "https://vetmed.illinois.edu/pet-health-columns/betta-fish/"},
+        {"id": 4, "title": "How Should I Care for My Siamese Fighting Fish?", "publisher": "RSPCA Australia", "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"}
+      ]
+    }
+  ]
+}

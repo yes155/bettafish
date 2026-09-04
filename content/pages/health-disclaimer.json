@@ -1,0 +1,25 @@
+{
+  "url": "/health-disclaimer/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Betta Health Information Disclaimer | BettaFish.website",
+  "description": "Understand the limits of online betta health guidance and when professional aquatic veterinary help may be necessary.",
+  "h1": "Health information has limits",
+  "eyebrow": "Betta health disclaimer",
+  "intro": "Health pages can help you organize observations and identify urgency, but they cannot examine your fish or provide an individualized diagnosis.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "list", "heading": "Before acting on a health page", "items": [
+      "Test temperature, ammonia, nitrite and other relevant water conditions.",
+      "Read the exact product label and check whether its formulation differs in your country.",
+      "Avoid combining medications or rapidly changing several conditions without reliable guidance.",
+      "Seek aquatic veterinary help for rapid decline, severe breathing difficulty, major injury, uncertain diagnosis or treatment failure."
+    ]},
+    {"type": "prose", "heading": "No treatment guarantee", "paragraphs": [
+      "Similar signs may result from different causes, and an apparently correct treatment can fail when the underlying problem is different.",
+      "BettaFish.website will not claim that a medication, salt protocol, temperature change or home intervention guarantees recovery."
+    ]},
+    {"type": "callout", "tone": "warning", "heading": "Prepublication restriction", "text": "Disease and treatment articles remain blocked until the assigned aquatic veterinarian approves each exact corrected version and the review record is complete."}
+  ]
+}

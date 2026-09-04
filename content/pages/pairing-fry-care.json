@@ -1,0 +1,64 @@
+{
+  "url": "/breeding/pairing-fry-care/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Breeding and Fry Care: A Welfare-First Plan | BettaFish.website",
+  "description": "Plan Betta splendens pairing, separation, egg care and fry feeding with backup housing and clear stop conditions.",
+  "h1": "Betta Breeding and Fry Care: A Welfare-First Plan",
+  "eyebrow": "Breeding and welfare",
+  "intro": "Breeding Betta splendens requires separate permanent housing for both adults, a supervised spawning aquarium, live first foods, gentle filtration and space to separate growing juveniles. Do not introduce a pair until every fish can be housed safely if courtship fails or aggression escalates.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "A breeding tank is not shared permanent housing", "text": {"text": "Male and female domestic bettas can injure one another. Pairing must be supervised, with cover, a divider or protected introduction method, and an immediate separation plan. Do not breed fish with unexplained illness, deformity, poor condition or unknown capacity to care for the offspring.", "sources": [1, 2]}},
+    {"type": "table", "heading": "What must be ready before pairing bettas?", "caption": "Minimum planning inventory", "headers": ["Requirement", "Why it matters", "Stop condition"], "rows": [
+      ["Two established adult homes", "Each parent needs safe permanent housing before and after spawning.", "Do not proceed if either adult would have to remain with the other."],
+      ["Mature, healthy, unrelated or well-documented stock", "Condition and lineage affect welfare and responsible placement.", "Stop for disease signs, poor body condition or an unexplained hereditary problem."],
+      ["Covered spawning aquarium with gentle aeration", {"text": "Betta eggs and early larvae develop near a bubble nest and are vulnerable to strong flow.", "sources": [1, 3]}, "Stop if temperature, water quality or equipment is unstable."],
+      ["Visual barriers and plant cover", "The female needs routes out of the male's line of sight.", "Stop if the female cannot retreat or is repeatedly cornered."],
+      ["Live first foods and backup cultures", {"text": "Larvae begin exogenous feeding only after the mouth opens and yolk is absorbed; timing varies with conditions.", "sources": [3, 4]}, "Do not spawn without food cultures already producing."],
+      ["Fry grow-out and separation capacity", "A spawn can create many juveniles with increasing space and aggression needs.", "Stop if suitable containers, heat, filtration, maintenance time and placements are unavailable."]
+    ]},
+    {"type": "steps", "heading": "How should a betta pair be introduced?", "steps": [
+      {"title": "Condition separately", "text": "Maintain both adults in stable individual aquariums and feed a complete, varied diet without overfeeding."},
+      {"title": "Prepare the spawning aquarium", "text": "Use a lid, warm stable water, gentle filtration or aeration, open surface access, cover and a protected introduction area."},
+      {"title": "Allow visual assessment", "text": "Use a divider or transparent protected container so both fish can be observed without contact."},
+      {"title": "Supervise any release", "text": "Watch continuously. Some chasing occurs during courtship, but repeated biting, trapping, exhaustion, torn tissue or failure to retreat requires immediate separation."},
+      {"title": "Remove the female after spawning", "text": "Once spawning has ended and the male is guarding the nest, separate the female into her established recovery aquarium."},
+      {"title": "Remove the male when fry are free-swimming", "text": "When fry leave the nest and swim horizontally, move the male back to his permanent aquarium before he begins treating free-swimming fry as prey."}
+    ]},
+    {"type": "prose", "heading": "What do newly hatched betta fry eat?", "paragraphs": [
+      {"text": "Newly hatched Betta larvae initially depend on yolk reserves and remain associated with the nest. In one controlled study at about 28°C, the mouth and anus opened on day 2 after hatching, exogenous feeding began on day 3 and yolk was consumed by day 4. A home breeder should watch development rather than follow an exact clock.", "sources": [3]},
+      {"text": "Once fry are free-swimming and feeding, offer appropriately small live foods that are already available and verify that the fry can capture them. Transition gradually to larger prey such as newly hatched Artemia as mouth size and swimming ability increase. Remove uneaten food carefully and protect water quality.", "sources": [1, 4]}
+    ]},
+    {"type": "prose", "heading": "How should fry water quality be maintained?", "paragraphs": [
+      {"text": "Fry require stable temperature, oxygen and low nitrogen waste, but abrupt large changes and strong siphon flow can injure them. Use a guarded airline or fine siphon, measure replacement water, and match temperature and conditioner before adding it."},
+      {"text": "Test ammonia, nitrite, nitrate, pH and temperature. Increase maintenance in response to measured waste, feeding load and crowding rather than relying on a fixed daily percentage.", "sources": [1, 5]}
+    ]},
+    {"type": "prose", "heading": "When do juvenile bettas need separation?", "paragraphs": [
+      {"text": "Separate a juvenile when persistent chasing, biting, fin damage, food exclusion or inability to rest appears. The timing varies by sex, line, growth and density; there is no safe universal week for every spawn."},
+      {"text": "Prepare heated, covered and maintainable individual housing before that stage. Small unfiltered containers multiply water-quality risk and labor, so the number of fry retained must match the breeder's actual capacity."}
+    ]},
+    {"type": "cards", "heading": "Related breeding decisions", "cards": [
+      {"title": "Male vs female identification", "text": "Confirm sex with several mature traits before planning a pairing.", "url": "/breeding/gender-identification/", "label": "Identify sex"},
+      {"title": "Tank setup", "text": "Build and verify heated, filtered permanent homes before breeding.", "url": "/care/tank-setup/", "label": "Review tank setup"},
+      {"title": "Water changes", "text": "Use test-led maintenance and guarded siphoning around small fry.", "url": "/maintenance/water-change/", "label": "Review maintenance"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Can a male and female betta live together after spawning?", "answer": "Do not plan permanent cohabitation. Keep established individual homes and separate the female after spawning, then the male when fry become free-swimming."},
+      {"question": "How long do betta eggs take to hatch?", "answer": "Hatching time changes with temperature and other conditions. Controlled studies around 28°C observed hatching roughly 28 to 32 hours after fertilization, but breeders should monitor actual development instead of treating that range as a guarantee.", "sources": [3]},
+      {"question": "How many fry will survive?", "answer": "There is no responsible guaranteed number. Fertility, parental behavior, food availability, water quality, density, disease and husbandry all affect survival."},
+      {"question": "Can powdered adult food replace live first foods?", "answer": "Very young fry may not recognize or capture dry particles well, and uneaten powder can foul the water. Establish suitable live first-food cultures before spawning and transition foods as fry develop."},
+      {"question": "Should beginners breed bettas?", "answer": "Only when they can house both adults separately, rear and divide juveniles, maintain live foods and water quality, and place offspring responsibly. Keeping a healthy single betta does not require breeding it."}
+    ]},
+    {"type": "sources", "heading": "Sources and evidence limits", "intro": "Laboratory husbandry and developmental studies inform this plan. Exact timing and yields from controlled systems are not guarantees for a home spawn.", "items": [
+      {"id": 1, "title": "Care and Use of Siamese Fighting Fish for Research", "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"},
+      {"id": 2, "title": "Betta splendens species summary", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/betta-splendens.html"},
+      {"id": 3, "title": "Larval Development of Siamese Fighting Fish", "publisher": "Acta Natura et Scientia", "url": "https://actanatsci.com/makale/3330"},
+      {"id": 4, "title": "Early development of Betta splendens under stereomicroscopy and scanning electron microscopy", "publisher": "Zygote / Cambridge Core", "url": "https://doi.org/10.1017/S0967199413000488"},
+      {"id": 5, "title": "Management of Aquarium Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"}
+    ]}
+  ]
+}

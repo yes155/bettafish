@@ -1,0 +1,103 @@
+{
+  "url": "/compatibility/tank-mates/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "Best Betta Fish Tank Mates: Compatibility and Safety Guide | BettaFish.website",
+  "description": "Assess betta tank mates by behavior, space and water needs, with a separation plan for aggression or stress.",
+  "h1": "Best Betta Fish Tank Mates: Compatibility Matrix & Safe Companions",
+  "eyebrow": "Compatibility",
+  "intro": "Some bettas can share a sufficiently large, well-planned aquarium with peaceful species, while others cannot tolerate tank mates. No species pairing is guaranteed: the individual betta, tank dimensions, group needs and a ready separation plan decide whether cohabitation is responsible.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Compatibility is conditional",
+      "text": "Do not buy a companion unless you can house it correctly after separation. Torn fins, repeated chasing, ramming, food guarding, persistent hiding or appetite loss are reasons to intervene rather than wait for the fish to “work it out.”"
+    },
+    {
+      "type": "table",
+      "heading": "Betta tank mate compatibility matrix",
+      "caption": "Candidate groups and the questions to resolve before mixing species",
+      "headers": ["Candidate", "Possible fit", "Primary risks", "Decision check"],
+      "rows": [
+        [{"text": "Nerite or similar aquarium snail", "sources": [1]}, "Often less visually provocative than another fish", "A betta may nip exposed tissue; species have their own water and feeding needs", "Can the tank support the snail's adult size and water chemistry, and can it be moved?"],
+        [{"text": "Shrimp", "sources": [1]}, "May coexist in a planted tank", "The betta may hunt adults or juveniles; shrimp are not guaranteed cleaners", "Are you prepared for predation and able to relocate the shrimp?"],
+        [{"text": "Peaceful schooling fish", "sources": [1, 2]}, "May use a different part of a larger aquarium", "School-size and swimming-space needs can exceed the betta's; nipping and competition remain possible", "Can the aquarium meet the companion species' needs without counting the betta's minimum space twice?"],
+        ["Another betta", "Not a routine community choice", "Conspecific aggression and injury", "Use separate housing; do not place two males or a breeding pair together as permanent companions."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can betta fish live with other fish?",
+      "paragraphs": [
+        {"text": "A single betta may coexist with carefully selected nonaggressive species in a larger, filtered aquarium. Veterinary guidance notes that snails, ghost shrimp and certain fish can sometimes be kept with bettas, but the aquarium volume and filtration must increase with the total biological load.", "sources": [1]},
+        {"text": "Research every candidate separately. Match temperature and water chemistry, provide the full social group required by the companion species, avoid known fin-nippers and long-finned lookalikes, and quarantine new livestock before introduction. Add visual cover without eliminating open swimming and surface access."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can two betta fish live together?",
+      "paragraphs": [
+        {"text": "Do not house two male Betta splendens together. Domesticated bettas have a long history of selection for aggressive behavior, and direct contact can escalate from display to biting and injury.", "sources": [4]},
+        {"text": "Dividers are only suitable when structurally secure, opaque enough to prevent constant visual stress, and designed so fish and shared water cannot pass through unexpectedly. Two genuinely separate aquariums are easier to manage safely."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can a male and female betta live together?",
+      "paragraphs": [
+        {"text": "A male and female are not permanent companions. Courtship and territorial behavior can include chasing and biting, and breeding should not be attempted without experience, separate conditioned housing and a plan for the adults and offspring."},
+        {"text": "Do not use a male-female pair as a solution for loneliness. Individual housing with plants, shelter and routine enrichment avoids forced contact."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do female betta fish fight each other?",
+      "paragraphs": [
+        {"text": "Yes. Females can show aggression, form dominance relationships and injure one another. The intensity varies by individual and strain; lower average male-like display does not make a female group automatically safe.", "sources": [4]},
+        {"text": "Because expert recommendations conflict on female groups, separate individual housing is the lowest-risk default. A dedicated sorority article explains the evidence and stop conditions without promising that a tank size or group number prevents aggression."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do bettas get lonely when kept alone?",
+      "paragraphs": [
+        {"text": "A betta does not require another betta in its aquarium. It is safer to meet behavioral needs through adequate space, plants, shelter, a varied environment and keeper interaction than through forced cohabitation.", "sources": [1, 4]},
+        {"text": "Avoid absolute claims about what a fish can or cannot feel. Watch behavior: an inactive fish may have poor water, unsuitable temperature, illness or an unstimulating environment rather than a need for a companion."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can cherry shrimp live with a betta?",
+      "paragraphs": [
+        {"text": "Sometimes, but predation is always possible. Dense plants and crevices may help shrimp avoid the betta, yet they do not make adults or juveniles bite-proof."},
+        {"text": "Treat shrimp as animals with their own care requirements, not disposable test companions or cleanup equipment. Introduce them only if the aquarium suits both species and separate housing is available."}
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "Can neon tetras live with a betta in a 5-gallon tank?", "answer": "No. A 5-gallon aquarium does not provide the schooling and swimming space needed for a proper tetra group in addition to a betta. Choose a larger species-appropriate community tank or keep the betta alone."},
+        {"question": "Do bettas eat aquarium snails?", "answer": "Some bettas ignore snails, while others peck at antennae or exposed tissue and may eat very small snails. A shell does not guarantee compatibility."},
+        {"question": "Can goldfish and bettas live together?", "answer": "They are a poor match because their temperature, space, feeding and waste-management needs differ. Each should have a species-appropriate setup."},
+        {"question": "What is the safest first tank mate?", "answer": "There is no universally safest species. The safest choice is no companion until the betta aquarium is stable and a separate suitable home is available for any candidate."}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "Fixed compatibility scores and universal minimums were excluded because they ignore individual behavior and the full needs of the companion species.",
+      "items": [
+        {"id": 1, "title": "Bettas Need More Than Bowls", "publisher": "University of Illinois College of Veterinary Medicine", "url": "https://vetmed.illinois.edu/pet-health-columns/betta-fish/"},
+        {"id": 2, "title": "Betta Fish Care Sheet", "publisher": "PetMD", "url": "https://www.petmd.com/fish/betta-fish-care-sheet"},
+        {"id": 3, "title": "How Should I Care for My Siamese Fighting Fish?", "publisher": "RSPCA Australia", "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"},
+        {"id": 4, "title": "Care and Use of Siamese Fighting Fish for Research", "publisher": "Journal of the American Association for Laboratory Animal Science", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"}
+      ]
+    }
+  ]
+}

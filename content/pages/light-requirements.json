@@ -1,0 +1,190 @@
+{
+  "url": "/sensory/light-requirements/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Do Betta Fish Need Light? A Safe Daily Lighting Schedule | BettaFish.website",
+  "description": "Set a practical betta aquarium light-dark cycle, avoid direct sun and overnight lighting, and adjust the schedule for plants and algae.",
+  "h1": "Do Betta Fish Need Light? A Safe Daily Lighting Schedule",
+  "eyebrow": "Sensory environment and care",
+  "intro": "Betta fish need a consistent light-dark cycle, but they do not need direct sunlight or a special Betta-branded lamp. A practical starting schedule is 8 to 10 hours of aquarium light followed by at least 8 hours of darkness. Use a timer, then adjust the light period for plant growth, algae and the fish's behavior.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "RSPCA Australia advises no more than 10 hours of aquarium light and at least 8 hours of darkness for Betta splendens. A controlled Betta breeding study found that photoperiod affected reproduction, but it did not establish one universal pet-aquarium schedule. The 8-to-10-hour starting range is practical husbandry guidance, not a precise biological dose.",
+        "sources": [1, 2]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "Which light sources work for a betta aquarium?",
+      "caption": "Choose controllable aquarium lighting and preserve a nightly dark period",
+      "headers": ["Light source", "Use in a betta tank", "Main caution"],
+      "rows": [
+        [
+          "Adjustable aquarium LED",
+          "A timer-controlled LED can create a repeatable daytime period and support compatible live plants.",
+          "Select brightness for the tank depth and plants; reduce glare or intensity if the fish persistently avoids exposed areas."
+        ],
+        [
+          "Indirect room daylight",
+          "Normal ambient daylight can help mark daytime, but it is difficult to control as the aquarium's only plant light.",
+          "Seasonal changes and household lighting can make the schedule inconsistent."
+        ],
+        [
+          "Direct window sunlight",
+          {"text": "Direct sun is not required and can add heat and encourage algae, so RSPCA guidance recommends keeping the aquarium away from windows and direct sunlight.", "sources": [1]},
+          "Temperature can rise unevenly even when the room feels comfortable."
+        ],
+        [
+          "Blue or moonlight mode",
+          "A brief low setting may be used while viewing the aquarium, but it is not required for Betta health.",
+          "Do not leave decorative night lighting on through the fish's planned dark period."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How many hours of light do betta fish need?",
+      "paragraphs": [
+        {
+          "text": "Start with 8 to 10 hours of aquarium light each day and at least 8 hours with the aquarium and nearby lamps off. Keep the on and off times consistent. This schedule fits current Betta welfare guidance while leaving room to adjust for the actual aquarium.",
+          "sources": [1]
+        },
+        {
+          "text": "Light needs depend on intensity, tank depth, room light and plant species. If algae increases, shorten the aquarium-light period or reduce intensity instead of making a large change at once. If live plants weaken, confirm their species, placement and nutrient needs before extending the day."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to set a betta aquarium light timer",
+      "intro": "Use one repeatable schedule and change only one lighting variable at a time.",
+      "steps": [
+        {
+          "title": "Choose a daytime window",
+          "text": "Set an 8-to-10-hour viewing period that matches when someone can observe and feed the fish. Avoid switching the schedule between weekdays and weekends."
+        },
+        {
+          "title": "Protect the dark period",
+          "text": "Turn off the aquarium light and nearby bright lamps for at least 8 hours. Do not run a moonlight mode all night."
+        },
+        {
+          "title": "Check heat separately",
+          "text": "Measure water temperature with an aquarium thermometer. Lighting should not be used as the heater, and direct sun should not be used to warm the tank."
+        },
+        {
+          "title": "Provide shaded cover",
+          "text": "Use fin-safe plants or smooth shelter so the betta can move out of exposed light. Keep open swimming room and clear access to the surface."
+        },
+        {
+          "title": "Review after one to two weeks",
+          "text": "Record algae, plant condition and whether the fish uses normal swimming, feeding and resting areas. Make a small timing or intensity adjustment, then observe again."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Why should the aquarium be dark at night?",
+      "paragraphs": [
+        {
+          "text": "Light and darkness act as timing cues in fish. Research in Betta splendens shows that different photoperiods can change reproductive outcomes, and broader fish research shows that artificial light at night can disrupt circadian rhythms. Neither finding proves the original draft's claims about depression, retinal fatigue or immune failure in a pet betta.",
+          "sources": [2, 3]
+        },
+        {
+          "text": "A dark period also gives the keeper a clear context for interpreting rest. The aquarium does not need to be sealed from every trace of ambient light, but bright tank lights and nearby lamps should not remain on all night."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can betta fish see in the dark?",
+      "paragraphs": [
+        {
+          "text": "A Betta's low-light visual ability is not a reason to illuminate the tank overnight. The original draft claimed that Betta splendens lacks a particular reflective eye structure and therefore cannot see in total darkness, but no suitable Betta-specific source was found for that anatomical claim. This guide does not use it to set care instructions."
+        },
+        {
+          "text": "Do not feed or rearrange the aquarium after the lights are off. Use ordinary room light briefly when care is necessary, then restore the dark period."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related aquarium checks",
+      "cards": [
+        {
+          "title": "Betta water parameters",
+          "text": "Confirm that a lighting or sunlight problem has not also changed water temperature.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Betta lifespan and welfare",
+          "text": "Use stable daily care instead of treating one behavior as a complete health test.",
+          "url": "/biology-genetics/lifespan/",
+          "label": "Read the lifespan guide"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do betta fish need an aquarium light?",
+          "answer": "A controllable aquarium light is useful for a consistent daytime period, viewing and live plants. A betta does not need direct sunlight or a species-branded lamp."
+        },
+        {
+          "question": "Can I leave a betta fish light on all night?",
+          "answer": "No. Provide at least 8 hours of darkness and turn off nearby bright lamps during that period. Continuous or overnight lighting is not needed for viewing or health.",
+          "sources": [1, 3]
+        },
+        {
+          "question": "Is 12 hours of light too much for a betta?",
+          "answer": "Twelve hours appears in a Betta breeding experiment, but that study measured reproduction under controlled conditions and did not set a pet-care requirement. Current RSPCA guidance recommends no more than 10 hours of aquarium light, making 8 to 10 hours the safer starting range for a home tank.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Do betta fish need sunlight?",
+          "answer": "No. Direct sunlight is unnecessary and can add uncontrolled heat and algae. Use a timer-controlled aquarium light and monitor water temperature separately.",
+          "sources": [1]
+        },
+        {
+          "question": "What color light is best for a betta?",
+          "answer": "No evidence supports one color as universally best for pet bettas. Choose an aquarium fixture that renders the fish and plants naturally, allows brightness control and turns fully off for the dark period."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The practical schedule comes from Betta welfare guidance. The controlled Betta study examined reproduction, while the artificial-light study involved another fish species. Neither supports the original medical or psychological claims.",
+      "items": [
+        {
+          "id": 1,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        },
+        {
+          "id": 2,
+          "title": "Effects of photoperiod on reproduction of Siamese fighting fish Betta splendens",
+          "publisher": "Revista Brasileira de Zootecnia / SciELO",
+          "url": "https://www.scielo.br/j/rbz/a/drLghfRTbxkYDH9P5sWj43Q/?format=html&lang=en"
+        },
+        {
+          "id": 3,
+          "title": "Spotlight on fish: light pollution affects circadian rhythms of European perch but does not cause stress",
+          "publisher": "Science of the Total Environment / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25577738/"
+        }
+      ]
+    }
+  ]
+}

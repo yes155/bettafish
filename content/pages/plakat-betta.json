@@ -1,0 +1,209 @@
+{
+  "url": "/biology-genetics/plakat-betta/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Plakat Betta Fish: Short Fins, Types and Care | BettaFish.website",
+  "description": "Learn what makes a betta a Plakat, how short-fin forms differ from long-fin forms, and which aggression, lifespan and care claims are unsupported.",
+  "h1": "Plakat Betta Fish: Short Fins, Types and Care",
+  "eyebrow": "Biology and domesticated forms",
+  "intro": "A Plakat betta is a short-finned domesticated Betta splendens. The term describes fin form and breeding history, not a separate species or a guaranteed temperament. Plakats need the same stable tropical water, covered aquarium, suitable filtration and individual welfare checks as other domestic bettas.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "Genomic research supports a long domestication history involving selection for fighting, color and fin form. It does not support using short fins alone to predict aggression, lifespan or swimming ability in an individual Plakat betta.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "What is the difference between a Plakat and a long-fin betta?",
+      "caption": "Plakat and long-fin are form descriptions within domesticated Betta splendens",
+      "headers": ["Feature", "Plakat betta", "Long-fin betta", "Limit"],
+      "rows": [
+        [
+          "Primary distinction",
+          "Short caudal, anal and dorsal fin presentation.",
+          "Extended ornamental fin presentation.",
+          {"text": "Domestic bettas have many overlapping shapes, so one fin should not be used as the only identification feature.", "sources": [1, 2, 4]}
+        ],
+        [
+          "Swimming",
+          "Shorter fins create less fin area to move through the water.",
+          "Large fins can change maneuvering and increase the area exposed to flow.",
+          "Fin length does not prove that every Plakat is faster or that every long-fin betta struggles."
+        ],
+        [
+          "Aggression",
+          "Temperament varies by individual, line, sex, experience and environment.",
+          "Temperament varies by the same factors.",
+          {"text": "Fin form is not a reliable stand-alone aggression test.", "sources": [3]}
+        ],
+        [
+          "Care",
+          "Stable heated water, low-risk decor, filtration and a secure cover.",
+          "The same baseline, with close attention to fin condition and current strength.",
+          {"text": "Flow and layout should be adjusted to the individual fish, not the label.", "sources": [5, 6]}
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Where did Plakat bettas come from?",
+      "paragraphs": [
+        {
+          "text": "Plakat bettas developed through the domestication of Siamese fighting fish in what is now Thailand. Genetic and historical research links early domestic selection with staged fighting, followed later by strong selection for ornamental colors and fin shapes.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "Domestic Betta splendens also has a complex genetic history that includes gene flow from related wild Betta species. A modern Plakat should therefore be described as a domestic short-fin form, not as an unchanged wild ancestor.",
+          "sources": [2]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Are Plakat bettas more aggressive?",
+      "paragraphs": [
+        {
+          "text": "A Plakat betta is not automatically more aggressive than a long-fin betta. Domestic fighting lines were selected for aggressive performance, but current ornamental Plakats include many breeding histories. Aggression is a complex trait and cannot be inferred from fin length alone.",
+          "sources": [1, 3]
+        },
+        {
+          "text": "Judge a Plakat by observed behavior. Persistent flaring, charging or chasing calls for removal of the trigger and, where another fish is involved, physical separation. Do not place two males together to test a variety claim."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is a Halfmoon Plakat?",
+      "paragraphs": [
+        {
+          "text": "A Halfmoon Plakat combines a short-fin body plan with a caudal spread bred toward the Halfmoon exhibition ideal. The International Betta Congress publishes annual standards for domesticated show forms, and those standards are judging targets rather than health requirements.",
+          "sources": [4]
+        },
+        {
+          "text": "A short-finned pet sold as a Halfmoon Plakat may not show an exact exhibition spread, especially when it is relaxed. Tail angle alone does not establish genetic purity, health or value."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How should you set up a Plakat betta aquarium?",
+      "intro": "Start with the same welfare baseline used for domestic Betta splendens, then adjust the layout to the individual fish.",
+      "steps": [
+        {
+          "title": "Use a covered aquarium",
+          "text": "Choose a secure lid while leaving access to warm, humid air above the water. Bettas can jump, and a short-fin label does not predict when an individual will try."
+        },
+        {
+          "title": "Keep water warm and stable",
+          "text": "Use a thermostatically controlled heater when room temperature cannot hold the accepted betta range. Verify the water with a separate thermometer."
+        },
+        {
+          "title": "Provide gentle filtration",
+          "text": "Use enough circulation for filtration without forcing the fish to swim constantly. A Plakat may tolerate more movement than some long-fin individuals, but high flow is not a breed requirement."
+        },
+        {
+          "title": "Check every surface",
+          "text": "Choose smooth hardscape and fin-safe plants. Short fins can still tear, and the body can still be scraped by sharp decor."
+        },
+        {
+          "title": "Monitor the fish, not the form label",
+          "text": "Track appetite, swimming, resting, fin condition and water tests. Change the setup when the fish repeatedly avoids an area or struggles against the current."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related betta guides",
+      "cards": [
+        {
+          "title": "Betta tail types",
+          "text": "Compare short-fin, long-fin and other domesticated forms without treating shape as a health score.",
+          "url": "/biology-genetics/tail-types/",
+          "label": "Compare tail types"
+        },
+        {
+          "title": "Betta water parameters",
+          "text": "Set the aquarium baseline before bringing home any Plakat betta.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions about Plakat bettas",
+      "items": [
+        {
+          "question": "Is a Plakat betta a different species?",
+          "answer": "No. Plakat usually describes a short-finned domesticated Betta splendens form. Wild species and domestic forms should not be grouped together solely because they have short fins.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "How big do Plakat bettas get?",
+          "answer": "Plakats fall within the normal adult size variation of domestic Betta splendens unless another size trait, such as a Giant line, is involved. Seller labels and fin length do not guarantee an exact adult measurement."
+        },
+        {
+          "question": "Do Plakat bettas need stronger filter flow?",
+          "answer": "No. Short fins may reduce drag, but the correct flow is the level that maintains filtration without forcing the individual fish to swim continuously or avoid part of the aquarium."
+        },
+        {
+          "question": "Do Plakat bettas live longer than long-fin bettas?",
+          "answer": "No reliable evidence establishes a fixed lifespan advantage for Plakats. Genetics, water quality, temperature, diet, disease history and individual care all affect lifespan.",
+          "sources": [6]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Research establishes domestic history and fin diversity. It does not justify predicting one fish's aggression, speed or lifespan from the Plakat label.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Genomic Basis of Striking Fin Shapes and Colors in the Fighting Fish",
+          "publisher": "Molecular Biology and Evolution / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321530/"
+        },
+        {
+          "id": 2,
+          "title": "Genomic consequences of domestication of the Siamese fighting fish",
+          "publisher": "Science Advances / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906746/"
+        },
+        {
+          "id": 3,
+          "title": "The genetic architecture of phenotypic diversity in the Betta fish",
+          "publisher": "Science Advances / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491723/"
+        },
+        {
+          "id": 4,
+          "title": "International Betta Congress Exhibition Standards",
+          "publisher": "International Betta Congress",
+          "url": "https://www.ibcbettas.org/memberhome/standards/"
+        },
+        {
+          "id": 5,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        },
+        {
+          "id": 6,
+          "title": "Care and Use of Siamese Fighting Fish (Betta splendens) for Research",
+          "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "/404.html",
+  "page_type": "utility",
+  "status": "review",
+  "indexable": false,
+  "title": "Page Not Found | BettaFish.website",
+  "description": "The requested BettaFish.website page could not be found.",
+  "h1": "That page has drifted away",
+  "eyebrow": "404 · Page not found",
+  "intro": "The address may have changed, or the guide may still be in editorial review.",
+  "updated": "2026-09-01",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "evidence",
+      "heading": "Return to reliable water",
+      "text": "Start at the homepage or browse the care guides that are available in this preview.",
+      "url": "/",
+      "label": "Go to the homepage"
+    }
+  ]
+}

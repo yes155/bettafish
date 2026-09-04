@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="$language">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  <meta name="robots" content="$robots">
+  <link rel="canonical" href="$canonical">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="$site_name">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta name="twitter:card" content="$twitter_card">
+  <meta name="twitter:title" content="$title">
+  <meta name="twitter:description" content="$description">
+$social_image_meta
+  <link rel="icon" type="image/png" sizes="96x96" href="$favicon_path">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="application/ld+json">$schema</script>
+</head>
+<body class="$body_class">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="/" aria-label="BettaFish.website home">
+        <img class="wordmark-logo" src="$logo_path" width="44" height="44" alt="">
+        <span>BettaFish<span>.website</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary">$primary_nav</nav>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile primary">$mobile_nav</nav>
+      </details>
+    </div>
+  </header>
+  <main id="main">
+    <div class="page-shell">
+$breadcrumbs
+      <header class="page-hero">
+        <p class="eyebrow">$eyebrow</p>
+        <h1>$h1</h1>
+        <p class="hero-intro">$intro</p>
+$credits
+$hero_media
+      </header>
+      <div class="page-content">
+        $content
+      </div>
+      <footer class="page-meta">
+        <p>Last editorial update: <time datetime="$updated">$updated_display</time></p>
+      </footer>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="wordmark footer-wordmark" href="/">
+          <img class="wordmark-logo" src="$logo_path" width="44" height="44" alt="">
+          <span>BettaFish<span>.website</span></span>
+        </a>
+        <p>Evidence-led guidance for calmer, safer betta care.</p>
+      </div>
+      <nav aria-label="Policies">$footer_nav</nav>
+      <p class="footer-note">Educational information only. Health guidance does not replace an aquatic veterinarian.</p>
+    </div>
+  </footer>
+</body>
+</html>

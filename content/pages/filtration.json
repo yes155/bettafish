@@ -1,0 +1,103 @@
+{
+  "url": "/care/filtration/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "Best Betta Fish Filters: Low-Flow Sponge and HOB Guide | BettaFish.website",
+  "description": "Compare low-flow sponge and HOB filters, reduce current safely and clean filter media without discarding the biofilter.",
+  "h1": "Best Betta Fish Filters: Low-Flow Sponge & HOB Filtration Guide",
+  "eyebrow": "Care and tank setup",
+  "intro": "An air-driven sponge filter or a correctly sized filter with adjustable flow is usually the simplest choice. The goal is stable biological filtration and gentle circulation—not the strongest current the tank can produce.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "table",
+      "heading": "Betta fish filter comparison",
+      "caption": "How common aquarium filters fit a betta setup",
+      "headers": ["Filter type", "Useful strengths", "Main cautions", "Typical adjustment"],
+      "rows": [
+        [{"text": "Air-driven sponge filter", "sources": [1]}, "Gentle flow, visible reusable media and substantial biological surface", "Needs an air pump; bubbles and lift-tube flow still require adjustment", "Use an air valve or adjustable pump and keep gentle surface movement."],
+        [{"text": "Hang-on-back (HOB)", "sources": [1]}, "Easy access and room for mechanical and biological media", "Intake suction and return flow may be too strong", "Choose adjustable flow; use a purpose-made intake sponge and safe output diffuser if needed."],
+        ["Internal power filter", "Compact and fully inside the aquarium", "Some models create concentrated current and have small media chambers", "Select a low-flow model, orient the return and protect the intake."],
+        ["Canister filter", "Large media capacity for larger systems", "Usually unnecessary for a small single-betta tank and can move substantial water", "Use only when correctly sized and fitted with a spray bar or other safe flow distribution."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is the best filter for a betta fish?",
+      "paragraphs": [
+        {"text": "For a typical small betta aquarium, an air-driven sponge filter is a straightforward option because water is drawn through porous foam while the rising air creates circulation. PetMD's current betta care sheet identifies sponge, box and other very-low-flow filters as suitable choices.", "sources": [1]},
+        {"text": "A low or adjustable-flow HOB filter can also work when it is rated for the tank and its intake and return are safe for the individual fish. There is no meaningful universal score for a filter type: tank volume, media capacity, actual flow, maintenance access and the fish's swimming ability determine suitability."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do betta fish need a filter?",
+      "paragraphs": [
+        {"text": "Filtration is strongly recommended for a long-term home aquarium. A filter holds media where beneficial bacteria process ammonia into nitrite and then nitrate, while mechanical media captures suspended debris. The labyrinth organ lets a betta breathe atmospheric air, but it does not protect the fish from dissolved waste.", "sources": [1, 2]},
+        {"text": "An unfiltered container is not automatically safe because the water looks clear. It requires much more testing and maintenance and offers less protection from rapid water-quality changes. The care goal is no detectable ammonia or nitrite and a stable environment; a mature, continuously operating filter makes that goal more practical.", "sources": [2, 3]}
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to reduce filter flow for a betta fish",
+      "intro": "Change one variable at a time and confirm that the filter still circulates water through its media.",
+      "steps": [
+        {"title": "Use the built-in control", "text": "Set an adjustable filter or air pump to its lower range, then observe the fish and the water surface."},
+        {"title": "Protect the intake", "text": "Fit a purpose-made pre-filter sponge of the correct diameter. It should remain secure and must not starve the pump of water."},
+        {"title": "Diffuse the return", "text": "Use a manufacturer-approved diffuser, spray bar or aquarium-safe baffle. Avoid sharp cut plastic, loose fasteners and improvised parts that could trap fins or contact electrical equipment."},
+        {"title": "Reposition the flow", "text": "Direct the return toward the glass or a broad open area while preserving unobstructed surface access."},
+        {"title": "Observe the fish", "text": "A suitable current should not pin the fish, repeatedly sweep it away from resting areas or force constant hard swimming. Also confirm normal filter operation after every adjustment."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is the best sponge filter for a 5-gallon betta tank?",
+      "paragraphs": [
+        {"text": "Choose a sponge filter explicitly rated by the manufacturer for about a 5-gallon aquarium, with a stable base and a pump whose air output can be adjusted. The rating is a starting point; the final bubble rate and circulation must suit the fish."},
+        {"text": "Install a check valve in the correct direction when the air pump sits below the aquarium waterline, or place the pump above the waterline as its manufacturer directs. Keep an air-control valve accessible, leave room around the sponge for water movement, and never restrict airflow in a way the pump manufacturer prohibits."}
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to clean a betta fish filter without losing the biofilter",
+      "intro": "Clean enough to restore flow without sterilizing or replacing every colonized surface.",
+      "steps": [
+        {"title": "Save removed tank water", "text": "During a water change, place some siphoned aquarium water in a clean bucket used only for the aquarium."},
+        {"title": "Unplug safely", "text": "Disconnect the filter and other equipment as their manufacturer instructions require before the water level drops."},
+        {"title": "Rinse reusable media gently", "text": "Swish or gently squeeze reusable sponge media in the removed tank water until major debris is released. Do not try to make established media look new."},
+        {"title": "Clean the housing", "text": "Use an aquarium-dedicated brush on accessible intake and impeller parts, following the filter manual. Do not use soap, bleach or household cleaners."},
+        {"title": "Reassemble and verify", "text": "Return media in the correct order, prime the unit if required, restore the operating water level, restart it and confirm normal flow."}
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Do not replace all filter media on a calendar",
+      "text": {"text": "Beneficial bacteria live on filter media and other aquarium surfaces. Replace only media that is exhausted or damaged, follow the equipment instructions, and stagger changes so the aquarium retains established biological surface.", "sources": [1, 2]}
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "Can you keep a betta in a tank without a filter?", "answer": "An unfiltered setup is a higher-maintenance exception, not a simpler default. It needs frequent testing and water changes to prevent waste accumulation. A correctly sized, gentle filter is strongly recommended for stable long-term care.", "sources": [2, 3]},
+        {"question": "How long can a betta go without a working filter?", "answer": "There is no fixed safe number of hours or days. Preserve the media wet in aquarium water, restore filtration promptly, test ammonia and nitrite, and make conditioned partial water changes based on the readings. Do not feed heavily while the system is unstable.", "sources": [2, 4]},
+        {"question": "Can you use a canister filter for a betta?", "answer": "Yes, if the system is appropriately sized and its intake and return are made safe. In most small single-betta aquariums, a sponge or adjustable low-flow filter is simpler."},
+        {"question": "Why is my betta hiding near the filter?", "answer": "Strong current is one possibility, but hiding can also relate to stress, illness, lighting or lack of cover. Observe where the flow is strongest, check water parameters and temperature, and look for other symptoms before assuming one cause."}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "Product scores and absolute safety claims were excluded because suitability depends on the actual installation and fish.",
+      "items": [
+        {"id": 1, "title": "Betta Fish Care Sheet", "publisher": "PetMD", "url": "https://www.petmd.com/fish/betta-fish-care-sheet"},
+        {"id": 2, "title": "Providing a Home for Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/all-other-pets/fish/providing-a-home-for-fish"},
+        {"id": 3, "title": "How To Take Care of Fish: Beginner Guide", "publisher": "PetMD", "url": "https://www.petmd.com/fish/care/evr_fi_how-to-care-of-fish"},
+        {"id": 4, "title": "New Tank Syndrome: Causes, Signs, and Treatment", "publisher": "PetMD", "url": "https://www.petmd.com/fish/conditions/systemic/new-tank-syndrome-fish"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "deferred",
+  "reason": "Search is not part of the foundation launch contract.",
+  "unsafe_behavior_prevention": "No search box, endpoint or client-side index is emitted until a dedicated search contract and fixtures are approved.",
+  "intents": []
+}

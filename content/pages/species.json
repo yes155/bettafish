@@ -1,0 +1,259 @@
+{
+  "url": "/biology-genetics/species/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Species: Domestic Bettas and Wild Diversity | BettaFish.website",
+  "description": "Distinguish domestic Betta splendens from wild Betta species, species complexes, bubble nesters and mouthbrooders without unsafe care shortcuts.",
+  "h1": "Betta Fish Species: Domestic Bettas and Wild Diversity",
+  "eyebrow": "Biology and taxonomy",
+  "intro": "Betta is a genus, while the familiar pet betta is usually domesticated Betta splendens. FishBase listed 78 species in the genus on September 2, 2026, but that number can change as species are described or revised. Tail shapes and commercial color names are varieties of domestic B. splendens, not separate species.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Taxonomy update: September 2026",
+      "text": {
+        "text": "FishBase currently lists 78 species in Betta, not more than 150. Eschmeyer's Catalog of Fishes is updated continually, so a species count must carry a date. Species complexes such as the splendens, coccina, pugnax and picta groups help researchers compare related fish, but four named complexes are not a complete classification of the genus.",
+        "sources": [1, 2, 3, 4]
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "What is the difference between Betta and Betta splendens?",
+      "paragraphs": [
+        {
+          "text": "Betta is the genus name for a diverse group of freshwater fishes in the gourami family Osphronemidae. Betta splendens is one species within that genus and the species underlying most domesticated fish sold simply as bettas.",
+          "sources": [1, 3]
+        },
+        {
+          "text": "A Halfmoon, Crowntail, Veiltail, Plakat or Giant betta is not automatically a separate species. Those names describe selected fin, color or body-size forms within domestic Betta splendens. Scientific species names use two parts, such as Betta imbellis or Betta coccina."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "heading": "Which Betta species show the genus's diversity?",
+      "caption": "Representative examples, not a complete catalogue or a shared care sheet",
+      "headers": ["Species", "Useful distinction", "Evidence boundary"],
+      "rows": [
+        [
+          "Betta splendens",
+          {"text": "Bubble-nesting species associated with standing floodplain waters, canals and rice paddies; source of most domestic pet bettas.", "sources": [3, 5]},
+          "Domestic strains are strongly selected and should not be treated as visually or behaviorally identical to wild populations."
+        ],
+        [
+          "Betta imbellis",
+          {"text": "Bubble-nesting species recorded from Thailand, Malaysia, Singapore and Indonesia, often in stagnant pools, ditches, swamps and paddies.", "sources": [6]},
+          "The common name peaceful or crescent betta does not guarantee safe cohabitation."
+        ],
+        [
+          "Betta coccina",
+          {"text": "A member of a peat-swamp-associated species complex whose taxonomy continues to be tested with morphology and DNA.", "sources": [4]},
+          "A complex name is not a universal pH prescription for every member."
+        ],
+        [
+          "Betta pugnax",
+          {"text": "A mouthbrooding species used in research comparing parental-care modes within Betta.", "sources": [5, 7]},
+          "Mouthbrooding does not by itself identify one current speed, temperature or social setup."
+        ],
+        [
+          "Betta picta",
+          {"text": "A mouthbrooding species and namesake of another informal species complex.", "sources": [5]},
+          "Complex membership can be revised as new genetic and morphological evidence appears."
+        ],
+        [
+          "Betta simplex",
+          {"text": "A mouthbrooder restricted to limestone-karst waters in Krabi Province and listed as Critically Endangered by IUCN.", "sources": [8]},
+          "Restricted-range wild species require conservation-aware sourcing, not a beginner ranking."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is a Betta species complex?",
+      "paragraphs": [
+        {
+          "text": "A Betta species complex is an informal working group of species that share selected traits and are thought to be related. A complex helps organize comparison and identification, but it is not a formal taxonomic rank such as genus or species.",
+          "sources": [4, 5]
+        },
+        {
+          "text": "The splendens, coccina, pugnax and picta complexes are useful examples, not the only Betta groups. Recent work on the coccina complex used morphology and mitochondrial DNA to reassess relationships and describe diversity, which shows why fixed hobby lists can become outdated.",
+          "sources": [4]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How do bubble-nesting and mouthbrooding bettas differ?",
+      "paragraphs": [
+        {
+          "text": "Male bubble-nesting bettas place fertilized eggs into a foam nest at the water surface or beneath vegetation. Male mouthbrooders hold fertilized eggs in the mouth through incubation before releasing the young.",
+          "sources": [5]
+        },
+        {
+          "text": "Habitat flow does not supply a complete evolutionary explanation for the two strategies. A molecular phylogeny found repeated transitions in parental care and no consistent relationship between care mode and the three habitat variables it tested. The original draft's claim that moving water simply forced mouthbrooding was too certain.",
+          "sources": [7]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Is Betta imbellis the best wild betta for beginners?",
+      "paragraphs": [
+        {
+          "text": "No wild Betta species is universally best for beginners. Betta imbellis has different morphology and distribution from Betta splendens, but its common name and reported habitat do not prove that multiple fish will live peacefully in one small aquarium.",
+          "sources": [5, 6]
+        },
+        {
+          "text": "A prospective keeper should confirm the exact species, captive-bred origin, adult size, water chemistry, reproductive mode, sex, territorial behavior and legal status before acquisition. A backup separation plan is necessary whenever territorial fish are housed with others."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can color alone identify a wild Betta species?",
+      "paragraphs": [
+        {
+          "text": "Color alone is not enough to identify many wild Betta species. Researchers compare combinations of body and fin traits, locality and genetic evidence. Display condition, age, sex and preservation can also change visible color.",
+          "sources": [4, 5]
+        },
+        {
+          "text": "Do not attach a species name to a shop fish from one photograph when provenance is unknown. Ask for the scientific name and collection or breeding history, then compare it with a current taxonomic source."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Why does species-level conservation matter?",
+      "paragraphs": [
+        {
+          "text": "The abundance of domestic Betta splendens does not protect every wild Betta population. Conservation status is assigned to species and populations, and some species occupy very small ranges. Betta simplex, for example, is limited to limestone-karst waters in one Thai province and is listed as Critically Endangered.",
+          "sources": [8]
+        },
+        {
+          "text": "Choose captive-bred stock with traceable identification. Do not collect wild fish without lawful scientific or conservation authority, and never release an aquarium fish into a waterway. Released domestic fish can establish populations outside their native range and can complicate conservation through ecological or genetic effects.",
+          "sources": [8, 9]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related Betta biology guides",
+      "cards": [
+        {
+          "title": "Wild Betta habitats",
+          "text": "Compare floodplains, paddies, peat swamps, streams and karst systems without turning them into one care recipe.",
+          "url": "/origins/wild-habitats/",
+          "label": "Read about wild habitats"
+        },
+        {
+          "title": "Plakat bettas",
+          "text": "Separate the domestic short-fin form from a wild species identity.",
+          "url": "/biology-genetics/plakat-betta/",
+          "label": "Review Plakat terminology"
+        },
+        {
+          "title": "Betta tail types",
+          "text": "Learn which familiar names describe fin morphology rather than separate species.",
+          "url": "/biology-genetics/tail-types/",
+          "label": "Compare tail types"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How many Betta species are there?",
+          "answer": "FishBase listed 78 species in the genus Betta on September 2, 2026. The number is date-sensitive because taxonomists continue to describe species and revise names and relationships.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Is every pet betta Betta splendens?",
+          "answer": "Most ornamental bettas sold without another scientific name are domestic Betta splendens. Wild Betta species also enter the aquarium trade, so verify the scientific name and source rather than relying on the word betta alone.",
+          "sources": [1, 5]
+        },
+        {
+          "question": "Are Halfmoon and Crowntail bettas different species?",
+          "answer": "No. Halfmoon and Crowntail describe domestically selected fin forms of Betta splendens, not separate species. The same distinction applies to common commercial color and pattern names."
+        },
+        {
+          "question": "Are all wild bettas bubble nesters?",
+          "answer": "No. The genus includes bubble-nesting and male mouthbrooding species. Betta splendens is a bubble nester, while species such as Betta pugnax, Betta picta and Betta simplex are mouthbrooders.",
+          "sources": [5, 7, 8]
+        },
+        {
+          "question": "Can different Betta species use the same care parameters?",
+          "answer": "Do not assume so. Betta species occupy chemically and physically different habitats. Confirm the exact species and use a current species-specific husbandry source instead of applying a domestic Betta splendens care sheet to the entire genus.",
+          "sources": [4, 5]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The dated FishBase list supports the current species count. Primary and peer-reviewed research supports the species-complex and parental-care discussion. Representative species are examples, not a complete catalogue or husbandry guide.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Fish Identification: Species in the genus Betta",
+          "publisher": "FishBase",
+          "url": "https://fishbase.se/identification/SpeciesList.php?genus=Betta"
+        },
+        {
+          "id": 2,
+          "title": "Eschmeyer's Catalog of Fishes",
+          "publisher": "California Academy of Sciences",
+          "url": "https://www.calacademy.org/scientists/projects/eschmeyers-catalog-of-fishes"
+        },
+        {
+          "id": 3,
+          "title": "Betta splendens species summary",
+          "publisher": "FishBase",
+          "url": "https://www.fishbase.se/summary/betta-splendens.html"
+        },
+        {
+          "id": 4,
+          "title": "Phylogenetic analysis of Betta coccina complex with descriptions of new species",
+          "publisher": "ZooKeys",
+          "url": "https://zookeys.pensoft.net/article/142857/"
+        },
+        {
+          "id": 5,
+          "title": "Wild Betta fighting fish species in Thailand and other Southeast Asian countries",
+          "publisher": "ScienceAsia",
+          "url": "https://www.scienceasia.org/2020.46.n4/scias46_382.pdf"
+        },
+        {
+          "id": 6,
+          "title": "Betta imbellis species summary",
+          "publisher": "FishBase",
+          "url": "https://www.fishbase.se/summary/12038"
+        },
+        {
+          "id": 7,
+          "title": "Evolution of mouthbrooding and life-history correlates in the fighting fish genus Betta",
+          "publisher": "Evolution / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15154556/"
+        },
+        {
+          "id": 8,
+          "title": "The fight to save Krabi's endemic Betta fish",
+          "publisher": "International Union for Conservation of Nature",
+          "url": "https://iucn.org/story/202508/planet-will-never-see-species-again-fight-save-krabis-endemic-betta-fish"
+        },
+        {
+          "id": 9,
+          "title": "Ecological Risk Screening Summary: Siamese Fighting Fish",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://www.fws.gov/media/ecological-risk-screening-summary-siamese-fighting-fish-betta-splendens-uncertain-risk"
+        }
+      ]
+    }
+  ]
+}

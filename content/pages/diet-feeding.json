@@ -1,0 +1,91 @@
+{
+  "url": "/care/diet-feeding/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "What Do Betta Fish Eat? Diet and Feeding Guide | BettaFish.website",
+  "description": "Choose a high-protein betta diet, size portions to the food and fish, prevent overfeeding and respond safely to appetite changes.",
+  "h1": "What Do Betta Fish Eat? Complete Diet & Feeding Frequency Guide",
+  "eyebrow": "Care and tank setup",
+  "intro": "Feed a high-quality food formulated for bettas as the staple diet. Offer small portions once or twice daily, watch the fish eat, and remove leftovers. Brine shrimp, bloodworms or krill can be occasional variety rather than the whole diet.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "prose",
+      "heading": "What do betta fish eat?",
+      "paragraphs": [
+        {"text": "Bettas are carnivorous fish. In captivity, a complete commercial betta pellet or another species-appropriate, high-protein formula provides a dependable nutritional baseline. Occasional brine shrimp, bloodworms or krill can add variety and encourage natural feeding behaviour.", "sources": [1, 2]},
+        {"text": "The word “high-protein” is not enough by itself. Read the label for the intended species, feeding directions, ingredient list and expiration information. Store the food sealed and dry, and replace it if moisture, odour or contamination suggests spoilage."}
+      ]
+    },
+    {
+      "type": "table",
+      "heading": "What food is best for betta fish?",
+      "caption": "Roles and cautions for common betta foods",
+      "headers": ["Food", "Best use", "Watch for"],
+      "rows": [
+        [{"text": "Complete betta pellets", "sources": [1]}, "Daily staple when the label identifies the food as complete and appropriate for bettas", "Pellet sizes and calorie density vary, so use the label and the fish's response rather than a universal pellet count."],
+        ["Frozen brine shrimp, bloodworms or krill", "Occasional variety or enrichment", "Thaw and portion hygienically; treats should not displace a balanced staple."],
+        [{"text": "Freeze-dried foods", "sources": [2]}, "Occasional variety in a controlled portion", "They are concentrated and easy to overfeed; follow the product directions."],
+        [{"text": "Live foods", "sources": [2]}, "Enrichment when obtained from a reliable, disease-conscious source", "Live foods can carry a higher disease-transmission risk than frozen or freeze-dried options."],
+        ["Generic community flakes", "Only when the formulation is suitable and the betta reliably eats it", "Some bettas reject flakes, and a generic formula may not be designed as their complete staple."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How much food does a betta fish need?",
+      "paragraphs": [
+        {"text": "There is no safe universal answer such as “exactly two pellets.” Pellet diameter, density and formulation differ across brands, while fish size, age, activity, temperature and health affect intake. Begin with the manufacturer's betta-specific directions, offer a small measured portion, and watch how the fish responds.", "sources": [2]},
+        {"text": "The useful endpoint is a portion the fish consumes promptly without repeated leftovers or progressive body swelling. Remove uneaten food because decomposition reduces water quality. Track body condition over time; a single eager feeding response does not mean the fish needs an unlimited portion.", "sources": [1, 2]}
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How often should you feed a betta fish?",
+      "intro": "Once or twice daily is a practical starting schedule for a healthy adult, adjusted to the product directions and individual fish.",
+      "steps": [
+        {"title": "Measure before feeding", "text": "Do not shake food directly over the tank. Count or measure the selected product so you can repeat or adjust the portion."},
+        {"title": "Feed while observing", "text": "Offer the portion where the fish can see it and confirm that food is swallowed rather than sinking out of reach."},
+        {"title": "Remove leftovers", "text": "Take out uneaten food promptly to reduce waste and make appetite changes easier to notice."},
+        {"title": "Review the pattern", "text": "Adjust gradually if the fish repeatedly leaves food, loses condition or becomes rounded. Check water quality and temperature before blaming the food alone."}
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "A weekly fast is not a universal requirement",
+      "text": {"text": "Routine fasting is often repeated as a rule, but feeding needs vary. Veterinary-reviewed guidance supports regular small feedings and warns against using fasting to manage a cycling aquarium. Follow individual veterinary advice for a fish with a diagnosed condition.", "sources": [2, 3]}
+    },
+    {
+      "type": "prose",
+      "heading": "What can you feed a betta fish during sickness?",
+      "paragraphs": [
+        {"text": "Loss of appetite, bloating or abnormal buoyancy is a sign to assess the whole aquarium, not a reason to improvise a “cure food.” Test ammonia, nitrite, nitrate, pH and temperature; confirm the filter and heater are working; and observe feces, breathing, posture and other symptoms."},
+        {"text": "Do not force-feed peas, daphnia or medicated food as a universal constipation treatment. Different problems can look similar, and medicated feeds should be selected for a diagnosed condition. If the fish cannot eat, deteriorates, has marked swelling, pineconing, breathing difficulty or persistent buoyancy trouble, contact an aquatic veterinarian or a veterinarian experienced with fish.", "sources": [4]}
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "How long can a betta fish go without food?", "answer": "Do not plan care around a claimed maximum survival time. Age, health, temperature and prior nutrition change the risk. Arrange a reliable measured feeding plan for an absence, and test it before leaving rather than using vacation blocks without checking their effect on water quality."},
+        {"question": "Do betta fish eat pest snails?", "answer": "Some individuals may peck at tiny snails or exposed tissue, while others ignore them. A betta is not a dependable snail-control method, and hard shells or large prey should not be treated as a normal staple diet."},
+        {"question": "Can bettas eat goldfish food?", "answer": "A one-time accidental bite is not the same as a balanced diet, but goldfish food is not formulated as a betta's regular staple. Use a complete food intended for carnivorous bettas.", "sources": [1]},
+        {"question": "Should freeze-dried food be soaked first?", "answer": "Follow the specific product label. Portion control matters more than relying on a universal soaking ritual, and uneaten food should still be removed."}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "Nutrient percentages are not compared here because package values can use different moisture bases and do not by themselves prove diet quality.",
+      "items": [
+        {"id": 1, "title": "7 Betta Fish Facts: Lifespan, Size & Care", "publisher": "PetMD", "url": "https://www.petmd.com/fish/care/betta-fish-facts"},
+        {"id": 2, "title": "How To Take Care of Fish: Beginner Guide", "publisher": "PetMD", "url": "https://www.petmd.com/fish/care/evr_fi_how-to-care-of-fish"},
+        {"id": 3, "title": "New Tank Syndrome: Causes, Signs, and Treatment", "publisher": "PetMD", "url": "https://www.petmd.com/fish/conditions/systemic/new-tank-syndrome-fish"},
+        {"id": 4, "title": "Management of Aquarium Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"}
+      ]
+    }
+  ]
+}

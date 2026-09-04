@@ -1,0 +1,27 @@
+{
+  "url": "/editors/kate-barrington/",
+  "page_type": "profile",
+  "person_id": "kate-barrington",
+  "status": "review",
+  "indexable": true,
+  "title": "Kate Barrington, Reviewer and Editor | BettaFish.website",
+  "description": "Meet Kate Barrington, the experienced pet and aquarium writer who reviews and edits BettaFish.website guides.",
+  "h1": "Kate Barrington",
+  "eyebrow": "Reviewer and editor",
+  "intro": "Kate Barrington reviews and edits BettaFish.website guides for clarity, consistency and practical usefulness.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "Relevant experience", "paragraphs": [
+      "Kate is a freelance writer and content strategist with more than 12 years of experience. Her published portfolio includes pet-care work and aquarium topics for outlets including Chewy and Tropical Fish Hobbyist Magazine.",
+      "A separate aquarium author profile documents more than 10 years of her writing on freshwater and saltwater aquarium topics."
+    ]},
+    {"type": "prose", "heading": "Role at BettaFish.website", "paragraphs": [
+      "Kate reviews and edits assigned guides after the research and first draft are prepared. Her role covers clarity, internal consistency, practical framing and editorial quality.",
+      "Kate is not presented as an aquatic veterinarian. Her review does not convert general online information into an individualized diagnosis or replace aquatic veterinary care."
+    ]},
+    {"type": "cards", "heading": "Experience references", "intro": "These public profiles support the experience statements on this page.", "cards": [
+      {"title": "Official portfolio", "text": "Writing experience, pet specialization, selected clients and aquarium samples.", "url": "https://www.katebarrington.com/", "label": "Visit Kate's website"},
+      {"title": "Aquarium author profile", "text": "Freshwater and saltwater aquarium writing history and published article archive.", "url": "https://www.ratemyfishtank.com/articles/authors/3", "label": "View aquarium profile"}
+    ]}
+  ]
+}

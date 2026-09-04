@@ -1,0 +1,97 @@
+{
+  "url": "/biology-genetics/lifespan/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "How Long Do Betta Fish Live? Lifespan and Aging Guide | BettaFish.website",
+  "description": "Learn the typical captive betta lifespan, the care factors that influence it, and how to distinguish possible aging from illness.",
+  "h1": "Geriatric Biology & Lifespan of Betta splendens",
+  "eyebrow": "Biology and genetics",
+  "intro": "Most captive bettas live about three to five years, but a range is not a guarantee. Genetics, age at purchase, water quality, temperature, nutrition, disease and injury all influence an individual fish's lifespan.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "table",
+      "heading": "Betta lifespan and biological context",
+      "caption": "What can and cannot be stated reliably about betta lifespan",
+      "headers": ["Question", "Evidence-based answer", "Important limit"],
+      "rows": [
+        [{"text": "Typical captive lifespan", "sources": [1]}, "About 3–5 years", "This is a population-level range, not a promise for an individual fish."],
+        ["Wild lifespan", "No dependable universal figure is established for wild Betta splendens", "Predation, habitat conditions and local populations vary; a fixed two-year claim is not supportable."],
+        [{"text": "Adult body length", "sources": [1]}, "Often about 2.5 inches excluding the tail", "Form, sex and individual development affect appearance."],
+        [{"text": "Core captive needs", "sources": [2]}, "Stable warm water, adequate space, low-flow filtration and suitable nutrition", "Good care reduces preventable risks but cannot eliminate disease or genetic factors."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is the average lifespan of a captive betta fish?",
+      "paragraphs": [
+        {"text": "Veterinary-reviewed guidance commonly places the captive lifespan of Betta splendens at three to five years. Some individuals live outside that range, so it should be used for planning long-term care rather than predicting an exact death date.", "sources": [1]},
+        {"text": "The time a keeper has a fish may be shorter than the fish's total age because the hatch date is rarely supplied at retail. Without breeder or store records, age based only on fin length, color or body size is an estimate."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How long do betta fish live in the wild?",
+      "paragraphs": [
+        {"text": "A precise average for wild bettas is not established well enough to support the repeated claim that they live exactly two years. Wild survival varies with predators, food, disease, seasonal water conditions and human disturbance."},
+        {"text": "Betta splendens is native to Southeast Asia and associated with shallow freshwater habitats. Captive and wild life expectancy should not be compared as though one controlled number proves that either environment is automatically safer.", "sources": [1]}
+      ]
+    },
+    {
+      "type": "list",
+      "heading": "Four controllable factors that influence betta lifespan",
+      "intro": "No husbandry routine guarantees longevity, but these areas reduce common preventable stressors.",
+      "items": [
+        {"text": "Water quality: maintain no detectable ammonia or nitrite, control nitrate with testing and partial water changes, and preserve the biological filter.", "sources": [3]},
+        {"text": "Temperature: keep the aquarium within the species-appropriate range and avoid repeated fluctuations.", "sources": [2]},
+        {"text": "Nutrition: feed a complete, species-appropriate diet in controlled portions and remove leftovers.", "sources": [2]},
+        {"text": "Habitat and injury prevention: provide swimming space, a secure lid, gentle flow and smooth decor that will not tear fins.", "sources": [2]}
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "A betta outside the aquarium is an emergency",
+      "text": "The labyrinth organ allows a betta to breathe air at the surface, but it does not make time out of water safe. Do not rely on a claimed two-to-four-hour survival window. Return a jumped fish to suitable aquarium water promptly, minimize handling, correct the escape route and seek veterinary help for injury or abnormal breathing."
+    },
+    {
+      "type": "prose",
+      "heading": "Do male and female bettas have different lifespans?",
+      "paragraphs": [
+        {"text": "There is not enough reliable evidence to promise that one sex normally lives longer. Sex, fin form, breeding history and housing are separate variables, and individual variation is substantial."},
+        {"text": "Long fins can affect swimming and are easier to damage on rough decor, while females may face injury when housed in unstable groups. These are care considerations, not proof of a universal male-versus-female lifespan rule.", "sources": [2]}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Possible signs of aging—and why they need caution",
+      "paragraphs": [
+        {"text": "An older betta may become less active, rest more or show gradual changes in body condition and appearance. However, fading color, spinal curvature, appetite loss and buoyancy difficulty can also reflect poor water quality, injury or disease."},
+        {"text": "Do not label a new symptom as “old age” without checking ammonia, nitrite, nitrate, pH, temperature and equipment. A rapid change, breathing difficulty, swelling, pineconing, inability to eat or loss of balance warrants prompt advice from a veterinarian experienced with fish.", "sources": [3]}
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "How old are bettas sold in pet stores?", "answer": "There is no dependable age that applies to every retailer or supplier. Ask for hatch or arrival records; otherwise, age inferred from size, color and fins is only an estimate."},
+        {"question": "When is a betta fully grown?", "answer": "Growth rate varies with genetics, nutrition, temperature and early care. Sexual maturity and maximum adult size are not the same milestone, so an exact seven-to-nine-month rule should not be treated as universal."},
+        {"question": "Can a dying betta fish be saved?", "answer": "Some emergencies are reversible and others are not. Test water and temperature immediately, correct confirmed environmental hazards safely, and contact a fish-experienced veterinarian. Do not combine antibacterial and antiparasitic products without a diagnosis."},
+        {"question": "Does a larger tank guarantee a longer life?", "answer": "No. Adequate space can make stable water and normal behavior easier to support, but lifespan also depends on filtration, maintenance, nutrition, genetics and medical care.", "sources": [2]}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "Exact wild-lifespan, retailer-age and out-of-water survival claims were excluded because the master draft did not provide verifiable evidence for them.",
+      "items": [
+        {"id": 1, "title": "7 Betta Fish Facts: Lifespan, Size & Care", "publisher": "PetMD", "url": "https://www.petmd.com/fish/care/betta-fish-facts"},
+        {"id": 2, "title": "Bettas Need More Than Bowls", "publisher": "University of Illinois College of Veterinary Medicine", "url": "https://vetmed.illinois.edu/pet-health-columns/betta-fish/"},
+        {"id": 3, "title": "Management of Aquarium Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"}
+      ]
+    }
+  ]
+}

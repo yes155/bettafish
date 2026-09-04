@@ -1,0 +1,30 @@
+{
+  "url": "/care/",
+  "page_type": "hub",
+  "status": "draft",
+  "indexable": false,
+  "title": "Betta Fish Care and Tank Setup | BettaFish.website",
+  "description": "Follow a safe betta-care sequence covering aquarium size, water, cycling, filtration, temperature and feeding.",
+  "h1": "Build the habitat before solving the details",
+  "eyebrow": "Care and tank setup",
+  "intro": "A betta's care routine becomes much easier when the aquarium can maintain stable water, warmth and gentle flow.",
+  "updated": "2026-09-03",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "cards", "heading": "Build the care system", "intro": "Start with the aquarium and water, then refine daily care and maintenance.", "cards": [
+      {"title": "Tank setup", "text": "Sequence cycling, equipment, cover and introduction.", "url": "/care/tank-setup/", "label": "Set up the aquarium"},
+      {"title": "Water parameters", "text": "Understand temperature, pH and the nitrogen cycle.", "url": "/care/water-parameters/", "label": "Check water targets"},
+      {"title": "Filtration", "text": "Choose and maintain gentle, effective flow.", "url": "/care/filtration/", "label": "Choose filtration"},
+      {"title": "Heater calibration", "text": "Verify stable temperature independently of the heater dial.", "url": "/care/heaters-calibration/", "label": "Calibrate the heater"}
+    ]},
+    {"type": "cards", "heading": "Routine care and environment", "cards": [
+      {"title": "Diet and feeding", "text": "Build a measured feeding routine around appetite and condition.", "url": "/care/diet-feeding/", "label": "Plan feeding"},
+      {"title": "Water changes", "text": "Match maintenance to test results and aquarium conditions.", "url": "/maintenance/water-change/", "label": "Plan water changes"},
+      {"title": "Indian almond leaves", "text": "Separate practical uses from cure and dosing claims.", "url": "/care/indian-almond-leaves/", "label": "Evaluate leaf use"},
+      {"title": "Fin-safe plants", "text": "Compare plant surfaces, placement and upkeep.", "url": "/aquascaping/fin-safe-plants/", "label": "Choose plants"},
+      {"title": "Lighting", "text": "Create a practical light-dark cycle without excess glare.", "url": "/sensory/light-requirements/", "label": "Plan lighting"},
+      {"title": "Ownership cost", "text": "Separate fish price from setup and continuing care costs.", "url": "/economics/betta-fish-price/", "label": "Estimate the budget"}
+    ]}
+  ]
+}

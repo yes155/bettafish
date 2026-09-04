@@ -1,0 +1,47 @@
+{
+  "url": "/",
+  "page_type": "homepage",
+  "status": "review",
+  "indexable": true,
+  "title": "Betta Fish Care, Tank Setup and Health | BettaFish.website",
+  "description": "Evidence-led betta fish care covering tank setup, stable water, feeding, behaviour, compatibility and health warning signs.",
+  "h1": "Better betta care starts with the water",
+  "eyebrow": "A practical field guide for betta keepers",
+  "intro": "Build a stable, enriched aquarium, understand what your betta is communicating and recognize when online guidance is no longer enough.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "cards",
+      "heading": "Choose the guidance you need",
+      "intro": "Each section has one job, so setup advice, behaviour and health guidance do not compete or blur together.",
+      "cards": [
+        {"title": "Care and tank setup", "text": "Start with water, heat, filtration and feeding in the right order.", "url": "/care/", "label": "Start safely"},
+        {"title": "Diseases and health", "text": "Use symptom-first guidance, understand limits and know when to escalate.", "url": "/diseases/", "label": "Check warning signs"},
+        {"title": "Compatibility", "text": "Assess tank mates and social setups with a separation plan ready.", "url": "/compatibility/", "label": "Compare risks"},
+        {"title": "Biology and genetics", "text": "Connect lifespan and fin morphology to the care a fish actually needs.", "url": "/biology-genetics/", "label": "Understand your betta"}
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "Start here, in this order",
+      "intro": "Stable conditions solve more problems than product collecting.",
+      "steps": [
+        {"title": "Give the fish enough water", "text": "Choose an aquarium that can hold stable temperature and water chemistry."},
+        {"title": "Heat, filter and cycle it", "text": "A tropical fish needs warmth, gentle filtration and established biological processing."},
+        {"title": "Learn the water numbers", "text": "Ammonia and nitrite are urgent; stability matters more than chasing a perfect pH."},
+        {"title": "Feed deliberately", "text": "Use suitable protein-rich foods and small, observable portions."},
+        {"title": "Observe before treating", "text": "Behaviour, appetite, breathing and water tests provide context; medication is not the first answer to every symptom."}
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "evidence",
+      "heading": "What trust means here",
+      "text": "We separate routine husbandry from health guidance, show the limits of online information and block high-risk pages until their sources and reviewer are verified.",
+      "url": "/editorial-policy/",
+      "label": "Read the editorial policy"
+    }
+  ]
+}

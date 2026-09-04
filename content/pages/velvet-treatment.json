@@ -1,0 +1,58 @@
+{
+  "url": "/diseases/velvet-treatment/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Suspected Betta Velvet: Signs and Safe Treatment Planning | BettaFish.website",
+  "description": "Recognize signs consistent with freshwater velvet, understand diagnostic limits and prepare a case-specific treatment plan.",
+  "h1": "Suspected Betta Velvet: Signs and Safe Treatment Planning",
+  "eyebrow": "Diseases and health",
+  "intro": "Freshwater velvet is an external dinoflagellate infection caused by Piscinoodinium species. A brown-gold dusting can occur, but gill disease may cause breathing distress before a coating is obvious. Confirmation and treatment must account for the fish, water chemistry, invertebrates, plants and exact product.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Breathing difficulty is urgent", "text": {"text": "Rapid breathing, surface piping, weakness, collapse or fast spread among fish requires prompt aquatic-veterinary guidance. Piscinoodinium can invade the gills and cause high mortality, and a home flashlight check cannot show the organism well enough to confirm it.", "sources": [1, 2]}},
+    {"type": "table", "heading": "Which findings are consistent with velvet?", "caption": "Suspicion guide, not a diagnosis", "headers": ["Finding", "Why it matters", "Limit"], "rows": [
+      ["Fine brown-gold or rust-colored coating", {"text": "Piscinoodinium infections are called velvet or gold-dust disease because pigmented stages can create this appearance.", "sources": [1]}, "Lighting, normal iridescence and other skin problems can mislead."],
+      ["Flashing, clamped fins or excess mucus", {"text": "External gill and skin parasites commonly produce irritation signs.", "sources": [1]}, "These signs also occur with other parasites and water-quality injury."],
+      ["Rapid breathing or piping", {"text": "Gill involvement can impair respiration even when skin spots are hard to see.", "sources": [1]}, "This is urgent but not specific to velvet."],
+      ["Reduced appetite and lethargy", "Systemic decline can accompany heavy infestation.", "Many diseases and environmental failures cause the same signs."],
+      ["Microscopic wet mount", {"text": "Veterinary references identify skin, fin and gill wet mounts as the diagnostic method for external parasites.", "sources": [1, 2]}, "Sampling and interpretation require trained handling and microscopy."]
+    ]},
+    {"type": "steps", "heading": "What should you do when velvet is suspected?", "steps": [
+      {"title": "Test the aquarium", "text": "Measure temperature, ammonia, nitrite, nitrate and pH; verify filter and aeration operation."},
+      {"title": "Document every fish", "text": "Record respiration, appetite, flashing, coating, onset and spread. Photograph under neutral light without repeated chasing."},
+      {"title": "Prevent wet-equipment transfer", "text": "Keep nets, siphons and hands from moving water or equipment to another aquarium."},
+      {"title": "Contact an aquatic professional", "text": "Provide species, actual water volume, chemistry, plants, invertebrates, new arrivals and every product already used."},
+      {"title": "Follow one verified plan", "text": "Use the veterinarian's directions or the current label for the exact product; do not combine active ingredients or improvise duration."}
+    ]},
+    {"type": "prose", "heading": "Why is copper not a universal home recipe?", "paragraphs": [
+      {"text": "Copper can be effective against Piscinoodinium, but freshwater dosing depends on water chemistry and the copper formulation. MSD warns that freshwater copper can be dangerous if the dose is not calculated carefully and that total alkalinity affects the calculation.", "sources": [1, 2, 3]},
+      {"text": "Copper can harm invertebrates, plants and nitrifying bacteria, and the correct test kit must match the copper form. This page intentionally provides no universal concentration, number of days or blackout schedule.", "sources": [2, 3]}
+    ]},
+    {"type": "prose", "heading": "Is darkness a complete velvet treatment?", "paragraphs": [
+      {"text": "No. Piscinoodinium has pigmented, photosynthetic parasitic stages, but darkness does not replace diagnosis and an effective case-specific treatment. A prolonged blackout can also interfere with plant care and routine observation.", "sources": [1]},
+      {"text": "Use normal low-stress observation while arranging the treatment plan. Do not wrap a heated aquarium in a way that traps heat, blocks ventilation or prevents equipment checks."}
+    ]},
+    {"type": "cards", "heading": "Related health checks", "cards": [
+      {"title": "Disease symptom matrix", "text": "Compare velvet-like signs with ich, water-quality injury and bacterial disease.", "url": "/diseases/diagnostic-matrix/", "label": "Review symptom patterns"},
+      {"title": "Betta ich", "text": "See why discrete white spots and a gold-brown dusting require different confirmation.", "url": "/diseases/ich-treatment/", "label": "Compare suspected ich"},
+      {"title": "Water parameters", "text": "Document environmental measurements before selecting a treatment.", "url": "/care/water-parameters/", "label": "Test the aquarium"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Can a flashlight diagnose velvet?", "answer": "No. Angled light may make a fine coating easier to see, but normal iridescence and other skin changes can look similar. Microscopic examination of fresh skin, fin or gill material is stronger evidence.", "sources": [1, 2]},
+      {"question": "Is velvet contagious to other fish?", "answer": "Piscinoodinium has free-swimming infective stages, so all exposed fish and shared wet equipment matter to the control plan.", "sources": [1]},
+      {"question": "Should I raise the temperature?", "answer": "Do not use a universal heat protocol. Temperature affects the betta, dissolved oxygen, plants, tank mates and parasite timing; use a case-specific range from the clinical plan."},
+      {"question": "Can aquarium salt cure velvet?", "answer": "Do not rely on salt as a complete treatment or improvise a dose. The diagnosis, fish tolerance, water chemistry and concurrent products determine whether salinity has any role."},
+      {"question": "When is suspected velvet an emergency?", "answer": "Treat rapid breathing, surface piping, collapse, extensive gill involvement or rapid spread as urgent and contact an aquatic veterinarian promptly."}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft removes the supplied universal copper, temperature and blackout protocol. It remains unpublished until the assigned aquatic veterinarian approves this exact version.", "items": [
+      {"id": 1, "title": "Parasitic Diseases of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish"},
+      {"id": 2, "title": "Management of Aquarium Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 3, "title": "Use of Copper in Freshwater Aquaculture and Farm Ponds", "publisher": "UF/IFAS Extension", "url": "https://edis.ifas.ufl.edu/publication/FA008"}
+    ]}
+  ]
+}

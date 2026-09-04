@@ -1,0 +1,62 @@
+{
+  "url": "/economics/betta-fish-price/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Price: Budget for the Fish and Proper Care | BettaFish.website",
+  "description": "Estimate betta ownership cost by separating the fish price from the aquarium, heater, filter, tests, food and continuing care.",
+  "h1": "How Much Does a Betta Fish Cost?",
+  "eyebrow": "Ownership planning",
+  "intro": "The fish is often one of the least expensive parts of responsible betta ownership. Build the budget around a lidded aquarium, adjustable heat, gentle filtration, water tests, conditioner, food and an emergency-care reserve; local prices and availability change too quickly for one permanent total.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "callout", "tone": "note", "heading": "Price snapshot: September 2026", "text": {"text": "Retail pages showed wide variation among fish, five-gallon aquarium kits, heaters and filters on September 2, 2026. This page records cost categories and a calculation method instead of promising a vendor price. Recheck every listing before purchase.", "sources": [1, 2, 3]}},
+    {"type": "table", "heading": "What belongs in a betta startup budget?", "caption": "Price every required category before buying the fish", "headers": ["Category", "Include", "Budget trap"], "rows": [
+      ["Fish", "The individual betta, safe transport and any seller health guarantee", "Paying for color or fin labels while ignoring condition and source."],
+      ["Aquarium", {"text": "A secure lid, usable swimming volume and stable stand; RSPCA Australia describes 20 litres as ideal and 10 litres as the absolute minimum.", "sources": [4]}, "Choosing a tiny bowl because it costs less upfront."],
+      ["Temperature", "An appropriately sized adjustable heater and separate thermometer", "Assuming room temperature or the heater dial is accurate."],
+      ["Filtration", "Gentle filter, reusable biological media and intake protection if needed", "Replacing all media on a schedule and discarding the biofilter."],
+      ["Water care", "Conditioner and tests for ammonia, nitrite, nitrate and pH", "Buying decorative additives before essential tests."],
+      ["Habitat", "Smooth substrate or bare-bottom plan, cover, rest areas and fin-safe plants or decor", "Buying sharp ornaments or blocking surface access."],
+      ["Ongoing supplies", "Complete food, conditioner, replacement test reagents and electricity", "Calculating only the first month."],
+      ["Health reserve", "Funds for an aquatic-veterinary consultation, diagnostics and case-specific treatment", "Assuming the fish's purchase price caps reasonable care spending."]
+    ]},
+    {"type": "steps", "heading": "How to calculate the first-year cost", "steps": [
+      {"title": "Price the permanent setup", "text": "List the tank, lid, stand, heater, thermometer, filter, media, test kit, conditioner, substrate, cover and light if needed."},
+      {"title": "Add the fish and transport", "text": "Include the actual seller price, shipping or travel and a safe acclimation plan."},
+      {"title": "Estimate consumables", "text": "Add food, conditioner and expected replacement test reagents for twelve months."},
+      {"title": "Estimate utilities", "text": "Use the heater and filter wattages, local electricity rate and expected operating hours; heater duty cycle changes with room conditions."},
+      {"title": "Create a health reserve", "text": "Set aside an amount you can access promptly for examination, water testing, diagnostics or replacement equipment."},
+      {"title": "Compare complete totals", "text": "Compare two setups only after both include the same welfare and safety requirements."}
+    ]},
+    {"type": "prose", "heading": "Why do individual betta prices vary?", "paragraphs": [
+      {"text": "Fish prices vary with source, locality, age, sex, body form, fin type, color pattern, documented lineage, import and shipping costs. A higher price does not prove better health, genetics or welfare."},
+      {"text": "Ask the seller about age, feeding, water conditions, health history and return policy. Choose an alert fish with intact tissue and normal breathing from a transparent source rather than treating a rarity label as quality evidence."}
+    ]},
+    {"type": "prose", "heading": "Where can you save without weakening care?", "paragraphs": [
+      {"text": "A sound used aquarium can reduce cost if the glass, seams, frame and lid pass inspection and the tank holds water safely. Clean with aquarium-safe methods and replace damaged electrical equipment rather than attempting unsafe repairs."},
+      {"text": "Simple smooth shelters and easy live plants can cost less than elaborate decor. Do not economize by removing the heater, filter, lid, conditioner or water tests that verify the environment."}
+    ]},
+    {"type": "cards", "heading": "Plan the complete setup", "cards": [
+      {"title": "Betta tank setup", "text": "Check every required item before comparing package prices.", "url": "/care/tank-setup/", "label": "Build the equipment list"},
+      {"title": "Heater calibration", "text": "Choose by required performance and verify with a separate thermometer.", "url": "/care/heaters-calibration/", "label": "Plan temperature control"},
+      {"title": "Betta filtration", "text": "Select gentle flow and preserve biological media.", "url": "/care/filtration/", "label": "Plan filtration"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "How much does a betta fish cost by itself?", "answer": "The price varies widely by retailer, breeder, line and region, and live listings change. Check current local sellers on the day of purchase and evaluate health and sourcing, not price alone."},
+      {"question": "Why can the setup cost more than the fish?", "answer": "The setup provides stable heat, clean water, filtration, cover and monitoring for years. The fish price is one transaction; the habitat and continuing care determine daily welfare."},
+      {"question": "Is a betta bowl the cheapest safe option?", "answer": "A small bowl may be cheap to buy but makes stable heat, filtration and water quality harder to maintain. Budget for a lidded, heated and filtered aquarium rather than the lowest container price.", "sources": [4]},
+      {"question": "Do I need a veterinary-care budget for a low-cost fish?", "answer": "Yes. The purchase price does not determine the fish's capacity to suffer or the cost of diagnosis. Keep an emergency reserve and identify an aquatic veterinarian before a crisis."},
+      {"question": "Should I buy a complete kit?", "answer": "A kit can be economical only if its volume, lid, filter and light suit the plan. Many kits still require a heater, thermometer, test kit, conditioner and safer media or flow adjustments."}
+    ]},
+    {"type": "sources", "heading": "Sources and freshness limits", "intro": "Retail sources show changing product availability, not endorsements. Welfare sources define what the budget must include.", "items": [
+      {"id": 1, "title": "Betta Fish Tanks: Aquariums and Bowls", "publisher": "Petco", "url": "https://www.petco.com/category/fish/betta-fish-shop/betta-fish-tanks"},
+      {"id": 2, "title": "Betta Fish Tank Heaters and Lighting", "publisher": "Petco", "url": "https://www.petco.com/category/fish/betta-fish-shop/betta-heating-lighting"},
+      {"id": 3, "title": "Betta Fish Filters and Media", "publisher": "Petco", "url": "https://www.petco.com/category/fish/betta-fish-shop/betta-filters-media"},
+      {"id": 4, "title": "How should I care for my Siamese fighting fish?", "publisher": "RSPCA Australia Knowledgebase", "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"},
+      {"id": 5, "title": "Providing a Home for Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/all-other-pets/fish/providing-a-home-for-fish"}
+    ]}
+  ]
+}

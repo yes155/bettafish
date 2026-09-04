@@ -1,0 +1,24 @@
+{
+  "url": "/authors/farrukh-abdullah/",
+  "page_type": "profile",
+  "person_id": "farrukh-abdullah",
+  "status": "review",
+  "indexable": true,
+  "title": "Farrukh Abdullah, Researcher and Writer | BettaFish.website",
+  "description": "Meet Farrukh Abdullah, the researcher and writer responsible for BettaFish.website guides and their source-led content structure.",
+  "h1": "Farrukh Abdullah",
+  "eyebrow": "Researcher and writer",
+  "intro": "Farrukh Abdullah researches, structures and writes the educational guides published by BettaFish.website.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "Role at BettaFish.website", "paragraphs": [
+      "Farrukh turns aquarium-care questions, topic research and named sources into structured guides designed to help readers make safer husbandry decisions.",
+      "He is responsible for research organization, first drafts, source records, page architecture and corrections. Review and editing are handled separately so the same person does not silently approve his own work."
+    ]},
+    {"type": "prose", "heading": "Scope and limits", "paragraphs": [
+      "Farrukh is not presented as an aquatic veterinarian. BettaFish.website distinguishes routine husbandry information from health guidance and directs readers to an aquatic veterinarian when individualized assessment is needed.",
+      "His professional work in semantic SEO and content systems informs how the site organizes entities, questions and sources; it is not used as a substitute for animal-health credentials."
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "Professional profile", "text": "Farrukh's broader work in semantic SEO, GEO and content architecture is documented on his professional website.", "url": "https://farrukh.top/", "label": "Visit farrukh.top"}
+  ]
+}

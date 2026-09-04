@@ -1,0 +1,234 @@
+{
+  "url": "/maintenance/water-change/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Water Changes: Frequency, Amount and Safe Method | BettaFish.website",
+  "description": "Use water tests and tank conditions to plan betta water changes, prepare replacement water and protect the biofilter during maintenance.",
+  "h1": "Betta Fish Water Changes: Frequency, Amount and Safe Method",
+  "eyebrow": "Maintenance and water quality",
+  "intro": "For a stable, established betta aquarium, a 10% to 25% partial water change each week is a practical starting routine. Adjust the amount and frequency using ammonia, nitrite, nitrate, pH, temperature, tank volume, feeding, waste and filter performance. A new, uncycled or abnormal tank needs test-led action rather than the routine calendar.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "The original draft prescribed one percentage for every aquarium, claimed water removal was the only nitrate control and said the biofilter would be eliminated whenever all water was replaced. Current guidance supports routine partial changes, but the schedule depends on stocking and measured water quality. Most nitrifying bacteria live on filter media and other wet surfaces, while abrupt changes in temperature or chemistry can still stress fish.",
+        "sources": [1, 2, 3, 4]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "How often should a betta tank get a water change?",
+      "caption": "Use the routine as a starting point and let tests identify exceptions",
+      "headers": ["Tank condition", "Starting action", "What decides the next change"],
+      "rows": [
+        [
+          "Established, filtered and stable",
+          {"text": "Start with a 10% to 25% partial change each week, paired with targeted substrate cleaning.", "sources": [1]},
+          "Ammonia, nitrite, nitrate, pH and temperature trends; tank size; feeding; visible waste; plant and filter condition."
+        ],
+        [
+          "New or not yet proven cycled",
+          {"text": "Test ammonia and nitrite frequently and change conditioned, temperature-matched water in response to the readings rather than waiting for the routine day.", "sources": [1, 4]},
+          "Repeat test results and whether biological filtration is processing waste reliably."
+        ],
+        [
+          "Detectable ammonia or nitrite",
+          {"text": "Treat this as a water-quality problem. Prepare safe replacement water, perform a partial change appropriate to the measured problem and retest; seek experienced aquatic or veterinary help if readings persist or the fish shows distress.", "sources": [3, 4]},
+          "Measured concentration, source-water results, pH and temperature difference, fish condition and the response after the change."
+        ],
+        [
+          "Nitrate rising faster than the routine controls",
+          "Increase maintenance only after confirming the test, source-water nitrate, feeding, trapped waste, dead plant matter and filter flow.",
+          "The rate of accumulation between tests, not a promise that plants or one large change will permanently solve it."
+        ],
+        [
+          "After medication or a disease event",
+          "Follow the veterinarian's or exact product's water-change and filter-media instructions.",
+          "Treatment, diagnosis, product label and water tests; do not apply a general maintenance percentage to every treatment."
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to perform a partial betta water change",
+      "intro": "Prepare the replacement water before the aquarium level falls.",
+      "steps": [
+        {
+          "title": "Test and record the water",
+          "text": "Measure temperature, pH, ammonia, nitrite and nitrate. Note unusual fish behavior, filter flow, uneaten food and visible waste so the change has a clear reason and follow-up."
+        },
+        {
+          "title": "Prepare a dedicated bucket",
+          "text": "Use a labelled aquarium-only bucket that has never held soap, detergent or household chemicals. Keep it below the aquarium for a gravity siphon."
+        },
+        {
+          "title": "Condition replacement water",
+          "text": "Treat the replacement volume for chlorine or chloramine with a suitable aquarium conditioner exactly as its label directs. Match temperature closely and check pH when the source differs from the aquarium."
+        },
+        {
+          "title": "Siphon slowly",
+          "text": "Keep the betta in the tank during an ordinary partial change when it is safe to do so. Start the siphon without using your mouth, keep the intake away from the fish and remove debris from one area without deep-cleaning every surface at once."
+        },
+        {
+          "title": "Refill without disturbing the fish",
+          "text": "Add the prepared water slowly against the glass, a clean dish or another surface that limits substrate disturbance. Keep the heater within its manufacturer's water-level limits and restart any equipment that was safely switched off."
+        },
+        {
+          "title": "Check and retest",
+          "text": "Confirm temperature, flow, heater operation and fish behavior. When the change addressed an abnormal test, retest after the water has mixed and continue monitoring until the cause is resolved."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Should the betta stay in the tank during a water change?",
+      "paragraphs": [
+        {
+          "text": "For a routine partial change, leaving the fish in the aquarium usually avoids unnecessary capture and transfer. RSPCA guidance says the fish can remain while siphoning, provided the keeper moves gently and protects the fish from the siphon.",
+          "sources": [1]
+        },
+        {
+          "text": "Removal can be necessary during a leak, structural repair, complete rebuild or other unsafe condition. In that case, prepare a secure, temperature-controlled temporary container with suitable water and minimize handling. An emergency exception is different from routinely netting the fish for maintenance."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What water should replace the removed water?",
+      "paragraphs": [
+        {
+          "text": "Conditioned tap water is often the practical choice. Municipal water may contain chlorine or chloramine, so use a product whose label explicitly covers the disinfectant in your water supply and dose it for the intended volume. Claims about binding ammonia or metals vary by product and should not be generalized.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "Do not use untreated distilled or reverse-osmosis water as the sole replacement water without a tested remineralization or mixing plan. Highly purified water changes mineral content and buffering, so the target should be stable, species-appropriate chemistry rather than maximum purity.",
+          "sources": [2, 3]
+        },
+        {
+          "text": "Match replacement-water temperature closely. If source and tank pH differ meaningfully, use smaller staged changes and investigate the cause rather than forcing a rapid correction."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Will a 100% water change destroy the nitrogen cycle?",
+      "paragraphs": [
+        {
+          "text": "Replacing all the water does not automatically remove the whole biofilter because nitrifying bacteria live mainly on filter media, substrate and other wet surfaces. However, a complete change is usually unnecessary routine maintenance and can create a large shift in temperature, pH or mineral content if replacement water is poorly matched.",
+          "sources": [2, 4]
+        },
+        {
+          "text": "The bigger biofilter risks are allowing media to dry out, removing or replacing mature media indiscriminately, exposing it to untreated chlorinated water or cleaning every colonized surface at once. Rinse clogged media gently in removed tank water and follow the filter manufacturer's maintenance instructions.",
+          "sources": [1, 4]
+        },
+        {
+          "text": "A near-total change may be justified during a contamination event, tank failure or supervised treatment, but it should be planned around the specific hazard with conditioned, temperature-matched water and appropriate expert advice. This guide does not set a universal emergency percentage."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How should algae, substrate and filter media be cleaned?",
+      "paragraphs": [
+        {
+          "text": "Use an aquarium-safe sponge or magnetic glass cleaner for algae and never use soap or household detergent. Siphon exposed debris without dismantling the entire aquascape at every change. Remove decaying leaves and uneaten food before they add to the waste load.",
+          "sources": [1, 3]
+        },
+        {
+          "text": "Do not replace all biological media merely because a calendar says to. Preserve mature media where the design allows, clean only enough to restore flow and replace consumable chemical media according to its manufacturer. Test after major filter maintenance."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related maintenance checks",
+      "cards": [
+        {
+          "title": "Betta water parameters",
+          "text": "Use trend data to decide whether the routine is controlling nitrogen waste and stability.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Betta filtration",
+          "text": "Clean media without discarding the biological filter or reducing flow.",
+          "url": "/care/filtration/",
+          "label": "Review filtration"
+        },
+        {
+          "title": "Betta tank setup",
+          "text": "Confirm that a new aquarium was physically prepared and biologically verified.",
+          "url": "/care/tank-setup/",
+          "label": "Review tank setup"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How much water should I change in a betta tank?",
+          "answer": "For an established, stable aquarium, start with 10% to 25% weekly and adjust from test trends, tank size, feeding, waste and filter performance. New, uncycled or abnormal tanks need a separate test-led response.",
+          "sources": [1, 3]
+        },
+        {
+          "question": "Do I remove my betta during a water change?",
+          "answer": "Usually not for a routine partial change. Keep the fish away from the siphon and move gently. Use a prepared temporary container only when the aquarium itself is unsafe or must be rebuilt.",
+          "sources": [1]
+        },
+        {
+          "question": "Can I add untreated tap water to a betta tank?",
+          "answer": "No when the water contains chlorine or chloramine. Use a conditioner that explicitly treats the disinfectant in your water supply, follow its label and match temperature before adding the water.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Does topping off evaporation count as a water change?",
+          "answer": "No. Topping off replaces water that evaporated, but dissolved waste and minerals remain. A partial change physically removes some aquarium water and is still required on a schedule guided by testing."
+        },
+        {
+          "question": "Should I change all the water if ammonia or nitrite is detectable?",
+          "answer": "Do not apply a universal 100% rule. Prepare conditioned, temperature-matched water, make a partial change based on the measured problem and chemistry difference, then retest. Persistent readings or a distressed fish require experienced aquatic or veterinary help.",
+          "sources": [3, 4]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The routine percentage comes from species-specific welfare guidance. Veterinary manuals support test-led maintenance, conditioned replacement water and biofilter protection. Emergency decisions remain dependent on the actual test results and fish condition.",
+      "items": [
+        {
+          "id": 1,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        },
+        {
+          "id": 2,
+          "title": "Providing a Home for Fish",
+          "publisher": "MSD Veterinary Manual",
+          "url": "https://www.msdvetmanual.com/all-other-pets/fish/providing-a-home-for-fish"
+        },
+        {
+          "id": 3,
+          "title": "Routine Health Care of Fish",
+          "publisher": "MSD Veterinary Manual",
+          "url": "https://www.msdvetmanual.com/all-other-pets/fish/routine-health-care-of-fish"
+        },
+        {
+          "id": 4,
+          "title": "New Tank Syndrome: Causes, Symptoms, and Treatment",
+          "publisher": "PetMD",
+          "url": "https://www.petmd.com/fish/conditions/systemic/new-tank-syndrome-fish"
+        }
+      ]
+    }
+  ]
+}

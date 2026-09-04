@@ -1,0 +1,61 @@
+{
+  "url": "/morphology/growth-rate-size/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "How Big Do Betta Fish Get? Size and Growth Guide | BettaFish.website",
+  "description": "Understand Betta splendens adult size, measurement methods and growth variation without fixed monthly-growth promises.",
+  "h1": "How Big Do Betta Fish Get?",
+  "eyebrow": "Morphology and growth",
+  "intro": "FishBase reports a maximum total length of 6.5 cm (about 2.6 inches) for Betta splendens. That reference does not include every oversized domestic line or turn one number into a guaranteed adult size. Compare measurements only when the same length method, age and fin type are used.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "callout", "tone": "note", "heading": "Size update: September 2026", "text": {"text": "The supplied draft promised fixed monthly growth and a universal four-inch Giant adult. Those claims are not supported. Genetics, age, sex, temperature, diet, health and rearing conditions all affect growth, and ornamental fin length can exaggerate comparisons.", "sources": [1, 2, 3]}},
+    {"type": "table", "heading": "Which betta measurement should you use?", "caption": "Use the same method for every comparison", "headers": ["Measurement", "Endpoints", "Best use", "Main limitation"], "rows": [
+      ["Standard length", "Snout tip to the base of the caudal fin", "Body growth and scientific comparison", "Hard to locate the fin base in a moving fish."],
+      ["Total length", "Snout tip to the farthest natural caudal-fin tip", {"text": "Species summaries; FishBase reports 6.5 cm maximum total length for B. splendens.", "sources": [1]}, "Long-fin varieties can appear much larger without a longer body."],
+      ["Body depth", "Dorsal-to-ventral depth at a defined body point", "Tracking body form and condition", "A full abdomen, angle or posture can distort the result."],
+      ["Weight", "Mass measured with suitable aquatic handling", "Research and veterinary assessment", "Home weighing can stress or injure a small fish and is rarely needed."]
+    ]},
+    {"type": "steps", "heading": "How to measure a betta safely", "steps": [
+      {"title": "Keep the fish in water", "text": "Do not remove or pin a betta against a ruler for routine measurement."},
+      {"title": "Use a fixed external scale", "text": "Place a ruler or marked card against the outside of a straight aquarium wall."},
+      {"title": "Photograph a level side view", "text": "Wait until the fish is straight and parallel to the scale; avoid wide-angle distortion."},
+      {"title": "Choose one endpoint", "text": "Record standard length or total length and do not switch methods in later comparisons."},
+      {"title": "Space measurements apart", "text": "Monthly or less frequent photographs are usually more informative than repeated handling or daily estimates."}
+    ]},
+    {"type": "prose", "heading": "How fast do betta fish grow?", "paragraphs": [
+      {"text": "Betta growth is fastest during early development and slows as the fish approaches adult size. Controlled larval studies provide useful developmental landmarks, but their temperature, food, density and genetics do not match every home aquarium.", "sources": [2, 4]},
+      {"text": "Do not expect a fixed fraction of an inch each month. Track the individual's body length, condition, appetite and water results. A plateau can reflect normal maturation, while weight loss, deformity, poor appetite or a sudden decline warrants a husbandry and health assessment."}
+    ]},
+    {"type": "prose", "heading": "Are Giant bettas always four inches long?", "paragraphs": [
+      {"text": "Giant describes domestic lines selected for enlarged body size. Genomic research found multiple regions and candidate genes associated with the Giant phenotype, which argues against a simple retail guarantee based on one mutation.", "sources": [3]},
+      {"text": "Ask whether a seller's size refers to body length or total length and whether the number is an adult measurement or a projection. Plan the aquarium around the fish's measured body, swimming ability and waste production rather than a label."}
+    ]},
+    {"type": "prose", "heading": "What supports normal growth?", "paragraphs": [
+      {"text": "Normal growth depends on a complete diet, stable species-appropriate temperature, oxygenation, functioning biological filtration and enough usable space. More food does not force healthy growth; overfeeding increases digestive and water-quality risk.", "sources": [2, 5]},
+      {"text": "Measure ammonia, nitrite and nitrate and review feeding and body condition before assuming a small fish needs supplements. Never use hormones or unlabelled growth products."}
+    ]},
+    {"type": "cards", "heading": "Related form and care guides", "cards": [
+      {"title": "Giant bettas", "text": "Separate enlarged-body genetics from fixed size and lifespan promises.", "url": "/biology-genetics/giant-betta/", "label": "Review Giant bettas"},
+      {"title": "Betta diet", "text": "Feed a complete diet without using overfeeding as a growth strategy.", "url": "/care/diet-feeding/", "label": "Review feeding"},
+      {"title": "Tank setup", "text": "Provide stable heat, gentle filtration, cover and usable swimming space.", "url": "/care/tank-setup/", "label": "Review aquarium setup"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "What is the average adult betta size?", "answer": "Many adult domestic Betta splendens have bodies around the species scale represented by FishBase's 6.5 cm maximum total-length record, but fin form and Giant ancestry create variation. State the measurement method whenever quoting a size.", "sources": [1, 3]},
+      {"question": "Does tail length count as body size?", "answer": "Not in standard length. Standard length stops at the caudal-fin base, while total length includes the tail. Long ornamental fins can therefore change total length without changing body length."},
+      {"question": "At what age is a betta full grown?", "answer": "There is no exact age for every domestic line. Growth slows with maturity, and seller age is often uncertain. Use repeated measurements and body condition instead of one calendar cutoff."},
+      {"question": "Will a small tank stunt a betta?", "answer": "Do not use possible stunting as the only welfare test. Inadequate space can make heat, waste and enrichment harder to manage. Provide a suitable aquarium and judge growth alongside water quality, behavior and body condition.", "sources": [5]},
+      {"question": "Can overfeeding make a betta grow faster?", "answer": "Overfeeding can cause abdominal distension and degrade water quality; it is not a safe growth method. Feed a complete diet in portions the fish consumes and monitor body condition."}
+    ]},
+    {"type": "sources", "heading": "Sources and evidence limits", "intro": "FishBase provides a species-level maximum, and controlled research explains development and Giant genetics. None supplies a guaranteed home-aquarium growth chart.", "items": [
+      {"id": 1, "title": "Betta splendens species summary", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/betta-splendens.html"},
+      {"id": 2, "title": "Care and Use of Siamese Fighting Fish for Research", "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"},
+      {"id": 3, "title": "Genome-wide association analysis identifies loci associated with giant body size in Betta splendens", "publisher": "Zoological Research", "url": "https://www.zoores.ac.cn/en/article/id/6e38f679-2975-4e96-8bfa-84c18e51fa05"},
+      {"id": 4, "title": "Larval Development of Siamese Fighting Fish", "publisher": "Acta Natura et Scientia", "url": "https://actanatsci.com/makale/3330"},
+      {"id": 5, "title": "Life beyond a jar: tank size and furnishings in Siamese fighting fish", "publisher": "Animal Welfare / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704571/"}
+    ]}
+  ]
+}

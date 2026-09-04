@@ -1,0 +1,180 @@
+{
+  "url": "/behavior/flaring-triggers/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Why Do Betta Fish Flare? Triggers, Mirrors and Stress Signs | BettaFish.website",
+  "description": "Understand why bettas flare, how reflections and other fish trigger displays, and why mirrors should not be prescribed as daily exercise.",
+  "h1": "Why Do Betta Fish Flare? Triggers, Mirrors and Stress Signs",
+  "eyebrow": "Behavior and welfare",
+  "intro": "A flaring betta spreads its fins and opens its opercula, making the head and body appear larger during a visual display. Bettas commonly flare at another fish or a reflection, but the meaning depends on context. A brief display is not a complete health test, and persistent flaring should prompt an environmental check rather than a mandatory workout.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Do not prescribe daily mirror exercise",
+      "text": {
+        "text": "A mirror is an aggression stimulus, not a proven treatment for boredom, constipation or weak muscles. Controlled studies show that mirror challenges can produce threat displays and increase corticosteroids and androgens. There is no evidence-based universal schedule that makes repeated mirror exposure necessary for pet-betta health.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "Common flaring contexts",
+      "caption": "Use the trigger and the fish's recovery—not the flare alone—to guide your response",
+      "headers": ["Observed trigger", "Likely context", "Practical response"],
+      "rows": [
+        [
+          "Another male betta",
+          {"text": "A territorial or agonistic display can progress from fin spreading and opercular opening toward attack behavior.", "sources": [1, 2]},
+          "Keep males physically separated and block continuous visual contact."
+        ],
+        [
+          "Reflection in tank glass",
+          {"text": "A mirror image is widely used in research because it reliably elicits aggressive behavior, although individual responses vary.", "sources": [1, 3]},
+          "Reduce room-to-tank contrast, reposition lighting or add an opaque background if the response persists."
+        ],
+        [
+          "A hand, object or sudden movement",
+          "The fish may be responding to a moving visual stimulus; the flare alone cannot prove whether it perceives a rival or threat.",
+          "Move slowly and remove the recurring stimulus if the fish remains activated."
+        ],
+        [
+          "Another species or a female betta",
+          {"text": "Social context can include territorial, aggressive or courtship-related behavior, and females can also show aggression.", "sources": [2, 4]},
+          "Judge compatibility from the full interaction and provide separation before chasing or injury occurs."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What happens during a flare?",
+      "paragraphs": [
+        {
+          "text": "Threat displays in Betta splendens include distending unpaired fins, opening the opercula and moving the caudal region. In controlled aggression challenges, displays can escalate to attempted bites or strikes. Mirror responses resemble important parts of a live social challenge, although a mirror does not reproduce every cue or outcome of a real encounter.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "text": "Flaring intensity is not identical among bettas. A 2025 mirror-assay study found substantial differences among ornamental males: some showed the full threat-and-attack sequence, some displayed without attacking and some showed no aggressive behavior. A betta that rarely flares is therefore not automatically sick or deficient.",
+          "sources": [3]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "What to do when a betta keeps flaring",
+      "intro": "Persistent display at the same location usually calls for removing or changing the trigger.",
+      "steps": [
+        {
+          "title": "Identify the exact trigger",
+          "text": "Note where and when the flare begins. Check for a neighboring fish, reflective side panel, bright tank light in a dark room, moving object or repeated disturbance."
+        },
+        {
+          "title": "Break continuous visual contact",
+          "text": "Use an opaque divider between bettas. For glass reflections, adjust external and aquarium lighting or add a background rather than leaving the fish to confront the image."
+        },
+        {
+          "title": "Allow recovery",
+          "text": "After the trigger is removed, look for a return to ordinary swimming, exploration, resting and feeding. Do not immediately repeat the stimulus to test the fish again."
+        },
+        {
+          "title": "Check husbandry",
+          "text": "Test temperature, ammonia, nitrite, nitrate and pH, and inspect for fin damage or abnormal breathing. Flaring can occur alongside an unrelated water-quality or health problem."
+        },
+        {
+          "title": "Escalate persistent welfare concerns",
+          "text": "Seek qualified aquatic-veterinary guidance when behavior changes persist or are accompanied by injury, appetite loss, breathing difficulty, abnormal swimming or other clinical signs."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Is a mirror ever useful?",
+      "paragraphs": [
+        {
+          "text": "Researchers use mirrors as controlled aggression tests because they prevent direct fight injuries and reliably evoke measurable displays. That research purpose does not establish a daily enrichment requirement for a home aquarium.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "text": "If a keeper briefly presents a mirror for observation, the fish's response should determine when it ends: remove it at signs of intense or sustained pursuit and do not leave it attached to the tank. A mirror should never be used to treat constipation, replace appropriate habitat enrichment or prove that a fish is healthy."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related behavior and care guides",
+      "cards": [
+        {
+          "title": "Compatible tank mates",
+          "text": "Plan separation and visual barriers before adding any other animal.",
+          "url": "/compatibility/tank-mates/",
+          "label": "Review tank-mate guidance"
+        },
+        {
+          "title": "Water parameters",
+          "text": "Check the aquarium baseline when behavior changes persist.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Why does my betta flare at me?",
+          "answer": "Your movement, silhouette or an object you carry may act as a visual trigger, but the flare alone cannot reveal exactly how the fish interprets you. Approach slowly and reduce the recurring stimulus if the display is sustained."
+        },
+        {
+          "question": "Do female betta fish flare?",
+          "answer": "Yes. Female Betta splendens can show aggressive and social displays, although response intensity varies by individual and context. Do not use fin length, sex or the absence of flaring as a complete behavior assessment.",
+          "sources": [4]
+        },
+        {
+          "question": "Is flaring good exercise for a betta?",
+          "answer": "Flaring involves physical and endocrine activity, but research does not establish a required daily mirror workout or a health benefit from an exact duration. Mirrors are aggression stimuli, so avoid prolonged or repeated exposure.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "question": "Does flaring help a constipated betta?",
+          "answer": "There is no reliable evidence that provoking a flare treats constipation. A swollen abdomen or reduced stool can have several causes; check diet and water quality, avoid unproven remedies and seek qualified help if signs persist or worsen."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Mirror studies establish that reflections provoke measurable aggression-related behavior and physiology. They do not prove that scheduled mirror exposure improves the health of pet bettas.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Androgens and corticosteroids increase in response to mirror images and interacting conspecifics in males of the Siamese fighting fish Betta splendens",
+          "publisher": "Hormones and Behavior / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33984609/"
+        },
+        {
+          "id": 2,
+          "title": "Behavioral and endocrine responses to noninteractive live and video conspecifics in males of the Siamese fighting fish",
+          "publisher": "Current Zoology / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10449422/"
+        },
+        {
+          "id": 3,
+          "title": "High variability in aggression and habituation to the mirror assay in ornamental Siamese fighting fish Betta splendens",
+          "publisher": "Acta Ethologica",
+          "url": "https://link.springer.com/article/10.1007/s10211-025-00469-9"
+        },
+        {
+          "id": 4,
+          "title": "Artificial selection for male winners in the Siamese fighting fish Betta splendens correlates with high female aggression",
+          "publisher": "Frontiers in Zoology / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6686523/"
+        }
+      ]
+    }
+  ]
+}

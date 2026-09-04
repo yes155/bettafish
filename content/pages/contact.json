@@ -1,0 +1,19 @@
+{
+  "url": "/contact/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Contact BettaFish.website",
+  "description": "Contact information for editorial questions, corrections and privacy requests concerning BettaFish.website.",
+  "h1": "Contact BettaFish.website",
+  "eyebrow": "Editorial contact",
+  "intro": "Use the current editorial mailbox for corrections, accessibility problems, privacy requests and general questions about BettaFish.website.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "callout", "tone": "evidence", "heading": "Email the editorial team", "text": "The public contact address for BettaFish.website is bettafish.website@gmail.com.", "url": "mailto:bettafish.website@gmail.com", "label": "Email BettaFish.website"},
+    {"type": "prose", "heading": "What this channel covers", "paragraphs": [
+      "Readers can report factual errors, broken pages, accessibility problems and privacy concerns. Include the affected URL and enough detail for the issue to be reproduced or checked.",
+      "The contact channel will not provide individualized veterinary diagnosis or emergency treatment instructions."
+    ]}
+  ]
+}

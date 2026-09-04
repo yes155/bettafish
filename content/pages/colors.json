@@ -1,0 +1,93 @@
+{
+  "url": "/biology-genetics/colors/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Colors and Patterns: An Evidence-Based Guide | BettaFish.website",
+  "description": "Identify common betta colors and patterns while separating visible trade names from the more complex genetics beneath them.",
+  "h1": "Betta Fish Colors and Patterns: What the Names Really Mean",
+  "eyebrow": "Biology and genetics",
+  "intro": "Domestic Betta splendens can show red, yellow, orange, black, pale, blue-green and metallic color effects in solid or patterned combinations. These labels describe appearance, not separate species, and a fish's visible color does not reveal its complete genotype.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Genetics update: September 2026",
+      "text": {
+        "text": "Genome-wide research has linked selected Betta color traits to particular regions and candidate genes, including red-versus-yellow and blue-versus-green differences. The same research also shows that domestic appearance is genetically complex. This guide therefore avoids fixed inheritance recipes based only on a photograph.",
+        "sources": [1, 2]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "How are common betta color terms used?",
+      "caption": "Appearance terms overlap; they are not a complete genetic classification",
+      "headers": ["Term", "What it usually describes", "Important limit"],
+      "rows": [
+        ["Red, yellow and orange", {"text": "Warm body or fin colors influenced by carotenoid- and pteridine-related pigment biology and domesticated variants.", "sources": [1]}, "Lighting, diet, age and mixed patterning can change how the hue looks."],
+        ["Blue, green and turquoise", {"text": "Structural color produced when light interacts with reflective cells and their crystal organization.", "sources": [1, 3]}, "A shop label is a visual category, not a genetic test."],
+        ["Black or dark", "Heavy dark pigmentation over much of the visible body or fins.", "Dark areas may coexist with iridescence or patterned loss of pigment."],
+        ["White, pale or cellophane", "Low visible pigment, translucent tissue, or opaque pale coverage depending on the line.", "These terms are not interchangeable and do not establish albinism."],
+        ["Metallic or dragon-type", {"text": "Dense reflective coverage selected in domestic lines.", "sources": [1, 2]}, "Coverage and naming vary among breeders and show standards."],
+        ["Multicolor", "More than one visible color without a narrower agreed pattern label.", "It is a useful description, not one inheritance mode."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is the difference between color and pattern?",
+      "paragraphs": [
+        {"text": "Color names describe the hues and reflective effects that are visible. Pattern names describe where those colors appear. A red-and-white fish, for example, might be called bicolor, butterfly, marble or koi-like depending on the distribution and the convention being used."},
+        {"text": "Common pattern labels include solid, bicolor, butterfly, marble, koi, grizzle and mask. Boundaries vary across sellers, breeders and competition standards, so the most reliable record is a dated photograph plus a plain description of the body and fin markings."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How do bettas produce visible color?",
+      "paragraphs": [
+        {"text": "Betta skin contains several types of color-producing and light-reflecting cells. Pigment cells contribute dark, red and yellow tones, while iridophores create structural blue-green and metallic effects by reflecting light.", "sources": [1, 3]},
+        {"text": "Visible color depends on the number, arrangement and activity of those cells and on how their layers interact. It also depends on illumination and viewing angle, which is why a blue-green fish can look different in two photographs without undergoing a biological color change.", "sources": [1, 3]}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can appearance predict a betta's genes?",
+      "paragraphs": [
+        {"text": "Appearance alone cannot reveal every color allele carried by a betta. The 2022 Betta phenotypic-diversity study mapped several traits, but it did not turn commercial color names into a complete single-gene chart.", "sources": [1]},
+        {"text": "Breeding records, known parentage and genetic testing provide stronger evidence than color labels. Even closely similar fish can produce varied offspring because multiple loci, recombination and line history contribute to the result.", "sources": [1, 2]}
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related color and form guides",
+      "cards": [
+        {"title": "Why betta color changes", "text": "Separate gradual pattern change from sudden changes that require a health check.", "url": "/biology-genetics/color-change/", "label": "Review color change"},
+        {"title": "Betta species", "text": "Learn why domestic color varieties are not separate species.", "url": "/biology-genetics/species/", "label": "Compare Betta species"},
+        {"title": "Betta tail types", "text": "Keep fin-shape terminology separate from color and pattern labels.", "url": "/biology-genetics/tail-types/", "label": "Compare tail types"}
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "What is the rarest betta color?", "answer": "There is no stable, evidence-based rarest-color ranking. Availability changes by region and breeding line, while labels such as purple, albino and true green are used inconsistently. Ask for clear photographs, parentage and the breeder's definition instead of paying for a rarity claim."},
+        {"question": "Are koi bettas a separate species?", "answer": "No. Koi is a domestic pattern label used for multicolored Betta splendens, often with marble-type patterning. It does not describe a separate species."},
+        {"question": "Are blue and green bettas made by blue and green pigment?", "answer": "Much of the blue-green effect is structural color produced by reflective cells, not a simple layer of matching pigment. Crystal organization and viewing angle influence the visible hue.", "sources": [1, 3]},
+        {"question": "Can two solid-color bettas produce patterned fry?", "answer": "It is possible when the parents carry variants that are not obvious from their own appearance. A prediction requires line history and breeding records; color alone is insufficient."},
+        {"question": "Does a brighter color prove a betta is healthy?", "answer": "No. Color is only one observation and is affected by genetics, lighting and context. Judge welfare through water tests, temperature, appetite, breathing, swimming, body condition and changes over time."}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Genomic studies support the cell and candidate-gene discussion. Commercial pattern names remain descriptive conventions and should not be presented as a complete genetic system.",
+      "items": [
+        {"id": 1, "title": "The genetic architecture of phenotypic diversity in the Betta fish", "publisher": "Science Advances / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491723/"},
+        {"id": 2, "title": "The genetic basis of the Betta fish domestication process", "publisher": "Science Advances / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906746/"},
+        {"id": 3, "title": "Something Fishy about Siamese Fighting Fish", "publisher": "Cells", "url": "https://www.mdpi.com/2073-4409/11/11/1764"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "url": "/diseases/ich-treatment/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Suspected Betta Ich: Identification and Safe Treatment Planning | BettaFish.website",
+  "description": "Recognize signs consistent with freshwater ich, understand why confirmation matters and prepare a safe, case-specific treatment plan.",
+  "h1": "Suspected Betta Ich: Identification and Safe Treatment Planning",
+  "eyebrow": "Diseases and health",
+  "intro": "Freshwater ich is caused by Ichthyophthirius multifiliis and can progress quickly, especially when gills are affected. White spots raise concern, but treatment choice and duration should follow confirmation, the aquarium conditions and product-specific guidance.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Breathing changes make this urgent", "text": {"text": "Ich can affect the gills even when few external spots are visible. Rapid breathing, gasping, weakness, appetite loss or fast spread among fish calls for prompt contact with an aquatic veterinarian or fish-health professional.", "sources": [1, 2, 3]}},
+    {"type": "prose", "heading": "Signs consistent with freshwater ich", "paragraphs": [
+      {"text": "Typical signs include discrete white spots on the skin or fins, flashing or rubbing, increased mucus, clamped fins, reduced activity and appetite, and breathing changes. Pale fish or gill-focused infection can make the spots difficult to see.", "sources": [2, 3]},
+      {"text": "These observations support suspicion, not certainty. Merck and UF/IFAS describe diagnosis by microscopic examination of skin, fin or gill material. Other skin and gill problems can overlap in appearance.", "sources": [1, 2, 3]}
+    ]},
+    {"type": "table", "heading": "What to do while arranging guidance", "caption": "Containment and documentation steps that do not prescribe a drug or dose", "headers": ["Priority", "Action", "Reason"], "rows": [
+      ["Document", "Photograph spots and record breathing, appetite, behavior and the day each sign appeared.", "The timeline helps distinguish progression and supports a professional assessment."],
+      [{"text": "Test", "sources": [1, 4]}, "Measure temperature, ammonia, nitrite, nitrate and pH; verify filter and aeration operation.", "Environmental stress can worsen disease and changes what interventions are safe."],
+      [{"text": "Limit spread", "sources": [2]}, "Do not share nets, siphons or wet equipment with other aquariums; ask a professional whether moving the fish is appropriate.", "Ich can be transferred with fish, plants, substrate, water and equipment."],
+      ["Check all inhabitants", "Observe every fish rather than assuming only the visibly spotted fish matters.", "Exposure and gill infection may be present without obvious external spots."],
+      ["Get a plan", "Share tank volume, species, water results, invertebrates, plants and all products already used.", "Medication safety and product compatibility depend on the whole system."]
+    ]},
+    {"type": "prose", "heading": "Why the parasite lifecycle affects treatment", "paragraphs": [
+      {"text": "The visible feeding stage is protected within the fish's outer tissues. After leaving the fish, the organism forms a reproductive stage and later releases free-swimming infective stages. Treatments generally target exposed stages rather than the embedded visible stage.", "sources": [2, 3]},
+      {"text": "Because different stages can be present at once, disappearing spots do not by themselves prove that the aquarium is clear. Temperature influences lifecycle timing, but deliberately raising temperature is not universally safe and should not be treated as a stand-alone recipe.", "sources": [2, 3]}
+    ]},
+    {"type": "prose", "heading": "Choose treatment only after checking the system", "paragraphs": [
+      {"text": "Published fish-health references discuss several chemical options, but each has constraints. Species, water chemistry, tank volume, oxygenation, plants, invertebrates, filter media and previous products can affect safety and effectiveness.", "sources": [1, 2, 3]},
+      "Use only a product labeled for the species and system, calculate actual water volume, follow its current instructions, and do not combine active ingredients unless an aquatic veterinarian directs it. This draft intentionally does not supply a temperature, salt, copper, formalin or malachite-green protocol."
+    ]},
+    {"type": "steps", "heading": "Questions for the clinical plan", "steps": [
+      {"title": "Is the diagnosis sufficiently supported?", "text": "Ask whether microscopy or another examination is needed before selecting treatment."},
+      {"title": "Which animals and system are treated?", "text": "Clarify whether the display tank, a separate system or all exposed fish must be addressed."},
+      {"title": "What exact product and label apply?", "text": "Confirm active ingredients, contraindications, actual water volume, monitoring and water-change instructions."},
+      {"title": "How is oxygen and water quality protected?", "text": "Ask how temperature and treatment affect oxygenation, the biofilter and testing frequency."},
+      {"title": "What defines completion or failure?", "text": "Use the professional plan rather than stopping when spots disappear or switching products without reassessment."}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Do white spots always mean ich?", "answer": "No. They are a classic reason to suspect ich, but appearance can overlap with other problems and gill infection may be present without obvious spots. Microscopic confirmation is the stronger diagnostic method.", "sources": [1, 2, 3]},
+      {"question": "Should I use heat alone for suspected ich?", "answer": "Do not use a universal heat recipe. Temperature changes affect the fish, dissolved oxygen and parasite timing, and may be unsafe for other inhabitants or alternative diagnoses. Use the temperature range in a case-specific plan from an aquatic professional."},
+      {"question": "Can I combine salt and an ich medication?", "answer": "Do not combine treatments by default. Active ingredients and salinity can have additive risks, and the aquarium's plants, invertebrates, water chemistry and previous products matter. Follow one verified professional or labeled plan."}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft explains recognition and planning without a heat, salt or medication dose. It remains unpublished until its assigned aquatic veterinarian approves the exact version.", "items": [
+      {"id": 1, "title": "Disorders and Diseases of Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish"},
+      {"id": 2, "title": "Parasitic Diseases of Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish"},
+      {"id": 3, "title": "Ichthyophthirius multifiliis (White Spot) Infections in Fish", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/FA006"},
+      {"id": 4, "title": "Fish Health Management and Welfare", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/topics/fish-health-management"}
+    ]}
+  ]
+}

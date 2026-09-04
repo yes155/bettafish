@@ -1,0 +1,52 @@
+{
+  "url": "/diseases/fin-rot/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Betta Fin Damage and Suspected Fin Rot: Safe Next Steps | BettaFish.website",
+  "description": "Learn how to document worsening betta fin damage, check environmental causes and know when suspected fin rot needs veterinary assessment.",
+  "h1": "Betta Fin Damage and Suspected Fin Rot: Safe Next Steps",
+  "eyebrow": "Diseases and health",
+  "intro": "A torn or receding fin does not identify one cause. Compare dated photos, test the water, remove confirmed hazards and seek fish-health guidance when damage progresses or the fish shows systemic signs.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Do not select an antibiotic from fin appearance alone", "text": {"text": "Bacterial disease can require targeted treatment, but diagnosis may need examination and laboratory work. Unnecessary or mismatched antibiotics can fail to address the cause and can disrupt the aquarium system. Ask an aquatic veterinarian about a progressing lesion or suspected infection.", "sources": [2, 3]}},
+    {"type": "table", "heading": "Fin changes worth documenting", "caption": "Visual clues help describe progression but do not confirm a cause", "headers": ["Observation", "Questions to ask", "Next step"], "rows": [
+      ["A new clean split or missing section", "Is there sharp decor, strong intake suction, net injury or aggression?", "Photograph it, inspect the environment and separate confirmed aggression safely."],
+      ["Edges continue to recede across dated photos", "Is the loss progressing after the immediate hazard is removed?", "Test water and arrange fish-health guidance rather than repeatedly changing treatments."],
+      [{"text": "Redness, swelling, ulceration or tissue loss near the body", "sources": [1, 2]}, "Are there appetite, breathing, swimming or behavior changes?", "Seek prompt veterinary assessment."],
+      [{"text": "More than one fish develops lesions", "sources": [1, 4]}, "Was there a new animal, shared equipment or water-quality event?", "Treat it as a system-level problem and contact a fish-health professional."],
+      ["Stable transparent tissue at the edge", "Does the edge remain stable while the fish behaves and eats normally?", "Continue monitoring; do not promise a fixed recovery time from appearance alone."]
+    ]},
+    {"type": "steps", "heading": "Safe first actions", "intro": "Stabilize confirmed husbandry problems without making many simultaneous changes.", "steps": [
+      {"title": "Take baseline photographs", "text": "Use the same lighting and angle each day so you can distinguish progression from normal fin posture."},
+      {"title": "Test the water", "text": "Record temperature, ammonia, nitrite, nitrate and pH, and verify that the heater and filter are operating."},
+      {"title": "Correct confirmed hazards", "text": "Use conditioned, temperature-matched water for an appropriate partial change when tests require it; remove sharp decor and stop documented aggression."},
+      {"title": "Avoid treatment stacking", "text": "Do not combine salt, antiseptics or antibiotics because several internet pages recommend different products."},
+      {"title": "Escalate based on progression", "text": "Contact an aquatic veterinarian if tissue loss continues, reaches the body, or occurs with ulcers, swelling, appetite loss, breathing changes or lethargy."}
+    ]},
+    {"type": "prose", "heading": "Why water quality and sanitation matter", "paragraphs": [
+      {"text": "Fish live in continuous contact with their environment. Merck and UF/IFAS guidance emphasize water quality, sanitation, nutrition and stress management as foundations of fish-health prevention and recovery.", "sources": [1, 4]},
+      {"text": "Correcting a measured water problem does not prove that a lesion is bacterial or that no additional care is needed. If fin loss keeps advancing after the environment is stabilized, the fish needs a more specific assessment.", "sources": [2, 3]}
+    ]},
+    {"type": "prose", "heading": "Medication and prognosis need case-specific review", "paragraphs": [
+      {"text": "The choice of antimicrobial, route and duration depends on the suspected organism, lesion severity, fish condition and aquarium system. Merck describes culture and susceptibility testing as part of bacterial-disease workups and cautions against indiscriminate antimicrobial use.", "sources": [2, 3]},
+      "A fixed promise that fins will regrow completely within a set number of weeks is not responsible. Outcome depends on the cause, depth and location of tissue injury, whether damage is still active, and the fish's overall health."
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "How can I tell a torn fin from fin rot?", "answer": "Appearance alone may not settle the question. A single clean split after a known injury differs from progressive tissue loss across dated photos, but trauma and infection can coexist. Use the timeline, water results and clinical signs together."},
+      {"question": "Should I use aquarium salt for damaged fins?", "answer": "Do not treat salt as an automatic or risk-free remedy. Salinity changes affect fish, plants, invertebrates and the treatment system. Ask the assigned veterinarian or another aquatic professional whether it is appropriate for the diagnosed problem and exact setup."},
+      {"question": "When is fin damage urgent?", "answer": "Seek prompt help when damage progresses quickly, reaches the fin base or body, or appears with ulcers, bleeding, swelling, loss of appetite, breathing difficulty, loss of balance or marked lethargy.", "sources": [1, 2]}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft contains no antibiotic or salt dose. It remains unpublished until its assigned aquatic veterinarian approves the exact version.", "items": [
+      {"id": 1, "title": "Disorders and Diseases of Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish"},
+      {"id": 2, "title": "Bacterial Diseases of Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish"},
+      {"id": 3, "title": "Management of Aquarium Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 4, "title": "Fish Health Management and Welfare", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/topics/fish-health-management"}
+    ]}
+  ]
+}

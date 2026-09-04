@@ -1,0 +1,58 @@
+{
+  "url": "/diseases/columnaris-treatment/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Suspected Betta Columnaris: Urgent Recognition and Planning | BettaFish.website",
+  "description": "Recognize signs consistent with columnaris, correct measured environmental problems and seek diagnosis-led antimicrobial guidance.",
+  "h1": "Suspected Betta Columnaris: Urgent Recognition and Planning",
+  "eyebrow": "Diseases and health",
+  "intro": "Columnaris is a bacterial disease caused by Flavobacterium columnare. Pale mouth or gill material, skin lesions and rapid tissue damage can raise suspicion, but water molds, trauma and other bacteria can look similar. Acute decline requires prompt diagnosis because virulence varies and control can become difficult.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Rapid tissue or breathing change is urgent", "text": {"text": "Seek prompt aquatic-veterinary help for fast-expanding pale or gray lesions, mouth erosion, gill damage, rapid breathing, weakness or deaths. MSD notes that columnaris mortality can be acute and that the disease may be difficult to control by the time it is visible.", "sources": [1]}},
+    {"type": "table", "heading": "Which signs can resemble columnaris?", "caption": "Clinical differentials require examination", "headers": ["Observation", "Possible significance", "Why appearance is insufficient"], "rows": [
+      ["Creamy or pale gill material", {"text": "Columnaris can produce creamy material on infected gills.", "sources": [1]}, "Gill mucus, parasites and other bacteria can appear similar."],
+      ["Pale mouth lesion", "Columnaris may affect the mouth and head.", "Trauma and water molds can also create white or gray tissue."],
+      ["Gray-white skin patch or dorsal lesion", "External tissue infection can progress rapidly.", "A saddle-like shape is not a laboratory diagnosis."],
+      ["Ulceration or fin erosion", "Advanced bacterial damage may expose deeper tissue.", "Fin rot, injury and other infections overlap."],
+      ["Wet mount and culture", {"text": "Typical organisms on a wet mount can support a presumptive diagnosis; culture and identification strengthen bacterial diagnosis and susceptibility testing guides antimicrobial choice.", "sources": [1, 2]}, "Requires suitable sampling and trained interpretation."]
+    ]},
+    {"type": "steps", "heading": "What should you do when columnaris is suspected?", "steps": [
+      {"title": "Document and isolate equipment", "text": "Photograph lesions and stop sharing nets, siphons or water with other aquariums."},
+      {"title": "Test environmental conditions", "text": "Measure temperature, ammonia, nitrite, nitrate, pH and, if available, dissolved oxygen; verify filter and aeration."},
+      {"title": "Reduce handling", "text": "Do not scrape lesions, swab the mouth at home or repeatedly net a weak fish."},
+      {"title": "Arrange diagnosis", "text": "Ask an aquatic veterinarian about wet mount, culture and susceptibility testing, especially when disease is progressing or more than one fish is affected."},
+      {"title": "Use one clinical treatment plan", "text": "Follow the exact prescribed or labeled drug, route, duration, monitoring and water-change instructions."}
+    ]},
+    {"type": "prose", "heading": "Why should antibiotics be selected after diagnosis?", "paragraphs": [
+      {"text": "Fish bacterial outbreaks often follow poor water quality, organic loading, handling, temperature change or low oxygen. Correcting those measured problems supports treatment but does not identify the bacterium.", "sources": [1]},
+      {"text": "MSD recommends bacterial isolation and sensitivity testing before antimicrobial use when possible. Bath antibiotics can have limited efficacy, damage nitrifying bacteria and contribute to environmental antimicrobial exposure, while a sick fish may not eat medicated food reliably.", "sources": [1, 2]}
+    ]},
+    {"type": "prose", "heading": "Should the tank be cooled to treat columnaris?", "paragraphs": [
+      {"text": "Do not lower a tropical betta aquarium to a universal temperature from an online recipe. Temperature can affect bacterial growth, fish immunity and dissolved oxygen, but an abrupt or excessive change adds physiologic stress."},
+      {"text": "Report the current verified temperature and recent changes to the veterinarian. If temperature adjustment belongs in the plan, make it gradually within a range the clinician selects for the case."}
+    ]},
+    {"type": "cards", "heading": "Related health checks", "cards": [
+      {"title": "Disease symptom matrix", "text": "Compare columnaris-like lesions with water mold, trauma and other disease patterns.", "url": "/diseases/diagnostic-matrix/", "label": "Review symptom patterns"},
+      {"title": "Fin deterioration", "text": "Distinguish a descriptive fin problem from a confirmed bacterial cause.", "url": "/diseases/fin-rot/", "label": "Review fin damage"},
+      {"title": "Water parameters", "text": "Record the aquarium conditions that affect clinical planning.", "url": "/care/water-parameters/", "label": "Test the aquarium"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Is every white mouth patch columnaris?", "answer": "No. Trauma, water molds and other infections can resemble columnaris. Wet mount, bacterial culture and clinical context provide stronger evidence than appearance alone.", "sources": [1, 2]},
+      {"question": "Is columnaris a fungus?", "answer": "No. Columnaris is caused by the bacterium Flavobacterium columnare, even though some lesions can look cottony.", "sources": [1]},
+      {"question": "Is columnaris contagious?", "answer": "The bacterium can spread through an aquatic system and shared wet equipment. Isolate equipment and obtain a system-level control plan rather than treating only the visible spot."},
+      {"question": "Does aquarium salt cure columnaris?", "answer": "Do not rely on salt as a cure or improvise a concentration. Treatment depends on diagnosis, the strain, water chemistry, fish condition and a case-specific clinical plan."},
+      {"question": "Can I combine two antibiotics?", "answer": "Do not combine antimicrobials unless an aquatic veterinarian directs it. Drug selection, route and compatibility should follow diagnosis and susceptibility information when available."}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft removes the supplied fixed cooling and dual-antibiotic protocol. It remains unpublished until the assigned aquatic veterinarian approves this exact version.", "items": [
+      {"id": 1, "title": "Bacterial Diseases of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish"},
+      {"id": 2, "title": "Management of Aquarium Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 3, "title": "Columnaris Disease in Fish: a Review with Emphasis on Bacterium-Host Interactions", "publisher": "Veterinary Research / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3648307/"}
+    ]}
+  ]
+}

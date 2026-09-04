@@ -1,0 +1,183 @@
+{
+  "url": "/behavior/unhappy-betta/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Signs of an Unhappy Betta: Behavior Changes and Care Checks | BettaFish.website",
+  "description": "Learn how to assess persistent betta behavior changes, check water and equipment, and recognize signs that need aquatic-veterinary help.",
+  "h1": "Signs of an Unhappy Betta: Behavior Changes and Care Checks",
+  "eyebrow": "Behavior and welfare",
+  "intro": "You cannot diagnose a betta's happiness or a specific disease from one behavior. The useful warning signal is a persistent change from that fish's usual activity, appetite, breathing or posture, especially when several changes appear together. Start with observation and husbandry checks, then escalate concerning signs instead of guessing a diagnosis.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "Swimming activity and resting behavior can change with aquarium size and furnishings, but no single action proves that a betta is happy, stressed or ill. Compare the fish with its own baseline and check water quality, equipment and physical signs before assigning a cause.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "What common behavior changes can mean",
+      "caption": "Treat each observation as a prompt to gather more evidence, not as a diagnosis",
+      "headers": ["Observation", "What it can tell you", "First check"],
+      "rows": [
+        [
+          "Less swimming or more hiding",
+          {"text": "A persistent reduction in activity can accompany environmental stress or illness, but resting and shelter use also occur in normal behavior.", "sources": [1, 2, 3]},
+          "Compare with the fish's normal schedule; check temperature, water chemistry, flow and appetite."
+        ],
+        [
+          "Repeated swimming along the glass",
+          "Possible triggers include a reflection, a visible neighboring fish, recent relocation, exposed surroundings or another environmental disturbance.",
+          "Observe the exact location and timing; reduce reflections and visual triggers before assuming the tank is too small."
+        ],
+        [
+          "Clamped or held-close fins",
+          {"text": "A new, persistent fin-posture change can add weight to other signs but does not identify one cause by itself.", "sources": [3]},
+          "Inspect the body and fins; check breathing, water quality and whether the posture resolves during normal swimming."
+        ],
+        [
+          "Reduced appetite",
+          {"text": "Not eating is a general illness sign in fish and becomes more concerning when it persists or occurs with breathing, swimming or body changes.", "sources": [3]},
+          "Confirm food freshness and routine, remove leftovers, test the water and watch for additional signs."
+        ],
+        [
+          "Color or stripe changes",
+          {"text": "Color changes can occur for more than one reason. A sudden change with lethargy, injury or abnormal breathing deserves prompt attention.", "sources": [3]},
+          "Check the full fish under ordinary light and compare with recent photos rather than relying on memory."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Does glass surfing mean a betta is unhappy?",
+      "paragraphs": [
+        {
+          "text": "Repeated swimming against one pane is often called glass surfing. It describes a movement pattern, not a diagnosis. Reflections, nearby fish, a new setup, strong room-to-tank lighting contrast or an exposed environment can all be relevant. Tank size and furnishing can also affect Betta splendens activity, but the behavior alone cannot identify the cause.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "Note when and where the behavior happens. Block a reflection or neighboring fish, soften the lighting contrast and provide safe cover. If the fish also shows appetite loss, abnormal breathing, injury or loss of balance, move beyond environmental troubleshooting and seek qualified advice."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to check a betta after a behavior change",
+      "intro": "Use the same sequence each time so that one change does not lead to an unsupported treatment.",
+      "steps": [
+        {
+          "title": "Observe before disturbing the tank",
+          "text": "Watch from a short distance. Record swimming, resting location, breathing, appetite and the time of day. Do not tap the glass or repeatedly provoke a response."
+        },
+        {
+          "title": "Test the environment",
+          "text": "Measure water temperature and test ammonia, nitrite, nitrate and pH. Check the heater, filter flow and any recent maintenance, feeding or stocking change."
+        },
+        {
+          "title": "Inspect the whole fish",
+          "text": "Look for fin damage, spots, swelling, wounds, weight loss, unusual color change, rapid breathing or difficulty staying upright. A cluster is more informative than one isolated action."
+        },
+        {
+          "title": "Correct confirmed husbandry problems",
+          "text": "Use test results and the established care plan. Condition replacement water, match temperature safely and avoid medication when no disease has been identified."
+        },
+        {
+          "title": "Escalate urgent or persistent signs",
+          "text": "Contact an aquatic veterinarian or qualified fish-health professional for breathing difficulty, inability to remain upright, major swelling, open sores, rapid decline, prolonged appetite loss or a behavior change that does not resolve after confirmed husbandry corrections."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What does normal betta behavior look like?",
+      "paragraphs": [
+        {
+          "text": "A useful baseline includes the individual fish's ordinary feeding response, exploration, resting places, breathing pattern and ability to swim and hold position. Bettas differ, and activity can change with time of day and the environment. Research comparing Betta splendens housing conditions found that tank size and furnishings affected swimming and resting, so context matters.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "Bright color, owner-directed movement or a bubble nest can occur in a healthy fish, but none is a complete health certificate. Likewise, brief hiding or rest does not prove unhappiness. Track sustained departures from the fish's own pattern and look for corroborating physical signs."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related care checks",
+      "cards": [
+        {
+          "title": "Betta water parameters",
+          "text": "Use measured chemistry and temperature to investigate a behavior change.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Betta filtration",
+          "text": "Check that the filter supports water quality without creating excessive flow.",
+          "url": "/care/filtration/",
+          "label": "Review filtration"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How can I tell if my betta is unhappy?",
+          "answer": "You cannot measure happiness from one action. Look for a persistent change from the fish's normal activity, appetite, breathing, posture or appearance, then test the aquarium and assess whether several signs occur together."
+        },
+        {
+          "question": "Is a bubble nest proof that a betta is happy?",
+          "answer": "No. Bubble-nest building is reproductive behavior and can vary among individuals and situations. Its presence or absence does not replace water tests, body-condition checks or observation of appetite and breathing."
+        },
+        {
+          "question": "Why is my betta lying on the bottom?",
+          "answer": "A betta may rest on a surface, but persistent bottom lying can also occur with an environmental or health problem. Check the time of day, responsiveness, breathing, appetite, balance, temperature and water chemistry. Seek help if the fish cannot resume normal swimming or has other concerning signs.",
+          "sources": [3]
+        },
+        {
+          "question": "Should I medicate a betta that is hiding?",
+          "answer": "Not from hiding alone. First test the water, check temperature and equipment, review recent changes and inspect for additional signs. Medication without a supported diagnosis can delay the correct response."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Housing studies show that environment affects Betta splendens behavior, while veterinary guidance treats behavior change as one part of a broader health assessment. These sources do not provide a test for a fish's emotional state.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Life beyond a jar: Effects of tank size and furnishings on the behaviour and welfare of Siamese fighting fish",
+          "publisher": "Animal Welfare / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704571/"
+        },
+        {
+          "id": 2,
+          "title": "Life in a fishbowl: Space and environmental enrichment affect behaviour of Betta splendens",
+          "publisher": "Animals / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936361/"
+        },
+        {
+          "id": 3,
+          "title": "Routine Health Care of Fish",
+          "publisher": "MSD Veterinary Manual",
+          "url": "https://www.msdvetmanual.com/all-other-pets/fish/routine-health-care-of-fish"
+        },
+        {
+          "id": 4,
+          "title": "Betta splendens: A review of husbandry, care and research applications",
+          "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+url,risk_class,review_interval,status,required_reviewer,last_reviewed,next_review_due
+/care/water-parameters/,animal-welfare,quarterly,approved,Kate Barrington,2026-09-01,2026-12-01
+/care/diet-feeding/,animal-welfare,quarterly,approved,Kate Barrington,2026-09-01,2026-12-01
+/care/filtration/,animal-welfare,quarterly,approved,Kate Barrington,2026-09-01,2026-12-01
+/biology-genetics/lifespan/,animal-welfare,yearly,approved,Kate Barrington,2026-09-01,2027-09-01
+/biology-genetics/tail-types/,ordinary,yearly,approved,Kate Barrington,2026-09-01,2027-09-01
+/compatibility/tank-mates/,animal-welfare,quarterly,approved,Kate Barrington,2026-09-01,2026-12-01
+/diseases/,high-risk-pet-health,monthly,clinical-review-pending,Robert Martinez DVM,,
+/diseases/diagnostic-matrix/,high-risk-pet-health,monthly,clinical-review-pending,Robert Martinez DVM,,
+/diseases/fin-rot/,high-risk-pet-health,monthly,clinical-review-pending,Robert Martinez DVM,,
+/diseases/ich-treatment/,high-risk-pet-health,monthly,clinical-review-pending,Robert Martinez DVM,,
+/compatibility/female-sorority/,high-risk-pet-health,quarterly,approved,Kate Barrington,2026-09-01,2026-12-01
+/health-disclaimer/,high-risk-pet-health,quarterly,draft,owner-and-reviewer,,
+/reviewers/robert-martinez/,high-risk-pet-health,yearly,profile-verified,site-owner,2026-09-01,2027-09-01
+/care/tank-setup/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/maintenance/water-change/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/care/indian-almond-leaves/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/care/heaters-calibration/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/aquascaping/fin-safe-plants/,animal-welfare,yearly,editorial-review-pending,Kate Barrington,,
+/sensory/light-requirements/,animal-welfare,yearly,editorial-review-pending,Kate Barrington,,
+/diseases/dropsy-treatment/,high-risk-pet-health,monthly,clinical-review-pending,"Robert Martinez, DVM",,
+/diseases/velvet-treatment/,high-risk-pet-health,monthly,clinical-review-pending,"Robert Martinez, DVM",,
+/diseases/columnaris-treatment/,high-risk-pet-health,monthly,clinical-review-pending,"Robert Martinez, DVM",,
+/anatomy/swim-bladder-treatment/,high-risk-pet-health,monthly,clinical-review-pending,"Robert Martinez, DVM",,
+/behavior/unhappy-betta/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/anatomy/betta-fish-sleep/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/behavior/hearing-music/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/behavior/flaring-triggers/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/breeding/pairing-fry-care/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/breeding/gender-identification/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/origins/wild-habitats/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/morphology/growth-rate-size/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/biology-genetics/species/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/biology-genetics/colors/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/biology-genetics/color-change/,animal-welfare,quarterly,editorial-review-pending,Kate Barrington,,
+/biology-genetics/plakat-betta/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
+/biology-genetics/giant-betta/,animal-welfare,yearly,editorial-review-pending,Kate Barrington,,
+/economics/betta-fish-price/,ordinary,quarterly,editorial-review-pending,Kate Barrington,,

@@ -1,0 +1,36 @@
+{
+  "url": "/biology-genetics/",
+  "page_type": "hub",
+  "status": "draft",
+  "indexable": false,
+  "title": "Betta Fish Biology, Lifespan and Tail Types | BettaFish.website",
+  "description": "Learn how betta biology, lifespan and fin morphology connect to swimming, behaviour and care needs.",
+  "h1": "Biology explains the care behind the checklist",
+  "eyebrow": "Biology and genetics",
+  "intro": "Lifespan and dramatic fin shapes are not decorative trivia. They affect how a betta swims, rests, ages and responds to its environment.",
+  "updated": "2026-09-03",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "cards", "heading": "Form, size and color", "cards": [
+      {"title": "Lifespan", "text": "Realistic ranges, aging signs and husbandry factors.", "url": "/biology-genetics/lifespan/", "label": "Learn about lifespan"},
+      {"title": "Tail types", "text": "Fin structures and their practical care consequences.", "url": "/biology-genetics/tail-types/", "label": "Compare tail types"},
+      {"title": "Growth and adult size", "text": "Variation by age, form and measurement method.", "url": "/morphology/growth-rate-size/", "label": "Understand growth"},
+      {"title": "Plakat bettas", "text": "Short-fin form, history and care implications.", "url": "/biology-genetics/plakat-betta/", "label": "Explore Plakats"},
+      {"title": "Giant bettas", "text": "Size terminology, uncertainty and space implications.", "url": "/biology-genetics/giant-betta/", "label": "Explore Giant bettas"},
+      {"title": "Colors and patterns", "text": "Common appearance terms without sales grading.", "url": "/biology-genetics/colors/", "label": "Compare colors"},
+      {"title": "Color change", "text": "Expected changes versus husbandry and health warning signs.", "url": "/biology-genetics/color-change/", "label": "Understand color change"}
+    ]},
+    {"type": "cards", "heading": "Behavior, origins and reproduction", "cards": [
+      {"title": "Sleep and rest", "text": "Normal positions, rhythms and signs worth checking.", "url": "/anatomy/betta-fish-sleep/", "label": "Learn about sleep"},
+      {"title": "Flaring triggers", "text": "Common triggers and persistent-stress warning signs.", "url": "/behavior/flaring-triggers/", "label": "Understand flaring"},
+      {"title": "Sound and music", "text": "Hearing, vibration and low-stress aquarium guidance.", "url": "/behavior/hearing-music/", "label": "Learn about hearing"},
+      {"title": "Welfare checks", "text": "Translate behavior changes into observable care checks.", "url": "/behavior/unhappy-betta/", "label": "Check welfare signs"},
+      {"title": "Wild habitats", "text": "Connect habitat ecology to responsible captive care.", "url": "/origins/wild-habitats/", "label": "Explore wild habitats"},
+      {"title": "Betta species", "text": "Distinguish domestic Betta splendens from wild diversity.", "url": "/biology-genetics/species/", "label": "Explore species"},
+      {"title": "Male and female identification", "text": "Compare multiple traits and their uncertainty.", "url": "/breeding/gender-identification/", "label": "Compare sexes"},
+      {"title": "Pairing and fry care", "text": "Welfare-first separation and fry-care decision points.", "url": "/breeding/pairing-fry-care/", "label": "Plan breeding care"}
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "No guaranteed outcomes", "text": "Good husbandry can reduce avoidable risk, but it cannot guarantee lifespan or remove genetic vulnerability."}
+  ]
+}

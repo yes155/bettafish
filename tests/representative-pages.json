@@ -1,0 +1,15 @@
+{
+  "phone": {"width": 360, "height": 800},
+  "tablet": {"width": 768, "height": 1024},
+  "laptop": {"width": 1366, "height": 768},
+  "wide": {"width": 1920, "height": 1080},
+  "pages": [
+    {"url": "/", "role": "homepage"},
+    {"url": "/care/", "role": "hub"},
+    {"url": "/about/", "role": "trust"},
+    {"url": "/contact/", "role": "blocked trust"},
+    {"url": "/404.html", "role": "utility"}
+  ],
+  "status": "cloudflare-preview-required",
+  "blocker": "The managed browser cannot access the workspace-local HTTP server; capture and interaction tests must run on the Cloudflare branch preview."
+}

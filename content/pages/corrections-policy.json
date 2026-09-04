@@ -1,0 +1,22 @@
+{
+  "url": "/corrections-policy/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Corrections Policy | BettaFish.website",
+  "description": "How BettaFish.website receives, reviews, records and publishes corrections.",
+  "h1": "Corrections policy",
+  "eyebrow": "When something needs changing",
+  "intro": "A clear correction is more trustworthy than silently rewriting a page and pretending the earlier version never existed.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "steps", "heading": "Correction process", "intro": "The exact timing depends on severity and reviewer availability.", "steps": [
+      {"title": "Receive and identify", "text": "Record the affected URL, claim and supporting evidence."},
+      {"title": "Assess severity", "text": "Safety, treatment and welfare errors receive priority over style or minor wording."},
+      {"title": "Verify", "text": "Check the original source and current authoritative evidence; involve the relevant reviewer."},
+      {"title": "Correct and record", "text": "Update the source file, rebuild the site and document material changes."},
+      {"title": "Check related pages", "text": "Search sibling pages, summaries, schema and internal previews for the same incorrect claim."}
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "Report a correction", "text": "Send the affected URL, disputed statement and supporting evidence to the current editorial mailbox.", "url": "/contact/", "label": "Open the contact page"}
+  ]
+}

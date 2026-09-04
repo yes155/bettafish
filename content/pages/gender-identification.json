@@ -1,0 +1,59 @@
+{
+  "url": "/breeding/gender-identification/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Male vs Female Betta Fish: Identification Guide | BettaFish.website",
+  "description": "Compare body, fin, operculum and reproductive traits to identify a betta's sex without relying on color or one uncertain marker.",
+  "h1": "Male vs Female Betta Fish: How to Identify Sex",
+  "eyebrow": "Breeding and biology",
+  "intro": "Identify an adult domestic betta by comparing several traits: genital papilla, body profile, fin form, opercular membrane and known reproductive behavior. No single external feature is perfect across juveniles, short-fin males, long-fin females and heavily selected domestic lines.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "callout", "tone": "note", "heading": "Sex is not identified by color", "text": {"text": "Both male and female domestic Betta splendens can be intensely colored and aggressive. Selective breeding has weakened many visual shortcuts, so fin length, brightness or temperament alone should not be treated as proof.", "sources": [1, 2]}},
+    {"type": "table", "heading": "Which traits help distinguish male and female bettas?", "caption": "Use a combination of mature traits", "headers": ["Trait", "More common in males", "More common in females", "Limit"], "rows": [
+      ["Genital papilla", "Usually not prominent", "A small pale ovipositor or genital papilla may be visible on the ventral midline", "A reflection, fecal material or immature anatomy can be mistaken for an egg spot."],
+      ["Fin form", "Many ornamental males have longer dorsal, anal, caudal and pelvic fins", "Many females have shorter fins", "Plakat males and selected long-fin females overlap."],
+      ["Opercular membrane", "Often larger and more visible during a full flare", "Usually less prominent", "Flaring intensity and viewing angle change visibility."],
+      ["Body profile", "Often slimmer outside feeding", "A mature female may have a fuller abdomen when carrying ova", "Bloating is not a sex marker and requires a health check."],
+      ["Behavior", "Territorial display and bubble-nest care are typical male reproductive traits", "Females can display and may show vertical breeding bars in context", "Behavior varies and should not override anatomy."],
+      ["Genetic sex", {"text": "Domestic strains commonly use a dmrt1-linked XX/XY system.", "sources": [1, 3]}, {"text": "Domestic strains commonly use a dmrt1-linked XX/XY system.", "sources": [1, 3]}, "The association is not identical across every wild population or domestic cross."]
+    ]},
+    {"type": "prose", "heading": "Is an egg spot enough to identify a female betta?", "paragraphs": [
+      {"text": "A clear genital papilla on a mature fish is useful evidence for a female, but it should be confirmed with body and fin traits. A pale point under the abdomen can be glare, debris or another structure."},
+      {"text": "Do not squeeze, net repeatedly or restrain a fish to look for the papilla. Observe through clear glass under neutral light and compare photographs over time."}
+    ]},
+    {"type": "prose", "heading": "Why are juveniles and Plakat bettas harder to sex?", "paragraphs": [
+      {"text": "Juvenile reproductive structures and adult fin differences are not fully developed, so early identification carries more uncertainty. Growth rate also varies with line and rearing conditions; there is no universal age at which every fry becomes easy to sex.", "sources": [2, 4]},
+      {"text": "Plakat males naturally have short fins and can resemble females at first glance. In a short-fin fish, combine the genital papilla, opercular membrane, pelvic-fin form, mature body profile and verified reproductive behavior rather than relying on caudal length."}
+    ]},
+    {"type": "steps", "heading": "How to identify a betta without causing stress", "steps": [
+      {"title": "Confirm maturity and history", "text": "Ask for hatch date, parentage and prior identification when available."},
+      {"title": "Observe the whole fish", "text": "Use neutral light and inspect both sides without tapping, chasing or forcing a flare."},
+      {"title": "Photograph the ventral area", "text": "Use a clear side view to look for a genital papilla without handling the fish."},
+      {"title": "Compare several traits", "text": "Record fin form, opercular membrane, pelvic fins, body profile and any known reproductive behavior."},
+      {"title": "Keep uncertainty in the label", "text": "If traits conflict, record probable male or probable female and reassess after maturation rather than forcing a pairing."}
+    ]},
+    {"type": "cards", "heading": "Related identification guides", "cards": [
+      {"title": "Plakat bettas", "text": "See why a short-finned male can be mistaken for a female.", "url": "/biology-genetics/plakat-betta/", "label": "Review Plakat traits"},
+      {"title": "Pairing and fry care", "text": "Use a separation-first plan only after identification is sufficiently supported.", "url": "/breeding/pairing-fry-care/", "label": "Plan breeding safely"},
+      {"title": "Female sororities", "text": "Understand why identifying several females does not guarantee compatibility.", "url": "/compatibility/female-sorority/", "label": "Review cohabitation risks"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Do all female bettas have a visible egg spot?", "answer": "A genital papilla may be visible in mature females, but size, posture, pigmentation and viewing angle can obscure it. Use more than one trait."},
+      {"question": "Can male bettas have short fins?", "answer": "Yes. Plakat males have short fins, so short fins do not prove that a betta is female."},
+      {"question": "Are male bettas always more colorful?", "answer": "No. Domestic females can be highly colored, and color varies more by line and individual than by a universal sex rule."},
+      {"question": "Can females flare?", "answer": "Yes. Female Betta splendens can display aggression and flare. Flaring does not prove that a fish is male.", "sources": [5]},
+      {"question": "Can I put two fish together to test their sex?", "answer": "No. Introducing territorial fish as a test can cause injury. Identify them through non-contact observation and maintain separate secure housing."}
+    ]},
+    {"type": "sources", "heading": "Sources and evidence limits", "intro": "Genomic studies explain sex determination in domestic lines, while husbandry research supports non-contact observation and cautions against one-trait certainty.", "items": [
+      {"id": 1, "title": "The genetic architecture of phenotypic diversity in the Betta fish", "publisher": "Science Advances / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491723/"},
+      {"id": 2, "title": "Care and Use of Siamese Fighting Fish for Research", "publisher": "Journal of the American Association for Laboratory Animal Science / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334006/"},
+      {"id": 3, "title": "Transposon-induced epigenetic silencing in the X chromosome during sex determination", "publisher": "BMC Biology", "url": "https://link.springer.com/article/10.1186/s12915-021-01205-y"},
+      {"id": 4, "title": "Larval Development of Siamese Fighting Fish", "publisher": "Acta Natura et Scientia", "url": "https://actanatsci.com/makale/3330"},
+      {"id": 5, "title": "Sex-related and strain-related variation in Betta splendens aggression", "publisher": "Animals / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6686523/"}
+    ]}
+  ]
+}

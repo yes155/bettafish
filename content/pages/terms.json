@@ -1,0 +1,23 @@
+{
+  "url": "/terms/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Terms of Use | BettaFish.website",
+  "description": "Terms governing educational use of BettaFish.website and its external resources.",
+  "h1": "Terms of use",
+  "eyebrow": "Using this website",
+  "intro": "BettaFish.website provides general educational information about fish husbandry. It is not an individualized veterinary service.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "Educational information", "paragraphs": [
+      "Readers remain responsible for decisions about their animals and should consider the fish's actual condition, water tests, product instructions and professional advice.",
+      "Online information cannot examine an animal, confirm a diagnosis or account for every local product formulation and legal requirement."
+    ]},
+    {"type": "prose", "heading": "Accuracy and availability", "paragraphs": [
+      "The site aims to correct material errors and review time-sensitive guidance, but it cannot promise that every page will remain complete or available without interruption.",
+      "External links are provided for context and do not imply control over another site's content, availability or privacy practices."
+    ]},
+    {"type": "callout", "tone": "warning", "heading": "Legal review pending", "text": "The final terms require owner identity and jurisdiction review before production launch."}
+  ]
+}

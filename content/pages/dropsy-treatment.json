@@ -1,0 +1,59 @@
+{
+  "url": "/diseases/dropsy-treatment/",
+  "page_type": "article",
+  "status": "planned-clinical-review",
+  "clinical_review_status": "pending",
+  "indexable": false,
+  "title": "Betta Dropsy Signs: Urgent Triage and Treatment Planning | BettaFish.website",
+  "description": "Recognize swelling and pineconing as an urgent symptom cluster, protect water quality and seek cause-specific aquatic-veterinary care.",
+  "h1": "Betta Dropsy Signs: Urgent Triage and Treatment Planning",
+  "eyebrow": "Diseases and health",
+  "intro": "Dropsy is a descriptive symptom cluster, not one disease. Abdominal swelling, fluid accumulation and scales that stand away from the body can result from serious internal dysfunction or infection. A betta with pineconing needs prompt aquatic-veterinary assessment, not a guaranteed salt or antibiotic recipe.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "clinical_reviewer_id": "robert-martinez",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Pineconing is an urgent sign", "text": {"text": "Contact an aquatic veterinarian promptly when swelling is accompanied by raised scales, breathing change, loss of balance, bleeding, protruding eyes, severe lethargy or refusal to eat. Advanced fluid imbalance can have several causes and the prognosis depends on the underlying disease and stage.", "sources": [1, 2]}},
+    {"type": "table", "heading": "What should be documented for a swollen betta?", "caption": "The pattern helps a clinician build a differential diagnosis", "headers": ["Observation", "Record", "Why it matters"], "rows": [
+      ["Distribution", "Symmetric abdomen, one-sided mass, whole-body swelling or eye swelling", "Different patterns can suggest different internal or external processes."],
+      ["Scale position", "Smooth scales or scales lifted away from the body when viewed from above", "Generalized pineconing indicates substantial swelling but not one specific pathogen."],
+      ["Respiration and balance", "Gill rate, surface piping, sinking, floating or rolling", "Loss of respiratory or swimming function increases urgency."],
+      ["Output and appetite", "Last meal, feces, fasting duration and any regurgitation", "Feeding history informs assessment but does not prove constipation."],
+      ["Water and system", {"text": "Temperature, ammonia, nitrite, nitrate, pH, actual volume, tank mates and recent additions.", "sources": [1, 2]}, "Environmental failure can worsen illness and changes what treatment is safe."],
+      ["Timeline and exposure", "Onset, rate of change, injuries, new fish, foods and medications", "A complete history is central to fish diagnosis."]
+    ]},
+    {"type": "steps", "heading": "What should you do while arranging veterinary help?", "steps": [
+      {"title": "Test the water immediately", "text": "Measure temperature, ammonia, nitrite, nitrate and pH; correct measured hazards with conditioned, temperature-matched water and safe equipment checks."},
+      {"title": "Photograph from the side and above", "text": "Document swelling and scale position without restraining or repeatedly netting the fish."},
+      {"title": "Reduce stress and preserve oxygen", "text": "Keep handling minimal, verify gentle aeration and maintain stable species-appropriate temperature."},
+      {"title": "Separate only with a safe system", "text": "Use a heated, covered, biologically managed hospital aquarium if separation is advised; an unheated cup can worsen the problem."},
+      {"title": "Bring a complete history", "text": "Tell the clinician about water results, all products used, feeding, recent additions, progression and other affected fish."}
+    ]},
+    {"type": "prose", "heading": "What causes dropsy signs in bettas?", "paragraphs": [
+      {"text": "Fluid accumulation and generalized swelling can accompany bacterial disease, kidney or liver dysfunction, tumors, reproductive problems and severe systemic stress. The same external pattern can therefore lead to different treatments and outcomes."},
+      {"text": "A clinician may use physical examination, microscopy, imaging, culture or necropsy depending on the case and fish size. MSD emphasizes history, water analysis and fresh diagnostic samples because fish tissues deteriorate rapidly after death.", "sources": [1, 2]}
+    ]},
+    {"type": "prose", "heading": "Should you use Epsom salt or antibiotics for dropsy?", "paragraphs": [
+      {"text": "Do not begin a universal magnesium-sulfate bath or continuous dose from an online recipe. Osmotic support may be considered in selected cases, but concentration, exposure, water chemistry and fish condition require a clinician's plan."},
+      {"text": "Antibiotics are not a cure for every cause of swelling. MSD recommends sensitivity-guided antimicrobial choice when possible and notes limitations and biofilter effects of bath delivery. Aminoglycosides can also raise kidney-toxicity concerns, which is especially relevant when internal organ dysfunction is suspected.", "sources": [1, 3]}
+    ]},
+    {"type": "cards", "heading": "Related health decisions", "cards": [
+      {"title": "Disease symptom matrix", "text": "Compare swelling with other visible and behavioral patterns.", "url": "/diseases/diagnostic-matrix/", "label": "Review symptom patterns"},
+      {"title": "Swim bladder signs", "text": "Understand why buoyancy loss is a symptom, not a single diagnosis.", "url": "/anatomy/swim-bladder-treatment/", "label": "Review buoyancy problems"},
+      {"title": "Water parameters", "text": "Document aquarium conditions before clinical treatment.", "url": "/care/water-parameters/", "label": "Test the aquarium"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Is dropsy a disease?", "answer": "Dropsy is a descriptive cluster of swelling and fluid-balance signs, not one diagnosis. Several infections and internal disorders can create a similar appearance."},
+      {"question": "Can a betta recover from pineconing?", "answer": "Recovery is possible in some cases, but there is no reliable blanket prognosis. Outcome depends on the cause, severity, organ involvement and speed of appropriate care."},
+      {"question": "Is dropsy contagious?", "answer": "The swelling itself is not contagious, but an underlying infectious cause or shared environmental problem may affect other fish. Evaluate the whole system and avoid sharing wet equipment."},
+      {"question": "Should I stop feeding a swollen betta?", "answer": "Do not assume every swollen fish is constipated. Record the feeding history and seek guidance; prolonged fasting can delay appropriate care for another cause."},
+      {"question": "When should euthanasia be discussed?", "answer": "Discuss humane euthanasia with an aquatic veterinarian when the fish cannot breathe, swim, feed or rest without marked distress and treatment is unlikely to restore acceptable welfare. Do not improvise physical or freezing methods."}
+    ]},
+    {"type": "sources", "heading": "Sources and clinical-review notes", "intro": "This draft removes the supplied fixed salt and antibiotic protocols and guaranteed survival claim. It remains unpublished until the assigned aquatic veterinarian approves this exact version.", "items": [
+      {"id": 1, "title": "Management of Aquarium Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 2, "title": "Routine Health Care of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/all-other-pets/fish/routine-health-care-of-fish"},
+      {"id": 3, "title": "Bacterial Diseases of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish"}
+    ]}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BettaFish.website",
+  "domain": "bettafish.website",
+  "base_url": "https://bettafish.website",
+  "language": "en-US",
+  "publisher_name": "BettaFish.website",
+  "logo_path": "/assets/images/bettafish-website-logo.webp",
+  "favicon_path": "/favicon.png",
+  "contact_email": "bettafish.website@gmail.com",
+  "contact_email_status": "permanent",
+  "sitewide_noindex": true,
+  "environment": "prepublication",
+  "design_reference": "https://bunstay.com/",
+  "social_profiles": []
+}

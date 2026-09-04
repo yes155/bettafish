@@ -1,0 +1,25 @@
+{
+  "url": "/compatibility/",
+  "page_type": "hub",
+  "status": "draft",
+  "indexable": false,
+  "title": "Betta Fish Tank Mates and Compatibility | BettaFish.website",
+  "description": "Evaluate betta tank mates, territory, aquarium size and separation plans before combining animals.",
+  "h1": "Compatibility is a risk assessment, not a list",
+  "eyebrow": "Tank mates and social setups",
+  "intro": "A species may be described as compatible while an individual betta still rejects it. Aquarium size, cover, behaviour and a backup enclosure all matter.",
+  "updated": "2026-09-03",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "prose", "heading": "What a compatibility decision needs", "paragraphs": [
+      "Compare temperature, water, activity level, fin-nipping risk, territory and feeding competition rather than relying on a yes-or-no label.",
+      "Any combined setup needs observation and a practical separation plan before the animals are introduced."
+    ]},
+    {"type": "cards", "heading": "Compatibility guides", "cards": [
+      {"title": "Betta tank mates", "text": "Compare companion risks and prepare a separation plan before introduction.", "url": "/compatibility/tank-mates/", "label": "Evaluate tank mates"},
+      {"title": "Female sorority risks", "text": "Understand why group housing can fail even in carefully planned aquariums.", "url": "/compatibility/female-sorority/", "label": "Review sorority risks"}
+    ]},
+    {"type": "callout", "tone": "warning", "heading": "Higher-risk setups", "text": "Female sororities and mixed-species tanks are not beginner defaults. Prepare separate housing before attempting any combined setup."}
+  ]
+}

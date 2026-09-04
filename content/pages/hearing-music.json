@@ -1,0 +1,173 @@
+{
+  "url": "/behavior/hearing-music/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Can Betta Fish Hear Music? Sound, Vibration and Tank Placement | BettaFish.website",
+  "description": "Learn what research says about betta hearing, why music preference is unproven, and how to reduce disruptive sound and vibration around an aquarium.",
+  "h1": "Can Betta Fish Hear Music? Sound, Vibration and Tank Placement",
+  "eyebrow": "Behavior and senses",
+  "intro": "Betta fish can detect sound, including low frequencies that overlap with some music and household noise. That does not mean a betta experiences a song as a person does or has a proven musical preference. The practical goal is to prevent sudden or sustained sound and vibration from becoming a disturbance.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "There is no universal safe volume setting",
+      "text": {
+        "text": "A phone or speaker volume percentage does not reveal the sound pressure or particle motion reaching the fish. Tank size, speaker distance, bass output, furniture and room acoustics all change the exposure. Keep speakers off the aquarium stand and reduce any sound that produces repeated startle or avoidance behavior.",
+        "sources": [1, 2]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "What a betta may detect",
+      "caption": "Evidence-based distinctions between sound detection and human interpretations",
+      "headers": ["Question", "Best-supported answer", "Evidence limit"],
+      "rows": [
+        [
+          "Can a betta detect sound?",
+          {"text": "Yes. Auditory-evoked-potential testing in wild Betta splendens found measurable hearing, with the greatest sensitivity in the study between 100 and 400 Hz.", "sources": [1]},
+          "Laboratory hearing thresholds do not predict an individual pet's reaction to every household sound."
+        ],
+        [
+          "Does the lateral line hear music?",
+          {"text": "The inner ear is central to fish hearing, while the lateral line detects nearby water movement and pressure gradients. Both can contribute to a response to vibration, but they are not interchangeable senses.", "sources": [2]},
+          "A visible reaction cannot identify which sensory pathway detected the disturbance."
+        ],
+        [
+          "Does a betta enjoy music?",
+          "There is no good species-specific evidence that bettas interpret or prefer music as music.",
+          "Approaching the glass may reflect feeding cues, movement or learned routine rather than enjoyment."
+        ],
+        [
+          "Can loud sound be stressful?",
+          {"text": "Research across fish species shows that sound exposure can alter behavior, stress physiology or hearing, depending on species, frequency, level and duration.", "sources": [2, 3]},
+          "Those studies do not establish a single household decibel limit for betta aquariums."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How do betta fish hear?",
+      "paragraphs": [
+        {
+          "text": "Fish detect acoustic energy through sensory structures in the inner ear. They also sense local water movement through the lateral-line system. A 2025 study provided the first measured auditory-sensitivity profile for wild Betta splendens and found their best hearing sensitivity in a low-frequency range.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "The original draft attributed a specific amplification mechanism to the betta swim bladder. Fish species differ in how gas-filled structures contribute to hearing, and the Betta study did not validate that proposed mechanism. This guide therefore does not present swim-bladder resonance as an established betta-specific fact.",
+          "sources": [1, 2]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to reduce disruptive sound and vibration",
+      "intro": "Use the fish's environment and behavior to guide conservative placement; do not rely on an invented volume threshold.",
+      "steps": [
+        {
+          "title": "Separate the tank from sound equipment",
+          "text": "Do not place speakers, subwoofers or vibrating devices on the aquarium stand. Structural vibration can pass through furniture and tank walls."
+        },
+        {
+          "title": "Avoid abrupt changes",
+          "text": "Keep normal household activity predictable and avoid sudden bass-heavy playback, tapping on the glass or moving equipment against the tank."
+        },
+        {
+          "title": "Provide a retreat",
+          "text": "Use fin-safe plants or shelter so the fish can move away from activity. Preserve a regular light-dark cycle and quiet resting period."
+        },
+        {
+          "title": "Watch for repeatable responses",
+          "text": "If a particular sound is repeatedly followed by darting, collision risk, hiding or interrupted feeding, lower it or move the source and observe whether the response resolves."
+        },
+        {
+          "title": "Check the whole aquarium when behavior changes",
+          "text": "Sound is only one possible factor. Confirm temperature and water chemistry, and seek qualified help for persistent appetite loss, abnormal swimming, breathing difficulty or injury."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can a betta recognize your voice?",
+      "paragraphs": [
+        {
+          "text": "A betta may learn that activity near the aquarium predicts feeding, but a response to a person speaking does not prove recognition of an individual voice. Movement, shadows, footsteps, lid movement and feeding routines occur together, so a home observation cannot isolate voice recognition."
+        },
+        {
+          "text": "It is reasonable to speak normally near the tank. The welfare concern is avoidable intensity, vibration and suddenness—not ordinary quiet conversation."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related aquarium checks",
+      "cards": [
+        {
+          "title": "Water parameters",
+          "text": "Rule out water-quality changes before attributing unusual behavior to sound.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Betta lifespan and welfare",
+          "text": "Connect stable daily conditions with long-term care rather than one isolated behavior.",
+          "url": "/biology-genetics/lifespan/",
+          "label": "Read the lifespan guide"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Can betta fish hear music?",
+          "answer": "Bettas can detect frequencies and vibrations present in music, but research does not show that they understand a song or prefer a genre. Treat music as environmental sound and keep it from causing repeated disturbance.",
+          "sources": [1]
+        },
+        {
+          "question": "Does music calm a betta fish?",
+          "answer": "That outcome has not been established for Betta splendens. A fish that remains still may be resting, hiding or responding to another condition; stillness alone is not proof that music is calming."
+        },
+        {
+          "question": "Is bass harmful to a betta?",
+          "answer": "Low-frequency sound and vibration can be salient to fish, but there is no universal home-speaker threshold for bettas. Keep bass equipment off the tank stand and reduce exposure if it repeatedly causes startle, avoidance or disrupted feeding.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "question": "Can I keep a betta tank near a television?",
+          "answer": "A television is not automatically unsafe. Leave physical separation, avoid sharing furniture with vibrating speakers, provide cover and monitor the fish during louder or bass-heavy use."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "The Betta splendens hearing study measured auditory responses; it did not test music preference. Broader fish research is used only to explain why noise effects depend on the exposure and species.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Exploring freshwater soundscapes of tropical marshland habitats in Southeast Asia: insights into auditory sensory adaptation of wild Siamese fighting fish Betta splendens",
+          "publisher": "PeerJ",
+          "url": "https://peerj.com/articles/18491/"
+        },
+        {
+          "id": 2,
+          "title": "An overview of fish bioacoustics and the impacts of anthropogenic sounds on fishes",
+          "publisher": "Journal of Fish Biology / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6849755/"
+        },
+        {
+          "id": 3,
+          "title": "The Behavioral and Neurobiological Response to Sound Exposure in Farmed Atlantic Salmon",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38754387/"
+        }
+      ]
+    }
+  ]
+}

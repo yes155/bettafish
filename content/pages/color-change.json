@@ -1,0 +1,60 @@
+{
+  "url": "/biology-genetics/color-change/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Why Is My Betta Fish Changing Color? Safe Checks | BettaFish.website",
+  "description": "Separate gradual genetic or age-related betta color change from sudden fading, lesions and other signs that require water checks or veterinary help.",
+  "h1": "Why Is My Betta Fish Changing Color?",
+  "eyebrow": "Biology and welfare",
+  "intro": "A betta can change color as a domestic pattern develops, but sudden fading or a new pale, fuzzy, raised, ulcerated or inflamed area can also accompany stress or disease. Compare dated photographs, test the aquarium and assess the whole fish instead of diagnosing the cause from color alone.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "callout", "tone": "warning", "heading": "Breathing or tissue damage makes the change urgent", "text": {"text": "Seek prompt aquatic-veterinary guidance when color change occurs with rapid or labored breathing, loss of balance, marked swelling, pineconing, bleeding, ulcers, tissue loss, severe lethargy or a rapid decline. Color alone cannot distinguish water-quality injury, parasites, bacteria, trauma or another cause.", "sources": [1, 2]}},
+    {"type": "table", "heading": "What does the pattern of change suggest?", "caption": "Observation guide, not a diagnosis", "headers": ["Observed change", "First checks", "Response"], "rows": [
+      ["Gradual patch redistribution over weeks or months", {"text": "Compare dated images under similar neutral light; review whether the fish has marble or koi-like ancestry.", "sources": [3]}, "Continue monitoring if appetite, breathing, activity, body condition and water results remain normal."],
+      ["Whole-body fading after a move or equipment problem", {"text": "Test temperature, ammonia, nitrite, nitrate and pH; confirm filter and heater operation.", "sources": [1, 2]}, "Correct measured husbandry problems safely and watch for additional signs."],
+      ["Small pale or dark area after contact with decor", "Inspect the tank for sharp or hot surfaces and document the lesion.", "Remove the hazard; obtain help if the area grows, reddens or erodes."],
+      ["Gold-brown dust with flashing or breathing change", {"text": "Treat this as possible external parasitism, including velvet, and seek confirmation.", "sources": [4]}, "Do not rely on a flashlight appearance alone or begin a universal copper protocol."],
+      ["White, gray, fuzzy, ulcerated or rapidly expanding patch", {"text": "Isolate shared equipment, test water and seek prompt professional assessment.", "sources": [1, 5]}, "Several bacterial and water-mold conditions can look alike; treatment depends on diagnosis."],
+      ["Color change plus abdominal swelling or raised scales", {"text": "This is a serious symptom cluster rather than a cosmetic change.", "sources": [1]}, "Arrange urgent aquatic-veterinary guidance."]
+    ]},
+    {"type": "prose", "heading": "Can marble-pattern bettas change color normally?", "paragraphs": [
+      {"text": "Domestic Betta lines with marble-type patterning can show marked redistribution of pigmented and pale areas over time. Genomic research supports a complex genetic basis for domesticated color and pattern traits, but it does not justify predicting the exact next color of an individual fish.", "sources": [3, 6]},
+      {"text": "A normal-looking pattern shift should be gradual and unaccompanied by tissue damage or systemic illness. Dated photographs taken with the same light, angle and camera settings are more useful than memory or two differently lit images."}
+    ]},
+    {"type": "steps", "heading": "How to assess a betta color change", "steps": [
+      {"title": "Document the timeline", "text": "Photograph both sides and record when the change began, how fast it moved and whether the surface is smooth, raised, fuzzy or damaged."},
+      {"title": "Test the environment", "text": "Measure temperature, ammonia, nitrite, nitrate and pH. Verify the heater, filter, water conditioner and recent maintenance history."},
+      {"title": "Assess the whole fish", "text": "Record appetite, respiration, swimming, balance, feces, body shape, fins and any rubbing or clamping."},
+      {"title": "Check recent changes", "text": "List new fish, plants, food, medication, decor, equipment failures and transport events."},
+      {"title": "Escalate by signs, not color name", "text": "Contact an aquatic veterinarian when the change is rapid, progressive or accompanied by breathing difficulty, wounds, swelling or loss of function."}
+    ]},
+    {"type": "prose", "heading": "Can food or lighting restore betta color?", "paragraphs": [
+      {"text": "A complete diet supports normal pigmentation, but no food can guarantee a particular hue or reverse disease. Avoid overfeeding and products that promise a permanent color transformation."},
+      {"text": "Neutral, consistent aquarium lighting makes comparisons more reliable. Stronger or longer lighting can change the photograph and increase algae without treating the reason for a color change."}
+    ]},
+    {"type": "cards", "heading": "Related checks", "cards": [
+      {"title": "Betta colors and patterns", "text": "Review the terminology used for domestic color and pattern forms.", "url": "/biology-genetics/colors/", "label": "Compare color terms"},
+      {"title": "Water parameters", "text": "Check the measurements that can accompany sudden behavioral or color change.", "url": "/care/water-parameters/", "label": "Test water conditions"},
+      {"title": "Disease symptom matrix", "text": "Compare visible signs without treating one feature as a diagnosis.", "url": "/diseases/diagnostic-matrix/", "label": "Review symptom patterns"}
+    ]},
+    {"type": "faq", "heading": "Frequently asked questions", "items": [
+      {"question": "Why is my betta turning white?", "answer": "White or pale change can reflect domestic pattern development, viewing conditions, injury, water-quality stress or disease. Test the water, compare dated photographs and look for texture, breathing, appetite and behavior changes before deciding what it means.", "sources": [1, 2, 3]},
+      {"question": "Can a healthy betta change color more than once?", "answer": "Yes. Some marble-pattern domestic bettas change the distribution of pigmented areas repeatedly. Repeated change is not proof of health, so continue routine water testing and whole-fish observation.", "sources": [3, 6]},
+      {"question": "Do stress stripes diagnose poor water quality?", "answer": "No. Horizontal barring can occur in several contexts and is especially associated with some females and juveniles. Use measured water results and other signs rather than diagnosing from stripes alone."},
+      {"question": "Should I medicate a betta that is only changing color?", "answer": "Do not medicate from color alone. Unnecessary treatment can add toxicity, damage the biofilter and obscure the diagnosis. Obtain professional guidance when the change is rapid or accompanied by illness signs.", "sources": [1]},
+      {"question": "How often should I photograph the change?", "answer": "A weekly photograph is usually enough for a gradual cosmetic shift. Photograph sooner when the area changes rapidly, develops texture or appears with breathing, balance, appetite or tissue problems."}
+    ]},
+    {"type": "sources", "heading": "Sources and evidence limits", "intro": "Veterinary sources support the symptom and escalation boundaries. Genomic sources explain domestic color variation without allowing a diagnosis or exact pattern forecast.", "items": [
+      {"id": 1, "title": "Management of Aquarium Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+      {"id": 2, "title": "Routine Health Care of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/all-other-pets/fish/routine-health-care-of-fish"},
+      {"id": 3, "title": "The genetic architecture of phenotypic diversity in the Betta fish", "publisher": "Science Advances / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491723/"},
+      {"id": 4, "title": "Parasitic Diseases of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish"},
+      {"id": 5, "title": "Bacterial Diseases of Fish", "publisher": "MSD Veterinary Manual", "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish"},
+      {"id": 6, "title": "The genetic basis of the Betta fish domestication process", "publisher": "Science Advances / PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906746/"}
+    ]}
+  ]
+}

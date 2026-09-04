@@ -1,0 +1,115 @@
+{
+  "url": "/biology-genetics/tail-types/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "Betta Fish Tail Types: Fin Shapes, Genetics and Care | BettaFish.website",
+  "description": "Compare veiltail, crowntail, halfmoon, double-tail, plakat and delta bettas without overstating inheritance or health outcomes.",
+  "h1": "Betta Fish Tail Types: Guide to Fin Shapes, Genetics & Mutations",
+  "eyebrow": "Biology and genetics",
+  "intro": "Veiltail, crowntail, halfmoon, double-tail, plakat and delta are useful hobby and exhibition labels for domesticated betta fin forms. They describe appearance; they do not determine personality, health or lifespan on their own.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "heading": "Classification is context-dependent",
+      "text": {"text": "The International Betta Congress publishes exhibition standards and updates them annually. Show ideals, breeder labels and retail names can overlap without forming one permanent scientific classification system.", "sources": [1]}
+    },
+    {
+      "type": "table",
+      "heading": "Betta tail type comparison",
+      "caption": "Visible features and practical care considerations",
+      "headers": ["Tail type", "Typical visible form", "Care consideration"],
+      "rows": [
+        ["Veiltail", "Long, asymmetrical caudal fin that drapes downward", "Use gentle flow and inspect long fin edges for mechanical damage."],
+        ["Crowntail", "Reduced webbing leaves the fin rays visibly extended", "Keep decor smooth and distinguish normal ray extensions from new tissue loss."],
+        ["Halfmoon", "Broad caudal fin intended to approach a 180-degree spread when fully flared", "Large fin area may make strong current harder to manage for some individuals."],
+        [{"text": "Double-tail", "sources": [2]}, "Two caudal lobes with increased dorsal and caudal fin-ray development", "Body form varies; assess the individual fish's swimming rather than assuming disability."],
+        ["Plakat", "Short-finned domesticated form", "Short fins do not remove the need for gentle filtration, smooth decor and routine water-quality checks."],
+        ["Delta and super delta", "Triangular caudal spread narrower than the halfmoon ideal", "Labels depend on the degree of spread and the standard being used."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is a veiltail betta?",
+      "paragraphs": [
+        {"text": "A veiltail has a long, uneven caudal fin that tends to sweep or drape downward rather than forming a symmetrical semicircle. It is a recognized domesticated form in International Betta Congress class lists.", "sources": [1]},
+        {"text": "The master draft described veiltail inheritance as a simple dominant rule that predicts a high percentage of first-generation offspring. Modern betta morphology is genetically complex, so breeding outcomes should not be predicted from that unsupported shortcut.", "sources": [3]}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What defines a halfmoon betta?",
+      "paragraphs": [
+        {"text": "A halfmoon is judged by a broad, near-semicircular caudal spread with straight upper and lower edges when the fish flares. Exhibition standards describe an ideal form; a living fish does not hold a full flare continuously.", "sources": [1]},
+        {"text": "Extra fin area can influence how an individual handles current, but “extreme drag” is not a measured universal coefficient. Observe swimming, resting and feeding and adjust flow for the fish rather than the label."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How does a crowntail fin differ?",
+      "paragraphs": [
+        {"text": "Crowntails have visibly reduced webbing between fin rays, producing the characteristic crown-like outline. The amount and arrangement of ray extension vary among fish and show classes."},
+        {"text": "Extended rays are not automatically fin rot. Look for a change from the fish's normal pattern, inflamed or darkened tissue, progressive loss, water-quality problems or behavioral signs before treating the appearance as disease."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What are the features of a double-tail betta?",
+      "paragraphs": [
+        {"text": "A double-tail betta has two caudal lobes and increased fin-ray development in the dorsal and caudal regions. Genomic research identified a recessive double-tail phenotype associated with a regulatory deletion affecting zic1 and zic4 expression.", "sources": [2]},
+        {"text": "That evidence supports a genetic basis for the form, but it does not support diagnosing every double-tail fish with spinal or swim-bladder disease. Judge body shape, buoyancy and swimming at the individual level."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Why do plakats have shorter fins?",
+      "paragraphs": [
+        {"text": "Plakat describes a short-finned domesticated form. Research on domestication confirms that ornamental bettas have been selected into diverse fin morphologies from short-finned ancestors.", "sources": [3]},
+        {"text": "Short fins may reduce the amount of delicate tissue exposed to tearing, but plakats are not immune to injury, infection or poor water quality. “Hardiest” is a husbandry opinion unless a defined health outcome is measured."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What distinguishes delta and super delta tails?",
+      "paragraphs": [
+        {"text": "Both labels describe triangular caudal fins with straight-edged spreads that do not meet the halfmoon ideal. Super delta generally indicates a wider spread than delta, but exact retail labeling can be inconsistent."},
+        {"text": "These forms should not be described as proof of a co-dominant cross without a documented pedigree and genetic evidence. Recent genomic work shows that betta phenotypic diversity includes both major-effect and complex traits.", "sources": [2, 3]}
+      ]
+    },
+    {
+      "type": "list",
+      "heading": "How tail form changes practical care",
+      "items": [
+        {"text": "Tune flow to the individual: long-finned fish that are repeatedly pushed off course need gentler distribution, but every tank still needs adequate circulation and biological filtration.", "sources": [4]},
+        {"text": "Use smooth decor: sharp edges can tear delicate fins regardless of the named form.", "sources": [4]},
+        "Provide near-surface resting areas without blocking access to air, and leave open swimming space.",
+        "Photograph the fish's normal fins when healthy so later splits, loss or discoloration can be compared accurately.",
+        "Do not infer lifespan from tail label; water quality, nutrition, genetics, disease and individual conformation matter more than a trade name."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "What is the rarest betta tail type?", "answer": "There is no stable universal answer. Rarity changes by region, breeder supply and whether the label refers to a recognized show form or a retail cross. A seller's “rare” claim should not be treated as a scientific classification."},
+        {"question": "Do male or female bettas have longer fins?", "answer": "Many ornamental males are selected for longer, more elaborate fins, while females often have shorter fins. Sex alone does not identify every fish's tail form, and short-finned males and long-finned females also occur."},
+        {"question": "Why is my betta's tail splitting?", "answer": "A new split may follow snagging, biting, strong suction or another injury, while progressive tissue loss can accompany disease or poor water quality. Test the aquarium, inspect decor and equipment, and seek fish-experienced veterinary advice if loss progresses or other symptoms appear."},
+        {"question": "Is a crowntail's spiky edge fin rot?", "answer": "Not by itself. Evenly extended rays with reduced webbing are the normal crowntail form. Compare with earlier photos and look for new, uneven or inflamed tissue loss before assuming disease."}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "Unsupported drag coefficients, simple inheritance rules, guaranteed health outcomes and rarity rankings from the master draft were not retained.",
+      "items": [
+        {"id": 1, "title": "Standards: Judging Manual and current exhibition standards", "publisher": "International Betta Congress", "url": "https://www.ibcbettas.org/memberhome/standards/"},
+        {"id": 2, "title": "Genomic Basis of Striking Fin Shapes and Colors in the Fighting Fish", "publisher": "Molecular Biology and Evolution", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321530/"},
+        {"id": 3, "title": "The Genetic Architecture of Phenotypic Diversity in the Betta Fish", "publisher": "Science Advances", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491723/"},
+        {"id": 4, "title": "Bettas Need More Than Bowls", "publisher": "University of Illinois College of Veterinary Medicine", "url": "https://vetmed.illinois.edu/pet-health-columns/betta-fish/"}
+      ]
+    }
+  ]
+}

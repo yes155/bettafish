@@ -1,0 +1,241 @@
+{
+  "url": "/care/tank-setup/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Tank Setup: Equipment, Cycling and Introduction | BettaFish.website",
+  "description": "Set up a lidded, heated and filtered betta aquarium, establish biological filtration with water tests, and introduce the fish safely.",
+  "h1": "Betta Fish Tank Setup: Equipment, Cycling and Safe Introduction",
+  "eyebrow": "Care and aquarium setup",
+  "intro": "Set up a betta aquarium with a secure lid and air gap, an adjustable heater plus separate thermometer, gentle filtration, conditioned water, a test kit and smooth cover. RSPCA Australia says 20 litres (about 5.3 US gallons) or more is ideal and 10 litres is the absolute minimum. Establish and verify biological filtration with water tests before adding the fish; elapsed time alone does not prove that a tank is ready.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "The original draft treated a five-gallon aquarium as a guarantee, specified one heater wattage and predicted a fixed cycling schedule. Current welfare and veterinary guidance supports a lidded, heated and filtered setup, but equipment capacity depends on the aquarium and room, while biological readiness must be checked with ammonia, nitrite and nitrate tests.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "What equipment does a betta tank need?",
+      "caption": "Choose equipment by measured performance, not a universal product size",
+      "headers": ["Item", "What it must do", "Selection check"],
+      "rows": [
+        [
+          "Aquarium and lid",
+          {"text": "Provide swimming space, a secure cover to prevent jumping and an air gap above the water for surface breathing.", "sources": [1]},
+          "Prefer 20 litres or more; RSPCA Australia describes 10 litres as the absolute minimum. Confirm the stand is level, stable and rated for the filled aquarium."
+        ],
+        [
+          "Adjustable heater and separate thermometer",
+          {"text": "Maintain 24 to 26°C and verify the actual temperature independently of the heater dial.", "sources": [1, 2]},
+          "Required wattage varies with water volume, room temperature, lid and heater design. Follow the manufacturer's sizing and installation limits instead of assuming one wattage."
+        ],
+        [
+          "Filter",
+          {"text": "Provide mechanical and biological filtration with gentle, adjustable flow and media that supports nitrifying bacteria.", "sources": [1, 2]},
+          "Size it for the aquarium, protect a strong intake if needed and confirm that the betta can swim and rest without fighting the current."
+        ],
+        [
+          "Water conditioner and test kit",
+          {"text": "Treat chlorine or chloramine as directed and measure temperature, pH, ammonia, nitrite and nitrate.", "sources": [1, 2]},
+          "Check the conditioner label for the source-water disinfectant it treats; do not assume every product handles every contaminant."
+        ],
+        [
+          "Substrate, plants and shelter",
+          {"text": "Create cover with smooth aquarium-safe materials while keeping open swimming routes and surface access.", "sources": [1]},
+          "Choose substrate depth for the selected plants and maintenance method. Keep Anubias and Java fern rhizomes exposed rather than buried."
+        ],
+        [
+          "Light and timer",
+          {"text": "Create a repeatable daytime period and a nightly dark period without using direct sun as heat.", "sources": [1, 2]},
+          "Match intensity to the plants and keep the aquarium away from direct sunlight and windows."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What size tank should a betta have?",
+      "paragraphs": [
+        {
+          "text": "Use 20 litres (about 5.3 US gallons) or more when practical. RSPCA Australia identifies that volume as ideal and 10 litres as the absolute minimum. More water can make temperature and water chemistry easier to keep stable, but size alone never guarantees good welfare.",
+          "sources": [1]
+        },
+        {
+          "text": "Controlled Betta studies also found that space and environmental enrichment changed swimming and other behavior. Those studies support providing usable space and structure; they do not turn one volume into a pass-fail diagnosis for an individual fish.",
+          "sources": [4, 5]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to set up a betta tank",
+      "intro": "Complete the physical setup before beginning the fishless cycle.",
+      "steps": [
+        {
+          "title": "Choose a safe location",
+          "text": "Put the aquarium on a level, stable stand away from direct sun, drafts and household traffic. Leave safe access for maintenance and use grounded, protected electrical outlets with drip loops."
+        },
+        {
+          "title": "Rinse aquarium materials",
+          "text": "Rinse the empty tank, substrate and aquarium-safe decor with plain water. Do not use soap or household detergent."
+        },
+        {
+          "title": "Build the layout",
+          "text": "Install substrate to suit the chosen plants, secure smooth hardscape and leave clear swimming and surface routes. Attach rhizome plants such as Anubias or Java fern to smooth rock or wood rather than burying the rhizome."
+        },
+        {
+          "title": "Fill and condition the water",
+          "text": "Fill the aquarium, dose a conditioner exactly as its label directs for the water volume and source-water disinfectant, then check for leaks."
+        },
+        {
+          "title": "Start and verify the equipment",
+          "text": "Start the filter and heater only when their instructions say they are correctly submerged or filled. Confirm gentle flow and use the separate thermometer to verify stable temperature."
+        },
+        {
+          "title": "Establish biological filtration",
+          "text": "Run a fishless cycle with a documented ammonia source. Follow the source product's directions rather than improvising a dose, and record ammonia, nitrite, nitrate, pH and temperature as the biofilter develops."
+        },
+        {
+          "title": "Confirm readiness and introduce the fish",
+          "text": "Do not add the betta because a calendar date has arrived. Confirm that the controlled waste input is being processed, ammonia and nitrite are not detectable on the chosen test, nitrate is managed, temperature is stable and replacement water is conditioned. Acclimate to temperature without pouring transport water into the aquarium, then observe breathing, swimming and equipment."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How do you know when a fishless cycle is complete?",
+      "paragraphs": [
+        {
+          "text": "Nitrifying bacteria develop mainly on filter media and other wet surfaces. One group processes ammonia into nitrite, and another processes nitrite into less toxic nitrate. Nitrate still needs to be monitored and managed; the cycle does not make aquarium waste harmless.",
+          "sources": [2, 3]
+        },
+        {
+          "text": "Published care pages often describe cycling as taking several weeks, but temperature, pH, oxygen, media and the ammonia source can change the timeline. Use repeat test results after a controlled waste input to judge progress. A nitrate reading by itself does not prove that the tank can process new ammonia and nitrite safely.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "text": "After the fish is introduced, test frequently during the new aquarium's early weeks. RSPCA Australia recommends testing ammonia and nitrite every two to three days during the first six weeks. If either becomes detectable, treat the reading as a water-quality problem rather than waiting for the next routine maintenance day.",
+          "sources": [1, 3]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How should decor and plants be checked?",
+      "paragraphs": [
+        {
+          "text": "Inspect every leaf, seam, tie, rock, piece of wood and shelter opening. Remove or smooth sharp points, exposed wire and rough edges, and avoid narrow gaps that could trap the fish. The layout should stay stable when the filter runs and during maintenance.",
+          "sources": [1]
+        },
+        {
+          "text": "Live or artificial cover can both work. Keep a direct route to the surface, open turning space and at least one shaded or covered area. Follow the fin-safe plant guide for rhizome placement and artificial-plant inspection."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related setup decisions",
+      "cards": [
+        {
+          "title": "Betta water parameters",
+          "text": "Check temperature, pH and nitrogen compounds before and after introduction.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Betta filtration",
+          "text": "Choose gentle flow and protect the bacterial media during maintenance.",
+          "url": "/care/filtration/",
+          "label": "Review filtration"
+        },
+        {
+          "title": "Heater calibration",
+          "text": "Verify temperature independently before the fish enters the aquarium.",
+          "url": "/care/heaters-calibration/",
+          "label": "Review heater calibration"
+        },
+        {
+          "title": "Fin-safe plants",
+          "text": "Place rhizome plants correctly and inspect the whole layout for snag risks.",
+          "url": "/aquascaping/fin-safe-plants/",
+          "label": "Choose aquarium plants"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Is a five-gallon tank enough for one betta?",
+          "answer": "A tank around five US gallons matches RSPCA Australia's ideal starting volume of 20 litres. It still needs a lid and air gap, heating, gentle filtration, conditioned water, testing, cover and regular maintenance; the volume alone does not guarantee safety.",
+          "sources": [1]
+        },
+        {
+          "question": "How long does a betta tank take to cycle?",
+          "answer": "Expect the process to take time, often several weeks, but do not use a fixed number of days as proof. Track a documented ammonia input and repeat ammonia, nitrite and nitrate tests until the biofilter consistently processes the input and the aquarium is stable.",
+          "sources": [2, 3]
+        },
+        {
+          "question": "Can I add a betta on the same day I set up the tank?",
+          "answer": "A newly assembled aquarium does not yet have proven biological filtration. The safer plan is to establish and verify a fishless cycle first. If a fish is already in an uncycled tank, test frequently, use conditioned temperature-matched water and respond to measured ammonia or nitrite promptly.",
+          "sources": [1, 3]
+        },
+        {
+          "question": "What wattage heater does a betta tank need?",
+          "answer": "There is no single wattage for every betta tank. Water volume, room temperature, lid, heater design and target temperature all matter. Follow the heater manufacturer's sizing and placement instructions, then verify performance with a separate thermometer.",
+          "sources": [1, 2]
+        },
+        {
+          "question": "Can I use tap water in a betta tank?",
+          "answer": "Tap water is often usable after it is tested and treated for chlorine or chloramine with a suitable aquarium conditioner. Follow that product's label, match the aquarium temperature and do not assume one conditioner handles every possible source-water contaminant.",
+          "sources": [1, 2]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Species-specific welfare guidance owns the tank-size, temperature, filtration and maintenance baseline. Veterinary sources explain setup and the nitrogen cycle. Controlled behavior studies support usable space and enrichment but do not define one guaranteed tank size.",
+      "items": [
+        {
+          "id": 1,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        },
+        {
+          "id": 2,
+          "title": "Providing a Home for Fish",
+          "publisher": "MSD Veterinary Manual",
+          "url": "https://www.msdvetmanual.com/all-other-pets/fish/providing-a-home-for-fish"
+        },
+        {
+          "id": 3,
+          "title": "New Tank Syndrome: Causes, Symptoms, and Treatment",
+          "publisher": "PetMD",
+          "url": "https://www.petmd.com/fish/conditions/systemic/new-tank-syndrome-fish"
+        },
+        {
+          "id": 4,
+          "title": "Life beyond a jar: Effects of tank size and furnishings on the behaviour and welfare of Siamese fighting fish",
+          "publisher": "Animal Welfare / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704571/"
+        },
+        {
+          "id": 5,
+          "title": "Life in a fishbowl: Space and environmental enrichment affect behaviour of Betta splendens",
+          "publisher": "Animals / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936361/"
+        }
+      ]
+    }
+  ]
+}

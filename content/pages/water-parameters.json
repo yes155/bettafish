@@ -1,0 +1,104 @@
+{
+  "url": "/care/water-parameters/",
+  "page_type": "article",
+  "status": "approved",
+  "indexable": true,
+  "title": "Betta Fish Water Parameters: Temperature, pH and Water Quality | BettaFish.website",
+  "description": "Keep betta water stable with practical targets for temperature, pH, ammonia, nitrite and routine water changes.",
+  "h1": "Betta Fish Water Parameters: Optimal Temperature, pH & Hardness",
+  "eyebrow": "Care and tank setup",
+  "intro": "Aim for stable, conditioned water at 76–81°F (24.4–27.2°C), a pH near 7 within a tolerated range of about 6.5–7.8, and no detectable ammonia or nitrite. Stability and regular testing matter more than chasing a single perfect number.",
+  "updated": "2026-09-01",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Act on ammonia or nitrite",
+      "text": {"text": "Any detectable ammonia or nitrite deserves attention. Test the water, make an appropriate partial water change with conditioned, temperature-matched water, and check whether the biofilter is established and operating.", "sources": [2, 4]}
+    },
+    {
+      "type": "table",
+      "heading": "Optimal water parameters for Betta splendens",
+      "caption": "Practical target ranges for a home betta aquarium",
+      "headers": ["Parameter", "Practical target", "Why it matters"],
+      "rows": [
+        [{"text": "Temperature", "sources": [1]}, "76–81°F (24.4–27.2°C), kept stable", "Bettas are tropical fish; temperature affects normal physiology and immune function."],
+        [{"text": "pH", "sources": [1]}, "Near 7; about 6.5–7.8 is generally tolerated", "A stable value close to the source water makes routine maintenance easier."],
+        [{"text": "Ammonia", "sources": [2, 4]}, "Not detectable", "Ammonia is toxic and commonly rises in immature or disrupted aquariums."],
+        [{"text": "Nitrite", "sources": [2, 4]}, "Not detectable", "Nitrite is also toxic and signals incomplete biological filtration."],
+        [{"text": "Nitrate", "sources": [4]}, "Keep low through testing and water changes; investigate readings above 20 mg/L", "Nitrate accumulates as the biofilter processes waste."],
+        ["Hardness and alkalinity", "Use a stable, conditioned water source; avoid abrupt changes", "Mineral content and buffering differ by water supply, so trend stability is more useful than forcing a universal number."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What are the optimal water parameters for Betta splendens?",
+      "paragraphs": [
+        {"text": "For most home betta aquariums, the useful baseline is 76–81°F, a pH near neutral, and no detectable ammonia or nitrite. Test nitrate as a maintenance indicator and keep it low with partial water changes. A consistent pH within the tolerated range is safer than repeatedly adding chemicals to force an exact reading.", "sources": [1, 4]},
+        {"text": "Hardness and alkalinity are not one-size-fits-all targets. They influence mineral availability and pH stability, but a betta already adapted to a safe local water supply usually benefits from consistency. If you use reverse-osmosis or distilled water, remineralize it with an aquarium product according to its directions and verify the resulting chemistry before use."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do betta fish need a heater?",
+      "paragraphs": [
+        {"text": "Use a thermostatically controlled aquarium heater when the tank would otherwise fall below the target range or fluctuate. PetMD's veterinary-reviewed care sheet recommends a heater even in many warm homes because room temperature changes can produce stressful water-temperature swings.", "sources": [1]},
+        {"text": "Confirm the result with a separate aquarium thermometer. Choose equipment rated for the tank volume, keep it positioned as the manufacturer instructs, and unplug it before exposing it to air during maintenance."}
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to cycle a betta fish tank",
+      "intro": "Cycling establishes bacteria that process ammonia into nitrite and then nitrate. A filter provides a durable surface for those organisms.",
+      "steps": [
+        {"title": "Set up the complete aquarium", "text": "Install the filter and heater, add conditioned water, and run the equipment continuously."},
+        {"title": "Provide a controlled ammonia source", "text": "Use a fishless-cycling method and follow the product or protocol directions. Do not guess at chemical doses."},
+        {"title": "Test the nitrogen compounds", "text": "Track ammonia, nitrite and nitrate. The process commonly takes several weeks; a calendar date alone does not prove completion."},
+        {"title": "Confirm the biofilter", "text": "Only treat the aquarium as cycled after testing shows that the system processes the supplied waste without leaving detectable ammonia or nitrite."},
+        {"title": "Protect the bacteria", "text": "Keep filter media wet, avoid replacing all media at once, and do not expose it unnecessarily to chlorinated water."}
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can a betta fish live in untreated tap water?",
+      "paragraphs": [
+        {"text": "Tap water is often a practical aquarium water source, but municipal supplies may contain chlorine or chloramine, which are toxic to fish and beneficial filter bacteria. Treat new water with an aquarium conditioner that handles the disinfectant used by your utility, following the label dose.", "sources": [2, 4]},
+        {"text": "Match the replacement water temperature to the aquarium and avoid large, sudden chemistry changes. If a water report or test shows an unusual issue such as ammonia in the source water, seek product-specific or professional guidance instead of assuming a standard conditioner solves every problem.", "sources": [4]}
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "A safe schedule for betta fish water changes",
+      "intro": "A weekly 15–25% change is a useful starting point for a cycled, appropriately stocked aquarium, but test results and visible waste determine whether the schedule needs adjustment.",
+      "steps": [
+        {"title": "Check before changing", "text": "Test ammonia, nitrite, nitrate and pH; confirm the aquarium temperature and equipment operation."},
+        {"title": "Remove water and debris", "text": "Unplug equipment as required by its instructions, then siphon a partial volume while removing debris from accessible substrate."},
+        {"title": "Condition replacement water", "text": "Dose the conditioner for the volume being treated and bring the water close to the tank temperature."},
+        {"title": "Refill gently", "text": "Add water without disturbing the fish or substrate, restore the operating water level, and restart equipment."},
+        {"title": "Verify the result", "text": "Confirm flow and temperature, and retest when you were responding to an abnormal reading."}
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {"question": "What is the best water for a betta fish?", "answer": "Stable, temperature-matched water that has been conditioned for chlorine or chloramine is a practical choice for most homes. Test the tank rather than relying on appearance alone.", "sources": [1, 2]},
+        {"question": "Is distilled water good for betta fish?", "answer": "Do not use straight distilled water as an automatic aquarium solution. It lacks the minerals and buffering found in typical source water. If purified water is necessary, it should be remineralized and tested for aquarium use; avoid sudden changes from the water the fish is accustomed to."},
+        {"question": "How long can a betta live without a filter?", "answer": "There is no responsible fixed survival time. Risk depends on tank volume, waste, temperature, oxygenation and the maturity of the biofilter. Treat a stopped filter as a water-quality problem: test promptly, preserve wet media, restore suitable filtration and make conditioned partial water changes as readings require.", "sources": [2, 4]}
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "These references support the care ranges and safety guidance above. Product directions and local water conditions still apply.",
+      "items": [
+        {"id": 1, "title": "Betta Fish Care Sheet", "publisher": "PetMD", "url": "https://www.petmd.com/fish/betta-fish-care-sheet"},
+        {"id": 2, "title": "Providing a Home for Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/all-other-pets/fish/providing-a-home-for-fish"},
+        {"id": 3, "title": "Management of Aquarium Fish", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"},
+        {"id": 4, "title": "New Tank Syndrome: Causes, Signs, and Treatment", "publisher": "PetMD", "url": "https://www.petmd.com/fish/conditions/systemic/new-tank-syndrome-fish"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "/diseases/",
+  "page_type": "hub",
+  "status": "draft",
+  "indexable": false,
+  "title": "Betta Fish Diseases and Health Warning Signs | BettaFish.website",
+  "description": "Understand betta health warning signs, water-quality checks and the limits of online disease guidance.",
+  "h1": "Start with symptoms, water and urgency",
+  "eyebrow": "Diseases and health",
+  "intro": "Similar symptoms can have different causes. Check the environment, document what changed and avoid presenting a webpage as a veterinary diagnosis.",
+  "updated": "2026-09-03",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {"type": "steps", "heading": "A safer first response", "intro": "Use observation to decide urgency before reaching for a treatment.", "steps": [
+      {"title": "Test the water", "text": "Record temperature, ammonia, nitrite, nitrate and any recent maintenance change."},
+      {"title": "Describe the symptom", "text": "Note breathing, appetite, swimming, skin, fins, waste and how quickly the change developed."},
+      {"title": "Reduce avoidable stress", "text": "Correct unsafe water and isolate aggression without making several chemical changes at once."},
+      {"title": "Escalate when necessary", "text": "Rapid decline, severe breathing difficulty, major injury or uncertainty may require an aquatic veterinarian."}
+    ]},
+    {"type": "cards", "heading": "Clinical guides", "intro": "Use these guides for observation, environmental checks and escalation boundaries—not as individual diagnosis.", "cards": [
+      {"title": "Symptom triage", "text": "Organize observations by urgency before selecting a response.", "url": "/diseases/diagnostic-matrix/", "label": "Open the triage matrix"},
+      {"title": "Fin damage and suspected fin rot", "text": "Document change over time and correct environmental risks.", "url": "/diseases/fin-rot/", "label": "Review fin changes"},
+      {"title": "Suspected ich", "text": "Understand spot lookalikes, lifecycle and confirmation needs.", "url": "/diseases/ich-treatment/", "label": "Review suspected ich"},
+      {"title": "Dropsy signs", "text": "Treat swelling and raised scales as an urgent symptom cluster.", "url": "/diseases/dropsy-treatment/", "label": "Review dropsy triage"},
+      {"title": "Suspected velvet", "text": "Compare subtle signs and define safe clinical escalation.", "url": "/diseases/velvet-treatment/", "label": "Review suspected velvet"},
+      {"title": "Suspected columnaris", "text": "Recognize rapid changes while avoiding visual overdiagnosis.", "url": "/diseases/columnaris-treatment/", "label": "Review suspected columnaris"},
+      {"title": "Buoyancy problems", "text": "Separate posture changes from assumptions about one cause.", "url": "/anatomy/swim-bladder-treatment/", "label": "Review buoyancy triage"}
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "Clinical approval recorded", "text": "Robert Martinez, DVM, approved the exact SHA-256-locked versions of these seven educational candidates with no requested changes.", "url": "/reviewers/robert-martinez/", "label": "View the clinical reviewer"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "url": "/about/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "About BettaFish.website",
+  "description": "Learn why BettaFish.website is being built, how its guidance is organized and which claims require specialist review.",
+  "h1": "A clearer path through betta care",
+  "eyebrow": "About BettaFish.website",
+  "intro": "BettaFish.website is an independent educational project designed to make betta husbandry easier to understand without turning every symptom into a diagnosis or every question into a product list.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "Why this site exists", "paragraphs": [
+      "Betta advice is often fragmented: tank setup is separated from water quality, behaviour is mistaken for disease and health pages may offer treatment before checking the environment.",
+      "This site organizes guidance around keeper decisions and clear page roles. Each page states what it covers, what belongs elsewhere and what the reader should do next."
+    ]},
+    {"type": "prose", "heading": "How we build trust", "paragraphs": [
+      "Sources, review requirements, content dates and corrections are treated as page data rather than decorative badges.",
+      "Research and writing are led by Farrukh Abdullah. Kate Barrington reviews and edits assigned guides. Robert Martinez, DVM, is assigned to clinically review disease and fish-health content. A clinical-review credit appears only after approval of the exact corrected version is recorded."
+    ]},
+    {"type": "cards", "heading": "Editorial team", "intro": "The writing and review roles are separate and link to stable profile entities.", "cards": [
+      {"title": "Farrukh Abdullah", "text": "Researches, structures and writes BettaFish.website guides.", "url": "/authors/farrukh-abdullah/", "label": "View author profile"},
+      {"title": "Kate Barrington", "text": "Reviews and edits assigned guides for clarity, consistency and practical usefulness.", "url": "/editors/kate-barrington/", "label": "View editor profile"},
+      {"title": "Robert Martinez, DVM", "text": "Provides assigned clinical review for disease and fish-health content.", "url": "/reviewers/robert-martinez/", "label": "View clinical reviewer profile"}
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "Prepublication status", "text": "The editorial identities and contact channel are documented. Disease-page clinical approvals, media and preview evidence remain blocked before launch.", "url": "/editorial-policy/", "label": "See the editorial process"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "url": "/privacy-policy/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Privacy Policy | BettaFish.website",
+  "description": "Privacy practices for BettaFish.website, including the current email contact channel and static prepublication website.",
+  "h1": "Privacy policy",
+  "eyebrow": "Data and visitor privacy",
+  "intro": "This policy describes the static prepublication build and its current email contact channel. It must be updated before analytics, advertising, forms or other services are enabled.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "prose", "heading": "Current foundation build", "paragraphs": [
+      "The foundation site does not contain a contact form, user account, advertising script or analytics tracker.",
+      "The hosting provider may process ordinary technical request information needed to deliver and protect the site. Its practices are governed by its own applicable terms and policies."
+    ]},
+    {"type": "prose", "heading": "Email contact", "paragraphs": [
+      "If you email bettafish.website@gmail.com, the mailbox provider and BettaFish.website receive the email address, message content and any information you choose to include. That information is used to respond, investigate corrections or handle the request.",
+      "Do not send sensitive personal, financial or medical information. Email records should be retained only as long as reasonably needed for the request, legal obligations or abuse prevention."
+    ]},
+    {"type": "prose", "heading": "Future services", "paragraphs": [
+      "Analytics, advertising, affiliate tracking, embeds, newsletters or forms will not be added silently. The external-script inventory and this policy must be updated before those services are approved.",
+      "Any consent mechanism must reflect the data actually collected rather than displaying a generic cookie banner."
+    ]},
+    {"type": "callout", "tone": "warning", "heading": "Prepublication policy", "text": "The policy must be reviewed again if any analytics, advertising, form, embed or newsletter service is introduced."}
+  ]
+}

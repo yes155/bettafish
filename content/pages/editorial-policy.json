@@ -1,0 +1,33 @@
+{
+  "url": "/editorial-policy/",
+  "page_type": "trust",
+  "status": "review",
+  "indexable": true,
+  "title": "Editorial Policy | BettaFish.website",
+  "description": "How BettaFish.website researches, reviews, updates and corrects betta care and health guidance.",
+  "h1": "Editorial policy",
+  "eyebrow": "How guidance is produced",
+  "intro": "Our editorial system separates evidence, keeper observation and uncertainty so readers can see what a page can and cannot establish.",
+  "updated": "2026-09-01",
+  "sections": [
+    {"type": "list", "heading": "Evidence priorities", "items": [
+      "Peer-reviewed research and named aquatic-veterinary sources for health and welfare claims.",
+      "Government, university extension and recognized animal-welfare guidance.",
+      "Established aquarium references with identifiable, experienced authors.",
+      "Clearly labelled keeper observations only where stronger evidence is unavailable."
+    ]},
+    {"type": "prose", "heading": "Research, writing and review", "paragraphs": [
+      "Farrukh Abdullah researches, structures and writes the guides. Kate Barrington reviews and edits assigned guides after the first draft and source record are prepared. Robert Martinez, DVM, is assigned to clinically review disease and fish-health pages.",
+      "Bylines link to permanent internal profiles. Editorial and clinical-review credits are added only when that exact page version's review is recorded; assigning a reviewer in the site structure does not prove that an unfinished page has already been reviewed."
+    ]},
+    {"type": "prose", "heading": "AI assistance", "paragraphs": [
+      "AI may assist with research organization, draft structure, code, testing and editing. It does not supply credentials, assume factual responsibility or replace specialist review.",
+      "The publisher remains accountable for publication. High-risk pages remain blocked until their sources, claims and completed review record are verified."
+    ]},
+    {"type": "prose", "heading": "Dates and updates", "paragraphs": [
+      "Published and reviewed dates come from editorial records. The build process does not invent or silently refresh them.",
+      "Time-sensitive medication, legal, product and welfare claims receive shorter review intervals than stable biology pages."
+    ]},
+    {"type": "callout", "tone": "evidence", "heading": "Corrections are part of the record", "text": "Safety-relevant corrections require explicit review and must not be hidden as an ordinary wording change.", "url": "/corrections-policy/", "label": "Read the corrections policy"}
+  ]
+}

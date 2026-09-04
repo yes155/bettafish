@@ -1,0 +1,34 @@
+{
+  "farrukh-abdullah": {
+    "name": "Farrukh Abdullah",
+    "profile_url": "/authors/farrukh-abdullah/",
+    "external_url": "https://farrukh.top/",
+    "job_title": "Researcher and writer",
+    "role_label": "Research and written by",
+    "same_as": [
+      "https://farrukh.top/"
+    ]
+  },
+  "kate-barrington": {
+    "name": "Kate Barrington",
+    "profile_url": "/editors/kate-barrington/",
+    "external_url": "https://www.katebarrington.com/",
+    "job_title": "Reviewer and editor",
+    "role_label": "Reviewed and edited by",
+    "same_as": [
+      "https://www.katebarrington.com/",
+      "https://www.ratemyfishtank.com/articles/authors/3"
+    ]
+  },
+  "robert-martinez": {
+    "name": "Robert Martinez, DVM",
+    "profile_url": "/reviewers/robert-martinez/",
+    "external_url": "https://www.aquaticvetconsulting.com/about",
+    "job_title": "Certified Aquatic Veterinarian and clinical reviewer",
+    "role_label": "Clinically reviewed by",
+    "same_as": [
+      "https://www.aquaticvetconsulting.com/about",
+      "https://www.wavma.org/Webinars/b1089-fish-er-medicine-97942"
+    ]
+  }
+}

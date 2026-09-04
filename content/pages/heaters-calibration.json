@@ -1,0 +1,184 @@
+{
+  "url": "/care/heaters-calibration/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Heater Guide: Sizing, Placement and Calibration | BettaFish.website",
+  "description": "Choose and verify a heater for a small betta aquarium using tank size, room temperature, manufacturer instructions and a separate thermometer.",
+  "h1": "Betta Fish Heaters: Sizing, Placement and Temperature Checks",
+  "eyebrow": "Care and tank setup",
+  "intro": "A betta aquarium should stay within a stable tropical range. Select a thermostatically controlled heater rated for the aquarium and the required temperature rise, then verify the water with a separate thermometer. The number printed on a heater dial is a setting, not proof of the actual tank temperature.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Follow the exact heater manual",
+      "text": {
+        "text": "Submersion limits, minimum water level, mounting orientation, warm-up time and water-change precautions vary by model. Use only aquarium equipment suitable for the tank volume and follow its manufacturer instructions; replace damaged or erratic equipment rather than attempting an electrical repair."
+      }
+    },
+    {
+      "type": "table",
+      "heading": "How to choose a heater for a 5-gallon betta tank",
+      "caption": "Selection factors that matter more than a universal wattage rule",
+      "headers": ["Factor", "What to check", "Why it matters"],
+      "rows": [
+        [
+          "Temperature target",
+          {"text": "Use the established betta range; 76–81°F (24.4–27.2°C) is a practical reference.", "sources": [1, 2]},
+          "A stable measured temperature matters more than an exact dial number."
+        ],
+        [
+          "Required temperature rise",
+          "Compare the coldest room temperature with the target water temperature.",
+          "The same tank may need different heating capacity in different rooms or seasons."
+        ],
+        [
+          "Manufacturer rating",
+          "Confirm the heater's supported aquarium volume and installation requirements.",
+          "A generic watts-per-gallon shortcut cannot account for every heater design or environment."
+        ],
+        [
+          "Control and verification",
+          {"text": "Prefer thermostatic control and use a separate aquarium thermometer.", "sources": [1, 2, 3]},
+          "A separate reading helps detect a misleading dial or failed heater."
+        ],
+        [
+          "Physical fit",
+          "Check minimum water depth, guarded clearance and whether the model permits the chosen orientation.",
+          "Small aquariums can make safe mounting more difficult."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What temperature should a betta aquarium maintain?",
+      "paragraphs": [
+        {
+          "text": "The University of Illinois College of Veterinary Medicine and PetMD both give a 76–81°F range for domestic bettas. RSPCA Australia gives a narrower 24–26°C range. These recommendations overlap; for routine care, choose a stable point within the accepted range and avoid abrupt fluctuations.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "text": "Do not diagnose disease from temperature alone. If a betta becomes lethargic, stops eating or swims abnormally, check temperature and water chemistry promptly and seek qualified help when signs persist or worsen.",
+          "sources": [2, 4]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to install and verify a betta heater",
+      "intro": "Complete the test before relying on the heater with a fish in the aquarium.",
+      "steps": [
+        {
+          "title": "Measure the room-to-water difference",
+          "text": "Note the aquarium's lowest likely room temperature and calculate how much warmer the water must remain. Use that difference and the tank volume when checking manufacturer sizing."
+        },
+        {
+          "title": "Read the full installation instructions",
+          "text": "Confirm permitted orientation, submersion line, required clearance and any waiting period before power is connected. Do not assume every submersible heater installs the same way."
+        },
+        {
+          "title": "Place a separate thermometer",
+          "text": "Position the thermometer where it can reveal the general tank temperature rather than touching the heater. Gentle circulation can help distribute warmed water without creating excessive flow for the betta."
+        },
+        {
+          "title": "Test through multiple cycles",
+          "text": "Run the complete aquarium without the fish and observe several heating cycles. Confirm that the temperature stabilizes in range and does not continue climbing."
+        },
+        {
+          "title": "Check it every day",
+          "text": "Read the separate thermometer during routine feeding and look for unusual cycling, condensation, cracks or temperature drift. A controller is not a substitute for observation."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Can a betta live in an unheated aquarium?",
+      "paragraphs": [
+        {
+          "text": "An unheated aquarium is only within range when the water itself remains warm and stable, including overnight and during seasonal changes. Most homes are cooler or more variable than a betta aquarium should be, which is why veterinary and welfare guidance commonly includes a heater and thermometer.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "text": "Avoid treating one exact temperature reading as a universal threshold for immediate illness. The practical concern is sustained exposure outside the recommended range or a rapid change. Correct equipment problems safely and gradually while monitoring the fish and water quality."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related care guides",
+      "cards": [
+        {
+          "title": "Water parameters",
+          "text": "Match temperature checks with ammonia, nitrite, nitrate and pH monitoring.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        },
+        {
+          "title": "Low-flow filtration",
+          "text": "Use gentle circulation to distribute warmed water without exhausting the fish.",
+          "url": "/care/filtration/",
+          "label": "Review filtration"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "What wattage heater does a 5-gallon betta tank need?",
+          "answer": "PetMD gives about 3–5 watts per gallon as a starting point, but use the heater manufacturer's aquarium-volume rating and account for the required rise above the coldest room temperature. The final test is a stable reading from a separate thermometer, not wattage alone.",
+          "sources": [2]
+        },
+        {
+          "question": "Where should a heater go in a betta tank?",
+          "answer": "Install it only in an orientation permitted by its manual, usually where gentle water movement can distribute heat. Respect the submersion line and clearance requirements, and do not place the thermometer directly against the heater."
+        },
+        {
+          "question": "Do betta fish need a heater?",
+          "answer": "Most home aquariums need thermostatic heating because room temperatures are commonly too cool or variable. Verify the water itself; even a warm home can fluctuate overnight or seasonally.",
+          "sources": [1, 2, 3]
+        },
+        {
+          "question": "How can I tell whether the heater dial is accurate?",
+          "answer": "Compare the stabilized aquarium temperature with a separate thermometer over multiple heating cycles. If the reading drifts, overshoots or cannot reach the accepted range, stop relying on the dial and follow the manufacturer's troubleshooting or replacement guidance."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and review notes",
+      "intro": "Tank conditions and equipment designs vary. The animal-care ranges below do not replace the installation and safety instructions supplied with a specific heater.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Bettas Need More Than Bowls",
+          "publisher": "University of Illinois College of Veterinary Medicine",
+          "url": "https://vetmed.illinois.edu/pet-health-columns/betta-fish/"
+        },
+        {
+          "id": 2,
+          "title": "Betta Fish Care Sheet",
+          "publisher": "PetMD",
+          "url": "https://www.petmd.com/fish/betta-fish-care-sheet"
+        },
+        {
+          "id": 3,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        },
+        {
+          "id": 4,
+          "title": "Management of Aquarium Fish",
+          "publisher": "Merck Veterinary Manual",
+          "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"
+        }
+      ]
+    }
+  ]
+}

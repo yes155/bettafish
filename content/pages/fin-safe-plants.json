@@ -1,0 +1,210 @@
+{
+  "url": "/aquascaping/fin-safe-plants/",
+  "page_type": "article",
+  "status": "planned-editorial-review",
+  "indexable": false,
+  "title": "Fin-Safe Plants for Betta Fish: Live and Artificial Options | BettaFish.website",
+  "description": "Choose betta aquarium plants by texture, placement and care needs, with safe options for rhizomes, floating cover and artificial foliage.",
+  "h1": "Fin-Safe Plants for Betta Fish: Live and Artificial Options",
+  "eyebrow": "Aquascaping and welfare",
+  "intro": "Anubias and Java fern are useful low-demand live plants for many betta aquariums, but no plant name guarantees a safe setup. Inspect every leaf, stem, tie and decoration for rough edges, match the plant to the tank's light and temperature, and keep the water surface accessible.",
+  "updated": "2026-09-02",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "note",
+      "heading": "Evidence update: September 2026",
+      "text": {
+        "text": "RSPCA Australia recommends several real or artificial plants and smooth decorations for Betta splendens, with particular attention to rough edges and surface access. Plant-care references classify Anubias barteri var. nana and Java fern as slow-growing rhizome plants that tolerate low light, but their rhizomes should not be buried.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "Which plants work well in a betta aquarium?",
+      "caption": "Select by plant needs and safe placement rather than a universal best-plant list",
+      "headers": ["Plant or option", "Why keepers choose it", "Placement and maintenance"],
+      "rows": [
+        [
+          "Anubias barteri var. nana",
+          {"text": "A slow-growing rhizome plant that tolerates shady placement and offers broad leaves.", "sources": [2]},
+          "Attach to stone or wood; do not cover the rhizome. Inspect older leaves and attachment material during maintenance."
+        ],
+        [
+          "Java fern (Microsorum pteropus)",
+          {"text": "A low-light, low-CO2-demand rhizome plant with several sizes and forms.", "sources": [3]},
+          "Attach to rock or wood; do not bury the rhizome. Allow room for the selected variety's mature height."
+        ],
+        [
+          "Floating plants",
+          {"text": "Floating cover can add shade and structure, while Betta care guidance supports plant cover and clear surface access.", "sources": [1]},
+          "Thin growth before it seals the surface, shades every submerged plant or collects waste around the filter."
+        ],
+        [
+          "Rooted rosette or stem plants",
+          "These can add background cover when their temperature, substrate, light and mature size fit the aquarium.",
+          "Check the exact species rather than relying on a generic store label; trim decaying material and preserve swimming room."
+        ],
+        [
+          "Soft artificial foliage",
+          {"text": "Artificial plants can provide cover when they are aquarium-safe and free from rough edges.", "sources": [1]},
+          "Feel every surface and seam, check wire ends and bases, and replace the item if it stiffens, splits or sheds material."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What makes a plant fin-safe for a betta?",
+      "paragraphs": [
+        {
+          "text": "A fin-safe plant has smooth contact surfaces, a stable base and enough open space for the fish to turn and leave. The complete arrangement matters more than the plant label. A soft leaf can still become unsafe if a sharp weight, exposed wire, rough rock or tight gap sits beside it.",
+          "sources": [1]
+        },
+        {
+          "text": "Run a fingertip over artificial leaves, stems, seams and bases before installation. Inspect live-plant ties and hardscape attachment points. After planting, watch whether the fish can move around the feature without snagging or being forced against the filter intake."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Are live plants safer than plastic plants?",
+      "paragraphs": [
+        {
+          "text": "Live plants are often soft and can provide cover, but live does not automatically mean safe. Damaged leaves, hard stems, attachment wire, rough hardscape and crowded placement can still create problems. Artificial plants are not automatically unsafe either; smooth aquarium-grade foliage can work when it passes a physical inspection.",
+          "sources": [1]
+        },
+        {
+          "text": "Avoid blanket claims that rigid plastic always causes fin rot. A rough object may contribute to a tear, while fin deterioration can have several environmental or health causes. Remove the hazard, check water quality and inspect the fish instead of assigning a disease from the decoration alone."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to add live plants to a betta tank",
+      "intro": "Plan the plant's permanent position before adding it to the aquarium.",
+      "steps": [
+        {
+          "title": "Confirm the plant identity",
+          "text": "Buy from an aquarium supplier and check the scientific name, mature size, light demand, planting method and temperature range. Do not collect plants from the wild."
+        },
+        {
+          "title": "Inspect and clean the plant",
+          "text": "Remove damaged material, loose weights and packing media. Inspect for unwanted animals or eggs and follow the supplier's aquarium-safe preparation guidance."
+        },
+        {
+          "title": "Place the roots or rhizome correctly",
+          "text": "Root true root-feeding species in compatible substrate. Attach Anubias and Java fern to smooth rock or wood and keep their rhizomes exposed."
+        },
+        {
+          "title": "Preserve routes and surface access",
+          "text": "Leave open swimming and turning space. Thin floating growth and keep a clear route to the surface for air breathing."
+        },
+        {
+          "title": "Monitor the aquarium",
+          "text": "Remove decaying leaves, test water, watch filter flow and adjust the light schedule gradually. Plants supplement habitat management; they do not replace filtration or maintenance."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do live plants clean betta tank water?",
+      "paragraphs": [
+        {
+          "text": "Live plants use nitrogen and other nutrients as they grow, but they do not guarantee safe ammonia, nitrite or nitrate levels. Uptake changes with species, plant mass, light, nutrients and growth rate. A few slow-growing plants cannot be treated as a complete filtration system."
+        },
+        {
+          "text": "Keep the aquarium's biological filter and maintenance routine. Test ammonia, nitrite, nitrate and pH, and remove dead plant material before it decays. The water-parameter and filtration guides remain the owners of those decisions.",
+          "sources": [1]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Do Anubias and Java fern need injected CO2?",
+      "paragraphs": [
+        {
+          "text": "Anubias barteri var. nana and Java fern are listed as low-demand plants, so many low-tech aquariums start without pressurized CO2 injection. Low demand does not mean that carbon, light or nutrients are irrelevant. Growth can remain slow, and results vary with the aquarium.",
+          "sources": [2, 3]
+        },
+        {
+          "text": "Do not add a pressurized CO2 system solely because a plant grows slowly. First confirm that the rhizome is exposed, the light is suitable, old leaves are maintained and the plant is not shaded beyond its tolerance."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related aquarium checks",
+      "cards": [
+        {
+          "title": "Betta filtration",
+          "text": "Keep biological filtration even when the aquarium contains live plants.",
+          "url": "/care/filtration/",
+          "label": "Review filtration"
+        },
+        {
+          "title": "Betta water parameters",
+          "text": "Use water tests instead of assuming plant growth has made the water safe.",
+          "url": "/care/water-parameters/",
+          "label": "Review water parameters"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "What are the best live plants for a betta fish?",
+          "answer": "Anubias barteri var. nana and Java fern are practical low-demand starting options. The best choice still depends on tank size, light, substrate, mature plant size and whether the full layout has smooth surfaces and clear swimming routes.",
+          "sources": [2, 3]
+        },
+        {
+          "question": "Can I use plastic plants in a betta tank?",
+          "answer": "Yes, if the item is made for aquariums and every leaf, seam, base and support is smooth. Remove artificial foliage that has sharp edges, exposed wire, brittle parts or narrow traps.",
+          "sources": [1]
+        },
+        {
+          "question": "Can floating plants cover the whole betta tank?",
+          "answer": "No. Thin floating plants so the betta retains open surface access and submerged plants receive enough light. Also prevent floating roots from clogging the filter or trapping waste."
+        },
+        {
+          "question": "Can I bury Anubias or Java fern in gravel?",
+          "answer": "Do not bury the rhizome. Attach the plant to smooth rock or wood, or place only the roots in substrate while the thick horizontal rhizome remains exposed.",
+          "sources": [2, 3]
+        },
+        {
+          "question": "Do live plants replace a betta tank filter?",
+          "answer": "No. Plant nutrient uptake varies and cannot verify that ammonia or nitrite is controlled. Maintain biological filtration, test the water and remove decaying leaves.",
+          "sources": [1]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Betta welfare guidance supports smooth plants, cover and surface access. The plant profiles supply cultivation details, not a guarantee that any finished aquascape prevents injury.",
+      "items": [
+        {
+          "id": 1,
+          "title": "How should I care for my Siamese fighting fish?",
+          "publisher": "RSPCA Australia Knowledgebase",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/fish/how-should-i-care-for-my-siamese-fighting-fish"
+        },
+        {
+          "id": 2,
+          "title": "Anubias barteri var. nana plant profile",
+          "publisher": "Tropica Aquarium Plants",
+          "url": "https://tropica.com/en/plants/plantdetails/Anubiasbarterivar.nana(101)/4545"
+        },
+        {
+          "id": 3,
+          "title": "Microsorum pteropus plant profile",
+          "publisher": "Tropica Aquarium Plants",
+          "url": "https://tropica.com/en/plants/plantdetails/Microsorumpteropus(008XL)/4409"
+        }
+      ]
+    }
+  ]
+}
