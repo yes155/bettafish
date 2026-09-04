@@ -110,13 +110,8 @@ def credits_html(page: dict, people: dict[str, dict]) -> str:
 
 
 def citation_links(item: object) -> str:
-    if not isinstance(item, dict) or not item.get("sources"):
-        return ""
-    links = "".join(
-        f'<a href="#source-{int(source_id)}" aria-label="Source {int(source_id)}">[{int(source_id)}]</a>'
-        for source_id in item["sources"]
-    )
-    return f'<sup class="citations">{links}</sup>'
+    """Source details remain in the plain-text Sources section."""
+    return ""
 
 
 def cited_text(item: object) -> str:
@@ -125,7 +120,7 @@ def cited_text(item: object) -> str:
     return esc(item)
 
 
-def render_section(section: dict) -> str:
+def render_section(section: dict, card_media_by_url: dict[str, dict] | None = None) -> str:
     section_type = section["type"]
     heading = f'<h2>{esc(section["heading"])}</h2>' if section.get("heading") else ""
     intro = f'<p class="section-intro">{esc(section["intro"])}</p>' if section.get("intro") else ""
@@ -139,10 +134,28 @@ def render_section(section: dict) -> str:
     if section_type == "cards":
         cards = []
         for card in section.get("cards", []):
+            thumbnail = ""
+            media = (card_media_by_url or {}).get(card.get("url", ""))
+            if media:
+                focal_point = {
+                    "left": "left center",
+                    "right": "right center",
+                }.get(media.get("focal_point"), "center")
+                thumbnail = (
+                    '<div class="card-thumbnail">'
+                    f'<img src="{esc(media_public_url(media))}" width="{int(media["width"])}" '
+                    f'height="{int(media["height"])}" alt="" loading="lazy" decoding="async" '
+                    f'style="object-position: {esc(focal_point)}"></div>'
+                )
             link = ""
             if card.get("url"):
                 link = f'<a class="card-link" href="{esc(card["url"])}">{esc(card.get("label", "Read more"))} <span aria-hidden="true">→</span></a>'
-            cards.append(f'<article class="topic-card"><h3>{esc(card["title"])}</h3><p>{esc(card["text"])}</p>{link}</article>')
+            thumbnail_class = " has-thumbnail" if thumbnail else ""
+            cards.append(
+                f'<article class="topic-card{thumbnail_class}">{thumbnail}'
+                f'<div class="card-body"><h3>{esc(card["title"])}</h3>'
+                f'<p>{esc(card["text"])}</p>{link}</div></article>'
+            )
         return f'<section class="content-section cards-section">{heading}{intro}<div class="card-grid">{"".join(cards)}</div></section>'
     if section_type == "steps":
         steps = "".join(
@@ -489,7 +502,10 @@ def main() -> None:
         canonical = absolute_url(config, page["url"])
         hero_media = approved_heroes.get(page["url"])
         content = "\n".join(
-            render_section(publication_section(section, page["url"] in exact_approved_urls))
+            render_section(
+                publication_section(section, page["url"] in exact_approved_urls),
+                approved_heroes if page["page_type"] == "homepage" else None,
+            )
             for section in page.get("sections", [])
         )
         rendered = template.safe_substitute(
