@@ -183,8 +183,8 @@ def render_section(section: dict) -> str:
         for item in section.get("items", []):
             publisher = f' — {esc(item["publisher"])}' if item.get("publisher") else ""
             rendered_sources.append(
-                f'<li id="source-{int(item["id"])}"><a href="{esc(item["url"])}">'
-                f'{esc(item["title"])}</a>{publisher}</li>'
+                f'<li id="source-{int(item["id"])}"><cite>{esc(item["title"])}</cite>'
+                f'{publisher}</li>'
             )
         items = "".join(rendered_sources)
         return f'<section class="content-section sources-section">{heading}{intro}<ol class="source-list">{items}</ol></section>'
