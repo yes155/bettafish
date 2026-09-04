@@ -169,7 +169,8 @@ def render_section(section: dict, card_media_by_url: dict[str, dict] | None = No
                 )
             steps.append(f'<li>{content}</li>')
         steps_html = "".join(steps)
-        return f'<section class="content-section steps">{heading}{intro}<ol class="step-list">{steps_html}</ol></section>'
+        heading_intro = f'<div class="steps-heading">{heading}{intro}</div>' if heading or intro else ""
+        return f'<section class="content-section steps">{heading_intro}<ol class="step-list">{steps_html}</ol></section>'
     if section_type == "callout":
         tone = section.get("tone", "evidence")
         link = ""
