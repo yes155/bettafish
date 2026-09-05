@@ -160,10 +160,28 @@ def collect_source_refs(value: object) -> set[int]:
     return refs
 
 
+def contrast_ratio(foreground: str, background: str) -> float:
+    """Return WCAG relative-luminance contrast for two six-digit hex colors."""
+    def luminance(color: str) -> float:
+        channels = [int(color[index:index + 2], 16) / 255 for index in (1, 3, 5)]
+        linear = [channel / 12.92 if channel <= 0.04045 else ((channel + 0.055) / 1.055) ** 2.4 for channel in channels]
+        return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+    lighter, darker = sorted((luminance(foreground), luminance(background)), reverse=True)
+    return (lighter + 0.05) / (darker + 0.05)
+
+
 def main() -> int:
     failures: list[str] = []
     warnings: list[str] = []
     checks: list[dict[str, str]] = []
+    stylesheet = (ROOT / "site" / "styles" / "main.css").read_text(encoding="utf-8")
+    accent_match = re.search(r"--color-accent:\s*(#[0-9a-fA-F]{6})", stylesheet)
+    accent_contrast_pass = bool(
+        accent_match and contrast_ratio(accent_match.group(1), "#ffffff") >= 4.5
+    )
+    if not accent_contrast_pass:
+        failures.append("The universal accent color does not meet 4.5:1 contrast against white.")
     with EDITORIAL_REVIEW_PATH.open(newline="", encoding="utf-8") as handle:
         editorial_candidates = {row["url"]: row for row in csv.DictReader(handle)}
     with CLINICAL_REVIEW_PATH.open(newline="", encoding="utf-8") as handle:
@@ -250,6 +268,7 @@ def main() -> int:
         else:
             try:
                 schema = json.loads(parser.schema_blocks[0])
+                graph = schema.get("@graph", [])
                 serialized = json.dumps(schema)
                 if CONFIG["base_url"] not in serialized:
                     failures.append(f"{label}: schema does not reference the canonical domain")
@@ -260,8 +279,15 @@ def main() -> int:
                 if source_page.get("person_id"):
                     if '"@type": "ProfilePage"' not in serialized or '"@type": "Person"' not in serialized:
                         failures.append(f"{label}: profile page is missing ProfilePage or Person schema")
+                if source_page.get("page_type") in {"homepage", "hub"}:
+                    about_nodes = [node.get("about") for node in graph if node.get("@id") == CONFIG["base_url"] + label + "#webpage"]
+                    if not about_nodes or about_nodes[0].get("sameAs") != "https://www.wikidata.org/wiki/Q11739":
+                        failures.append(f"{label}: core landing page is missing the Betta splendens entity mapping")
+                if source_page.get("page_type") in {"homepage", "hub", "article"} or label == "/about/":
+                    organization_nodes = [node for node in graph if node.get("@type") == "Organization"]
+                    if len(organization_nodes) != 1:
+                        failures.append(f"{label}: expected one Organization schema node")
                 if source_page.get("page_type") == "article":
-                    graph = schema.get("@graph", [])
                     article_nodes = [node for node in graph if node.get("@type") == "Article"]
                     faq_nodes = [node for node in graph if node.get("@type") == "FAQPage"]
                     if len(article_nodes) != 1:
@@ -347,6 +373,38 @@ def main() -> int:
         for source in (ROOT / "content" / "pages").glob("*.json")
         for page in [json.loads(source.read_text(encoding="utf-8"))]
     }
+    unapproved_registry = [row["url"] for row in registry if row["status"] != "approved"]
+    if unapproved_registry:
+        failures.append("Published registry rows are not approved: " + ", ".join(unapproved_registry))
+    unapproved_nonarticle_sources = [
+        row["url"]
+        for row in registry
+        if row["page_type"] != "article" and source_pages[row["url"]].get("status") != "approved"
+    ]
+    if unapproved_nonarticle_sources:
+        failures.append(
+            "Non-article source pages are not approved: " + ", ".join(unapproved_nonarticle_sources)
+        )
+    query_owners: dict[str, list[str]] = {}
+    for row in registry:
+        query_owners.setdefault(row["primary_query"].strip().lower(), []).append(row["url"])
+    duplicate_queries = {
+        query: urls for query, urls in query_owners.items()
+        if query and len(urls) > 1
+    }
+    if duplicate_queries:
+        failures.append(
+            "Primary-query ownership is duplicated: "
+            + "; ".join(f"{query} -> {', '.join(urls)}" for query, urls in duplicate_queries.items())
+        )
+    nonindexable_approved = [
+        item["url"] for item in manifest
+        if item["url"] != "/404.html" and not item["page_indexable"]
+    ]
+    if nonindexable_approved:
+        failures.append(
+            "Approved pages would remain non-indexable after launch: " + ", ".join(nonindexable_approved)
+        )
     source_urls = set(source_pages)
     generated_source_urls = {
         row["url"] for row in registry
@@ -724,6 +782,9 @@ def main() -> int:
 
     checks.extend([
         {"check": "generated-page-contracts", "status": "PASS" if not failures else "FAIL"},
+        {"check": "accessible-color-contrast", "status": "PASS" if accent_contrast_pass else "FAIL"},
+        {"check": "approved-page-contract", "status": "PASS" if not unapproved_registry and not unapproved_nonarticle_sources and not nonindexable_approved else "FAIL"},
+        {"check": "semantic-query-ownership", "status": "PASS" if not duplicate_queries else "FAIL"},
         {"check": "preview-indexing-controls", "status": "PASS" if CONFIG["sitewide_noindex"] and "<url>" not in sitemap_text else "FAIL"},
         {"check": "legacy-identity-and-office-scan", "status": "PASS" if not any("legacy" in failure or "Burlington" in failure for failure in failures) else "FAIL"},
         {"check": "internal-prepublication-copy", "status": "PASS" if not any("prepublication" in failure or "evidence-update" in failure for failure in failures) else "FAIL"},

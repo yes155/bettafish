@@ -290,8 +290,18 @@ def schema_for(
         "name": page["title"],
         "description": page["description"],
         "dateModified": page["updated"],
+        "inLanguage": config["language"],
         "isPartOf": {"@id": config["base_url"] + "/#website"},
     }
+    publisher_pages = {"homepage", "hub", "article"}
+    if page["page_type"] in publisher_pages or page["url"] == "/about/":
+        web_page["publisher"] = {"@id": config["base_url"] + "/#organization"}
+    if page["page_type"] in {"homepage", "hub"}:
+        web_page["about"] = {
+            "@type": "Thing",
+            "name": "Betta splendens",
+            "sameAs": "https://www.wikidata.org/wiki/Q11739",
+        }
     graph = [web_page]
     schema_target = web_page
     if page["page_type"] == "article":
@@ -365,32 +375,25 @@ def schema_for(
             graph.append(person_schema(person_id, person, config))
             included_people.add(person_id)
     if page["url"] == "/":
-        graph.extend([
-            {
-                "@type": "WebSite",
-                "@id": config["base_url"] + "/#website",
-                "url": config["base_url"] + "/",
-                "name": config["name"],
-                "inLanguage": config["language"],
-            },
-            {
-                "@type": "Organization",
-                "@id": config["base_url"] + "/#organization",
-                "name": config["publisher_name"],
-                "url": config["base_url"] + "/",
-                "logo": absolute_url(config, config["logo_path"]),
-                "email": config["contact_email"],
-            },
-        ])
-    elif page["page_type"] == "article":
         graph.append({
+            "@type": "WebSite",
+            "@id": config["base_url"] + "/#website",
+            "url": config["base_url"] + "/",
+            "name": config["name"],
+            "inLanguage": config["language"],
+        })
+    if page["page_type"] in publisher_pages or page["url"] == "/about/":
+        organization = {
             "@type": "Organization",
             "@id": config["base_url"] + "/#organization",
             "name": config["publisher_name"],
             "url": config["base_url"] + "/",
             "logo": absolute_url(config, config["logo_path"]),
             "email": config["contact_email"],
-        })
+        }
+        if config.get("social_profiles"):
+            organization["sameAs"] = config["social_profiles"]
+        graph.append(organization)
     faq_items = [
         item
         for section in page.get("sections", []) if section.get("type") == "faq"
