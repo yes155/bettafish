@@ -14,8 +14,8 @@
   "sections": [
     {
       "type": "cards",
-      "heading": "Choose the guidance you need",
-      "intro": "Each section has one job, so setup advice, behaviour and health guidance do not compete or blur together.",
+      "heading": "Find the right betta fish guide",
+      "intro": "Start with tank setup and daily care, check health warning signs, compare tank mates, or learn how biology and genetics shape a betta's needs.",
       "cards": [
         {"title": "Care and tank setup", "text": "Start with water, heat, filtration and feeding in the right order.", "url": "/care/", "label": "Start safely"},
         {"title": "Diseases and health", "text": "Use symptom-first guidance, understand limits and know when to escalate.", "url": "/diseases/", "label": "Check warning signs"},
