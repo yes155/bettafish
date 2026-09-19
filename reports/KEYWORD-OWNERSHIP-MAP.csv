@@ -1,0 +1,25 @@
+cluster,normalized_primary_query,owner,decision,intent,reason,parent_hub,approval_if_expanded
+Betta care,betta fish care,/care/,KEEP OWNER,informational,"Category owner; homepage remains whole-site gateway",/,None
+Tank setup and tank size,betta fish tank setup,/care/tank-setup/,MERGE INTO EXISTING OWNER,instructional,"Tank-size/bowl/minimum-housing variants are setup decisions",/care/,"Editorial only if source text changes"
+Water parameters,betta fish water parameters,/care/water-parameters/,KEEP OWNER,informational,"Own temperature pH ammonia nitrite nitrate stability",/care/,"Editorial only if source text changes"
+Food pellets feeding,what do betta fish eat,/care/diet-feeding/,KEEP OWNER,instructional,"Own best-food pellet portion feeding-frequency variants",/care/,"Editorial only if source text changes"
+Absence feeding,how long can betta go without food,/care/diet-feeding/,MERGE INTO EXISTING OWNER,informational,"Bounded absence-planning FAQ; avoid survival promises",/care/,"Editorial only if source text changes"
+Filters and flow,best filter for betta fish,/care/filtration/,KEEP OWNER,decision,"Own sponge HOB low-flow variants",/care/,"Editorial only if source text changes"
+Bowls and minimum housing,betta fish bowl minimum tank,/care/tank-setup/,MERGE INTO EXISTING OWNER,decision,"Housing decision belongs inside setup",/care/,"Editorial only if source text changes"
+Water changes,betta fish water change,/maintenance/water-change/,KEEP OWNER,instructional,"Distinct maintenance task",/care/,"Editorial only if source text changes"
+Heaters,betta fish heater,/care/heaters-calibration/,KEEP OWNER,decision,"Own need sizing placement calibration",/care/,"Editorial only if source text changes"
+Broad tank mates,best betta fish tank mates,/compatibility/tank-mates/,KEEP OWNER,decision,"Broad companion comparison owner",/compatibility/,"Editorial only if source text changes"
+Female cohabitation,can female bettas live together,/compatibility/female-sorority/,KEEP SEPARATE,decision,"Distinct high-risk stop conditions",/compatibility/,"Editorial for substantive change"
+Fin damage/regrowth,betta fin rot treatment,/diseases/fin-rot/,MERGE INTO EXISTING OWNER,health-action,"Regrowth belongs with reviewed fin-damage guide",/diseases/,"Clinical if medical meaning changes"
+Plants,fin safe plants for betta,/aquascaping/fin-safe-plants/,KEEP OWNER,decision,"Own live/artificial plant and fin-safety queries",/care/,"Editorial only if source text changes"
+Lifespan,how long do betta fish live,/biology-genetics/lifespan/,KEEP OWNER,informational,"Aging and lifespan variants share one task",/biology-genetics/,"Editorial only if source text changes"
+Compatibility category,betta fish compatibility,/compatibility/,CHANGE HUB QUERY OWNER,category-navigation,"Avoid hub competing with tank-mates article",/,Class A registry correction
+Bubble nests,betta bubble nest,NEW PAGE CANDIDATE,NEW PAGE CANDIDATE,informational,"Distinct behavior/reproduction task; only partial current coverage",/biology-genetics/,"Editorial; clinical only if health/treatment claims added"
+Water conditioner,betta water conditioner,/care/water-parameters/,MERGE INTO EXISTING OWNER,decision,"Current owner already explains chlorine/chloramine and conditioner use; test bounded expansion before new URL",/care/,"Editorial if source expanded"
+Enrichment and toys,betta enrichment safe toys,NEW PAGE CANDIDATE,NEW PAGE CANDIDATE,decision,"Distinct welfare/enrichment task with no strong current owner",/biology-genetics/,"Editorial; clinical if health claims introduced"
+Guppies with bettas,can guppies live with bettas,/compatibility/tank-mates/,MERGE INTO EXISTING OWNER,decision,"Species-pair question can be handled as a bounded matrix/FAQ unless SERP evidence proves separate-depth task",/compatibility/,"Editorial if source expanded"
+Betta teeth,do betta fish have teeth,DEFER,DEFER,informational,"Distinct but low-priority anatomy explainer",/biology-genetics/,Editorial
+Betta fish names,betta fish names,EXCLUDE,EXCLUDE,novelty,"Does not strengthen evidence-led care/health/welfare expertise",,None
+Generic aquarium commercial noise,generic conditioner tanks gravel testing,EXCLUDE,EXCLUDE,commercial,"Not betta-specific ownership",,None
+Best product roundups,best betta products,DEFER,DEFER,transactional,"No approved product-testing/affiliate methodology",,"Future editorial methodology"
+Additional disease treatment,new treatment queries,DEFER,DEFER,clinical,"Requires exact-version aquatic-veterinary review",/diseases/,Clinical
