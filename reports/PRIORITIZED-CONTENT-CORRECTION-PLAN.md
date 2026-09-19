@@ -131,7 +131,7 @@ Requirements:
 
 ### B7. Rising symptom-intent expansion
 Priority: P1  
-Status: **Proposal complete** — see `reports/RISING-SYMPTOM-INTENT-EXPANSION-PROPOSAL.md`
+Status: **Exact review copy prepared for top-of-tank FAQ** — see `drafts/revisions/unhappy-betta-top-of-tank-editorial-revision.json` and `reports/RISING-SYMPTOM-INTENT-EXPANSION-PROPOSAL.md`
 
 - keep bottom/top/not-eating variants under existing behavior/triage owners;
 - add only a bounded “staying at top” FAQ first;
@@ -140,7 +140,7 @@ Status: **Proposal complete** — see `reports/RISING-SYMPTOM-INTENT-EXPANSION-P
 
 ### B8. Female Betta broad-query expansion
 Priority: P2  
-Status: **Proposal complete** — see `reports/FEMALE-BETTA-QUERY-OWNERSHIP-PROPOSAL.md`
+Status: **Exact review copy prepared** — see `drafts/revisions/gender-identification-female-query-editorial-revision.json` and `reports/FEMALE-BETTA-QUERY-OWNERSHIP-PROPOSAL.md`
 
 - test broadening `/breeding/gender-identification/` before creating a new URL;
 - keep Sorority as female-group owner;
@@ -148,7 +148,7 @@ Status: **Proposal complete** — see `reports/FEMALE-BETTA-QUERY-OWNERSHIP-PROP
 
 ### B9. PAA care FAQ expansion
 Priority: P2  
-Status: **Proposal complete** — see `reports/PAA-CARE-FAQ-EXPANSION-PROPOSAL.md`
+Status: **Exact review copies prepared** — see `drafts/revisions/tank-setup-handling-faq-editorial-revision.json`, `drafts/revisions/diet-feeding-paa-editorial-revision.json` and `reports/PAA-CARE-FAQ-EXPANSION-PROPOSAL.md`
 
 - handling/touch/bite -> Tank Setup;
 - hunger/pellet/human-food variants -> Diet & Feeding;
@@ -180,6 +180,12 @@ Trigger Class C only if a future edit changes:
 9. Defer Teeth/Anatomy and additional treatment pages.
 10. Re-run build/audit after report-layer or registry changes.
 11. Keep site noindex until the separate deployment/launch gates pass.
+
+## Exact keyword editorial patch handoff
+
+Prepared: `reports/KATE-KEYWORD-PATCH-REVIEW-HANDOFF-2026-09-19.md`
+
+This handoff contains five exact review copies and must be treated as approval-gated. No corresponding `content/pages/` source has been changed.
 
 ## Do not do
 
