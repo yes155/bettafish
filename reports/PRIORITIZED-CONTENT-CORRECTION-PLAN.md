@@ -81,7 +81,8 @@ Priority: P2
 Only if evidence supports it, add a concise guppy-specific row/section to /compatibility/tank-mates/. Keep the main task as risk assessment and separation planning. Do not create a new URL first.
 
 ### B4. Net-new Bubble Nests article
-Priority: P1 future content
+Priority: P1 future content  
+Status: **Research brief complete** — see `reports/BUBBLE-NESTS-RESEARCH-BRIEF.md`
 
 Requirements:
 - unique query/task;
@@ -91,7 +92,8 @@ Requirements:
 - unique hero image.
 
 ### B5. Net-new Enrichment and Safe Toys article
-Priority: P1 future content
+Priority: P1 future content  
+Status: **Research brief complete** — see `reports/ENRICHMENT-SAFE-TOYS-RESEARCH-BRIEF.md`
 
 Requirements:
 - welfare-first selection criteria;
@@ -121,8 +123,8 @@ Trigger Class C only if a future edit changes:
 3. Implement contextual handoffs through a non-source layer if available.
 4. Submit only the Female Sorority H1 change for editorial reapproval.
 5. Update keyword ownership documentation for conditioner and guppy decisions.
-6. Prepare Bubble Nests research/source brief.
-7. Prepare Enrichment/Safe Toys research/source brief.
+6. Bubble Nests research/source brief — **completed**.
+7. Enrichment/Safe Toys research/source brief — **completed**.
 8. Defer Teeth/Anatomy and additional treatment pages.
 9. Re-run build/audit after report-layer or registry changes.
 10. Keep site noindex until the separate deployment/launch gates pass.
