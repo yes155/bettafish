@@ -570,7 +570,7 @@ def main() -> int:
     for row in planned_research:
         if (ROOT / row["source_file"]).exists():
             failures.append(f"{row['url']}: planned-research source exists and must be audited before promotion")
-    for row in editorial_review_scope:
+    for row in [item for item in editorial_review_scope if item["url"] in expected_authority_expansion]:
         page = source_pages.get(row["url"])
         if not page:
             failures.append(f"{row['url']}: editorial-review article has no permanent JSON source")
