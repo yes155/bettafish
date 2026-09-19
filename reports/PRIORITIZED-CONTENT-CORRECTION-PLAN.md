@@ -157,10 +157,11 @@ Status: **Approved and applied 2026-09-19** — touching FAQ added to Tank Setup
 
 ### B10. Three new article promotion package
 Priority: P1  
-Status: **Exact review and promotion package complete; approval still required**
+Status: **Exact editorial approval recorded 2026-09-19; media gate remains**
 
 Prepared:
 - `reports/KATE-THREE-NEW-ARTICLE-REVIEW-HANDOFF-2026-09-19.md`
+- `reports/EDITORIAL-THREE-NEW-ARTICLE-APPROVAL-2026-09-19.md`
 - `reports/THREE-ARTICLE-HERO-MEDIA-SPECS-2026-09-19.md`
 - `reports/THREE-ARTICLE-PROMOTION-PLAN-2026-09-19.md`
 
@@ -169,7 +170,7 @@ Candidate articles:
 - Enrichment & Safe Toys
 - Betta Fish Types
 
-Do not move these drafts into `content/pages/`, add registry rows, or add media-manifest rows until the exact draft hashes are editorially approved.
+Exact draft hashes are approved. Three pending hero rows now exist in `data/media-manifest.csv`. Do not move the drafts into `content/pages/` or add registry rows until the corresponding permanent WEBP files exist and their checksum/dimensions/byte size are verified.
 
 ## Class C — clinical reapproval required
 
