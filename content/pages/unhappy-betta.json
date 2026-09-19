@@ -18,18 +18,33 @@
       "heading": "Evidence update: September 2026",
       "text": {
         "text": "Swimming activity and resting behavior can change with aquarium size and furnishings, but no single action proves that a betta is happy, stressed or ill. Compare the fish with its own baseline and check water quality, equipment and physical signs before assigning a cause.",
-        "sources": [1, 2, 3]
+        "sources": [
+          1,
+          2,
+          3
+        ]
       }
     },
     {
       "type": "table",
       "heading": "What common behavior changes can mean",
       "caption": "Treat each observation as a prompt to gather more evidence, not as a diagnosis",
-      "headers": ["Observation", "What it can tell you", "First check"],
+      "headers": [
+        "Observation",
+        "What it can tell you",
+        "First check"
+      ],
       "rows": [
         [
           "Less swimming or more hiding",
-          {"text": "A persistent reduction in activity can accompany environmental stress or illness, but resting and shelter use also occur in normal behavior.", "sources": [1, 2, 3]},
+          {
+            "text": "A persistent reduction in activity can accompany environmental stress or illness, but resting and shelter use also occur in normal behavior.",
+            "sources": [
+              1,
+              2,
+              3
+            ]
+          },
           "Compare with the fish's normal schedule; check temperature, water chemistry, flow and appetite."
         ],
         [
@@ -39,17 +54,32 @@
         ],
         [
           "Clamped or held-close fins",
-          {"text": "A new, persistent fin-posture change can add weight to other signs but does not identify one cause by itself.", "sources": [3]},
+          {
+            "text": "A new, persistent fin-posture change can add weight to other signs but does not identify one cause by itself.",
+            "sources": [
+              3
+            ]
+          },
           "Inspect the body and fins; check breathing, water quality and whether the posture resolves during normal swimming."
         ],
         [
           "Reduced appetite",
-          {"text": "Not eating is a general illness sign in fish and becomes more concerning when it persists or occurs with breathing, swimming or body changes.", "sources": [3]},
+          {
+            "text": "Not eating is a general illness sign in fish and becomes more concerning when it persists or occurs with breathing, swimming or body changes.",
+            "sources": [
+              3
+            ]
+          },
           "Confirm food freshness and routine, remove leftovers, test the water and watch for additional signs."
         ],
         [
           "Color or stripe changes",
-          {"text": "Color changes can occur for more than one reason. A sudden change with lethargy, injury or abnormal breathing deserves prompt attention.", "sources": [3]},
+          {
+            "text": "Color changes can occur for more than one reason. A sudden change with lethargy, injury or abnormal breathing deserves prompt attention.",
+            "sources": [
+              3
+            ]
+          },
           "Check the full fish under ordinary light and compare with recent photos rather than relying on memory."
         ]
       ]
@@ -60,7 +90,10 @@
       "paragraphs": [
         {
           "text": "Repeated swimming against one pane is often called glass surfing. It describes a movement pattern, not a diagnosis. Reflections, nearby fish, a new setup, strong room-to-tank lighting contrast or an exposed environment can all be relevant. Tank size and furnishing can also affect Betta splendens activity, but the behavior alone cannot identify the cause.",
-          "sources": [1, 2]
+          "sources": [
+            1,
+            2
+          ]
         },
         {
           "text": "Note when and where the behavior happens. Block a reflection or neighboring fish, soften the lighting contrast and provide safe cover. If the fish also shows appetite loss, abnormal breathing, injury or loss of balance, move beyond environmental troubleshooting and seek qualified advice."
@@ -100,7 +133,10 @@
       "paragraphs": [
         {
           "text": "A useful baseline includes the individual fish's ordinary feeding response, exploration, resting places, breathing pattern and ability to swim and hold position. Bettas differ, and activity can change with time of day and the environment. Research comparing Betta splendens housing conditions found that tank size and furnishings affected swimming and resting, so context matters.",
-          "sources": [1, 2]
+          "sources": [
+            1,
+            2
+          ]
         },
         {
           "text": "Bright color, owner-directed movement or a bubble nest can occur in a healthy fish, but none is a complete health certificate. Likewise, brief hiding or rest does not prove unhappiness. Track sustained departures from the fish's own pattern and look for corroborating physical signs."
@@ -140,7 +176,17 @@
         {
           "question": "Why is my betta lying on the bottom?",
           "answer": "A betta may rest on a surface, but persistent bottom lying can also occur with an environmental or health problem. Check the time of day, responsiveness, breathing, appetite, balance, temperature and water chemistry. Seek help if the fish cannot resume normal swimming or has other concerning signs.",
-          "sources": [3]
+          "sources": [
+            3
+          ]
+        },
+        {
+          "question": "Why is my betta staying at the top of the tank?",
+          "answer": "Bettas normally visit the surface to breathe and may also rest near the top, so surface position alone is not a diagnosis. A persistent change from the fish's usual pattern deserves a check of temperature, ammonia, nitrite, nitrate, pH, filter operation, appetite and swimming. Seek qualified help when the change occurs with abnormal breathing, loss of balance, injury, appetite loss or other persistent signs.",
+          "sources": [
+            3,
+            4
+          ]
         },
         {
           "question": "Should I medicate a betta that is hiding?",
