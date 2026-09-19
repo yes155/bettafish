@@ -541,7 +541,7 @@ def main() -> int:
         row for row in authority_expansion if row["status"] == "planned-clinical-review"
     ]
     editorial_review_scope = [
-        row for row in authority_expansion if row["url"] in editorial_candidates
+        row for row in registry if row["url"] in editorial_candidates
     ]
     unexpected_authority_status = [
         row["url"] for row in authority_expansion
@@ -658,7 +658,7 @@ def main() -> int:
 
     expected_editorial_urls = {row["url"] for row in editorial_review_scope}
     if set(editorial_candidates) != expected_editorial_urls:
-        failures.append("Editorial-review candidate register does not match the planned editorial URLs")
+        failures.append("Editorial-review candidate register does not match the registered editorial source scope")
     for row in editorial_review_scope:
         candidate = editorial_candidates.get(row["url"])
         if not candidate:
