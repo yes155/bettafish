@@ -129,6 +129,31 @@ Requirements:
 - editorial review required;
 - unique hero image required.
 
+### B7. Rising symptom-intent expansion
+Priority: P1  
+Status: **Proposal complete** — see `reports/RISING-SYMPTOM-INTENT-EXPANSION-PROPOSAL.md`
+
+- keep bottom/top/not-eating variants under existing behavior/triage owners;
+- add only a bounded “staying at top” FAQ first;
+- do not create thin symptom URLs;
+- do not alter clinically reviewed pages in this round.
+
+### B8. Female Betta broad-query expansion
+Priority: P2  
+Status: **Proposal complete** — see `reports/FEMALE-BETTA-QUERY-OWNERSHIP-PROPOSAL.md`
+
+- test broadening `/breeding/gender-identification/` before creating a new URL;
+- keep Sorority as female-group owner;
+- keep routine care, size and compatibility with their existing canonical owners.
+
+### B9. PAA care FAQ expansion
+Priority: P2  
+Status: **Proposal complete** — see `reports/PAA-CARE-FAQ-EXPANSION-PROPOSAL.md`
+
+- handling/touch/bite -> Tank Setup;
+- hunger/pellet/human-food variants -> Diet & Feeding;
+- no standalone PAA pages.
+
 ## Class C — clinical reapproval required
 
 **No Class C correction is recommended from this audit.**
