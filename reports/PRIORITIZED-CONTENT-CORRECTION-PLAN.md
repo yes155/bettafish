@@ -155,6 +155,22 @@ Status: **Approved and applied 2026-09-19** — touching FAQ added to Tank Setup
 - hunger/pellet/human-food variants -> Diet & Feeding;
 - no standalone PAA pages.
 
+### B10. Three new article promotion package
+Priority: P1  
+Status: **Exact review and promotion package complete; approval still required**
+
+Prepared:
+- `reports/KATE-THREE-NEW-ARTICLE-REVIEW-HANDOFF-2026-09-19.md`
+- `reports/THREE-ARTICLE-HERO-MEDIA-SPECS-2026-09-19.md`
+- `reports/THREE-ARTICLE-PROMOTION-PLAN-2026-09-19.md`
+
+Candidate articles:
+- Bubble Nests
+- Enrichment & Safe Toys
+- Betta Fish Types
+
+Do not move these drafts into `content/pages/`, add registry rows, or add media-manifest rows until the exact draft hashes are editorially approved.
+
 ## Class C — clinical reapproval required
 
 **No Class C correction is recommended from this audit.**
