@@ -2,7 +2,7 @@
 
 Date: 2026-09-19  
 Branch: `chatgpt-work`  
-Scope: **Three editorial items only**  
+Scope: **Four editorial items only**  
 Clinical review requested: **No**
 
 ## Review item 1 — Female Sorority H1 only
@@ -77,6 +77,35 @@ Review:
 - SRC-074 — 2026 tactile-stimulation Betta study
 
 No product endorsement, medication, dosage or disease-treatment guidance is included.
+
+## Review item 4 — Betta Fish Types draft
+
+Draft source: `drafts/pages/betta-fish-types.json`  
+Git blob: `9f5f18c68b6a55edf2145f24a68c512f0cff5db3`  
+Research brief: `reports/BETTA-FISH-TYPES-RESEARCH-BRIEF.md`  
+Candidate URL: `/biology-genetics/betta-fish-types/`  
+Status: draft only; not registered for build; non-indexable
+
+### Editorial task
+
+Review:
+- whether “type” vs true species is explained clearly enough;
+- whether the page stays an overview/bridge rather than duplicating Tail Types, Colors or Species;
+- whether examples such as Halfmoon, Crowntail, koi, Plakat and Giant are categorized correctly;
+- whether the rarity FAQ remains evidence-bounded and avoids seller-driven rankings;
+- whether the page routes deeper questions cleanly to the canonical child owners.
+
+### Evidence set
+
+- SRC-018 — International Betta Congress standards
+- SRC-019 — fin-shape/color genomics
+- SRC-020 — domestic phenotypic diversity
+- SRC-039 — domestication and fin morphology
+- SRC-040 — Giant phenotype genomics
+- SRC-050 / SRC-051 / SRC-053 — species taxonomy context
+- SRC-058 — sex-determination context
+
+No clinical treatment guidance is included.
 
 ## Exact-version handling
 
