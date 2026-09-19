@@ -1,0 +1,45 @@
+{
+  "pages": {
+    "/care/water-parameters/": [
+      {"url": "/care/tank-setup/", "label": "Betta tank setup"},
+      {"url": "/care/heaters-calibration/", "label": "Heater calibration and temperature stability"},
+      {"url": "/maintenance/water-change/", "label": "Betta water changes"}
+    ],
+    "/care/diet-feeding/": [
+      {"url": "/care/water-parameters/", "label": "Water parameters"},
+      {"url": "/anatomy/swim-bladder-treatment/", "label": "Buoyancy and swim bladder problems"}
+    ],
+    "/care/filtration/": [
+      {"url": "/care/tank-setup/", "label": "Betta tank setup"},
+      {"url": "/care/water-parameters/", "label": "Water parameters"}
+    ],
+    "/diseases/diagnostic-matrix/": [
+      {"url": "/diseases/fin-rot/", "label": "Fin rot and fin deterioration"},
+      {"url": "/diseases/ich-treatment/", "label": "Ich signs and treatment guidance"},
+      {"url": "/diseases/dropsy-treatment/", "label": "Dropsy signs and escalation"},
+      {"url": "/diseases/velvet-treatment/", "label": "Velvet signs and treatment guidance"},
+      {"url": "/diseases/columnaris-treatment/", "label": "Columnaris signs and escalation"},
+      {"url": "/anatomy/swim-bladder-treatment/", "label": "Buoyancy and swim bladder problems"}
+    ],
+    "/diseases/fin-rot/": [
+      {"url": "/diseases/diagnostic-matrix/", "label": "Betta symptom guide"},
+      {"url": "/care/water-parameters/", "label": "Water parameters"}
+    ],
+    "/diseases/ich-treatment/": [
+      {"url": "/diseases/diagnostic-matrix/", "label": "Betta symptom guide"},
+      {"url": "/care/water-parameters/", "label": "Water parameters"}
+    ],
+    "/compatibility/tank-mates/": [
+      {"url": "/compatibility/female-sorority/", "label": "Female bettas living together"}
+    ],
+    "/biology-genetics/lifespan/": [
+      {"url": "/care/tank-setup/", "label": "Betta tank setup"},
+      {"url": "/care/diet-feeding/", "label": "Betta diet and feeding"},
+      {"url": "/care/water-parameters/", "label": "Water parameters"}
+    ],
+    "/biology-genetics/tail-types/": [
+      {"url": "/biology-genetics/plakat-betta/", "label": "Plakat bettas"},
+      {"url": "/aquascaping/fin-safe-plants/", "label": "Fin-safe plants"}
+    ]
+  }
+}
