@@ -218,6 +218,17 @@ tbody th { width: 18%; color: var(--color-brand-strong); background: #f1f6f3; }
 .page-homepage .step-link { min-height: 100%; padding: 1rem 1rem 1rem 4.15rem; }
 .page-homepage .step-link h3 { font-size: 1.15rem; }
 .page-homepage .step-link p { margin-top: .35rem; font-size: .96rem; line-height: 1.55; }
+.related-guides {
+  width: 100%;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: #f7faf9;
+}
+.related-guides h2 { margin-bottom: .75rem; font-size: 1.35rem; }
+.related-guides ul { display: flex; flex-wrap: wrap; gap: .65rem 1rem; margin: 0; padding: 0; list-style: none; }
+.related-guides a { display: inline-flex; min-height: 2.75rem; align-items: center; font-weight: 700; }
+
 .page-meta { width: 100%; max-width: none; margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--color-border); color: var(--color-muted); font-size: .86rem; }
 .site-footer { border-top: 1px solid var(--color-border); background: #fff; color: var(--color-ink); }
 .footer-inner { display: grid; gap: 2.2rem; padding-block: 3.4rem; }
