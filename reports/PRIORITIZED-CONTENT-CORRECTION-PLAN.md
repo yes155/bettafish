@@ -49,6 +49,16 @@ Priority: P0
 
 Do not change diagnosis, treatment, medication, dosage, temperature, urgency, prognosis or escalation language. No clinical reapproval is justified by this semantic audit.
 
+### A5. Broaden Heater query ownership
+Priority: P0  
+Status: **Completed**
+
+- Registry owner changed from `betta fish heater calibration` to **`betta fish heater`**.
+- Existing article already covers heater need, selection, sizing, placement, calibration and verification.
+- No approved source copy changed.
+
+Why: the new Keyword Planner file shows materially broader demand around the generic heater task, while the current page already fulfills it.
+
 ## Class B — editorial reapproval required
 
 ### B1. Female sorority H1
@@ -103,6 +113,22 @@ Requirements:
 - editorial review;
 - unique hero image.
 
+### B6. Net-new Betta Fish Types overview
+Priority: P1 future content  
+Status: **Research brief and non-publishing draft complete**
+
+Files:
+- `reports/BETTA-FISH-TYPES-RESEARCH-BRIEF.md`
+- `drafts/pages/betta-fish-types.json`
+
+Requirements:
+- explain that “type” is an umbrella term, not a single scientific category;
+- separate tail form, color/pattern, body form, sex and true species;
+- keep Tail Types, Colors, Species, Plakat, Giant and Gender Identification as canonical child owners;
+- avoid rarity/sales rankings;
+- editorial review required;
+- unique hero image required.
+
 ## Class C — clinical reapproval required
 
 **No Class C correction is recommended from this audit.**
@@ -125,9 +151,10 @@ Trigger Class C only if a future edit changes:
 5. Update keyword ownership documentation for conditioner and guppy decisions.
 6. Bubble Nests research/source brief — **completed**.
 7. Enrichment/Safe Toys research/source brief — **completed**.
-8. Defer Teeth/Anatomy and additional treatment pages.
-9. Re-run build/audit after report-layer or registry changes.
-10. Keep site noindex until the separate deployment/launch gates pass.
+8. Betta Fish Types research brief and draft — **completed**; submit with the current Kate editorial batch.
+9. Defer Teeth/Anatomy and additional treatment pages.
+10. Re-run build/audit after report-layer or registry changes.
+11. Keep site noindex until the separate deployment/launch gates pass.
 
 ## Do not do
 
