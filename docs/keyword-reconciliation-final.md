@@ -22,7 +22,7 @@ The volume figures below are directional sums from the supplied keyword export. 
 | Bowls and minimum housing | `/care/tank-setup/` | Address as a setup/welfare subtopic; avoid a competing bowl article. |
 | Water changes | `/maintenance/water-change/` | Own frequency, amount, replacement-water and biofilter-safe maintenance. |
 | Heaters | `/care/heaters-calibration/` | Own “does a betta need a heater,” sizing, placement and calibration variants. |
-| Tank mates | `/compatibility/tank-mates/` | Own broad compatibility comparisons and link to any future species-specific guide. |
+| Compatibility category | `/compatibility/` | Own the category-level “betta fish compatibility” task; do not compete with the tank-mates article. |\n| Tank mates | `/compatibility/tank-mates/` | Own broad tank-mate comparisons and species-pair questions unless a later task proves materially distinct. |
 | Female cohabitation | `/compatibility/female-sorority/` | Keep separate because the risk model and stop conditions are distinct. |
 | Fin damage and regrowth | `/diseases/fin-rot/` | Keep regrowth questions with the clinically reviewed fin-damage guide. |
 | Plants | `/aquascaping/fin-safe-plants/` | Own live/artificial plant and fin-safety queries. |
@@ -38,9 +38,9 @@ These are roadmap candidates, not approved pages. Each must receive structured s
 | P1 | Betta water conditioner: chlorine, chloramine and safe use | 1,690 | A distinct source-water safety task. It should support, not duplicate, tank setup and water parameters. |
 | P2 | Betta enrichment and safe toys | 2,540 | A distinct welfare task with no current owner. Evidence quality and fin/entrapment safety need careful review. |
 | P2 | Can guppies live with bettas? | 1,940 | A species-pairing decision that can use a tighter compatibility matrix and separation plan than the broad tank-mates guide. |
-| P3 | Do betta fish have teeth? | 1,600 | A small anatomy explainer; useful but lower priority than care and welfare gaps. |
+| P3 | Do betta fish have teeth? | 1,600 | A distinct but lower-priority anatomy explainer; defer until higher-value welfare/behavior gaps are covered. |
 
-## Excluded or deferred clusters
+## Merge-into-existing decisions\n\n| Cluster | Owner | Decision |\n|---|---|---|\n| Betta water conditioner | `/care/water-parameters/` | Merge into the existing owner first. The current guide already covers chlorine/chloramine and label-based conditioner use; strengthen mapping or a bounded section/FAQ before considering a new URL. |\n| Guppies with bettas | `/compatibility/tank-mates/` | Merge into the broad tank-mates owner first. Add a bounded species-pair row/FAQ only if supported by evidence; split later only if a materially distinct search task is demonstrated. |\n\n## Excluded or deferred clusters
 
 | Cluster | Decision | Reason |
 |---|---|---|
