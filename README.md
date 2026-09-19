@@ -25,11 +25,14 @@ Then open `http://localhost:8000/`.
 
 ## Current status
 
-The complete 51-page local candidate builds reproducibly and passes the automated audit. All 20 editorial and seven clinical candidates have written exact-version approval tied to matching SHA-256 hashes, and all 41 registered media assets are approved and present.
+The complete 51-page local candidate builds reproducibly and passes the automated audit. All 20 editorial and seven clinical candidates have written exact-version approval tied to matching SHA-256 hashes, and all 44 registered media assets are approved and present.
+
+Generated search metadata can be refined through `data/seo-overrides.json` without changing reviewer-approved source files or their hashes. The audit enforces unique search metadata, universal navigation and footer coverage, unique editorial hero media, and correct robots/sitemap behavior in both preview and production modes.
 
 It is **not approved for production**. The following remain hard blockers:
 
-- clean-checkout GitHub Actions evidence;
+- a clean GitHub Actions pass for the new candidate commit;
+- restoration of the Cloudflare deployment/custom-domain path (the public domain returned a 502 on 2026-09-19);
 - Cloudflare branch-preview deployment and responsive visual approval;
 - live accessibility, security-header, HTTPS and indexing-control verification;
 - recorded candidate SHA, deployment ID, owner sign-off and rollback target.

@@ -1,0 +1,111 @@
+{
+  "purpose": "Generated search metadata only. Approved source-page files, visible headings and reviewer hashes remain unchanged.",
+  "pages": {
+    "/care/water-parameters/": {
+      "title": "Betta Fish Water Parameters: Temperature, pH and Quality"
+    },
+    "/care/diet-feeding/": {
+      "title": "What Do Betta Fish Eat? Diet and Feeding Guide"
+    },
+    "/care/filtration/": {
+      "title": "Best Betta Fish Filters: Low-Flow Sponge and HOB Guide"
+    },
+    "/diseases/": {
+      "description": "Recognize common betta fish disease warning signs, check water quality and understand when symptoms need prompt aquatic-veterinary help."
+    },
+    "/diseases/diagnostic-matrix/": {
+      "title": "Betta Fish Symptoms: A Triage Matrix, Not a Diagnosis"
+    },
+    "/diseases/fin-rot/": {
+      "title": "Betta Fin Damage and Suspected Fin Rot: Safe Next Steps"
+    },
+    "/diseases/ich-treatment/": {
+      "title": "Suspected Betta Ich: Identification and Treatment Planning"
+    },
+    "/compatibility/": {
+      "description": "Assess betta fish tank mates by temperament, territory, aquarium size and water needs, with a practical separation plan if problems appear."
+    },
+    "/compatibility/tank-mates/": {
+      "title": "Best Betta Fish Tank Mates: Compatibility and Safety",
+      "description": "Compare betta fish tank mates by behavior, space and water needs, and prepare a separation plan for aggression, chasing or persistent stress."
+    },
+    "/compatibility/female-sorority/": {
+      "title": "Female Betta Sorority: Risks, Setup and Separation Rules"
+    },
+    "/biology-genetics/": {
+      "description": "Explore betta fish biology, lifespan, species, color and fin morphology—and learn how those traits shape swimming, behavior and everyday care."
+    },
+    "/biology-genetics/lifespan/": {
+      "title": "How Long Do Betta Fish Live? Lifespan and Aging Guide"
+    },
+    "/biology-genetics/tail-types/": {
+      "title": "Betta Fish Tail Types: Fin Shapes, Genetics and Care"
+    },
+    "/care/tank-setup/": {
+      "title": "Betta Fish Tank Setup: Equipment, Cycling and Introduction"
+    },
+    "/maintenance/water-change/": {
+      "title": "Betta Fish Water Changes: Frequency, Amount and Method"
+    },
+    "/care/indian-almond-leaves/": {
+      "title": "Indian Almond Leaves for Bettas: Benefits and Safe Use"
+    },
+    "/care/heaters-calibration/": {
+      "title": "Betta Fish Heater Guide: Sizing, Placement and Calibration"
+    },
+    "/aquascaping/fin-safe-plants/": {
+      "title": "Fin-Safe Plants for Betta Fish: Live and Artificial Options"
+    },
+    "/sensory/light-requirements/": {
+      "title": "Do Betta Fish Need Light? A Safe Daily Lighting Schedule"
+    },
+    "/diseases/dropsy-treatment/": {
+      "title": "Betta Dropsy Signs: Urgent Triage and Treatment Planning"
+    },
+    "/diseases/velvet-treatment/": {
+      "title": "Suspected Betta Velvet: Signs and Treatment Planning"
+    },
+    "/diseases/columnaris-treatment/": {
+      "title": "Suspected Betta Columnaris: Recognition and Next Steps"
+    },
+    "/behavior/unhappy-betta/": {
+      "title": "Signs of an Unhappy Betta: Behavior and Care Checks"
+    },
+    "/anatomy/betta-fish-sleep/": {
+      "title": "Do Betta Fish Sleep? Normal Rest and Warning Signs"
+    },
+    "/behavior/hearing-music/": {
+      "title": "Can Betta Fish Hear Music? Sound and Tank Placement"
+    },
+    "/behavior/flaring-triggers/": {
+      "title": "Why Do Betta Fish Flare? Triggers, Mirrors and Stress"
+    },
+    "/breeding/pairing-fry-care/": {
+      "title": "Betta Breeding and Fry Care: A Welfare-First Plan"
+    },
+    "/breeding/gender-identification/": {
+      "title": "Male vs Female Betta Fish: Identification Guide"
+    },
+    "/origins/wild-habitats/": {
+      "title": "Betta Fish Natural Habitat: Origins and Wild Ecology"
+    },
+    "/morphology/growth-rate-size/": {
+      "title": "How Big Do Betta Fish Get? Size and Growth Guide"
+    },
+    "/biology-genetics/species/": {
+      "title": "Betta Fish Species: Domestic Bettas and Wild Diversity"
+    },
+    "/biology-genetics/colors/": {
+      "title": "Betta Fish Colors and Patterns: An Evidence-Based Guide"
+    },
+    "/biology-genetics/color-change/": {
+      "title": "Why Is My Betta Fish Changing Color? Safe Checks"
+    },
+    "/biology-genetics/giant-betta/": {
+      "title": "Giant Betta Fish: Size, Genetics and Tank Planning"
+    },
+    "/economics/betta-fish-price/": {
+      "title": "Betta Fish Price: Budget for the Fish and Proper Care"
+    }
+  }
+}

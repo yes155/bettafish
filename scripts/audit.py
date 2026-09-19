@@ -29,15 +29,20 @@ class PageParser(HTMLParser):
         self.canonicals: list[str] = []
         self.icons: list[str] = []
         self.title_count = 0
+        self.title_texts: list[str] = []
         self.h1_count = 0
         self.schema_blocks: list[str] = []
         self.images: list[dict[str, str]] = []
+        self.class_counts: dict[str, int] = {}
         self._in_title = False
+        self._title_buffer: list[str] = []
         self._in_schema = False
         self._schema_buffer: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         data = {key: value or "" for key, value in attrs}
+        for class_name in data.get("class", "").split():
+            self.class_counts[class_name] = self.class_counts.get(class_name, 0) + 1
         if tag == "a" and data.get("href"):
             self.links.append(data["href"])
         elif tag == "meta":
@@ -51,6 +56,7 @@ class PageParser(HTMLParser):
         elif tag == "title":
             self.title_count += 1
             self._in_title = True
+            self._title_buffer = []
         elif tag == "h1":
             self.h1_count += 1
         elif tag == "img":
@@ -61,12 +67,15 @@ class PageParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         if tag == "title":
+            self.title_texts.append("".join(self._title_buffer).strip())
             self._in_title = False
         elif tag == "script" and self._in_schema:
             self.schema_blocks.append("".join(self._schema_buffer))
             self._in_schema = False
 
     def handle_data(self, data: str) -> None:
+        if self._in_title:
+            self._title_buffer.append(data)
         if self._in_schema:
             self._schema_buffer.append(data)
 
@@ -236,6 +245,16 @@ def main() -> int:
         (re.compile(r"Evidence update:\s+[A-Z][a-z]+\s+\d{4}", re.I), "internal evidence-update note"),
     ]
 
+    rendered_titles: dict[str, list[str]] = {}
+    rendered_descriptions: dict[str, list[str]] = {}
+    primary_navigation_urls = {
+        "/care/", "/diseases/", "/compatibility/", "/biology-genetics/", "/about/"
+    }
+    footer_navigation_urls = {
+        "/about/", "/editorial-policy/", "/corrections-policy/", "/privacy-policy/",
+        "/terms/", "/disclosure/", "/health-disclaimer/", "/contact/",
+    }
+
     for item in manifest:
         html_path = ROOT / item["output"]
         if not html_path.exists():
@@ -248,14 +267,40 @@ def main() -> int:
         label = item["url"]
         if parser.title_count != 1:
             failures.append(f"{label}: expected one title, found {parser.title_count}")
+        title_text = parser.title_texts[0] if len(parser.title_texts) == 1 else ""
+        if title_text:
+            rendered_titles.setdefault(title_text.casefold(), []).append(label)
         if parser.h1_count != 1:
             failures.append(f"{label}: expected one H1, found {parser.h1_count}")
         descriptions = [meta.get("content", "") for meta in parser.meta if meta.get("name", "").lower() == "description"]
         if len(descriptions) != 1 or not descriptions[0].strip():
             failures.append(f"{label}: missing or duplicate meta description")
+        description = descriptions[0].strip() if len(descriptions) == 1 else ""
+        if description:
+            rendered_descriptions.setdefault(description.casefold(), []).append(label)
+        if item.get("page_indexable"):
+            if source_page.get("page_type") in {"homepage", "hub", "article"}:
+                if not 30 <= len(title_text) <= 65:
+                    failures.append(f"{label}: search title length is {len(title_text)}; expected 30-65 characters")
+                if not 110 <= len(description) <= 160:
+                    failures.append(f"{label}: meta description length is {len(description)}; expected 110-160 characters")
+            else:
+                if not 20 <= len(title_text) <= 65:
+                    failures.append(f"{label}: search title length is {len(title_text)}; expected 20-65 characters")
+                if not 70 <= len(description) <= 160:
+                    failures.append(f"{label}: meta description length is {len(description)}; expected 70-160 characters")
+        og_titles = [meta.get("content", "") for meta in parser.meta if meta.get("property", "").lower() == "og:title"]
+        twitter_titles = [meta.get("content", "") for meta in parser.meta if meta.get("name", "").lower() == "twitter:title"]
+        og_descriptions = [meta.get("content", "") for meta in parser.meta if meta.get("property", "").lower() == "og:description"]
+        twitter_descriptions = [meta.get("content", "") for meta in parser.meta if meta.get("name", "").lower() == "twitter:description"]
+        if og_titles != [title_text] or twitter_titles != [title_text]:
+            failures.append(f"{label}: social titles do not match the search title")
+        if og_descriptions != [description] or twitter_descriptions != [description]:
+            failures.append(f"{label}: social descriptions do not match the meta description")
         robots = [meta.get("content", "") for meta in parser.meta if meta.get("name", "").lower() == "robots"]
-        if CONFIG["sitewide_noindex"] and robots != ["noindex, nofollow"]:
-            failures.append(f"{label}: preview page is not noindex, nofollow")
+        expected_robots = "index, follow" if item.get("effective_indexable") else "noindex, nofollow"
+        if robots != [expected_robots]:
+            failures.append(f"{label}: robots directive is {robots}, expected {expected_robots}")
         if len(parser.canonicals) != 1 or not parser.canonicals[0].startswith(CONFIG["base_url"] + "/"):
             failures.append(f"{label}: canonical is missing, duplicate or uses the wrong domain")
         if parser.icons != [CONFIG["favicon_path"]]:
@@ -263,6 +308,19 @@ def main() -> int:
         logo_images = [image for image in parser.images if image.get("src") == CONFIG["logo_path"]]
         if len(logo_images) != 2 or any(image.get("alt") != "" for image in logo_images):
             failures.append(f"{label}: header/footer logo contract is not satisfied")
+        for class_name in ("site-header", "desktop-nav", "mobile-nav", "site-footer"):
+            if parser.class_counts.get(class_name) != 1:
+                failures.append(f"{label}: universal {class_name} contract is not satisfied")
+        missing_primary_navigation = sorted(
+            url for url in primary_navigation_urls if parser.links.count(url) < 2
+        )
+        if missing_primary_navigation:
+            failures.append(f"{label}: desktop/mobile navigation is missing {missing_primary_navigation}")
+        missing_footer_navigation = sorted(
+            url for url in footer_navigation_urls if parser.links.count(url) < 1
+        )
+        if missing_footer_navigation:
+            failures.append(f"{label}: footer navigation is missing {missing_footer_navigation}")
         if len(parser.schema_blocks) != 1:
             failures.append(f"{label}: expected one JSON-LD block")
         else:
@@ -345,6 +403,8 @@ def main() -> int:
             if pattern.search(body):
                 failures.append(f"{label}: contains {name}")
         approved_media = approved_media_by_url.get(label)
+        if source_page.get("page_type") in {"homepage", "hub", "article"} and not approved_media:
+            failures.append(f"{label}: core editorial page has no approved unique hero image")
         if approved_media:
             expected_src = media_public_url(approved_media)
             matching_images = [image for image in parser.images if image.get("src") == expected_src]
@@ -363,6 +423,26 @@ def main() -> int:
             target = resolve_internal(href)
             if target is not None and not target.exists():
                 failures.append(f"{label}: broken internal link {href}")
+
+    duplicate_rendered_titles = {
+        title: urls for title, urls in rendered_titles.items() if len(urls) > 1
+    }
+    if duplicate_rendered_titles:
+        failures.append(
+            "Generated search titles are duplicated: "
+            + "; ".join(f"{title} -> {', '.join(urls)}" for title, urls in duplicate_rendered_titles.items())
+        )
+    duplicate_rendered_descriptions = {
+        description: urls for description, urls in rendered_descriptions.items() if len(urls) > 1
+    }
+    if duplicate_rendered_descriptions:
+        failures.append(
+            "Generated meta descriptions are duplicated: "
+            + "; ".join(
+                f"{description} -> {', '.join(urls)}"
+                for description, urls in duplicate_rendered_descriptions.items()
+            )
+        )
 
     with (ROOT / "data" / "page-registry.csv").open(newline="", encoding="utf-8") as handle:
         registry = list(csv.DictReader(handle))
@@ -687,11 +767,29 @@ def main() -> int:
         )
 
     robots_text = (PUBLIC / "robots.txt").read_text(encoding="utf-8") if (PUBLIC / "robots.txt").exists() else ""
-    if CONFIG["sitewide_noindex"] and robots_text != "User-agent: *\nDisallow: /\n":
-        failures.append("Preview robots.txt does not disallow all crawling.")
+    expected_robots_text = (
+        "User-agent: *\nDisallow: /\n"
+        if CONFIG["sitewide_noindex"]
+        else f"User-agent: *\nAllow: /\nSitemap: {CONFIG['base_url']}/sitemap.xml\n"
+    )
+    if robots_text != expected_robots_text:
+        failures.append("robots.txt does not match the configured indexing mode.")
     sitemap_text = (PUBLIC / "sitemap.xml").read_text(encoding="utf-8") if (PUBLIC / "sitemap.xml").exists() else ""
-    if CONFIG["sitewide_noindex"] and "<url>" in sitemap_text:
-        failures.append("Preview sitemap contains indexable URLs.")
+    sitemap_urls = set(re.findall(r"<loc>([^<]+)</loc>", sitemap_text))
+    expected_sitemap_urls = set() if CONFIG["sitewide_noindex"] else {
+        CONFIG["base_url"] + item["url"]
+        for item in manifest
+        if item["url"] != "/404.html" and item["page_indexable"]
+    }
+    if sitemap_urls != expected_sitemap_urls:
+        failures.append(
+            f"Sitemap/indexability mismatch: generated={sorted(sitemap_urls)} expected={sorted(expected_sitemap_urls)}"
+        )
+    expected_environment = "prepublication" if CONFIG["sitewide_noindex"] else "production"
+    if CONFIG.get("environment") != expected_environment:
+        failures.append(
+            f"Environment/indexing mismatch: expected {expected_environment} for sitewide_noindex={CONFIG['sitewide_noindex']}"
+        )
 
     headers_path = PUBLIC / "_headers"
     if not headers_path.exists():
@@ -738,6 +836,21 @@ def main() -> int:
     output_files = [row["output_file"] for row in media if row["output_file"]]
     if len(output_files) != len(set(output_files)):
         failures.append("Media manifest maps more than one asset to the same output file")
+    hero_checksums: dict[str, list[str]] = {}
+    for row in media:
+        if row["status"] == "approved" and row["role"] in {"article-hero", "hub-hero"}:
+            hero_checksums.setdefault(row["checksum"], []).append(row["page_url"])
+    duplicated_hero_checksums = {
+        checksum: urls for checksum, urls in hero_checksums.items() if len(urls) > 1
+    }
+    if duplicated_hero_checksums:
+        failures.append(
+            "Approved hero images are reused across pages: "
+            + "; ".join(
+                f"{checksum[:12]} -> {', '.join(urls)}"
+                for checksum, urls in duplicated_hero_checksums.items()
+            )
+        )
     for row in media:
         if row["status"] != "approved":
             continue
@@ -785,7 +898,10 @@ def main() -> int:
         {"check": "accessible-color-contrast", "status": "PASS" if accent_contrast_pass else "FAIL"},
         {"check": "approved-page-contract", "status": "PASS" if not unapproved_registry and not unapproved_nonarticle_sources and not nonindexable_approved else "FAIL"},
         {"check": "semantic-query-ownership", "status": "PASS" if not duplicate_queries else "FAIL"},
-        {"check": "preview-indexing-controls", "status": "PASS" if CONFIG["sitewide_noindex"] and "<url>" not in sitemap_text else "FAIL"},
+        {"check": "search-metadata-contract", "status": "PASS" if not any("search title" in failure or "meta description" in failure or "social" in failure for failure in failures) else "FAIL"},
+        {"check": "universal-navigation-contract", "status": "PASS" if not any("navigation" in failure or "site-header" in failure or "site-footer" in failure for failure in failures) else "FAIL"},
+        {"check": "indexing-controls", "status": "PASS" if robots_text == expected_robots_text and sitemap_urls == expected_sitemap_urls else "FAIL"},
+        {"check": "unique-hero-media", "status": "PASS" if not duplicated_hero_checksums else "FAIL"},
         {"check": "legacy-identity-and-office-scan", "status": "PASS" if not any("legacy" in failure or "Burlington" in failure for failure in failures) else "FAIL"},
         {"check": "internal-prepublication-copy", "status": "PASS" if not any("prepublication" in failure or "evidence-update" in failure for failure in failures) else "FAIL"},
         {"check": "blocked-health-output", "status": "PASS" if not leaked_health else "FAIL"},

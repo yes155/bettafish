@@ -19,6 +19,7 @@ CONFIG_PATH = ROOT / "config" / "site.json"
 PEOPLE_PATH = ROOT / "data" / "people.json"
 REGISTRY_PATH = ROOT / "data" / "page-registry.csv"
 MEDIA_PATH = ROOT / "data" / "media-manifest.csv"
+SEO_OVERRIDES_PATH = ROOT / "data" / "seo-overrides.json"
 EDITORIAL_REVIEW_PATH = ROOT / "data" / "editorial-review-candidates.csv"
 CLINICAL_REVIEW_PATH = ROOT / "data" / "clinical-review-candidates.csv"
 TEMPLATE_PATH = ROOT / "site" / "templates" / "base.html"
@@ -473,10 +474,14 @@ def publication_section(section: dict, exact_version_approved: bool) -> dict | N
 def main() -> None:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     people = json.loads(PEOPLE_PATH.read_text(encoding="utf-8"))
+    seo_overrides = json.loads(SEO_OVERRIDES_PATH.read_text(encoding="utf-8")).get("pages", {})
     template = Template(TEMPLATE_PATH.read_text(encoding="utf-8"))
     with REGISTRY_PATH.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     rows_by_url = {row["url"]: row for row in rows}
+    unknown_override_urls = set(seo_overrides) - set(rows_by_url)
+    if unknown_override_urls:
+        raise ValueError(f"SEO overrides reference unknown URLs: {sorted(unknown_override_urls)}")
     exact_approved_urls = approved_review_urls()
     with MEDIA_PATH.open(newline="", encoding="utf-8") as handle:
         media_rows = list(csv.DictReader(handle))
@@ -525,6 +530,20 @@ def main() -> None:
         if page["status"].startswith("planned") and page["url"] not in exact_approved_urls:
             raise ValueError(f"Registry promotion lacks exact-version approval: {page['url']}")
 
+        override = seo_overrides.get(page["url"], {})
+        unknown_override_fields = set(override) - {"title", "description"}
+        if unknown_override_fields:
+            raise ValueError(
+                f"SEO override for {page['url']} has unsupported fields: {sorted(unknown_override_fields)}"
+            )
+        render_page = dict(page)
+        for field in ("title", "description"):
+            if field in override:
+                value = override[field].strip()
+                if not value:
+                    raise ValueError(f"SEO override for {page['url']} has an empty {field}")
+                render_page[field] = value
+
         crumbs = breadcrumb_items(page, rows_by_url)
         globally_blocked = bool(config["sitewide_noindex"])
         requested_indexable = bool(page.get("indexable")) or page["url"] in exact_approved_urls
@@ -558,12 +577,12 @@ def main() -> None:
         )
         rendered = template.safe_substitute(
             language=esc(config["language"]),
-            title=esc(page["title"]),
-            description=esc(page["description"]),
+            title=esc(render_page["title"]),
+            description=esc(render_page["description"]),
             robots=robots,
             canonical=esc(canonical),
             site_name=esc(config["name"]),
-            schema=json.dumps(schema_for(page, config, crumbs, people, hero_media), ensure_ascii=False).replace("</", "<\\/"),
+            schema=json.dumps(schema_for(render_page, config, crumbs, people, hero_media), ensure_ascii=False).replace("</", "<\\/"),
             twitter_card="summary_large_image" if hero_media else "summary",
             social_image_meta=social_image_meta(hero_media, config),
             favicon_path=esc(config["favicon_path"]),
