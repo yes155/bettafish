@@ -62,7 +62,8 @@ Why: the new Keyword Planner file shows materially broader demand around the gen
 ## Class B — editorial reapproval required
 
 ### B1. Female sorority H1
-Priority: P1
+Priority: P1  
+Status: **Approved and applied 2026-09-19**
 
 **Before**
 How to Set Up a Female Betta Sorority: Tank Size & Hierarchy Rules
@@ -131,7 +132,7 @@ Requirements:
 
 ### B7. Rising symptom-intent expansion
 Priority: P1  
-Status: **Exact review copy prepared for top-of-tank FAQ** — see `drafts/revisions/unhappy-betta-top-of-tank-editorial-revision.json` and `reports/RISING-SYMPTOM-INTENT-EXPANSION-PROPOSAL.md`
+Status: **Approved and applied 2026-09-19** — top-of-tank FAQ added; bottom/not-eating remain consolidated under existing owners
 
 - keep bottom/top/not-eating variants under existing behavior/triage owners;
 - add only a bounded “staying at top” FAQ first;
@@ -140,7 +141,7 @@ Status: **Exact review copy prepared for top-of-tank FAQ** — see `drafts/revis
 
 ### B8. Female Betta broad-query expansion
 Priority: P2  
-Status: **Exact review copy prepared** — see `drafts/revisions/gender-identification-female-query-editorial-revision.json` and `reports/FEMALE-BETTA-QUERY-OWNERSHIP-PROPOSAL.md`
+Status: **Approved and applied 2026-09-19** — Gender Identification broadened to female-vs-male differences and shared care
 
 - test broadening `/breeding/gender-identification/` before creating a new URL;
 - keep Sorority as female-group owner;
@@ -148,7 +149,7 @@ Status: **Exact review copy prepared** — see `drafts/revisions/gender-identifi
 
 ### B9. PAA care FAQ expansion
 Priority: P2  
-Status: **Exact review copies prepared** — see `drafts/revisions/tank-setup-handling-faq-editorial-revision.json`, `drafts/revisions/diet-feeding-paa-editorial-revision.json` and `reports/PAA-CARE-FAQ-EXPANSION-PROPOSAL.md`
+Status: **Approved and applied 2026-09-19** — touching FAQ added to Tank Setup; hunger/pellet/human-food FAQs added to Diet; bite FAQ remains deferred
 
 - handling/touch/bite -> Tank Setup;
 - hunger/pellet/human-food variants -> Diet & Feeding;
