@@ -69,21 +69,22 @@ Using browser DevTools or a header checker, verify:
 
 ### Headers
 Expected from the repository Cloudflare header configuration:
-- `Strict-Transport-Security`
-- `X-Content-Type-Options`
-- `Referrer-Policy`
-- `Permissions-Policy`
-- frame protection via CSP `frame-ancestors` and/or `X-Frame-Options`
+- `X-Content-Type-Options: nosniff`
+- `Referrer-Policy: strict-origin-when-cross-origin`
+- `Permissions-Policy: camera=(), microphone=(), geolocation=()`
+- `X-Frame-Options: DENY`
+
+`Strict-Transport-Security` and CSP are not currently required by the repository audit. If Cloudflare adds them at the edge, record them as additional hardening rather than treating their absence as a repo-contract failure.
 
 Record actual values here:
 
 | Header | Observed value | Pass |
 |---|---|---|
-| Strict-Transport-Security |  | ☐ |
-| X-Content-Type-Options |  | ☐ |
-| Referrer-Policy |  | ☐ |
-| Permissions-Policy |  | ☐ |
-| CSP / frame protection |  | ☐ |
+| X-Content-Type-Options | expected `nosniff` | ☐ |
+| Referrer-Policy | expected `strict-origin-when-cross-origin` | ☐ |
+| Permissions-Policy | expected `camera=(), microphone=(), geolocation=()` | ☐ |
+| X-Frame-Options | expected `DENY` | ☐ |
+| Optional HSTS/CSP hardening | record if present | ☐ N/A / ☐ PRESENT |
 
 ### Indexing
 - `/robots.txt` blocks crawling in preview/prepublication mode;
