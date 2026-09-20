@@ -157,7 +157,7 @@ Status: **Approved and applied 2026-09-19** — touching FAQ added to Tank Setup
 
 ### B10. Three new article promotion package
 Priority: P1  
-Status: **Exact editorial approval recorded 2026-09-19; media gate remains**
+Status: **Approved and promoted on `chatgpt-work` 2026-09-20**
 
 Prepared:
 - `reports/KATE-THREE-NEW-ARTICLE-REVIEW-HANDOFF-2026-09-19.md`
@@ -170,7 +170,7 @@ Candidate articles:
 - Enrichment & Safe Toys
 - Betta Fish Types
 
-Exact draft hashes are approved. Three pending hero rows now exist in `data/media-manifest.csv`. Do not move the drafts into `content/pages/` or add registry rows until the corresponding permanent WEBP files exist and their checksum/dimensions/byte size are verified.
+Exact draft hashes are approved. All three permanent 1600×900 WEBP hero files are present and checksummed; media rows are approved; exact-approved article bytes are in `content/pages/`; registry ownership and derived inbound links are active. Sitewide prepublication noindex remains unchanged.
 
 ## Class C — clinical reapproval required
 
