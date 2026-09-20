@@ -1,6 +1,6 @@
 # Project Charter: BettaFish.website
 
-**Status:** Draft for owner approval
+**Status:** Prepublication charter — owner business-goal metrics still open
 **Last updated:** 2026-09-01
 **Production decision:** STOP
 
@@ -26,6 +26,8 @@
 | Research and writing | Farrukh Abdullah |
 | Review and editing | Kate Barrington |
 | Public contact | `bettafish.website@gmail.com` |
+| Repository | `yes155/bettafish` |
+| Integration branch | `chatgpt-work` |
 
 ## Proposed decisions requiring owner confirmation
 
@@ -35,18 +37,20 @@
 | Primary outcome | Build a trusted organic-search authority resource | G00 |
 | Secondary outcome | Future affiliate or advertising revenue only after disclosure and owner approval | G00/G03 |
 | 30/90/180-day metrics | Not yet supplied | G00 |
-| Repository | Not yet created/connected | G10/G12 |
 
 ## Launch scope
 
-The first planned content release contains:
+The current prepublication candidate contains **54 registered pages**:
 
-- homepage;
-- four journey hubs: Care, Diseases & Health, Compatibility, Biology & Genetics;
-- ten core articles from the master package;
-- About, Contact, Editorial Policy, Corrections Policy, Privacy Policy, Terms, Disclosure and Health Disclaimer;
-- linked author and reviewer profiles for Farrukh Abdullah and Kate Barrington.
+- 1 homepage;
+- 4 journey hubs;
+- 37 articles;
+- 8 trust/policy pages;
+- 3 named profile pages;
+- 1 utility 404 page.
+
+The content scope now includes the approved Bubble Nests, Enrichment & Safe Toys, and Betta Fish Types additions. The candidate remains sitewide noindex and is not yet approved for production.
 
 ## Gate G00 decision
 
-**FAIL / STOP.** The domain, scope, exclusions, risk class, publisher entity, editorial identities, public contact channel and delivery route are resolved. Success metrics and the monetization decision remain open.
+**FAIL / STOP.** The domain, scope, exclusions, risk class, publisher entity, editorial identities, public contact channel, repository and delivery route are resolved. Owner confirmation is still required for the audience/business-outcome wording, monetization stance, and 30/90/180-day success metrics. Do not invent these values merely to close G00.
