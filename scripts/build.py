@@ -19,6 +19,8 @@ CONFIG_PATH = ROOT / "config" / "site.json"
 PEOPLE_PATH = ROOT / "data" / "people.json"
 REGISTRY_PATH = ROOT / "data" / "page-registry.csv"
 MEDIA_PATH = ROOT / "data" / "media-manifest.csv"
+SEO_OVERRIDES_PATH = ROOT / "data" / "seo-overrides.json"
+RELATED_GUIDES_PATH = ROOT / "data" / "related-guides.json"
 EDITORIAL_REVIEW_PATH = ROOT / "data" / "editorial-review-candidates.csv"
 CLINICAL_REVIEW_PATH = ROOT / "data" / "clinical-review-candidates.csv"
 TEMPLATE_PATH = ROOT / "site" / "templates" / "base.html"
@@ -210,6 +212,22 @@ def render_section(section: dict, card_media_by_url: dict[str, dict] | None = No
         items = "".join(rendered_sources)
         return f'<section class="content-section sources-section">{heading}{intro}<ol class="source-list">{items}</ol></section>'
     raise ValueError(f"Unsupported section type: {section_type}")
+
+
+def related_guides_html(page_url: str, related_guides: dict[str, list[dict]]) -> str:
+    guides = related_guides.get(page_url, [])
+    if not guides:
+        return ""
+    items = "".join(
+        f'<li><a href="{esc(item["url"])}">{esc(item["label"])}</a></li>'
+        for item in guides
+    )
+    return (
+        '<nav class="related-guides" aria-label="Related guides">'
+        '<h2>Related guides</h2>'
+        f'<ul>{items}</ul>'
+        '</nav>'
+    )
 
 
 def person_schema(person_id: str, person: dict, config: dict) -> dict:
@@ -473,10 +491,36 @@ def publication_section(section: dict, exact_version_approved: bool) -> dict | N
 def main() -> None:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     people = json.loads(PEOPLE_PATH.read_text(encoding="utf-8"))
+    seo_overrides = json.loads(SEO_OVERRIDES_PATH.read_text(encoding="utf-8")).get("pages", {})
+    related_guides = json.loads(RELATED_GUIDES_PATH.read_text(encoding="utf-8")).get("pages", {})
     template = Template(TEMPLATE_PATH.read_text(encoding="utf-8"))
     with REGISTRY_PATH.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     rows_by_url = {row["url"]: row for row in rows}
+    unknown_override_urls = set(seo_overrides) - set(rows_by_url)
+    if unknown_override_urls:
+        raise ValueError(f"SEO overrides reference unknown URLs: {sorted(unknown_override_urls)}")
+    unknown_related_sources = set(related_guides) - set(rows_by_url)
+    if unknown_related_sources:
+        raise ValueError(f"Related-guide map references unknown source URLs: {sorted(unknown_related_sources)}")
+    for source_url, guides in related_guides.items():
+        if not isinstance(guides, list):
+            raise ValueError(f"Related-guide entry must be a list: {source_url}")
+        seen_targets: set[str] = set()
+        for item in guides:
+            target = item.get("url", "")
+            label = item.get("label", "").strip()
+            if target not in rows_by_url:
+                raise ValueError(f"Related-guide target is unknown: {source_url} -> {target}")
+            if rows_by_url[target]["status"].startswith("planned"):
+                raise ValueError(f"Related-guide target is not approved for output: {source_url} -> {target}")
+            if target == source_url:
+                raise ValueError(f"Related-guide map contains a self-link: {source_url}")
+            if target in seen_targets:
+                raise ValueError(f"Related-guide map contains a duplicate target: {source_url} -> {target}")
+            if not label:
+                raise ValueError(f"Related-guide label is empty: {source_url} -> {target}")
+            seen_targets.add(target)
     exact_approved_urls = approved_review_urls()
     with MEDIA_PATH.open(newline="", encoding="utf-8") as handle:
         media_rows = list(csv.DictReader(handle))
@@ -525,6 +569,20 @@ def main() -> None:
         if page["status"].startswith("planned") and page["url"] not in exact_approved_urls:
             raise ValueError(f"Registry promotion lacks exact-version approval: {page['url']}")
 
+        override = seo_overrides.get(page["url"], {})
+        unknown_override_fields = set(override) - {"title", "description"}
+        if unknown_override_fields:
+            raise ValueError(
+                f"SEO override for {page['url']} has unsupported fields: {sorted(unknown_override_fields)}"
+            )
+        render_page = dict(page)
+        for field in ("title", "description"):
+            if field in override:
+                value = override[field].strip()
+                if not value:
+                    raise ValueError(f"SEO override for {page['url']} has an empty {field}")
+                render_page[field] = value
+
         crumbs = breadcrumb_items(page, rows_by_url)
         globally_blocked = bool(config["sitewide_noindex"])
         requested_indexable = bool(page.get("indexable")) or page["url"] in exact_approved_urls
@@ -556,14 +614,17 @@ def main() -> None:
             render_section(section, card_media)
             for section in published_sections
         )
+        related_html = related_guides_html(page["url"], related_guides)
+        if related_html:
+            content = content + "\n" + related_html
         rendered = template.safe_substitute(
             language=esc(config["language"]),
-            title=esc(page["title"]),
-            description=esc(page["description"]),
+            title=esc(render_page["title"]),
+            description=esc(render_page["description"]),
             robots=robots,
             canonical=esc(canonical),
             site_name=esc(config["name"]),
-            schema=json.dumps(schema_for(page, config, crumbs, people, hero_media), ensure_ascii=False).replace("</", "<\\/"),
+            schema=json.dumps(schema_for(render_page, config, crumbs, people, hero_media), ensure_ascii=False).replace("</", "<\\/"),
             twitter_card="summary_large_image" if hero_media else "summary",
             social_image_meta=social_image_meta(hero_media, config),
             favicon_path=esc(config["favicon_path"]),

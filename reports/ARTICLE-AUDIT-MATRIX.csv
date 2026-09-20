@@ -1,0 +1,35 @@
+url,result,risk_level,primary_query,dominant_intent,word_count,source_count,faq_count,issue,changes_approved_source,required_approval
+/care/water-parameters/,MINOR IMPROVEMENT,low,betta fish water parameters,learn,971,4,3,"Scope reaches into cycling/heater/water-change owners; add handoffs",conditional,"None if external/non-substantive link layer; editorial if source edited"
+/care/diet-feeding/,MINOR IMPROVEMENT,low,what do betta fish eat,act,878,4,4,"No contextual handoff links; sickness section should remain bounded",conditional,"None if links external; editorial if source edited"
+/care/filtration/,MINOR IMPROVEMENT,low,best filter for betta fish,decide,1086,4,4,"No contextual links to tank setup/water parameters",conditional,"None if links external; editorial if source edited"
+/diseases/diagnostic-matrix/,MINOR IMPROVEMENT,low,betta fish diseases symptoms,diagnose,750,5,3,"Needs explicit handoffs to condition-specific clinical guides",no,"None for non-substantive linking"
+/diseases/fin-rot/,MINOR IMPROVEMENT,low,betta fin rot treatment,act,702,4,3,"Needs explicit handoff to triage and water-quality owners",no,"None if wording unchanged"
+/diseases/ich-treatment/,MINOR IMPROVEMENT,low,betta ich treatment,act,762,4,3,"Needs explicit related-guide handoffs",no,"None if wording unchanged"
+/compatibility/tank-mates/,MINOR IMPROVEMENT,medium,best betta fish tank mates,decide,903,4,4,"Female-group subtopic overlaps dedicated sorority owner without direct contextual handoff",no,"None for linking/registry clarification"
+/compatibility/female-sorority/,EDITORIAL REAPPROVAL REQUIRED,medium,can female bettas live together,decide,943,4,4,"H1 promises setup rules more strongly than cautious article conclusion",yes,"Editorial reapproval"
+/biology-genetics/lifespan/,MINOR IMPROVEMENT,low,how long do betta fish live,learn,828,3,4,"Visible H1 is overly academic; search-title override already mitigates",no,"None unless H1 is changed"
+/biology-genetics/tail-types/,MINOR IMPROVEMENT,low,betta fish tail types,compare,998,4,4,"Needs contextual handoffs to Plakat/growth/care",conditional,"None if links external; editorial if source edited"
+/care/tank-setup/,PASS,low,betta fish tank setup,act,1434,5,5,"Clear owner of setup/tank size/bowl variants",no,None
+/maintenance/water-change/,PASS,low,betta fish water change,act,1395,4,5,"Distinct maintenance task",no,None
+/care/indian-almond-leaves/,PASS,low,indian almond leaves for betta,evaluate,881,4,4,"Evidence-bounded husbandry use",no,None
+/care/heaters-calibration/,PASS,low,betta fish heater calibration,act,883,4,4,"Distinct heater verification task",no,None
+/aquascaping/fin-safe-plants/,PASS,low,fin safe plants for betta,decide,1143,3,5,"Distinct plant-safety task",no,None
+/sensory/light-requirements/,PASS,low,betta fish light requirements,learn,1077,3,5,"Distinct lighting task",no,None
+/diseases/dropsy-treatment/,PASS,low,betta fish dropsy treatment,diagnose,786,3,5,"Urgency-first triage; no universal recipe",no,None
+/diseases/velvet-treatment/,PASS,low,betta fish velvet treatment,diagnose,738,3,5,"Safe suspicion/treatment-planning boundary",no,None
+/diseases/columnaris-treatment/,PASS,low,betta fish columnaris treatment,diagnose,732,3,5,"Safe recognition/escalation boundary",no,None
+/anatomy/swim-bladder-treatment/,PASS,low,betta fish swim bladder treatment,diagnose,781,3,5,"Symptom-first buoyancy triage",no,None
+/behavior/unhappy-betta/,PASS,low,signs of an unhappy betta,diagnose,1058,4,4,"Converts vague welfare query into observable checks",no,None
+/anatomy/betta-fish-sleep/,PASS,low,how do betta fish sleep,learn,1069,5,5,"Clear rest-vs-warning-sign distinction",no,None
+/behavior/hearing-music/,PASS,low,can betta fish hear music,learn,920,3,4,"Evidence boundary preserved",no,None
+/behavior/flaring-triggers/,PASS,low,why do betta fish flare,learn,973,4,4,"Trigger/stress distinction is clear",no,None
+/breeding/pairing-fry-care/,PASS,low,betta fish breeding and fry care,act,1004,5,5,"Welfare-first breeding sequence",no,None
+/breeding/gender-identification/,PASS,low,male vs female betta fish,compare,822,5,5,"Multi-trait identification with uncertainty",no,None
+/origins/wild-habitats/,PASS,low,betta fish natural habitat,learn,1290,7,5,"Ecology-to-care bridge is clear",no,None
+/morphology/growth-rate-size/,PASS,low,how big do betta fish get,learn,890,5,5,"Measurement/growth uncertainty handled well",no,None
+/biology-genetics/species/,PASS,low,betta fish species,learn,1226,9,5,"Distinct taxonomy/diversity owner",no,None
+/biology-genetics/colors/,PASS,low,betta fish colors,compare,819,3,5,"Phenotype terminology kept separate from genetic certainty",no,None
+/biology-genetics/color-change/,PASS,low,why is my betta fish changing color,diagnose,906,6,5,"Normal variation vs health warning signs separated",no,None
+/biology-genetics/plakat-betta/,PASS,low,plakat betta fish,learn,975,6,4,"Clear form/history/care scope",no,None
+/biology-genetics/giant-betta/,PASS,low,giant betta fish,learn,1147,5,5,"Size/genetics planning with uncertainty",no,None
+/economics/betta-fish-price/,PASS,low,betta fish price,evaluate,853,5,5,"Price intent plus complete ownership-cost framing",no,None

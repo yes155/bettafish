@@ -1,0 +1,223 @@
+{
+  "url": "/behavior/enrichment-safe-toys/",
+  "page_type": "article",
+  "status": "draft-editorial-review",
+  "indexable": false,
+  "title": "Betta Fish Enrichment: Safe Ideas, Toys to Avoid and Observation Guide | BettaFish.website",
+  "description": "Use evidence-led enrichment for bettas: provide useful environmental complexity, screen objects for hazards, avoid forced stimulation and judge each fish by its response.",
+  "h1": "Betta Fish Enrichment: Safe Ideas, Toys to Avoid & How to Judge Your Fish's Response",
+  "eyebrow": "Behavior and welfare",
+  "intro": "Good enrichment gives a betta more appropriate choices—places to explore, rest, shelter and swim—without forcing constant stimulation. Plants and safe furnishings can improve behavioral opportunity, but an object is not automatically beneficial just because it is sold as a toy or the fish interacts with it.",
+  "updated": "2026-09-19",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "warning",
+      "heading": "Interaction does not prove an object is good enrichment",
+      "text": {
+        "text": "A 2026 Betta splendens experiment found that fish repeatedly used a tactile-stimulation device, yet the treatment increased stress-related and aggression-related responses instead of producing the expected welfare benefit. Evaluate enrichment by the whole response, not by contact or novelty alone.",
+        "sources": [5]
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "What counts as enrichment for a betta?",
+      "paragraphs": [
+        {
+          "text": "Environmental enrichment means improving the captive environment so the fish has opportunities to perform appropriate behaviors. For bettas, evidence supports thinking first about space and physical complexity—such as plants, refuges, substrate and usable resting areas—rather than buying novelty toys.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "In Betta studies, furnished or enriched environments were associated with more swimming, foraging or behavioral variation and fewer abnormal or stereotypic behaviors than barren conditions. Individual responses still varied, so the goal is not to fill every part of the aquarium with objects.",
+          "sources": [1, 2]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "heading": "How to screen an enrichment idea",
+      "caption": "A safe object must pass the physical-safety and behavior-response checks",
+      "headers": ["Check", "What to look for", "Reject or remove when"],
+      "rows": [
+        ["Edges and surfaces", "Smooth surfaces that will not scrape long fins or the body", "Sharp, rough, abrasive or damaged edges are present"],
+        ["Openings", "Wide passages with no realistic chance of trapping the body, head or fins", "The fish can wedge itself, become stuck or must squeeze through"],
+        ["Surface access", "The fish can reach the air-water surface freely from several routes", "The object blocks or crowds surface access"],
+        ["Swimming routes", "Open routes remain around plants and decor", "The layout creates dead ends or forces repeated contact"],
+        ["Materials", "Aquarium-safe, stable material that does not visibly shed, rust or break down", "Coating, paint, glue or material is deteriorating"],
+        ["Behavior", "Normal exploration followed by ordinary swimming, resting and feeding", "Persistent flaring, frantic avoidance, repeated collision, hiding or disrupted feeding/resting appears"],
+        ["Maintenance", "The item can be cleaned and removed without destabilizing the tank", "It traps waste or interferes with filtration, heater operation or routine cleaning"]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Evidence-supported starting points",
+      "paragraphs": [
+        {
+          "text": "Start with structural enrichment: safe live or artificial plants, smooth refuges, resting locations and open swimming space. In one Betta study, fish in furnished tanks used plants and refuges for substantial portions of their resting time, while barren housing was associated with more abnormal behaviors.",
+          "sources": [1]
+        },
+        {
+          "text": "Another study found that male bettas in enriched containers showed more swimming bouts than fish in bare containers. These findings support environmental complexity, but they do not establish one perfect number of plants, hides or objects.",
+          "sources": [2]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Are mirrors good enrichment for betta fish?",
+      "paragraphs": [
+        {
+          "text": "A mirror is better understood as an aggression stimulus than as default enrichment. Betta research uses mirrors because reflections reliably trigger threat displays in many individuals, and physiological responses can accompany those displays.",
+          "sources": [3, 4]
+        },
+        {
+          "text": "Do not leave a mirror attached to the aquarium or prescribe a daily mirror workout. If a reflection causes persistent flaring or pursuit, remove or reduce the trigger and use the dedicated flaring guide for troubleshooting."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Why not every 'toy' is beneficial",
+      "paragraphs": [
+        {
+          "text": "Enrichment effects are species-specific. In the 2026 tactile-stimulation study, adult male bettas voluntarily crossed a device fitted with soft bristles, but the treatment was associated with higher cortisol and greater aggression-related reactivity rather than a calming or rewarding effect.",
+          "sources": [5]
+        },
+        {
+          "text": "That result is a useful warning against copying enrichment ideas from another fish species or assuming repeated contact means enjoyment. Avoid devices that require rubbing, squeezing or forced body contact unless Betta-specific evidence supports them."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How to introduce a new enrichment item",
+      "intro": "Change one meaningful feature at a time so you can observe the fish's response.",
+      "steps": [
+        {
+          "title": "Screen the object first",
+          "text": "Check surfaces, openings, material stability, placement and whether normal surface access and swimming routes will remain open."
+        },
+        {
+          "title": "Place it without forcing contact",
+          "text": "Give the fish a choice to approach, avoid, rest near or ignore the object. Do not chase the fish toward it or trap the fish inside it."
+        },
+        {
+          "title": "Observe normal behavior",
+          "text": "Look for ordinary swimming, feeding, resting and exploration. A brief inspection of a new object is different from repeated frantic or aggressive interaction."
+        },
+        {
+          "title": "Watch for stop conditions",
+          "text": "Remove the item if it causes persistent flaring, frantic avoidance, trapping, torn fins, repeated collision, food exclusion or loss of normal access to the surface or resting areas."
+        },
+        {
+          "title": "Keep what works for the individual fish",
+          "text": "Bettas differ in activity and use of furnishings. There is no evidence-based requirement to rotate toys on a fixed schedule."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What should not be used as enrichment?",
+      "paragraphs": [
+        {
+          "text": "Avoid another betta as 'company,' continuous mirrors, tight tunnels, sharp or rough decor, forced-contact devices and any object that compromises water quality, filtration, heating or surface access."
+        },
+        {
+          "text": "Food can create foraging opportunity, but enrichment should not become an excuse to overfeed. Keep feeding quantity and food choice under the dedicated diet guide rather than adding extra food solely for stimulation."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Related guides",
+      "cards": [
+        {
+          "title": "Tank setup",
+          "text": "Plan usable space, filtration, heat, cover and safe structural layout.",
+          "url": "/care/tank-setup/",
+          "label": "Review tank setup"
+        },
+        {
+          "title": "Fin-safe plants",
+          "text": "Choose plants and attachments that fit long-finned betta movement and resting.",
+          "url": "/aquascaping/fin-safe-plants/",
+          "label": "Review plants"
+        },
+        {
+          "title": "Flaring triggers",
+          "text": "Understand why mirrors and reflections can provoke threat displays.",
+          "url": "/behavior/flaring-triggers/",
+          "label": "Review flaring guidance"
+        },
+        {
+          "title": "Diet and feeding",
+          "text": "Keep food-based activities within an appropriate feeding plan.",
+          "url": "/care/diet-feeding/",
+          "label": "Review feeding guidance"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do betta fish need toys?",
+          "answer": "They need an appropriate, non-barren environment with opportunities to swim, rest, shelter and explore. Research supports physical environmental complexity more clearly than novelty toys."
+        },
+        {
+          "question": "What if my betta ignores a new object?",
+          "answer": "Ignoring an object is not a problem by itself. Do not force interaction. Keep the aquarium safe and usable, and judge the fish by its broader behavior and welfare rather than toy use."
+        },
+        {
+          "question": "How often should I change enrichment?",
+          "answer": "There is no evidence-based universal rotation schedule for pet bettas. Make changes only when they improve the environment and do not create persistent stress or safety problems."
+        },
+        {
+          "question": "Are mirrors good exercise for bettas?",
+          "answer": "Research uses mirrors as aggression stimuli, not as a proven daily exercise prescription. Avoid prolonged or routine mirror exposure and remove reflective triggers when flaring persists.",
+          "sources": [3, 4]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Physical enrichment studies support greater environmental complexity, but no study establishes a universal toy list. Betta-specific evidence also shows that some enrichment-like stimulation can increase stress.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Life beyond a jar: Effects of tank size and furnishings on the behaviour and welfare of Siamese fighting fish",
+          "publisher": "Animal Welfare / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704571/"
+        },
+        {
+          "id": 2,
+          "title": "Life in a fishbowl: Space and environmental enrichment affect behaviour of Betta splendens",
+          "publisher": "Animal Welfare / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936361/"
+        },
+        {
+          "id": 3,
+          "title": "Androgens and corticosteroids increase in response to mirror images and interacting conspecifics in males of the Siamese fighting fish",
+          "publisher": "Hormones and Behavior / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33984609/"
+        },
+        {
+          "id": 4,
+          "title": "High variability in aggression and habituation to the mirror assay in ornamental Siamese fighting fish Betta splendens",
+          "publisher": "Acta Ethologica",
+          "url": "https://link.springer.com/article/10.1007/s10211-025-00469-9"
+        },
+        {
+          "id": 5,
+          "title": "Not always positive: tactile body stimulation does not lower aggressiveness and increases stress in the Siamese fighting fish",
+          "publisher": "Fish Physiology and Biochemistry",
+          "url": "https://link.springer.com/article/10.1007/s10695-026-01771-4"
+        }
+      ]
+    }
+  ]
+}
