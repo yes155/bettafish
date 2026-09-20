@@ -54,3 +54,25 @@ If any hard live check fails, restore the previous Cloudflare deployment or reve
 - Recorded at: 2026-09-20
 
 An actual rollback restore is not executed merely as a gate exercise because that would disturb the current production deployment. These identifiers are the pre-promotion rollback target if a hard live check fails.
+
+## Stage 2 indexing release — 2026-09-20
+
+Owner launch approval is recorded in `reports/OWNER-LAUNCH-APPROVAL-2026-09-20.md`.
+
+### Verified pre-index production baseline
+
+- Main Git SHA: `6da9d33425d2e19ba338ca080870eb02b5397f20`
+- Cloudflare deployment ID: `3f8b7a05-46ed-4b17-8fdd-c5473850a9bc`
+- Deployment result: successful
+- Indexing state: sitewide noindex / prepublication
+
+This deployment is the immediate rollback target for the indexing release because it contains the complete approved 54-page site while keeping search indexing disabled.
+
+### Stage 2 change scope
+
+Only the launch-mode configuration changes:
+
+- `sitewide_noindex: true` → `false`
+- `environment: prepublication` → `production`
+
+No article, media, schema model, navigation, query ownership, reviewer attribution or editorial source is changed by this stage.

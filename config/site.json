@@ -8,8 +8,8 @@
   "favicon_path": "/favicon.png",
   "contact_email": "bettafish.website@gmail.com",
   "contact_email_status": "permanent",
-  "sitewide_noindex": true,
-  "environment": "prepublication",
+  "sitewide_noindex": false,
+  "environment": "production",
   "design_reference": "https://bunstay.com/",
   "social_profiles": []
 }
