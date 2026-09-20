@@ -39,3 +39,18 @@ Before production promotion, record:
 - owner and timestamp.
 
 If any hard live check fails, restore the previous Cloudflare deployment or revert the production commit, verify representative routes, robots, sitemap and HTTPS, then investigate from the preview branch.
+
+## Recorded 2026-09-20 candidate
+
+- Candidate branch: `chatgpt-work`
+- Candidate Git SHA: `90a45a1237192fc10221231c1f6bfc3d8a8b236d`
+- Candidate Cloudflare deployment ID: `1b60c46c-1c18-4696-83c7-46b8bdab147f`
+- Candidate immutable preview: `https://1b60c46c.bettafish-4kt.pages.dev`
+- Candidate branch preview: `https://chatgpt-work.bettafish-4kt.pages.dev`
+- Previous production Git SHA: `aa696c31ed5274db80a60ed1cd9f7d89a8a2cbce`
+- Previous Cloudflare deployment ID: `0758d976-fc9d-41e6-8e21-039fd9aeea43`
+- Previous immutable deployment preview: `https://0758d976.bettafish-4kt.pages.dev`
+- Recorded by: project owner workflow / ChatGPT-assisted release record
+- Recorded at: 2026-09-20
+
+An actual rollback restore is not executed merely as a gate exercise because that would disturb the current production deployment. These identifiers are the pre-promotion rollback target if a hard live check fails.
