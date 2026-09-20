@@ -177,6 +177,20 @@
         "url": "/biology-genetics/betta-fish-types/",
         "label": "Types of betta fish"
       }
+    ],
+    "/biology-genetics/": [
+      {
+        "url": "/behavior/bubble-nests/",
+        "label": "Betta bubble nests"
+      },
+      {
+        "url": "/behavior/enrichment-safe-toys/",
+        "label": "Betta enrichment and safe furnishings"
+      },
+      {
+        "url": "/biology-genetics/betta-fish-types/",
+        "label": "Types of betta fish"
+      }
     ]
   }
 }
