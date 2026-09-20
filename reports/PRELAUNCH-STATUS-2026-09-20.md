@@ -12,7 +12,7 @@ The content, semantic architecture, media and automated build are no longer the 
 
 | Gate | Status | Current evidence / blocker |
 |---|---|---|
-| G00 Project charter | **BLOCKED** | Domain, scope, risk, publisher, contact, repo and delivery route are resolved. Owner confirmation is still missing for audience/business-outcome wording, monetization stance and 30/90/180-day metrics. |
+| G00 Project charter | **BLOCKED — decision packet ready** | Proposed audience, business outcome, monetization stance and 30/90/180-day metrics are now documented in `reports/G00-OWNER-DECISION-PACKET-2026-09-20.md`; owner confirmation is still required. |
 | G01 Research/evidence | **PASS** | Keyword Planner, Trends and PAA reconciliation completed; source register and page-level evidence exist; unsupported/new tasks are merge/defer/exclude controlled. |
 | G02 Architecture | **PASS** | 54-row page registry; semantic-query-ownership audit passes; keyword ownership map and cannibalization register are reconciled. |
 | G03 Trust | **PASS (repo)** | About, Contact, Editorial Policy, Corrections, Privacy, Terms, Disclosure, Health Disclaimer and named profiles are registered and generated; identity contract passes. |
@@ -24,9 +24,9 @@ The content, semantic architecture, media and automated build are no longer the 
 | G09 Search/tools | **N/A for foundation scope** | Page-type contract explicitly excludes onsite search/tools from this launch. No dormant search endpoint/index is emitted. |
 | G10 Reproducible build/CI | **PASS** | GitHub Actions clean checkout runs Python 3.12, build and audit; current 54-page candidate has passing runs. |
 | G11 Security/privacy | **BLOCKED only for deployed verification** | Repo search found no private-key/API-key/secret/password/token hits; audit requires Cloudflare security-header configuration and passes locally. Preview/live HTTPS and response headers still need browser/network verification. |
-| G12 Preview | **BLOCKED** | GitHub candidate SHA/CI exists, but no Cloudflare branch-preview URL, deployment ID, screenshot matrix or owner preview approval is recorded. |
+| G12 Preview | **PARTIAL PASS** | Exact candidate SHA `90a45a1237192fc10221231c1f6bfc3d8a8b236d` deployed successfully to Cloudflare deployment `1b60c46c-1c18-4696-83c7-46b8bdab147f`; branch preview is `https://chatgpt-work.bettafish-4kt.pages.dev`. Viewport/browser QA and owner preview approval remain open. |
 | G13 Production | **BLOCKED** | No approved production promotion; `sitewide_noindex=true`; production deployment ID/live route checks are not recorded. |
-| G14 Rollback | **BLOCKED** | `RELEASE.md` defines rollback procedure, but previous/candidate Cloudflare deployment IDs and a tested/dry-run rollback record are not yet captured. |
+| G14 Rollback | **READY / restore not executed** | Previous main SHA `aa696c31ed5274db80a60ed1cd9f7d89a8a2cbce`, previous Cloudflare deployment `0758d976-fc9d-41e6-8e21-039fd9aeea43`, candidate SHA and candidate deployment are recorded. An actual restore is intentionally not executed against the current production site merely to prove the gate. |
 | G15 Monitoring/change control | **READY / postlaunch** | Review calendar and change-control framework exist; live monitoring/Search Console evidence belongs to postlaunch. |
 
 ## Latest automated state
@@ -53,25 +53,28 @@ The audit's `production_status: STOP` is intentional because repository automati
 ## What is required before removing noindex
 
 1. Owner supplies/approves the remaining G00 charter fields.
-2. Cloudflare creates a branch preview from the exact final `chatgpt-work` SHA using:
-   - build: `python3 scripts/build.py && python3 scripts/audit.py`
-   - output: `public`
-3. Record preview URL and Cloudflare deployment ID.
-4. Complete representative visual/interactivity review at 360×800, 768×1024, 1366×768 and 1920×1080.
-5. Verify preview:
+2. Cloudflare branch preview deployment is complete for candidate SHA `90a45a1237192fc10221231c1f6bfc3d8a8b236d` (deployment `1b60c46c-1c18-4696-83c7-46b8bdab147f`).
+3. Complete representative visual/interactivity review at 360×800, 768×1024, 1366×768 and 1920×1080.
+4. Verify preview:
    - HTTPS;
    - response security headers;
    - representative 200 routes;
    - canonical/schema/OG image responses;
    - robots blocks indexing while preview is prepublication;
    - no mobile navigation/overflow/crop regression.
-6. Record owner preview approval.
-7. Record previous production SHA/deployment and rollback target.
-8. Only then make a dedicated launch commit changing:
+5. Record owner preview approval.
+6. Previous production SHA/deployment and rollback target are recorded in `reports/CLOUDFLARE-DEPLOYMENT-EVIDENCE-2026-09-20.md`.
+7. Only then make a dedicated launch commit changing:
    - `sitewide_noindex` → `false`
    - `environment` → `production`
-9. Rebuild/audit that dedicated candidate before merging/promoting.
-10. After production deploy, verify live domain, sitemap, robots, representative routes, schema, social images and HTTPS before declaring G13 PASS.
+8. Rebuild/audit that dedicated candidate before merging/promoting.
+9. After production deploy, verify live domain, sitemap, robots, representative routes, schema, social images and HTTPS before declaring G13 PASS.
+
+## Newly recorded deployment evidence
+
+- `reports/CLOUDFLARE-DEPLOYMENT-EVIDENCE-2026-09-20.md`
+- `reports/CLOUDFLARE-PREVIEW-QA-2026-09-20.md`
+- `reports/G00-OWNER-DECISION-PACKET-2026-09-20.md`
 
 ## Current decision
 
