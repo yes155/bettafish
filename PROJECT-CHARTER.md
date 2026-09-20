@@ -36,7 +36,7 @@
 | Audience | English-speaking betta owners; US-first search evidence with metric and US units | G00 |
 | Primary outcome | Build a trusted organic-search authority resource | G00 |
 | Secondary outcome | Future affiliate or advertising revenue only after disclosure and owner approval | G00/G03 |
-| 30/90/180-day metrics | Not yet supplied | G00 |
+| 30/90/180-day metrics | Proposed operational SEO framework prepared in `reports/G00-OWNER-DECISION-PACKET-2026-09-20.md`; owner confirmation pending | G00 |
 
 ## Launch scope
 
