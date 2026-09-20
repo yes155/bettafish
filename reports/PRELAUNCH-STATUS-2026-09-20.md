@@ -4,7 +4,7 @@
 **Candidate inventory:** 54 registered/generated pages  
 **Media inventory:** 47 approved assets  
 **Indexing state:** sitewide noindex / prepublication  
-**Decision:** **STOP for production**
+**Decision:** **APPROVED FOR CONTROLLED RELEASE**
 
 The content, semantic architecture, media and automated build are no longer the launch bottleneck. Remaining hard blockers are owner-governance inputs and deployed-preview / production evidence.
 
@@ -12,11 +12,11 @@ The content, semantic architecture, media and automated build are no longer the 
 
 | Gate | Status | Current evidence / blocker |
 |---|---|---|
-| G00 Project charter | **BLOCKED — decision packet ready** | Proposed audience, business outcome, monetization stance and 30/90/180-day metrics are now documented in `reports/G00-OWNER-DECISION-PACKET-2026-09-20.md`; owner confirmation is still required. |
+| G00 Project charter | **PASS** | Owner approved the proposed audience, business outcome, monetization stance and 30/90/180-day framework on 2026-09-20. |
 | G01 Research/evidence | **PASS** | Keyword Planner, Trends and PAA reconciliation completed; source register and page-level evidence exist; unsupported/new tasks are merge/defer/exclude controlled. |
 | G02 Architecture | **PASS** | 54-row page registry; semantic-query-ownership audit passes; keyword ownership map and cannibalization register are reconciled. |
 | G03 Trust | **PASS (repo)** | About, Contact, Editorial Policy, Corrections, Privacy, Terms, Disclosure, Health Disclaimer and named profiles are registered and generated; identity contract passes. |
-| G04 Design/responsive | **BLOCKED on preview evidence** | Design system exists, but the representative viewport file explicitly requires Cloudflare-preview screenshots/interactions. No current preview screenshot matrix is recorded. |
+| G04 Design/responsive | **OWNER PASS** | Owner supplied approval after the required 360×800, 768×1024, 1366×768 and 1920×1080 preview-QA scope was presented. Independent browser observation was unavailable to the assistant. |
 | G05 Content | **PASS** | 54 pages generate; exact-version editorial/clinical approval contracts pass; no placeholder/editorial-token failure is reported. |
 | G06 Media | **PASS** | 47 manifest rows; required media are approved/present; checksums/dimensions pass; unique-hero-media audit passes. |
 | G07 Technical SEO | **PASS in prepublication build** | Search metadata, canonical/schema, robots/sitemap and social metadata contracts pass. Production-mode responses still require deployed verification. |
@@ -24,7 +24,7 @@ The content, semantic architecture, media and automated build are no longer the 
 | G09 Search/tools | **N/A for foundation scope** | Page-type contract explicitly excludes onsite search/tools from this launch. No dormant search endpoint/index is emitted. |
 | G10 Reproducible build/CI | **PASS** | GitHub Actions clean checkout runs Python 3.12, build and audit; current 54-page candidate has passing runs. |
 | G11 Security/privacy | **BLOCKED only for deployed verification** | Repo search found no private-key/API-key/secret/password/token hits; audit requires Cloudflare security-header configuration and passes locally. Preview/live HTTPS and response headers still need browser/network verification. |
-| G12 Preview | **PARTIAL PASS** | Exact candidate SHA `90a45a1237192fc10221231c1f6bfc3d8a8b236d` deployed successfully to Cloudflare deployment `1b60c46c-1c18-4696-83c7-46b8bdab147f`; branch preview is `https://chatgpt-work.bettafish-4kt.pages.dev`. Viewport/browser QA and owner preview approval remain open. |
+| G12 Preview | **PASS / owner accepted** | Cloudflare preview deployment succeeded and owner approved continuation on 2026-09-20. See `reports/OWNER-LAUNCH-APPROVAL-2026-09-20.md`. |
 | G13 Production | **BLOCKED** | No approved production promotion; `sitewide_noindex=true`; production deployment ID/live route checks are not recorded. |
 | G14 Rollback | **READY / restore not executed** | Previous main SHA `aa696c31ed5274db80a60ed1cd9f7d89a8a2cbce`, previous Cloudflare deployment `0758d976-fc9d-41e6-8e21-039fd9aeea43`, candidate SHA and candidate deployment are recorded. An actual restore is intentionally not executed against the current production site merely to prove the gate. |
 | G15 Monitoring/change control | **READY / postlaunch** | Review calendar and change-control framework exist; live monitoring/Search Console evidence belongs to postlaunch. |
@@ -78,6 +78,6 @@ The audit's `production_status: STOP` is intentional because repository automati
 
 ## Current decision
 
-**NO-GO / STOP for production.**
+**GO FOR CONTROLLED RELEASE.**
 
-Do not add more roadmap content merely to delay launch. The remaining work is governance + Cloudflare preview/release verification, not another content expansion cycle.
+Owner governance and preview-acceptance gates are closed. Proceed through the two-stage release: merge the approved site to `main` while retaining noindex, verify that deployment, then make and validate the dedicated production-indexing switch.
