@@ -1,0 +1,240 @@
+{
+  "url": "/biology-genetics/betta-fish-types/",
+  "page_type": "article",
+  "status": "draft-editorial-review",
+  "indexable": false,
+  "title": "Types of Betta Fish: Tail Shapes, Colors, Varieties and Species | BettaFish.website",
+  "description": "Understand the main types of betta fish by tail shape, color and pattern, body form, sex and true species—and see how those categories differ.",
+  "h1": "Types of Betta Fish: Tail Shapes, Colors, Varieties & Species",
+  "eyebrow": "Biology and classification",
+  "intro": "“Betta type” is an informal umbrella term, not one scientific category. Most pet bettas are domesticated Betta splendens, and one fish can be described at the same time by its tail shape, color or pattern, body form and sex. True Betta species are a separate taxonomic category.",
+  "updated": "2026-09-19",
+  "author_id": "farrukh-abdullah",
+  "reviewer_id": "kate-barrington",
+  "sections": [
+    {
+      "type": "callout",
+      "tone": "evidence",
+      "heading": "A Halfmoon, Koi or Plakat is not automatically a separate species",
+      "text": {
+        "text": "Many familiar betta names describe domesticated forms of Betta splendens rather than different species. Tail shape, color pattern, body size and sex are separate classification axes, so one fish can carry several labels at once.",
+        "sources": [1, 2, 3]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "The main ways bettas are classified",
+      "caption": "“Type” can describe different traits, so identify the classification axis first",
+      "headers": ["Classification axis", "Examples", "What the label tells you"],
+      "rows": [
+        ["Tail or fin form", "Veiltail, Halfmoon, Crowntail, Double-tail, Delta, Plakat", "The shape and length of the fins; not a separate species."],
+        ["Color and pattern", "Red, blue-green, black, pale, metallic, marble, koi", "Visible appearance; it does not reveal the complete genotype or species."],
+        ["Body or size form", "Standard domestic form, Giant line", "Selected body-size traits; exact adult size still varies."],
+        ["Sex", "Male, female", "Biological sex; not reliably identified from color alone."],
+        ["True species", "Betta splendens, Betta imbellis and other Betta species", "A formal taxonomic identity rather than a domestic trade or appearance label."]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What does “type of betta fish” actually mean?",
+      "paragraphs": [
+        {
+          "text": "In aquarium use, “type” often mixes several different ideas. A keeper may mean tail shape, color pattern, body form, sex or true species. These categories should not be treated as interchangeable."
+        },
+        {
+          "text": "The familiar pet betta is usually a domesticated Betta splendens. Selective breeding has produced extensive variation in fin form, color, pattern and body size within that domesticated species.",
+          "sources": [2, 3]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What are the main betta tail types?",
+      "paragraphs": [
+        {
+          "text": "Common domestic fin-form labels include Veiltail, Halfmoon, Crowntail, Double-tail, Delta and Plakat. These names describe visible fin structure and exhibition or hobby categories rather than different species.",
+          "sources": [1, 2]
+        },
+        {
+          "text": "Tail form can matter practically because very long or highly divided fins change how a fish moves and how carefully decor should be inspected. Use the dedicated tail-type guide for the full comparison rather than choosing a fish from appearance alone."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What are the main betta colors and patterns?",
+      "paragraphs": [
+        {
+          "text": "Domestic Betta splendens can show red, yellow-orange, dark, pale, blue-green and metallic effects in solid or patterned combinations. Hobby terms such as marble or koi describe appearance patterns, not separate species.",
+          "sources": [3, 4]
+        },
+        {
+          "text": "Visible appearance does not reveal a fish's complete genotype, and commercial labels can vary between sellers. Use the color and pattern guide for terminology rather than treating every trade name as a fixed genetic category."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "How do Plakat and Giant bettas fit into the picture?",
+      "paragraphs": [
+        {
+          "text": "A Plakat is a short-finned domesticated Betta splendens form. The name describes fin form and breeding history, not a separate species or guaranteed temperament.",
+          "sources": [2, 3]
+        },
+        {
+          "text": "Giant bettas are domestic lines selected for enlarged body size. Genetic studies support a heritable giant phenotype, but the label does not guarantee one exact adult length or growth rate.",
+          "sources": [5]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Are male and female bettas different types?",
+      "paragraphs": [
+        {
+          "text": "Male and female describe sex, which is another classification axis rather than a tail or color type. Domestic breeding has produced enough variation that fin length or color alone cannot identify every fish reliably.",
+          "sources": [3, 6]
+        },
+        {
+          "text": "Compare multiple traits when identifying sex, especially in juveniles, short-fin males and long-fin females."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "What is the difference between a betta type and a Betta species?",
+      "paragraphs": [
+        {
+          "text": "A true species is a taxonomic unit within the genus Betta. FishBase listed 78 recognized Betta species on September 2, 2026, and that number can change as taxonomy is revised. Betta splendens is only one species in that genus.",
+          "sources": [7, 8]
+        },
+        {
+          "text": "Halfmoon, Crowntail, koi, marble, Plakat and Giant are therefore not equivalent to names such as Betta splendens or Betta imbellis. The former are domestic form or appearance labels; the latter are species names."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Explore each type in depth",
+      "cards": [
+        {
+          "title": "Tail types",
+          "text": "Compare Veiltail, Halfmoon, Crowntail, Double-tail, Delta and Plakat fin forms.",
+          "url": "/biology-genetics/tail-types/",
+          "label": "Compare tail types"
+        },
+        {
+          "title": "Colors and patterns",
+          "text": "Understand solid colors, metallic effects, marble, koi and other appearance terms.",
+          "url": "/biology-genetics/colors/",
+          "label": "Explore colors"
+        },
+        {
+          "title": "Betta species",
+          "text": "Separate domesticated Betta splendens from the wider diversity of the Betta genus.",
+          "url": "/biology-genetics/species/",
+          "label": "Explore species"
+        },
+        {
+          "title": "Plakat bettas",
+          "text": "Learn how the short-fin domestic form differs from long-fin varieties.",
+          "url": "/biology-genetics/plakat-betta/",
+          "label": "Explore Plakats"
+        },
+        {
+          "title": "Giant bettas",
+          "text": "Understand the enlarged-body domestic line and its size uncertainty.",
+          "url": "/biology-genetics/giant-betta/",
+          "label": "Explore Giant bettas"
+        },
+        {
+          "title": "Male vs female",
+          "text": "Compare multiple sex-identification traits and their limits.",
+          "url": "/breeding/gender-identification/",
+          "label": "Compare sexes"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Is a koi betta a different species?",
+          "answer": "No. Koi is a domestic color-pattern label generally applied to Betta splendens, not a separate species."
+        },
+        {
+          "question": "Is a Plakat betta a separate species?",
+          "answer": "No. Plakat describes a short-fin domesticated Betta splendens form."
+        },
+        {
+          "question": "Are male and female bettas different types?",
+          "answer": "They are different sexes, not separate tail, color or species types. A male or female can also be Halfmoon, Crowntail, Plakat, koi or another domestic form."
+        },
+        {
+          "question": "What is the rarest betta type?",
+          "answer": "There is no stable evidence-based rarity ranking that applies across breeders, countries and time. Trade labels and availability change, so avoid treating seller rarity claims as a biological classification."
+        },
+        {
+          "question": "What type of betta has short fins?",
+          "answer": "Plakat bettas are the best-known short-fin domestic form. Short fins alone still do not identify sex or species."
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources and evidence limits",
+      "intro": "Domestic form names, color terms and taxonomic species names come from different classification systems. This overview keeps those systems separate and routes detailed questions to the site's specialist guides.",
+      "items": [
+        {
+          "id": 1,
+          "title": "International Betta Congress Exhibition Standards",
+          "publisher": "International Betta Congress",
+          "url": "https://www.ibcbettas.org/memberhome/standards/"
+        },
+        {
+          "id": 2,
+          "title": "Genomic Basis of Striking Fin Shapes and Colors in the Fighting Fish",
+          "publisher": "Molecular Biology and Evolution / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321530/"
+        },
+        {
+          "id": 3,
+          "title": "The genetic architecture of phenotypic diversity in the Betta fish",
+          "publisher": "Science Advances / PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491723/"
+        },
+        {
+          "id": 4,
+          "title": "Something Fishy about Siamese Fighting Fish",
+          "publisher": "Cells",
+          "url": "https://www.mdpi.com/2073-4409/11/11/1764"
+        },
+        {
+          "id": 5,
+          "title": "Whole-genome resequencing infers genomic basis of giant phenotype in Siamese fighting fish",
+          "publisher": "Zoological Research",
+          "url": "https://www.zoores.ac.cn/en/article/id/6e38f679-2975-4e96-8bfa-84c18e51fa05"
+        },
+        {
+          "id": 6,
+          "title": "Transposon-induced epigenetic silencing in the X chromosome during sex determination",
+          "publisher": "BMC Biology",
+          "url": "https://link.springer.com/article/10.1186/s12915-021-01205-y"
+        },
+        {
+          "id": 7,
+          "title": "Fish Identification: Species in the genus Betta",
+          "publisher": "FishBase",
+          "url": "https://fishbase.se/identification/SpeciesList.php?genus=Betta"
+        },
+        {
+          "id": 8,
+          "title": "Eschmeyer's Catalog of Fishes",
+          "publisher": "California Academy of Sciences",
+          "url": "https://www.calacademy.org/scientists/projects/eschmeyers-catalog-of-fishes"
+        }
+      ]
+    }
+  ]
+}
