@@ -1,8 +1,8 @@
 # Project Charter: BettaFish.website
 
-**Status:** Prepublication charter — owner business-goal metrics still open
+**Status:** Owner-approved launch charter
 **Last updated:** 2026-09-01
-**Production decision:** STOP
+**Production decision:** APPROVED FOR CONTROLLED RELEASE
 
 ## Confirmed decisions
 
@@ -29,14 +29,14 @@
 | Repository | `yes155/bettafish` |
 | Integration branch | `chatgpt-work` |
 
-## Proposed decisions requiring owner confirmation
+## Owner-approved launch decisions
 
 | Field | Proposed value | Gate impact |
 |---|---|---|
 | Audience | English-speaking betta owners; US-first search evidence with metric and US units | G00 |
 | Primary outcome | Build a trusted organic-search authority resource | G00 |
 | Secondary outcome | Future affiliate or advertising revenue only after disclosure and owner approval | G00/G03 |
-| 30/90/180-day metrics | Proposed operational SEO framework prepared in `reports/G00-OWNER-DECISION-PACKET-2026-09-20.md`; owner confirmation pending | G00 |
+| 30/90/180-day metrics | Operational SEO framework in `reports/G00-OWNER-DECISION-PACKET-2026-09-20.md` | G00 |
 
 ## Launch scope
 
@@ -53,4 +53,4 @@ The content scope now includes the approved Bubble Nests, Enrichment & Safe Toys
 
 ## Gate G00 decision
 
-**FAIL / STOP.** The domain, scope, exclusions, risk class, publisher entity, editorial identities, public contact channel, repository and delivery route are resolved. Owner confirmation is still required for the audience/business-outcome wording, monetization stance, and 30/90/180-day success metrics. Do not invent these values merely to close G00.
+**PASS.** Owner approval was recorded on 2026-09-20 in `reports/OWNER-LAUNCH-APPROVAL-2026-09-20.md`. The audience, business outcome, monetization stance and 30/90/180-day success framework are now confirmed.
