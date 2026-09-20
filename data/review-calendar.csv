@@ -36,3 +36,6 @@ url,risk_class,review_interval,status,required_reviewer,last_reviewed,next_revie
 /biology-genetics/plakat-betta/,ordinary,yearly,editorial-review-pending,Kate Barrington,,
 /biology-genetics/giant-betta/,animal-welfare,yearly,editorial-review-pending,Kate Barrington,,
 /economics/betta-fish-price/,ordinary,quarterly,editorial-review-pending,Kate Barrington,,
+/behavior/bubble-nests/,ordinary,yearly,approved,Kate Barrington,2026-09-19,2027-09-19
+/behavior/enrichment-safe-toys/,animal-welfare,yearly,approved,Kate Barrington,2026-09-19,2027-09-19
+/biology-genetics/betta-fish-types/,ordinary,yearly,approved,Kate Barrington,2026-09-19,2027-09-19
