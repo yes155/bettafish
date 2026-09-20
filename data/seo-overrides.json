@@ -106,6 +106,16 @@
     },
     "/economics/betta-fish-price/": {
       "title": "Betta Fish Price: Budget for the Fish and Proper Care"
+    },
+    "/biology-genetics/betta-fish-types/": {
+      "title": "Betta Fish Types: Tails, Colors, Varieties & Species"
+    },
+    "/behavior/bubble-nests/": {
+      "title": "Betta Bubble Nests: Meaning, Eggs & What They Indicate"
+    },
+    "/behavior/enrichment-safe-toys/": {
+      "title": "Betta Fish Enrichment: Safe Ideas & Toys to Avoid",
+      "description": "Safe betta enrichment ideas, toy hazards, mirror cautions, and a practical way to judge whether an object supports normal behavior."
     }
   }
 }
