@@ -3,7 +3,7 @@
 **Candidate SHA:** `90a45a1237192fc10221231c1f6bfc3d8a8b236d`  
 **Cloudflare deployment:** `1b60c46c-1c18-4696-83c7-46b8bdab147f`  
 **Branch preview:** `https://chatgpt-work.bettafish-4kt.pages.dev`  
-**Status:** Awaiting visual/browser verification
+**Status:** Owner-approved for controlled release; independent browser verification unavailable in assistant environment
 
 ## Representative routes
 
@@ -105,15 +105,15 @@ On homepage + one article + one health page verify:
 
 | Area | Result | Notes |
 |---|---|---|
-| 360×800 | ☐ PASS ☐ FAIL | |
-| 768×1024 | ☐ PASS ☐ FAIL | |
-| 1366×768 | ☐ PASS ☐ FAIL | |
-| 1920×1080 | ☐ PASS ☐ FAIL | |
-| Keyboard/navigation | ☐ PASS ☐ FAIL | |
-| Dark mode | ☐ PASS ☐ FAIL | |
-| HTTPS/headers | ☐ PASS ☐ FAIL | |
-| Noindex/robots | ☐ PASS ☐ FAIL | |
-| Canonical/schema/OG | ☐ PASS ☐ FAIL | |
-| Owner preview approval | ☐ APPROVED ☐ CHANGES REQUIRED | |
+| 360×800 | OWNER APPROVED | Owner-supplied sign-off; not independently observed by assistant |
+| 768×1024 | OWNER APPROVED | Owner-supplied sign-off; not independently observed by assistant |
+| 1366×768 | OWNER APPROVED | Owner-supplied sign-off; not independently observed by assistant |
+| 1920×1080 | OWNER APPROVED | Owner-supplied sign-off; not independently observed by assistant |
+| Keyboard/navigation | OWNER APPROVED | Owner-supplied sign-off |
+| Dark mode | OWNER APPROVED | Owner-supplied sign-off |
+| HTTPS/headers | OWNER APPROVED TO PROCEED | Live production verification still required after release |
+| Noindex/robots | OWNER APPROVED TO PROCEED | Repository audit confirms prepublication controls |
+| Canonical/schema/OG | OWNER APPROVED TO PROCEED | Repository audit confirms generated contracts; live production check still required |
+| Owner preview approval | APPROVED 2026-09-20 | See `reports/OWNER-LAUNCH-APPROVAL-2026-09-20.md` |
 
-G04 and G12 remain open until this sheet is completed against the exact candidate SHA.
+G04 and G12 are accepted for controlled release based on owner-supplied approval. Live production verification remains a separate G11/G13 requirement.
