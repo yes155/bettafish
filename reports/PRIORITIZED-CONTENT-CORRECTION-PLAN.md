@@ -59,6 +59,18 @@ Status: **Completed**
 
 Why: the new Keyword Planner file shows materially broader demand around the generic heater task, while the current page already fulfills it.
 
+### A6. Behavior hub architecture decision
+Priority: P1  
+Status: **Completed — do not create a Behavior hub now**
+
+See `reports/BEHAVIOR-HUB-REASSESSMENT-2026-09-20.md`.
+
+- Keep behavior-oriented articles under `/biology-genetics/`.
+- The current keyword files do not establish a strong broad `betta fish behavior` category task.
+- Bubble Nests, Enrichment, Flaring, Sleep, Hearing/Music and Unhappy Betta retain distinct owners.
+- Biology & Genetics now links to Bubble Nests, Enrichment and Betta Fish Types through the derived related-guides layer.
+- Reassess only after post-launch search/navigation data shows a genuine broad behavior-category need.
+
 ## Class B — editorial reapproval required
 
 ### B1. Female sorority H1
@@ -92,8 +104,8 @@ Priority: P2
 Only if evidence supports it, add a concise guppy-specific row/section to /compatibility/tank-mates/. Keep the main task as risk assessment and separation planning. Do not create a new URL first.
 
 ### B4. Net-new Bubble Nests article
-Priority: P1 future content  
-Status: **Research brief complete** — see `reports/BUBBLE-NESTS-RESEARCH-BRIEF.md`
+Priority: P1  
+Status: **Approved and promoted 2026-09-20** — see `reports/BUBBLE-NESTS-RESEARCH-BRIEF.md`
 
 Requirements:
 - unique query/task;
@@ -103,8 +115,8 @@ Requirements:
 - unique hero image.
 
 ### B5. Net-new Enrichment and Safe Toys article
-Priority: P1 future content  
-Status: **Research brief complete** — see `reports/ENRICHMENT-SAFE-TOYS-RESEARCH-BRIEF.md`
+Priority: P1  
+Status: **Approved and promoted 2026-09-20** — see `reports/ENRICHMENT-SAFE-TOYS-RESEARCH-BRIEF.md`
 
 Requirements:
 - welfare-first selection criteria;
@@ -115,8 +127,8 @@ Requirements:
 - unique hero image.
 
 ### B6. Net-new Betta Fish Types overview
-Priority: P1 future content  
-Status: **Research brief and non-publishing draft complete**
+Priority: P1  
+Status: **Approved and promoted 2026-09-20**
 
 Files:
 - `reports/BETTA-FISH-TYPES-RESEARCH-BRIEF.md`
@@ -187,17 +199,17 @@ Trigger Class C only if a future edit changes:
 
 ## Recommended correction order
 
-1. Registry ownership correction for Compatibility hub.
-2. Freeze all approved clinical wording.
-3. Implement contextual handoffs through a non-source layer if available.
-4. Submit only the Female Sorority H1 change for editorial reapproval.
-5. Update keyword ownership documentation for conditioner and guppy decisions.
-6. Bubble Nests research/source brief — **completed**.
-7. Enrichment/Safe Toys research/source brief — **completed**.
-8. Betta Fish Types research brief and draft — **completed**; submit with the current Kate editorial batch.
-9. Defer Teeth/Anatomy and additional treatment pages.
-10. Re-run build/audit after report-layer or registry changes.
-11. Keep site noindex until the separate deployment/launch gates pass.
+1. Compatibility hub ownership correction — **completed**.
+2. Approved clinical wording remains frozen — **maintained**.
+3. Contextual handoffs through the derived non-source layer — **implemented**.
+4. Female Sorority H1 correction — **approved and applied**.
+5. Keyword ownership documentation — **reconciled**.
+6. Bubble Nests — **approved, hero complete, promoted**.
+7. Enrichment/Safe Toys — **approved, hero complete, promoted**.
+8. Betta Fish Types — **approved, hero complete, promoted**.
+9. Behavior hub reassessment — **completed; no hub created**.
+10. Teeth/Anatomy and additional treatment pages — **deferred**.
+11. Keep sitewide noindex until the separate production launch gates pass.
 
 ## Exact keyword editorial patch handoff
 
